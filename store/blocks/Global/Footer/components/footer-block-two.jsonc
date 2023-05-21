@@ -1,0 +1,62 @@
+{
+    "flex-layout.row#footer-block-two": {
+        "props": {
+            "blockClass": "footer-block-two_container-cards",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#footer-block-two-card-one",
+            "flex-layout.col#footer-block-two-card-two"
+        ]
+    },
+
+    /* CARD ONE */
+    "flex-layout.col#footer-block-two-card-one": {
+        "props": {
+            "blockClass": "footer-block-two-card",
+            "horizontalAlign": "left",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#footer-block-two_card-one-title",
+            "rich-text#footer-block-two_card-one-text"
+        ]
+    },
+    "rich-text#footer-block-two_card-one-title": {
+        "props": {
+            "text": "Déposito bancario",
+            "blockClass": "footer-block-two_card-one-title"
+        }
+    },
+    "rich-text#footer-block-two_card-one-text": {
+        "props": {
+            "text": "Adicionalmente tenemos el servicio de Deposito a cuenta o transferencia electrónica",
+            "blockClass": "footer-block-two_card-one-text"
+        }
+    },
+
+    /* CARD TWO */
+    "flex-layout.col#footer-block-two-card-two": {
+        "props": {
+            "blockClass": "footer-block-two-card",
+            "horizontalAlign": "left",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#footer-block-two_card-two-title",
+            "rich-text#footer-block-two_card-two-text"
+        ]
+    },
+    "rich-text#footer-block-two_card-two-title": {
+        "props": {
+            "text": "Tarjetas bancarias",
+            "blockClass": "footer-block-two_card-two-title"
+        }
+    },
+    "rich-text#footer-block-two_card-two-text": {
+        "props": {
+            "text": "Paga con tarjeta débito a través tarjetas de crédito de las franquicias MasterCard, Visa, American Express y DinersClub",
+            "blockClass": "footer-block-two_card-two-text"
+        }
+    }
+}

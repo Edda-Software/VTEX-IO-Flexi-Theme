@@ -1,0 +1,68 @@
+.flexCol--container-footer {
+    gap: 36px;
+}
+
+.flexCol--container-footer-block-one,
+.flexRowContent--footer-block-two_container-cards {
+    padding-inline: 20px;
+}
+
+
+/* Section one */
+.flexCol--container-footer-block-one {
+    align-items: center;
+    gap: 7px;
+}
+
+/* Section two */
+.flexRowContent--footer-block-two_container-cards {
+    display: flex;
+    overflow: scroll;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+
+.flexCol--footer-block-two-card {
+    height: 240px;
+    width: 255px !important;
+    border: 1px solid #29665D;
+    box-sizing: border-box;
+    padding: 28px 14px;
+    gap: 6px;
+}
+
+/* Section three */
+.flexRowContent--container-footer-block-three {
+    background-color: #F6EEE8;
+    padding: 42.87px 20px 22px;
+}
+
+@media (min-width: 1024px) {
+    .flexCol--container-footer {
+        gap: 54px;
+    }
+
+    /* Section one */
+    .flexCol--container-footer-block-one {
+        gap: 16px;
+    }
+
+    /* Section two */
+    .flexCol--footer-block-two-card {
+        height: 242px;
+        width: 407px !important;
+        padding: 21px 27px;
+        gap: 16px;
+    }
+
+    .flexRowContent--footer-block-two_container-cards {
+        justify-content: center;
+        gap: 42px
+    }
+
+    /* Section three */
+    .flexRowContent--container-footer-block-three {
+        padding: 76px 91px;
+    }
+}

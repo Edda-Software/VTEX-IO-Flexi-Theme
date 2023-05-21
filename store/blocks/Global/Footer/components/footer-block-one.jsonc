@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#footer-block-one": {
+        "children": [
+            "flex-layout.col#footer-block-one"
+        ]
+    },
+    "flex-layout.col#footer-block-one": {
+        "props": {
+            "blockClass" : "container-footer-block-one"
+        },
+        "children": [
+            "rich-text#footer-block-one-title",
+            "rich-text#footer-block-one-text"
+        ]
+    },
+    "rich-text#footer-block-one-title": {
+        "props": {
+            "text": "Formas de pago en Flexi",
+            "blockClass": "footer-block-one-title"
+        }
+    },
+    "rich-text#footer-block-one-text": {
+        "props": {
+            "text": "Controlamos todos los pedidos realizados con el objetivo de evitar prácticas abusivas y compras fraudulentas",
+            "blockClass": "footer-block-one-text"
+        }
+    }
+}

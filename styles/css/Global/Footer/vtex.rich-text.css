@@ -1,0 +1,88 @@
+/* Section one */
+.paragraph--footer-block-one-title {
+    font-family: Keep Calm;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin: 0;
+}
+
+.paragraph--footer-block-one-text {
+    font-family: Avenir;
+    font-size: 16px;
+    line-height: 25.44px;
+    text-align: center;
+    color: #7E818B;
+    margin: 0;
+    max-width: 326px;
+}
+
+/* Section two */
+.paragraph--footer-block-two_card-one-title,
+.paragraph--footer-block-two_card-two-title {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    font-family: Keep Calm;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 0px;
+    color: #29665D;
+    opacity: 70%
+}
+
+.paragraph--footer-block-two_card-one-title::before {
+    content: url('data:image/svg+xml,<svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.8643 1.94336H28.8218C28.9797 1.94336 29.1077 2.07139 29.1077 2.22932V33.7136C29.1077 33.8715 28.9797 33.9996 28.8218 33.9996H6.17366C6.01572 33.9996 5.8877 33.8715 5.8877 33.7136V20.6452" stroke="%2329665D" stroke-width="2.00173" stroke-miterlimit="10"/><path d="M12.2715 7.32862C12.736 7.32862 13.2178 7.3883 13.7168 7.50767C14.2157 7.62704 14.6545 7.83594 15.033 8.13436L13.7942 9.63073C13.5877 9.45168 13.3512 9.32378 13.0845 9.24705C12.8178 9.16178 12.5468 9.11063 12.2715 9.09357V11.1271L13.5103 11.4852C14.0781 11.6557 14.5298 11.9371 14.8653 12.3293C15.2094 12.713 15.3814 13.2033 15.3814 13.8001C15.3814 14.252 15.2997 14.6485 15.1363 14.9895C14.9728 15.3306 14.7491 15.6205 14.4652 15.8592C14.1813 16.098 13.8501 16.2856 13.4716 16.422C13.0931 16.5584 12.693 16.6479 12.2715 16.6906V17.5858H11.4198V16.6906C10.852 16.6906 10.2842 16.6138 9.71642 16.4603C9.15724 16.3069 8.66257 16.0383 8.23242 15.6546L9.60029 14.1326C9.82396 14.4055 10.095 14.6016 10.4133 14.721C10.7316 14.8318 11.0671 14.9 11.4198 14.9256V12.7642L10.4778 12.4828C9.82396 12.2782 9.32499 11.9925 8.98088 11.6259C8.64536 11.2507 8.4776 10.7392 8.4776 10.0912C8.4776 9.69042 8.55933 9.32805 8.72279 9.00405C8.88624 8.68004 9.10132 8.40294 9.36801 8.17273C9.6433 7.94251 9.95731 7.75493 10.31 7.60999C10.6713 7.46504 11.0413 7.37125 11.4198 7.32862V6.43335H12.2715V7.32862ZM11.4198 9.13194C11.1789 9.1831 10.9638 9.27263 10.7746 9.40052C10.5853 9.52842 10.4907 9.72879 10.4907 10.0016C10.4907 10.1977 10.5294 10.3512 10.6068 10.4621C10.6843 10.5729 10.7746 10.6624 10.8778 10.7306C10.9811 10.7903 11.0843 10.8329 11.1875 10.8585C11.2908 10.8841 11.3682 10.9054 11.4198 10.9225V9.13194ZM12.2715 14.9C12.4005 14.8744 12.5296 14.8403 12.6586 14.7977C12.7963 14.7465 12.9167 14.6826 13.0199 14.6059C13.1232 14.5291 13.2049 14.4396 13.2651 14.3373C13.334 14.2264 13.3684 14.0985 13.3684 13.9536C13.3684 13.8172 13.3426 13.7021 13.2909 13.6083C13.2479 13.5145 13.1877 13.4378 13.1103 13.3781C13.0328 13.3099 12.9425 13.2544 12.8393 13.2118C12.736 13.1606 12.6285 13.1138 12.5167 13.0711L12.2715 12.9816V14.9Z" fill="%2329665D"/><circle cx="11.6642" cy="12.1525" r="10.1516" stroke="%2329665D" stroke-width="2.00173"/></svg>');
+}
+
+.paragraph--footer-block-two_card-two-title::before {
+    content: url('data:image/svg+xml,<svg width="38" height="28" viewBox="0 0 38 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.27223 1.0293C7.13416 1.0293 7.01581 1.12795 6.99095 1.26376L2.52027 25.6848C2.48812 25.8605 2.62301 26.0223 2.80156 26.0223H34.3084C34.489 26.0223 34.6244 25.8569 34.5887 25.6799L29.671 1.25881C29.6441 1.12532 29.5268 1.0293 29.3907 1.0293H7.27223Z" stroke="%2329665D" stroke-width="2.00173" stroke-miterlimit="10"/><path d="M5.74695 7.83392H1.57192C1.25606 7.83392 1 7.57786 1 7.262V1.62856C1 1.3127 1.25606 1.05664 1.57192 1.05664H35.5441C35.8599 1.05664 36.116 1.3127 36.116 1.62856V7.262C36.116 7.57786 35.8599 7.83392 35.5441 7.83392H31.0259" stroke="%2329665D" stroke-width="2.00173" stroke-miterlimit="10"/><path d="M10.2939 21.0745L13.3823 1" stroke="%2329665D" stroke-width="2.00173" stroke-miterlimit="10" stroke-linecap="round"/></svg>')
+}
+
+.paragraph--footer-block-two_card-one-text,
+.paragraph--footer-block-two_card-two-text {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #29665D;
+}
+
+/* Section three */
+.paragraph--footer-block-three_section-one-title {
+    font-family: Keep Calm;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+@media (min-width: 1024px) {
+
+    /* Section one */
+    .paragraph--footer-block-one-title {
+        font-size: 20px;
+    }
+
+    .paragraph--footer-block-one-text {
+        line-height: 28.88px;
+        max-width: 540px;
+    }
+
+    /* Section two */
+    .paragraph--footer-block-two_card-one-title,
+    .paragraph--footer-block-two_card-two-title {
+        opacity: 100%;
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .paragraph--footer-block-two_card-one-text,
+    .paragraph--footer-block-two_card-two-text {
+        line-height: 28.88px;
+    }
+
+    /* Section three */
+    
+}
