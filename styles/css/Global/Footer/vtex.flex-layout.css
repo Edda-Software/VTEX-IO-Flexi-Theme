@@ -52,15 +52,22 @@
 }
 
 .flexCol--footer-block-three_section-two_about-us,
-.flexCol--footer-block-three_section-two_menu {
+.flexCol--footer-block-three_section-two_menu,
+.flexCol--footer-block-three_section-three_help,
+.flexCol--footer-block-three_section_follow-us {
     gap: 3.7px;
 }
 
 .flexCol--footer-block-three_section-two_sub-about-us,
-.flexCol--footer-block-three_section-two_sub-menu {
+.flexCol--footer-block-three_section-two_sub-menu,
+.flexCol--footer-block-three_section-three_sub-help,
+.flexCol--footer-block-three_section-three_sub-follow-us {
     gap: 10px;
 }
-.flexColChild--footer-block-three_section-two_menu{
+
+.flexColChild--elements-footer-block-three,
+.flexColChild--footer-block-three_section-two_menu,
+.flexColChild--footer-block-three_section_follow-us {
     height: auto !important;
 }
 
@@ -74,6 +81,10 @@
     }
 
     /* Section three */
+    .flexCol--elements-footer-block-three{
+        flex-direction: row;
+    }
+
     .flexCol--container-footer-block-three_section-one {
         gap: 19px;
     }
@@ -107,12 +118,16 @@
     }
 
     .flexCol--footer-block-three_section-two_about-us,
-    .flexCol--footer-block-three_section-two_menu {
+    .flexCol--footer-block-three_section-two_menu,
+    .flexCol--footer-block-three_section-three_help,
+    .flexCol--footer-block-three_section_follow-us {
         gap: 8px;
     }
 
     .flexCol--footer-block-three_section-two_sub-about-us,
-    .flexCol--footer-block-three_section-two_sub-menu {
+    .flexCol--footer-block-three_section-two_sub-menu,
+    .flexCol--footer-block-three_section-three_sub-help,
+    .flexCol--footer-block-three_section-three_sub-follow-us {
         gap: 5px;
     }
 }

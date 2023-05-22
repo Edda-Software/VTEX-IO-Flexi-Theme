@@ -1,0 +1,113 @@
+{
+    "flex-layout.row#footer-block-three_section-three": {
+        "props": {
+            "preserveLayoutOnMobile": true
+        },
+        "children": [
+            "flex-layout.col#footer-block-three_section-three_help",
+            "flex-layout.col#footer-block-three_section-three_follow-us"
+        ]
+    },
+    "flex-layout.col#footer-block-three_section-three_help": {
+        "props": {
+            "blockClass": "footer-block-three_section-three_help"
+        },
+        "children": [
+            "link#footer-block-three_section-three_help-title",
+            "flex-layout.row#footer-block-three_section-three_sub-help"
+        ]
+    },
+    "flex-layout.row#footer-block-three_section-three_sub-help": {
+        "children": [
+            "flex-layout.col#footer-block-three_section-three_sub-help"
+        ]
+    },
+    "flex-layout.col#footer-block-three_section-three_sub-help": {
+        "props": {
+            "blockClass": "footer-block-three_section-three_sub-help"
+        },
+        "children": [
+            "link#footer-block-three_section-three_help-one",
+            "link#footer-block-three_section-three_help-two",
+            "link#footer-block-three_section-three_help-three"
+        ]
+    },
+    "link#footer-block-three_section-three_help-title": {
+        "props": {
+            "label": "Ayuda",
+            "href": "/",
+            "blockClass": "footer-block-three_section-three_title"
+        }
+    },
+    "link#footer-block-three_section-three_help-one": {
+        "props": {
+            "label": "Contacto",
+            "href": "/",
+            "blockClass": "footer-block-three_section-three_subtitle"
+        }
+    },
+    "link#footer-block-three_section-three_help-two": {
+        "props": {
+            "label": "Preguntas Frecuentes",
+            "href": "/",
+            "blockClass": "footer-block-three_section-three_subtitle"
+        }
+    },
+    "link#footer-block-three_section-three_help-three": {
+        "props": {
+            "label": "Guía de Tallas",
+            "href": "/",
+            "blockClass": "footer-block-three_section-three_subtitle"
+        }
+    },
+    "flex-layout.col#footer-block-three_section-three_follow-us": {
+        "props": {
+            "blockClass": "footer-block-three_section_follow-us"
+        },
+        "children": [
+            "link#footer-block-three_section-three_follow-us-title",
+            "flex-layout.row#footer-block-three_section-three_sub-follow-us"
+        ]
+    },
+    "flex-layout.row#footer-block-three_section-three_sub-follow-us": {
+        "children": [
+            "flex-layout.col#footer-block-three_section-three_sub-follow-us"
+        ]
+    },
+    "flex-layout.col#footer-block-three_section-three_sub-follow-us": {
+        "props": {
+            "blockClass": "footer-block-three_section-three_sub-follow-us"
+        },
+        "children": [
+            "link#footer-block-three_section-three_follow-us-one",
+            "link#footer-block-three_section-three_follow-us-two"
+        ]
+    },
+    "link#footer-block-three_section-three_follow-us-title": {
+        "props": {
+            "label": "Siguenos",
+            "href": "/",
+            "blockClass": "footer-block-three_section-three_title"
+        }
+    },
+    "link#footer-block-three_section-three_follow-us-one": {
+        "props": {
+            "label": "@flexi",
+            "href": "/",
+            "blockClass": [
+                "footer-block-three_section-three_subtitle",
+                "footer-block-three_section-three_subtitle-facebook"
+            ]
+        }
+    },
+    "link#footer-block-three_section-three_follow-us-two": {
+        "props": {
+            "label": "flexiguatemala",
+            "href": "/",
+            "blockClass": [
+                "footer-block-three_section-three_subtitle",
+                "footer-block-three_section-three_subtitle-instagram"
+            ]
+        }
+    }
+}

@@ -5,7 +5,7 @@
         },
         "children": [
             "flex-layout.col#footer-block-three_section-two_about-us",
-            "flex-layout.col#footer-block-three_section-two"
+            "flex-layout.col#footer-block-three_section-two_menu"
         ]
     },
     "flex-layout.col#footer-block-three_section-two_about-us": {
@@ -84,7 +84,7 @@
             "blockClass": "footer-block-three_section-two_subtitle"
         }
     },
-    "flex-layout.col#footer-block-three_section-two": {
+    "flex-layout.col#footer-block-three_section-two_menu": {
         "props": {
             "blockClass": "footer-block-three_section-two_menu"
         },

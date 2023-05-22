@@ -13,8 +13,8 @@
         },
         "children": [
             "flex-layout.row#footer-block-three_section-one" ,
-            "flex-layout.row#footer-block-three_section-two"/* ,
-            "flex-layout.row#footer-block-three_section-three" */
+            "flex-layout.row#footer-block-three_section-two",
+            "flex-layout.row#footer-block-three_section-three"
         ]
     }
 }
