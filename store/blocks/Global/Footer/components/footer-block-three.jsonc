@@ -8,9 +8,12 @@
         ]
     },
     "flex-layout.col#footer-block-three": {
+        "props": {
+            "blockClass": "elements-footer-block-three"
+        },
         "children": [
-            "flex-layout.row#footer-block-three_section-one" /* ,
-            "flex-layout.row#footer-block-three_section-two",
+            "flex-layout.row#footer-block-three_section-one" ,
+            "flex-layout.row#footer-block-three_section-two"/* ,
             "flex-layout.row#footer-block-three_section-three" */
         ]
     }

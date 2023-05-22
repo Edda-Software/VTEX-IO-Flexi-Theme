@@ -1,0 +1,155 @@
+{
+    "flex-layout.row#footer-block-three_section-two": {
+        "props": {
+            "preserveLayoutOnMobile": true
+        },
+        "children": [
+            "flex-layout.col#footer-block-three_section-two_about-us",
+            "flex-layout.col#footer-block-three_section-two"
+        ]
+    },
+    "flex-layout.col#footer-block-three_section-two_about-us": {
+        "props": {
+            "blockClass": "footer-block-three_section-two_about-us"
+        },
+        "children": [
+            "link#footer-block-three_section-two_about-us-title",
+            "flex-layout.row#footer-block-three_section-two_sub-about-us"
+        ]
+    },
+    "flex-layout.row#footer-block-three_section-two_sub-about-us": {
+        "children": [
+            "flex-layout.col#footer-block-three_section-two_sub-about-us"
+        ]
+    },
+    "flex-layout.col#footer-block-three_section-two_sub-about-us": {
+        "props": {
+            "blockClass": "footer-block-three_section-two_sub-about-us"
+        },
+        "children": [
+            "link#footer-block-three_section-two_about-us-one",
+            "link#footer-block-three_section-two_about-us-two",
+            "link#footer-block-three_section-two_about-us-three",
+            "link#footer-block-three_section-two_about-us-four",
+            "link#footer-block-three_section-two_about-us-five",
+            "link#footer-block-three_section-two_about-us-six"
+        ]
+    },
+    "link#footer-block-three_section-two_about-us-title": {
+        "props": {
+            "label": "Nosotros",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_title"
+        }
+    },
+    "link#footer-block-three_section-two_about-us-one": {
+        "props": {
+            "label": "Historia, Misión y valores",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_subtitle"
+        }
+    },
+    "link#footer-block-three_section-two_about-us-two": {
+        "props": {
+            "label": "Diferencia flexi",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_subtitle"
+        }
+    },
+    "link#footer-block-three_section-two_about-us-three": {
+        "props": {
+            "label": "Aseguramiento de Calidad",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_subtitle"
+        }
+    },
+    "link#footer-block-three_section-two_about-us-four": {
+        "props": {
+            "label": "Atributos",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_subtitle"
+        }
+    },
+    "link#footer-block-three_section-two_about-us-five": {
+        "props": {
+            "label": "Construcciones",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_subtitle"
+        }
+    },
+    "link#footer-block-three_section-two_about-us-six": {
+        "props": {
+            "label": "Bolsa de Trabajo",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_subtitle"
+        }
+    },
+    "flex-layout.col#footer-block-three_section-two": {
+        "props": {
+            "blockClass": "footer-block-three_section-two_menu"
+        },
+        "children": [
+            "link#footer-block-three_section-two_menu-title",
+            "flex-layout.row#footer-block-three_section-two_sub-menu"
+        ]
+    },
+    "flex-layout.row#footer-block-three_section-two_sub-menu": {
+        "children": [
+            "flex-layout.col#footer-block-three_section-two_sub-menu"
+        ]
+    },
+    "flex-layout.col#footer-block-three_section-two_sub-menu": {
+        "props": {
+            "blockClass": "footer-block-three_section-two_sub-menu"
+        },
+        "children": [
+            "link#footer-block-three_section-two_menu-one",
+            "link#footer-block-three_section-two_menu-two",
+            "link#footer-block-three_section-two_menu-three",
+            "link#footer-block-three_section-two_menu-four",
+            "link#footer-block-three_section-two_menu-five"
+        ]
+    },
+    "link#footer-block-three_section-two_menu-title": {
+        "props": {
+            "label": "Menú",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_title"
+        }
+    },
+    "link#footer-block-three_section-two_menu-one": {
+        "props": {
+            "label": "Dama",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_subtitle"
+        }
+    },
+    "link#footer-block-three_section-two_menu-two": {
+        "props": {
+            "label": "Caballero",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_subtitle"
+        }
+    },
+    "link#footer-block-three_section-two_menu-three": {
+        "props": {
+            "label": "Flexi Country",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_subtitle"
+        }
+    },
+    "link#footer-block-three_section-two_menu-four": {
+        "props": {
+            "label": "Accesorios",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_subtitle"
+        }
+    },
+    "link#footer-block-three_section-two_menu-five": {
+        "props": {
+            "label": "Rebajas",
+            "href": "/",
+            "blockClass": "footer-block-three_section-two_subtitle"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.link--footer-block-three_section-two_title {
+    text-decoration: none;
+    font-family: Keep Calm;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #403128;
+}
+
+.link--footer-block-three_section-two_subtitle {
+    text-decoration: none;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #403128;
+}
+
+@media (min-width: 1024px) {
+    .link--footer-block-three_section-two_title {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .link--footer-block-three_section-two_subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 29px;
+    }
+}

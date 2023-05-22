@@ -38,12 +38,30 @@
     padding: 42.87px 20px 22px;
 }
 
+.flexCol--elements-footer-block-three {
+    flex-wrap: wrap;
+    gap: 40.82px;
+}
+
 .flexCol--container-footer-block-three_section-one {
     gap: 14.29px;
 }
 
-.flexRowContent--newsletter-content-inputs{
+.flexRowContent--newsletter-content-inputs {
     display: flex;
+}
+
+.flexCol--footer-block-three_section-two_about-us,
+.flexCol--footer-block-three_section-two_menu {
+    gap: 3.7px;
+}
+
+.flexCol--footer-block-three_section-two_sub-about-us,
+.flexCol--footer-block-three_section-two_sub-menu {
+    gap: 10px;
+}
+.flexColChild--footer-block-three_section-two_menu{
+    height: auto !important;
 }
 
 @media (min-width: 768px) {
@@ -86,5 +104,15 @@
     /* Section three */
     .flexRowContent--container-footer-block-three {
         padding: 76px 91px;
+    }
+
+    .flexCol--footer-block-three_section-two_about-us,
+    .flexCol--footer-block-three_section-two_menu {
+        gap: 8px;
+    }
+
+    .flexCol--footer-block-three_section-two_sub-about-us,
+    .flexCol--footer-block-three_section-two_sub-menu {
+        gap: 5px;
     }
 }
