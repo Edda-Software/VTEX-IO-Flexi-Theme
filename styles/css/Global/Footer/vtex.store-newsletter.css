@@ -1,0 +1,85 @@
+.newsletterForm--container-newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14.29px;
+}
+
+.emailInputContainer--label-newsletter-input-email :global(.vtex-input) :global(.vtex-styleguide-9-x-input) {
+    height: 48.01px;
+    border-radius: 0px;
+    padding: 16px;
+}
+
+.emailInputContainer--label-newsletter-input-email :global(.vtex-input) :global(.vtex-input-prefix__group) {
+    height: auto;
+    border-radius: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.emailInputContainer--label-newsletter-input-email :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #9B9B9B;
+}
+
+.newsletterForm--container-newsletter-form :global(.vtex-button) {
+    height: 50.01px;
+    width: 119px;
+    border-radius: 0px;
+    padding: 16px;
+}
+
+.newsletterForm--container-newsletter-form :global(.vtex-button) :global(.vtex-button__label) {
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: capitalize;
+}
+
+.confirmationCheckboxContainer :global(.vtex-checkbox__label) {
+    font-family: Avenir;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #403128;
+}
+
+.confirmationCheckboxContainer :global(.vtex-checkbox__container),
+.confirmationCheckboxContainer :global(.vtex-checkbox__box-wrapper),
+.confirmationCheckboxContainer :global(.vtex-checkbox__inner-container) {
+    height: 20px;
+    width: 20px;
+}
+
+.confirmationCheckboxContainer :global(.vtex__icon-check) {
+    height: 17.12px;
+    width: 23.8px;
+}
+
+@media (min-width: 768px) {
+    .emailInputContainer--label-newsletter-input-email :global(.vtex-input) :global(.vtex-styleguide-9-x-input) {
+        height: 47.01px;
+        width: 176px;
+    }
+
+    .newsletterForm--container-newsletter-form :global(.vtex-button) {
+        height: 49px;
+    }
+
+    .confirmationCheckboxContainer :global(.vtex-checkbox__label) {
+        max-width: 246px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .emailInputContainer--label-newsletter-input-email :global(.vtex-input) :global(.vtex-styleguide-9-x-input) {
+        width: 180px;
+    }
+
+    .newsletterForm--container-newsletter-form {
+        gap: 29px;
+    }
+}

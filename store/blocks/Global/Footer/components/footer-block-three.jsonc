@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#footer-block-three": {
+        "props": {
+            "blockClass": "container-footer-block-three"
+        },
+        "children": [
+            "flex-layout.col#footer-block-three"
+        ]
+    },
+    "flex-layout.col#footer-block-three": {
+        "children": [
+            "flex-layout.row#footer-block-three_section-one" /* ,
+            "flex-layout.row#footer-block-three_section-two",
+            "flex-layout.row#footer-block-three_section-three" */
+        ]
+    }
+}

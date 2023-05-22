@@ -1,0 +1,96 @@
+{
+    "flex-layout.row#footer-block-three_section-one": {
+        "children": [
+            "flex-layout.col#footer-block-three_section-one"
+        ]
+    },
+    "flex-layout.col#footer-block-three_section-one": {
+        "props": {
+            "blockClass": "container-footer-block-three_section-one"
+        },
+        "children": [
+            "flex-layout.row#footer-block-three_section-one_container-texts",
+            "newsletter-form"
+        ]
+    },
+    "flex-layout.row#footer-block-three_section-one_container-texts": {
+        "children": [
+            "flex-layout.col#footer-block-three_section-one_container-texts"
+        ]
+    },
+    "flex-layout.col#footer-block-three_section-one_container-texts": {
+        "children": [
+            "rich-text#footer-block-three_section-one-title",
+            "rich-text#footer-block-three_section-one-text"
+        ]
+    },
+    "rich-text#footer-block-three_section-one-title": {
+        "props": {
+            "text": "Suscríbete a nuestra newsletter",
+            "blockClass": "footer-block-three_section-one-title"
+        }
+    },
+    "rich-text#footer-block-three_section-one-text": {
+        "props": {
+            "text": "Entérate de primera mano lo que tenemos para ti",
+            "blockClass": "footer-block-three_section-one-text"
+        }
+    },
+    "newsletter-form": {
+        "props": {
+            "blockClass": "container-newsletter-form"
+        },
+        "children": [
+            "flex-layout.row#newsletter-content-inputs",
+            "newsletter-checkbox-confirmation"
+        ]
+    },
+    "responsive-layout.mobile#newsletter": {
+        "children": [
+            "newsletter-input-email#mobile"
+        ]
+    },
+    "responsive-layout.desktop#newsletter": {
+        "children": [
+            "newsletter-input-email#desktop"
+        ]
+    },
+    "newsletter-input-email#mobile": {
+        "props": {
+            "placeholderText": "Correo",
+            "blockClass": "label-newsletter-input-email"
+        }
+    },
+    "newsletter-input-email#desktop": {
+        "props": {
+            "placeholderText": "Ingresa tu e-mail",
+            "blockClass": "label-newsletter-input-email"
+        }
+    },
+    "newsletter-submit": {
+        "props": {
+            "submitButtonLabel": "Suscribirme"
+        }
+    },
+    "flex-layout.row#newsletter-content-inputs": {
+        "props": {
+            "blockClass": "newsletter-content-inputs",
+            "horizontalAlign": "left",
+            "colSizing": "auto"
+        },
+        "children": [
+            "responsive-layout.mobile#newsletter",
+            "responsive-layout.desktop#newsletter",
+            "newsletter-submit"
+        ]
+    },
+    "newsletter-checkbox-confirmation": {
+        "props": {
+            "checkboxLabel": "He leído y acepto las Políticas de Privacidad y Tratamiento de Datos Personales. ",
+            "firstLabelLink": {
+                "url": "/terminos-condiciones",
+                "text": "Ver políticas aquí"
+              }
+        }
+    }
+}

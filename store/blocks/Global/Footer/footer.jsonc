@@ -16,6 +16,9 @@
     ]
   },
   "flex-layout.row#container-footer": {
+    "props": {
+      "fullWidth": true
+    },
     "children": [
       "flex-layout.col#container-footer"
     ]

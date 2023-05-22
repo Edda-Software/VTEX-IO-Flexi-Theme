@@ -17,7 +17,7 @@
 /* Section two */
 .flexRowContent--footer-block-two_container-cards {
     display: flex;
-    overflow: scroll;
+    overflow-x: scroll;
     justify-content: start;
     align-items: center;
     gap: 16px;
@@ -36,6 +36,29 @@
 .flexRowContent--container-footer-block-three {
     background-color: #F6EEE8;
     padding: 42.87px 20px 22px;
+}
+
+.flexCol--container-footer-block-three_section-one {
+    gap: 14.29px;
+}
+
+.flexRowContent--newsletter-content-inputs{
+    display: flex;
+}
+
+@media (min-width: 768px) {
+
+    /* Section two */
+    .flexRowContent--footer-block-two_container-cards {
+        gap: 42px;
+        justify-content: center;
+        overflow: initial;
+    }
+
+    /* Section three */
+    .flexCol--container-footer-block-three_section-one {
+        gap: 19px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -57,7 +80,6 @@
     }
 
     .flexRowContent--footer-block-two_container-cards {
-        justify-content: center;
         gap: 42px
     }
 

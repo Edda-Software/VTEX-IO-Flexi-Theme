@@ -56,6 +56,23 @@
     font-size: 17px;
     font-weight: 500;
     line-height: 20px;
+    color: #403128;
+}
+
+.paragraph--footer-block-three_section-one-text {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #403128;
+}
+
+@media (min-width: 768px) {
+
+    /* Section three */
+    .paragraph--footer-block-three_section-one-text {
+        max-width: 197px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -84,5 +101,4 @@
     }
 
     /* Section three */
-    
 }
