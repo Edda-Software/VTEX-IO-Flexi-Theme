@@ -1,0 +1,104 @@
+{
+    "flex-layout.row#footer-block-four": {
+        "props": {
+            "blockClass": "container-footer-block-four"
+        },
+        "children": [
+            "flex-layout.col#footer-block-four"
+        ]
+    },
+    "flex-layout.col#footer-block-four": {
+        "children": [
+            "flex-layout.row#footer-block-four-container-sections"
+        ]
+    },
+    "flex-layout.row#footer-block-four-container-sections": {
+        "props": {
+            "blockClass": "footer-block-four-container-sections",
+            "horizontalAlign": "center",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#footer-block-four-section-one",
+            "flex-layout.col#footer-block-four-section-two",
+            "flex-layout.col#footer-block-four-section-three"
+        ]
+    },
+    /* Section one */
+    "flex-layout.col#footer-block-four-section-one": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "rich-text#footer-block-four-section-one"
+        ]
+    },
+    "rich-text#footer-block-four-section-one": {
+        "props": {
+            "text": "Términos y Condidiciones",
+            "blockClass": "footer-block-four-section-one"
+        }
+    },
+    /* Section two */
+    "flex-layout.col#footer-block-four-section-two": {
+        "children": [
+            "flex-layout.row#footer-block-four-section-two"
+        ]
+    },
+    "flex-layout.row#footer-block-four-section-two": {
+        "props": {
+            "colSizing": "equal",
+            "colJustify": "between",
+            "blockClass": "container-footer-block-four-section-two"
+        },
+        "children": [
+            "flex-layout.col#footer-block-four-section-two_image-one",
+            "flex-layout.col#footer-block-four-section-two_image-two",
+            "flex-layout.col#footer-block-four-section-two_image-three",
+            "flex-layout.col#footer-block-four-section-two_image-four"
+        ]
+    },
+    "flex-layout.col#footer-block-four-section-two_image-one": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": "footer-block-four-section-two_image-one"
+        }
+    },
+    "flex-layout.col#footer-block-four-section-two_image-two": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": "footer-block-four-section-two_image-two"
+        }
+    },
+    "flex-layout.col#footer-block-four-section-two_image-three": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": "footer-block-four-section-two_image-three"
+        }
+    },
+    "flex-layout.col#footer-block-four-section-two_image-four": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": "footer-block-four-section-two_image-four"
+        }
+    },
+    /* Section three */
+    "flex-layout.col#footer-block-four-section-three": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "rich-text#footer-block-four-section-three"
+        ]
+    },
+    "rich-text#footer-block-four-section-three": {
+        "props": {
+            "text": "@ Flexi 2023. Todos los derechos reservados",
+            "blockClass": "footer-block-four-section-three"
+        }
+    }
+}

@@ -30,7 +30,8 @@
     "children": [
       "flex-layout.row#footer-block-one",
       "flex-layout.row#footer-block-two",
-      "flex-layout.row#footer-block-three"
+      "flex-layout.row#footer-block-three",
+      "flex-layout.row#footer-block-four"
     ]
   }
 }

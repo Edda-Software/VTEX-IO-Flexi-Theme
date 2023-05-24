@@ -67,6 +67,23 @@
     color: #403128;
 }
 
+/* Block four */
+.paragraph--footer-block-four-section-one {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #403128;
+}
+
+.paragraph--footer-block-four-section-three {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #403128;
+}
+
 @media (min-width: 768px) {
 
     /* Block three */
@@ -100,5 +117,14 @@
         line-height: 28.88px;
     }
 
-    /* Block three */
+    /* Block four */
+    .paragraph--footer-block-four-section-one {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .paragraph--footer-block-four-section-three {
+        font-size: 12px;
+        line-height: 16px;
+    }
 }
