@@ -8,13 +8,13 @@
 }
 
 
-/* Section one */
+/* Block one */
 .flexCol--container-footer-block-one {
     align-items: center;
     gap: 7px;
 }
 
-/* Section two */
+/* Block two */
 .flexRowContent--footer-block-two_container-cards {
     display: flex;
     overflow-x: scroll;
@@ -32,7 +32,7 @@
     gap: 6px;
 }
 
-/* Section three */
+/* Block three */
 .flexRowContent--container-footer-block-three {
     background-color: #F6EEE8;
     padding: 42.87px 20px 22px;
@@ -41,6 +41,15 @@
 .flexCol--elements-footer-block-three {
     flex-wrap: wrap;
     gap: 40.82px;
+    max-width: 1440px;
+}
+
+
+/* Section two */
+.flexRowContent--container-footer-block-three_section-two,
+.flexRowContent--container-footer-block-three_section-three {
+    justify-content: start;
+    gap: 27px;
 }
 
 .flexCol--container-footer-block-three_section-one {
@@ -73,20 +82,28 @@
 
 @media (min-width: 768px) {
 
-    /* Section two */
+    /* Block two */
     .flexRowContent--footer-block-two_container-cards {
         gap: 42px;
         justify-content: center;
         overflow: initial;
     }
 
-    /* Section three */
-    .flexCol--elements-footer-block-three{
+    /* Block three */
+    .flexCol--elements-footer-block-three {
         flex-direction: row;
+    }
+
+    .flexCol--elements-footer-block-three .flexCol--container-footer-block-three_section-one {
+        margin-right: 29px;
     }
 
     .flexCol--container-footer-block-three_section-one {
         gap: 19px;
+    }
+
+    .flexRowContent--container-footer-block-three {
+        padding: 56px 44px;
     }
 }
 
@@ -95,12 +112,12 @@
         gap: 54px;
     }
 
-    /* Section one */
+    /* Block one */
     .flexCol--container-footer-block-one {
         gap: 16px;
     }
 
-    /* Section two */
+    /* Block two */
     .flexCol--footer-block-two-card {
         height: 242px;
         width: 407px !important;
@@ -112,7 +129,16 @@
         gap: 42px
     }
 
-    /* Section three */
+    /* Block three */
+    .flexCol--elements-footer-block-three {
+        justify-content: center;
+        gap: 69px;
+    }
+
+    .flexCol--elements-footer-block-three .flexCol--container-footer-block-three_section-one {
+        margin-right: 58px;
+    }
+
     .flexRowContent--container-footer-block-three {
         padding: 76px 91px;
     }
@@ -129,5 +155,10 @@
     .flexCol--footer-block-three_section-three_sub-help,
     .flexCol--footer-block-three_section-three_sub-follow-us {
         gap: 5px;
+    }
+
+    .flexRowContent--container-footer-block-three_section-two,
+    .flexRowContent--container-footer-block-three_section-three {
+        gap: 69px;
     }
 }

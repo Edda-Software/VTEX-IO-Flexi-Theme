@@ -1,7 +1,9 @@
 {
     "flex-layout.row#footer-block-three_section-two": {
         "props": {
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "blockClass": "container-footer-block-three_section-two",
+            "colSizing": "auto"
         },
         "children": [
             "flex-layout.col#footer-block-three_section-two_about-us",
