@@ -1,0 +1,23 @@
+/* HEADER DESKTOP */
+.flexRowContent--container-header-desktop {
+    background-color: #ffffff;
+    padding-inline: 15px;
+    justify-content: space-between;
+    align-items: center;
+    height: 73.01px;
+}
+
+.flexColChild--container-header-desktop-block-one {
+    display: flex;
+    align-items: center;
+}
+
+.flexColChild--container-header-desktop-block-one :global(.vtex-store-components-3-x-logoContainer) {
+    padding: 0px;
+}
+
+@media (min-width: 1440px) {
+    .flexRowContent--container-header-desktop {
+        padding-inline: 105px;
+    }
+}

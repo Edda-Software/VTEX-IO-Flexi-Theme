@@ -1,0 +1,40 @@
+.menuContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.styledLinkContainer {
+    margin: 0px;
+    padding: 0px;
+}
+
+.styledLinkContent {
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+}
+
+.menuItem--header-desktop-category-rebajas {
+    display: flex;
+    align-items: center;
+    height: 73.1px;
+    background-image: url('data:image/svg+xml,<svg width="66" height="63" viewBox="0 0 66 63" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M66 0H0V60.1585C10.3501 63.7434 20.9526 61.82 31.6984 59.8706L33.2351 59.5921C45.0474 57.4586 55.7084 57.5342 66 63V0Z" fill="%23F6EEE8"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-inline: 6px;
+}
+
+.menuItem--header-desktop-category-rebajas .styledLinkContent {
+    color: #BA1D2E;
+}
+
+@media (min-width: 1440px) {
+    .menuContainer {
+        gap: 28px;
+    }
+}

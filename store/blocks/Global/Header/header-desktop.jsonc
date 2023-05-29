@@ -14,7 +14,7 @@
     },
     "flex-layout.row#desktop": {
         "props": {
-            "horizontalAlign": "center",
+            "blockClass": "container-header-desktop",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
@@ -22,32 +22,26 @@
         },
         "children": [
             "flex-layout.col#logo-desktop",
-            "flex-layout.col#spacer",
+            "menu#header-main-menu",
             "search-bar",
-            "locale-switcher",
-            "login",
+            "login#header",
             "minicart.v2"
         ]
     },
-    "flex-layout.col#spacer": {
-        "props": {
-            "width": "grow"
-        }
-    },
     "flex-layout.col#logo-desktop": {
         "props": {
-            "verticalAlign": "middle"
+            "blockClass": "container-header-desktop-block-one"
         },
         "children": [
-            "logo"
+            "logo#header-desktop"
         ]
     },
-    "logo": {
+    "logo#header-desktop": {
         "props": {
-            "title": "Logo",
+            "url": "assets/images/header/logo-header-desktop.svg",
             "href": "/",
-            "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-            "width": "80"
+            "width": 66,
+            "height": 33.1
         }
     }
 }

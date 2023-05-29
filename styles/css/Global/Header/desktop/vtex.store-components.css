@@ -1,0 +1,29 @@
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border: none;
+    border-radius: 0px;
+    height: 44px;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+    background-color: #F3F3F3;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #00000080;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) {
+    background-color: #F3F3F3;
+}
+
+.externalSearchButtonWrapper {
+    border: none;
+}
+
+.searchBarIcon--external-search {
+    background-color: #BA1E2E;
+}

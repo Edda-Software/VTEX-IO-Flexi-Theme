@@ -54,6 +54,10 @@
     width: 20px;
 }
 
+.confirmationCheckboxContainer :global(.vtex-checkbox__inner-container) {
+    border: 1px solid #BA1D2E;
+}
+
 .confirmationCheckboxContainer :global(.vtex__icon-check) {
     height: 17.12px;
     width: 23.8px;

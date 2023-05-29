@@ -1,7 +1,15 @@
 {
     "login#header": {
         "props": {
-            "showIconProfile": true
+            "showIconProfile": true,
+            "hideIconLabel": false,
+            "iconLabel": "Mi cuenta"
+        }
+    },
+    "search-bar":{
+        "props": {
+            "placeholder": "Busca calzado y accesorios",
+            "displayMode": "search-and-clear-buttons"
         }
     }
 }

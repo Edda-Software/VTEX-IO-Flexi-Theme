@@ -1,0 +1,14 @@
+.container :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 0px;
+}
+
+.label {
+    color: #000000;
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 5px 0px 0px;
+}

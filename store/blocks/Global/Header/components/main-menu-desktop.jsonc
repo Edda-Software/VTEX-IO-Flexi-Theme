@@ -1,0 +1,110 @@
+{
+    "menu#header-main-menu": {
+        "props": {
+            "experimentalOptimizeRendering": true,
+            "blockClass": "header-main-menu"
+        },
+        "children": [
+            "menu-item#category-dama",
+            "menu-item#category-caballero",
+            "menu-item#category-flexi-ountry",
+            "menu-item#category-accesorios",
+            "menu-item#category-rebajas"
+        ]
+    },
+    "menu-item#category-dama": {
+        "props": {
+            "id": "menu-item-category-dama",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "root",
+            "itemProps": {
+                "type": "internal",
+                "href": "/brands/",
+                "noFollow": false,
+                "tagTitle": "Dama",
+                "text": "Dama"
+            }
+        } /* ,
+        "blocks": [
+            "submenu#header_sub-menu-1"
+        ] */
+    },
+    "menu-item#category-caballero": {
+        "props": {
+            "id": "menu-item-category-caballero",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "root",
+            "itemProps": {
+                "type": "internal",
+                "href": "/categoria-caballero",
+                "noFollow": false,
+                "tagTitle": "Caballero",
+                "text": "Caballero"
+            }
+        } /* ,
+        "blocks": [
+            "submenu#header_sub-menu-2"
+        ] */
+    },
+    "menu-item#category-flexi-ountry": {
+        "props": {
+            "id": "menu-item-category-flexi-ountry",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "root",
+            "itemProps": {
+                "type": "internal",
+                "href": "/categoria-flexi-ountry",
+                "noFollow": false,
+                "tagTitle": "flexi-ountry",
+                "text": "Flexi Country"
+            }
+        } /* ,
+        "blocks": [
+            "submenu#header_sub-menu-3"
+        ] */
+    },
+    "menu-item#category-accesorios": {
+        "props": {
+            "id": "menu-item-category-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "root",
+            "itemProps": {
+                "type": "internal",
+                "href": "/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        } /* ,
+        "blocks": [
+            "submenu#header_sub-menu-4"
+        ] */
+    },
+    "menu-item#category-rebajas": {
+        "props": {
+            "id": "menu-item-category-rebajas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-desktop-category-rebajas",
+            "itemProps": {
+                "type": "internal",
+                "href": "/rebajas",
+                "noFollow": false,
+                "tagTitle": "Rebajas",
+                "text": "Rebajas"
+            }
+        } /* ,
+        "blocks": [
+            "submenu#header_sub-menu-5"
+        ] */
+    }
+}

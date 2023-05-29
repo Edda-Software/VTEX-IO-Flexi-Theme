@@ -1,0 +1,30 @@
+.openIconContainer {
+    padding: 0px;
+}
+
+@media (min-width: 1024px) {
+    .minicartContainer :global(.vtex-button__label) {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 0px;
+    }
+
+    .minicartContainer :global(.vtex-button__label)::after {
+        content: "Mi carrito";
+        font-family: Keep Calm;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-top: 5px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .minicartContainer :global(.vtex-button__label) {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 0px;
+    }
+}

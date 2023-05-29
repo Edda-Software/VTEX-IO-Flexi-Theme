@@ -29,7 +29,6 @@
         ]
     },
     "flex-layout.row#header-mobile-block-one": {
-        "props": {},
         "children": [
             "logo#header-mobile"
         ]
