@@ -1,9 +1,9 @@
-.menuContainer {
+.menuContainer--header-main-menu {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 14px;
+    gap: 10px;
 }
 
 .styledLinkContainer {
@@ -17,6 +17,12 @@
     font-weight: 500;
     line-height: 17px;
     text-align: left;
+}
+
+.menuItem--root {
+    display: flex;
+    align-items: center;
+    height: 73.1px;
 }
 
 .menuItem--header-desktop-category-rebajas {
@@ -33,8 +39,34 @@
     color: #BA1D2E;
 }
 
+.menuItem--root--isOpen {
+    box-sizing: border-box;
+    border-bottom: 4px solid #BA1E2E;
+    display: flex;
+    align-items: center;
+}
+
+.submenuContainer--sub-menu-category-dama {
+    top: 38px;
+}
+
+.submenuWrapper--sub-menu-category-dama {
+    margin: 0px;
+}
+
+.submenuContainer--sub-menu-category-dama .styledLinkContainer {
+    margin-inline: 1.5rem;
+    padding-block: 0.5rem;
+}
+
+@media (min-width: 1240px) {
+    .menuContainer--header-main-menu {
+        gap: 20px;
+    }
+}
+
 @media (min-width: 1440px) {
-    .menuContainer {
+    .menuContainer--header-main-menu {
         gap: 28px;
     }
 }

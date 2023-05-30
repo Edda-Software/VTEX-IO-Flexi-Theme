@@ -1,10 +1,12 @@
 /* HEADER DESKTOP */
+
 .flexRowContent--container-header-desktop {
-    background-color: #ffffff;
-    padding-inline: 15px;
+    padding-inline: 10px;
     justify-content: space-between;
     align-items: center;
     height: 73.01px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .flexColChild--container-header-desktop-block-one {
@@ -14,6 +16,12 @@
 
 .flexColChild--container-header-desktop-block-one :global(.vtex-store-components-3-x-logoContainer) {
     padding: 0px;
+}
+
+@media (min-width: 1240px) {
+    .flexRowContent--container-header-desktop {
+        padding-inline: 50px;
+    }
 }
 
 @media (min-width: 1440px) {

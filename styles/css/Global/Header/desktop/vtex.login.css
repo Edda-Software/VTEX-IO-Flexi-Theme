@@ -2,6 +2,10 @@
     padding: 0px;
 }
 
+.container :global(.vtex-button):hover {
+    background: none;
+}
+
 .label {
     color: #000000;
     font-family: Keep Calm;

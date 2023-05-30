@@ -6,7 +6,7 @@
     },
     "sticky-layout#desktop": {
         "props": {
-            "blockClass": "sticky-header"
+            "blockClass": "sticky-header-desktop"
         },
         "children": [
             "flex-layout.row#desktop"

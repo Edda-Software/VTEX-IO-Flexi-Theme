@@ -12,25 +12,7 @@
             "menu-item#category-rebajas"
         ]
     },
-    "menu-item#category-dama": {
-        "props": {
-            "id": "menu-item-category-dama",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass": "root",
-            "itemProps": {
-                "type": "internal",
-                "href": "/brands/",
-                "noFollow": false,
-                "tagTitle": "Dama",
-                "text": "Dama"
-            }
-        } /* ,
-        "blocks": [
-            "submenu#header_sub-menu-1"
-        ] */
-    },
+    
     "menu-item#category-caballero": {
         "props": {
             "id": "menu-item-category-caballero",
