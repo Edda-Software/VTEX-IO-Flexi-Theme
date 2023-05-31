@@ -7,69 +7,12 @@
         "children": [
             "menu-item#category-dama",
             "menu-item#category-caballero",
-            "menu-item#category-flexi-ountry",
+            "menu-item#category-flexi-country",
             "menu-item#category-accesorios",
             "menu-item#category-rebajas"
         ]
     },
     
-    "menu-item#category-caballero": {
-        "props": {
-            "id": "menu-item-category-caballero",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass": "root",
-            "itemProps": {
-                "type": "internal",
-                "href": "/categoria-caballero",
-                "noFollow": false,
-                "tagTitle": "Caballero",
-                "text": "Caballero"
-            }
-        } /* ,
-        "blocks": [
-            "submenu#header_sub-menu-2"
-        ] */
-    },
-    "menu-item#category-flexi-ountry": {
-        "props": {
-            "id": "menu-item-category-flexi-ountry",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass": "root",
-            "itemProps": {
-                "type": "internal",
-                "href": "/categoria-flexi-ountry",
-                "noFollow": false,
-                "tagTitle": "flexi-ountry",
-                "text": "Flexi Country"
-            }
-        } /* ,
-        "blocks": [
-            "submenu#header_sub-menu-3"
-        ] */
-    },
-    "menu-item#category-accesorios": {
-        "props": {
-            "id": "menu-item-category-accesorios",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass": "root",
-            "itemProps": {
-                "type": "internal",
-                "href": "/accesorios",
-                "noFollow": false,
-                "tagTitle": "Accesorios",
-                "text": "Accesorios"
-            }
-        } /* ,
-        "blocks": [
-            "submenu#header_sub-menu-4"
-        ] */
-    },
     "menu-item#category-rebajas": {
         "props": {
             "id": "menu-item-category-rebajas",
@@ -84,9 +27,6 @@
                 "tagTitle": "Rebajas",
                 "text": "Rebajas"
             }
-        } /* ,
-        "blocks": [
-            "submenu#header_sub-menu-5"
-        ] */
+        }
     }
 }

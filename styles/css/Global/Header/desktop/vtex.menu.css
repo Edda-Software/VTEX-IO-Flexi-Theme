@@ -46,17 +46,60 @@
     align-items: center;
 }
 
-.submenuContainer--sub-menu-category-dama {
-    top: 38px;
+.submenuWrapper--isOpen {
+    top: 73.1px;
+    padding: 25.9px 30px;
+    border: none;
 }
 
-.submenuWrapper--sub-menu-category-dama {
-    margin: 0px;
+.submenuContainer--sub-menu-category-dama .styledLinkContainer,
+.submenuContainer--sub-menu-category-caballero .styledLinkContainer,
+.submenuContainer--sub-menu-category-flex-country .styledLinkContainer,
+.submenuContainer--sub-menu-category-accesorios .styledLinkContainer {
+    margin-right: auto !important;
+    padding-block: 0.5rem !important;
 }
 
-.submenuContainer--sub-menu-category-dama .styledLinkContainer {
-    margin-inline: 1.5rem;
-    padding-block: 0.5rem;
+.submenu {
+    justify-content: center;
+    gap: 57px;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-dama):first-child,
+.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-caballero):first-child,
+.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-flex-country):first-child,
+.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios):first-child {
+    width: 259px;
+    box-sizing: border-box;
+    border-right: 1px solid #C6C6C6;
+}
+
+.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-dama):nth-child(2n),
+.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-caballero):nth-child(2n),
+.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-flex-country):nth-child(2n),
+.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios):nth-child(2n) {
+    padding-left: 21px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-dama),
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-caballero),
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-flex-country),
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios) {
+    width: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-dama) :global(.vtex-store-components-3-x-imageElement),
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-caballero) :global(.vtex-store-components-3-x-imageElement),
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-flex-country) :global(.vtex-store-components-3-x-imageElement),
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios) :global(.vtex-store-components-3-x-imageElement) {
+    min-height: 194px;
+    min-width: 337px;
+}
+
+.submenu :global(.vtex-flex-layout-0-x-flexRowContent--container-row-submenu) {
+    gap: 44px;
 }
 
 @media (min-width: 1240px) {
@@ -68,5 +111,9 @@
 @media (min-width: 1440px) {
     .menuContainer--header-main-menu {
         gap: 28px;
+    }
+
+    .submenuWrapper--isOpen {
+        padding: 25.9px 58px;
     }
 }

@@ -1,145 +1,145 @@
 {
-    "menu-item#category-dama": {
+    "menu-item#category-caballero": {
         "props": {
-            "id": "menu-item-category-dama",
+            "id": "menu-item-category-caballero",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "blockClass": "root",
             "itemProps": {
                 "type": "internal",
-                "href": "/brands/",
+                "href": "/categoria-caballero",
                 "noFollow": false,
-                "tagTitle": "Dama",
-                "text": "Dama"
+                "tagTitle": "Caballero",
+                "text": "Caballero"
             }
         },
         "blocks": [
-            "submenu#category-dama"
+            "submenu#category-caballero"
         ]
     },
-    "submenu#category-dama": {
+    "submenu#category-caballero": {
         "props": {
             "width": "100%",
-            "blockClass": "sub-menu-category-dama"
+            "blockClass": "sub-menu-category-caballero"
         },
         "children": [
-            "flex-layout.col#category-dama-one",
-            "flex-layout.col#category-dama-two",
-            "flex-layout.col#category-dama-three"
+            "flex-layout.col#category-caballero-one",
+            "flex-layout.col#category-caballero-two",
+            "flex-layout.col#category-caballero-three"
         ]
     },
-    "flex-layout.col#category-dama-one": {
+    "flex-layout.col#category-caballero-one": {
         "props": {
-            "blockClass": "container-column-category-dama"
+            "blockClass": "container-column-category-caballero"
         },
         "children": [
-            "flex-layout.row#category-dama-one"
+            "flex-layout.row#category-caballero-one"
         ]
     },
-    "flex-layout.row#category-dama-one": {
+    "flex-layout.row#category-caballero-one": {
         "props": {
             "colSizing": "auto"
         },
         "children": [
-            "menu#category-dama"
+            "menu#category-caballero"
         ]
     },
-    "flex-layout.col#category-dama-two": {
+    "flex-layout.col#category-caballero-two": {
         "props": {
-            "blockClass": "container-column-category-dama"
+            "blockClass": "container-column-category-caballero"
         },
         "children": [
-            "flex-layout.row#category-dama-two"
+            "flex-layout.row#category-caballero-two"
         ]
     },
-    "flex-layout.row#category-dama-two": {
-        "props": {
-            "colSizing": "auto",
-            "blockClass": "container-row-submenu"
-        },
-        "children": [
-            "menu#category-dama-section-two",
-            "image#category-dama-one"
-        ]
-    },
-    "flex-layout.col#category-dama-three": {
-        "props": {
-            "blockClass": "container-column-category-dama"
-        },
-        "children": [
-            "flex-layout.row#category-dama-three"
-        ]
-    },
-    "flex-layout.row#category-dama-three": {
+    "flex-layout.row#category-caballero-two": {
         "props": {
             "colSizing": "auto",
             "blockClass": "container-row-submenu"
         },
         "children": [
-            "menu#category-dama-section-three",
-            "image#category-dama-two"
+            "menu#category-caballero-section-two",
+            "image#category-caballero-one"
         ]
     },
-    "menu#category-dama": {
+    "flex-layout.col#category-caballero-three": {
+        "props": {
+            "blockClass": "container-column-category-caballero"
+        },
+        "children": [
+            "flex-layout.row#category-caballero-three"
+        ]
+    },
+    "flex-layout.row#category-caballero-three": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "container-row-submenu"
+        },
+        "children": [
+            "menu#category-caballero-section-three",
+            "image#category-caballero-two"
+        ]
+    },
+    "menu#category-caballero": {
         "props": {
             "orientation": "vertical"
         },
         "children": [
-            "rich-text#title-category-dama",
-            "menu-item#category-dama-opcion-one",
-            "menu-item#category-dama-opcion-two",
-            "menu-item#category-dama-opcion-three",
-            "menu-item#category-dama-opcion-four"
+            "rich-text#title-category-caballero",
+            "menu-item#category-caballero-opcion-one",
+            "menu-item#category-caballero-opcion-two",
+            "menu-item#category-caballero-opcion-three",
+            "menu-item#category-caballero-opcion-four"
         ]
     },
-    "menu#category-dama-section-two": {
+    "menu#category-caballero-section-two": {
         "props": {
             "orientation": "vertical"
         },
         "children": [
-            "rich-text#title-category-dama-section-two",
-            "menu-item#category-dama-section-two-opcion-one",
-            "menu-item#category-dama-section-two-opcion-two",
-            "menu-item#category-dama-section-two-opcion-three",
-            "menu-item#category-dama-section-two-opcion-four"
+            "rich-text#title-category-caballero-section-two",
+            "menu-item#category-caballero-section-two-opcion-one",
+            "menu-item#category-caballero-section-two-opcion-two",
+            "menu-item#category-caballero-section-two-opcion-three",
+            "menu-item#category-caballero-section-two-opcion-four"
         ]
     },
-    "menu#category-dama-section-three": {
+    "menu#category-caballero-section-three": {
         "props": {
             "orientation": "vertical"
         },
         "children": [
-            "rich-text#title-category-dama-section-three",
-            "menu-item#category-dama-section-three-opcion-one",
-            "menu-item#category-dama-section-three-opcion-two",
-            "menu-item#category-dama-section-three-opcion-three",
-            "menu-item#category-dama-section-three-opcion-four"
+            "rich-text#title-category-caballero-section-three",
+            "menu-item#category-caballero-section-three-opcion-one",
+            "menu-item#category-caballero-section-three-opcion-two",
+            "menu-item#category-caballero-section-three-opcion-three",
+            "menu-item#category-caballero-section-three-opcion-four"
         ]
     },
-    "image#category-dama-one": {
+    "image#category-caballero-one": {
         "props": {
             "src": "assets/images/header/menu/image-option.png",
             "maxWidth": "331",
             "maxHeight": "194"
         }
     },
-    "image#category-dama-two": {
+    "image#category-caballero-two": {
         "props": {
             "src": "assets/images/header/menu/image-option.png",
             "maxWidth": "331",
             "maxHeight": "194"
         }
     },
-    "rich-text#title-category-dama": {
+    "rich-text#title-category-caballero": {
         "props": {
             "text": "Opción de título",
             "blockClass": "title-subcategory-subcategory"
         }
     },
-    "menu-item#category-dama-opcion-one": {
+    "menu-item#category-caballero-opcion-one": {
         "props": {
-            "id": "menu-category-dama-opcion-one",
+            "id": "menu-category-caballero-opcion-one",
             "iconId": null,
             "type": "custom",
             "highlight": false,
@@ -152,9 +152,9 @@
             }
         }
     },
-    "menu-item#category-dama-opcion-two": {
+    "menu-item#category-caballero-opcion-two": {
         "props": {
-            "id": "menu-category-dama-opcion-two",
+            "id": "menu-category-caballero-opcion-two",
             "iconId": null,
             "type": "custom",
             "highlight": false,
@@ -167,9 +167,9 @@
             }
         }
     },
-    "menu-item#category-dama-opcion-three": {
+    "menu-item#category-caballero-opcion-three": {
         "props": {
-            "id": "menu-category-dama-opcion-three",
+            "id": "menu-category-caballero-opcion-three",
             "iconId": null,
             "type": "custom",
             "highlight": false,
@@ -182,9 +182,9 @@
             }
         }
     },
-    "menu-item#category-dama-opcion-four": {
+    "menu-item#category-caballero-opcion-four": {
         "props": {
-            "id": "menu-category-dama-opcion-four",
+            "id": "menu-category-caballero-opcion-four",
             "iconId": null,
             "type": "custom",
             "highlight": false,
@@ -198,15 +198,15 @@
         }
     },
     /* OPTION 2 */
-    "rich-text#title-category-dama-section-two": {
+    "rich-text#title-category-caballero-section-two": {
         "props": {
             "text": "Categorías",
             "blockClass": "title-subcategory-subcategory"
         }
     },
-    "menu-item#category-dama-section-two-opcion-one": {
+    "menu-item#category-caballero-section-two-opcion-one": {
         "props": {
-            "id": "menu-category-dama-section-two-opcion-one",
+            "id": "menu-category-caballero-section-two-opcion-one",
             "iconId": null,
             "type": "custom",
             "highlight": false,
@@ -219,9 +219,9 @@
             }
         }
     },
-    "menu-item#category-dama-section-two-opcion-two": {
+    "menu-item#category-caballero-section-two-opcion-two": {
         "props": {
-            "id": "menu-category-dama-section-two-opcion-two",
+            "id": "menu-category-caballero-section-two-opcion-two",
             "iconId": null,
             "type": "custom",
             "highlight": false,
@@ -234,9 +234,9 @@
             }
         }
     },
-    "menu-item#category-dama-section-two-opcion-three": {
+    "menu-item#category-caballero-section-two-opcion-three": {
         "props": {
-            "id": "menu-category-dama-section-two-opcion-three",
+            "id": "menu-category-caballero-section-two-opcion-three",
             "iconId": null,
             "type": "custom",
             "highlight": false,
@@ -249,9 +249,9 @@
             }
         }
     },
-    "menu-item#category-dama-section-two-opcion-four": {
+    "menu-item#category-caballero-section-two-opcion-four": {
         "props": {
-            "id": "menu-category-dama-section-two-opcion-four",
+            "id": "menu-category-caballero-section-two-opcion-four",
             "iconId": null,
             "type": "custom",
             "highlight": false,
@@ -264,17 +264,16 @@
             }
         }
     },
-
     /* OPTION 3 */
-    "rich-text#title-category-dama-section-three": {
+    "rich-text#title-category-caballero-section-three": {
         "props": {
             "text": "Más categorías",
             "blockClass": "title-subcategory-subcategory"
         }
     },
-    "menu-item#category-dama-section-three-opcion-one": {
+    "menu-item#category-caballero-section-three-opcion-one": {
         "props": {
-            "id": "menu-category-dama-section-three-opcion-one",
+            "id": "menu-category-caballero-section-three-opcion-one",
             "iconId": null,
             "type": "custom",
             "highlight": false,
@@ -287,9 +286,9 @@
             }
         }
     },
-    "menu-item#category-dama-section-three-opcion-two": {
+    "menu-item#category-caballero-section-three-opcion-two": {
         "props": {
-            "id": "menu-category-dama-section-three-opcion-two",
+            "id": "menu-category-caballero-section-three-opcion-two",
             "iconId": null,
             "type": "custom",
             "highlight": false,
@@ -302,9 +301,9 @@
             }
         }
     },
-    "menu-item#category-dama-section-three-opcion-three": {
+    "menu-item#category-caballero-section-three-opcion-three": {
         "props": {
-            "id": "menu-category-dama-section-three-opcion-three",
+            "id": "menu-category-caballero-section-three-opcion-three",
             "iconId": null,
             "type": "custom",
             "highlight": false,
@@ -317,9 +316,9 @@
             }
         }
     },
-    "menu-item#category-dama-section-three-opcion-four": {
+    "menu-item#category-caballero-section-three-opcion-four": {
         "props": {
-            "id": "menu-category-dama-section-three-opcion-four",
+            "id": "menu-category-caballero-section-three-opcion-four",
             "iconId": null,
             "type": "custom",
             "highlight": false,
