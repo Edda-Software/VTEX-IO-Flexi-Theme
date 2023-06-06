@@ -1,0 +1,23 @@
+.drawerContent--header-menu-mobile {
+    height: 100%;
+}
+
+.drawer--header-menu-mobile {
+    background-color: #FFFFFF;
+}
+
+.drawerHeader {
+    display: flex;
+    justify-content: end;
+}
+
+.childrenContainer--header-menu-mobile {
+    flex-direction: column;
+    padding: 0px 21px;
+    height: 93%;
+}
+
+.closeIconButton {
+    padding-top: 17px;
+    padding-bottom: 0px;
+}

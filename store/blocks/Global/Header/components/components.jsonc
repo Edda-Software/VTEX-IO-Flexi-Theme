@@ -3,7 +3,8 @@
         "props": {
             "showIconProfile": true,
             "hideIconLabel": false,
-            "iconLabel": "Mi cuenta"
+            "iconLabel": "Mi cuenta",
+            "mirrorTooltipToRight":true
         }
     },
     "search-bar":{

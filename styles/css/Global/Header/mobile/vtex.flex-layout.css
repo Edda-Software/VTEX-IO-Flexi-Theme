@@ -30,3 +30,41 @@
 .flexRowContent--header-mobile-block-two :global(.vtex-minicart-2-x-openIconContainer) {
     padding: 0;
 }
+
+.flexRow--drawer-header {
+    width: 100%;
+}
+
+.flexRowContent--drawer-header {
+    justify-content: space-between;
+}
+
+.flexRow--contain-mega-menu-mobile-sales {
+    border-bottom: 1px solid #DBDBDB;
+    padding-bottom: 40px;
+}
+
+.flexRowContent--contain-mega-menu-mobile-sales {
+    display: flex;
+    align-items: center;
+    width: 89px;
+    height: 45px;
+    margin-top: 16px;
+    background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml,<svg width="89" height="46" viewBox="0 0 89 46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M89 0.973404H0V42.1397C13.957 46.9764 28.2543 44.3813 42.7448 41.7512L44.8171 41.3755C60.7457 38.497 75.1219 38.5989 89 45.9734V0.973404Z" fill="%23F6EEE8"/></svg>');
+}
+
+.flexRow--mega-menu-mobile-option {
+    padding-block: 16px;
+}
+
+.flexCol--mega-menu-mobile-contain-option {
+    gap: 16px;
+}
+
+.flexRow--contain-mega-menu-mobile-footer {
+    border-top: 1px solid #DBDBDB;
+    padding-top: 29px;
+    padding-bottom: 35px;
+    margin-top: auto;
+}
