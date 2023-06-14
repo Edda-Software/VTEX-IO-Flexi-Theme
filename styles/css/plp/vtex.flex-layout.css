@@ -10,7 +10,7 @@
     gap: 5px;
 }
 
-.flexRowContent--search-result-layout_options-filtered-orderby  {
+.flexRowContent--search-result-layout_options-filtered-orderby {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,8 +25,37 @@
     box-sizing: content-box;
 }
 
-.flexCol--search-result-layout_content-filters-searchResult {
+.flexCol--search-result-layout_content-filters-searchResult-mobile {
     gap: 25px;
     padding-block: 25px;
     padding-inline: 20px;
+}
+
+.flexColChild--search-result-layout_content-filters-searchResult-desktop-1 {
+    width: 300px;
+    background-color: #FFFFFF;
+    padding: 17px;
+    height: auto !important;
+}
+
+.flexColChild--search-result-layout_content-filters-searchResult-desktop-1:first-child {
+    padding: 17px 17px 20px 17px;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.flexColChild--search-result-layout_content-filters-searchResult-desktop-1:last-child {
+    padding: 10px 17px 17px 17px;
+}
+
+.flexRowContent--search-result-layout_content-filters-searchResult-desktop-container {
+    padding-block: 50px;
+    padding-inline: 90px;
+    justify-content: start;
+    gap: 20px;
+}
+
+@media (min-width: 1024px) {
+    .flexRowContent--search-result-layout_title-total-products {
+        justify-content: start;
+    }
 }

@@ -5,3 +5,10 @@
     line-height: 19px;
     color: #4E4E4E;
 }
+
+@media (min-width: 1024px) {
+    .paragraph--search-result-layout_title-total-products {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

@@ -6,7 +6,7 @@
           "name": "grid",
           "component": "GridSummary",
           "itemsPerRow": {
-            "(min-width:1440px)": 4,
+            "(min-width:1920px)": 4,
             "desktop": 3,
             "phone": 2
           }

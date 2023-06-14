@@ -1,28 +1,54 @@
 {
     "responsive-layout.desktop#search-result-layout_content-filters-searchResult": {
         "children": [
-            "flex-layout.row#search-result-layout_content-filters-searchResult"
+            "flex-layout.row#search-result-layout_content-filters-searchResult-desktop"
         ]
     },
-    "flex-layout.row#search-result-layout_content-filters-searchResult": {
+    "flex-layout.row#search-result-layout_content-filters-searchResult-desktop": {
         "props": {
-            "colSizing": "auto"
+            "colSizing": "auto",
+            "blockClass": "search-result-layout_content-filters-searchResult-desktop-container"
         },
         "children": [
-            "flex-layout.col#search-result-layout_content-filters-searchResult-1",
-            "flex-layout.col#search-result-layout_content-filters-searchResult-2"
+            "flex-layout.col#search-result-layout_content-filters-searchResult-desktop-1",
+            "flex-layout.col#search-result-layout_content-filters-searchResult-desktop-2"
         ]
     },
-    "flex-layout.col#search-result-layout_content-filters-searchResult-1": {
+    "flex-layout.col#search-result-layout_content-filters-searchResult-desktop-1": {
+        "props": {
+            "blockClass": "search-result-layout_content-filters-searchResult-desktop-1"
+        },
         "children": [
+            "flex-layout.row#search-result-layout_content-filters-searchResult-desktop-1_title",
             "filter-navigator.v3"
         ]
     },
-    "flex-layout.col#search-result-layout_content-filters-searchResult-2": {
+    "flex-layout.row#search-result-layout_content-filters-searchResult-desktop-1_title": {
         "children": [
-            "order-by.v2",
+            "flex-layout.col#search-result-layout_content-filters-searchResult-desktop-1_title"
+        ]
+    },
+    "flex-layout.col#search-result-layout_content-filters-searchResult-desktop-1_title": {
+        "children": [
+            "search-title.v2",
+            "flex-layout.row#search-result-layout_title-total-products"
+        ]
+    },
+    "flex-layout.col#search-result-layout_content-filters-searchResult-desktop-2": {
+        "children": [
+            "order-by.v2#desktop",
             "search-content",
             "search-fetch-more"
         ]
+    },
+    "order-by.v2#desktop": {
+        "props": {
+            "hiddenOptions": [
+                "OrderByNameASC",
+                "OrderByNameDESC",
+                "OrderByReleaseDateDESC"
+            ],
+            "showOrderTitle": false
+        }
     }
 }

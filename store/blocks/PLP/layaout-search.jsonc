@@ -14,7 +14,7 @@
         "children": [
             "breadcrumb.search",
             "list-context.image-list#search-result-layout",
-            "responsive-layout.phone#search-result-layout_content-filters-searchResult",
+            "responsive-layout.mobile#search-result-layout_content-filters-searchResult",
             "responsive-layout.desktop#search-result-layout_content-filters-searchResult"
         ]
     },
@@ -25,13 +25,12 @@
             "not-found"
         ]
     },
-    "order-by.v2": {
+    "filter-navigator.v3":{
+        "blocks": ["sidebar-close-button"],
         "props": {
-            "hiddenOptions": [
-                "OrderByNameASC",
-                "OrderByNameDESC",
-                "OrderByReleaseDateDESC"
-            ]
+            "initiallyCollapsed": true,
+            "fullWidthOnMobile": true,
+            "showClearByFilter":true
         }
     }
 }
