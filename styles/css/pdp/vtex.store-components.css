@@ -1,0 +1,21 @@
+.productBrand {
+    font-family: Keep Calm;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.currencyContainer {
+    font-family: Keep Calm;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.skuSelectorName {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #000000;
+}

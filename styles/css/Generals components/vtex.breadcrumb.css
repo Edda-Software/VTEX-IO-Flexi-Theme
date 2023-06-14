@@ -4,7 +4,7 @@
     height: 36px;
     display: flex;
     align-items: center;
-    gap: 13px;
+    max-width: 1440px;
 }
 
 .homeLink {
@@ -15,7 +15,7 @@
 .arrow {
     display: flex;
     align-items: center;
-    padding: 0px;
+    padding: 0px 0px 0px 13px;
 }
 
 .link:not(:first-child) {
@@ -39,10 +39,22 @@
     display: none;
 }
 
+.term {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 19px;
+    color: #403128;
+    padding-left: 13px;
+    border-left: 1.5px solid #403128;}
+
 @media (min-width: 1024px) {
     .container {
         padding-left: 30px;
-        gap: 14px;
     }
 
     .link:not(:first-child) {

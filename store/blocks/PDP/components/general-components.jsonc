@@ -1,0 +1,12 @@
+{
+    "sku-selector": {
+        "props": {
+          "hideImpossibleCombinations": false
+        }
+      },
+      "product-images":{
+        "props": {
+            "thumbnailsOrientation": "horizontal"
+        }
+      }
+}

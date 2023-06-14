@@ -10,7 +10,8 @@
     "search-bar":{
         "props": {
             "placeholder": "Busca calzado y accesorios",
-            "displayMode": "search-and-clear-buttons"
+            "displayMode": "search-and-clear-buttons",
+            "maxWidth": 304
         }
     }
 }

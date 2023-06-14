@@ -27,3 +27,10 @@
 .searchBarIcon--external-search {
     background-color: #BA1E2E;
 }
+
+.resultsList {
+    max-height: 60vh;
+    max-width: 321px;
+    left: initial;
+    overflow-y: hidden;
+}

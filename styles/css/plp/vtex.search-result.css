@@ -220,10 +220,14 @@
 
     .orderByButton {
         justify-content: space-around;
-        width: 193.15px;
         height: 41px;
         border: 1px solid #7F7F7F;
         border-radius: 0%;
+    }
+
+    .orderByDropdown {
+        width: 193.15px;
+        margin: 0 auto 0 0;
     }
 
     .gallery--grid {

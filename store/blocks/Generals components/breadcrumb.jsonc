@@ -3,5 +3,10 @@
         "props": {
             "showOnMobile": true
         }
-    }
+    },
+    "breadcrumb": {
+        "props": {
+          "showOnMobile": true
+        }
+      }
 }

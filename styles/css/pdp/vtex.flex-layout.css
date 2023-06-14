@@ -1,0 +1,29 @@
+.flexRowContent--product-page_container-summary-product {
+    flex-direction: column;
+}
+
+.flexCol--product-page_container-summary-description {
+    padding: 9px 22.1px;
+}
+
+.flexColChild--product-page_container-summary-description {
+    height: auto !important;
+}
+
+@media (min-width: 1024px) {
+    .flexRowContent--product-page_container-summary-product {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1240px) {
+    .flexCol--product-page_container-summary-image {
+        max-width: 710px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .flexCol--product-page_container-summary-description {
+        padding: 57px 81px;
+    }
+}
