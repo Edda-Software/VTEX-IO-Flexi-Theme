@@ -80,7 +80,6 @@
     "children": [
       "search-bar",
       "mega-menu#mobile",
-      "flex-layout.row#mega-menu-mobile-sales",
       "flex-layout.row#mega-menu-mobile-option",
       "flex-layout.row#mega-menu-mobile-footer"
     ],
@@ -131,21 +130,6 @@
       "verticalAlign": "middle",
       "horizontalAlign": "right",
       "paddingLeft": 4
-    }
-  },
-  "flex-layout.row#mega-menu-mobile-sales": {
-    "props": {
-      "blockClass": "contain-mega-menu-mobile-sales"
-    },
-    "children": [
-      "link#mega-menu-mobile-sales"
-    ]
-  },
-  "link#mega-menu-mobile-sales": {
-    "props": {
-      "href": "/",
-      "label": "Rebajas",
-      "blockClass": "mega-menu-mobile-sales"
     }
   },
   "flex-layout.row#mega-menu-mobile-option": {

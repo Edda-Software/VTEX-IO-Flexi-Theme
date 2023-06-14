@@ -1,7 +1,87 @@
 {
   "store.search": {
     "blocks": [
-      
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "hideUnavailableItems": false,
+        "orderByField": "OrderByReleaseDateDESC",
+        "facetsBehavior": "static",
+        "maxItemsPerPage": 12,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "hideUnavailableItems": false,
+        "orderByField": "OrderByReleaseDateDESC",
+        "facetsBehavior": "static",
+        "maxItemsPerPage": 12,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "hideUnavailableItems": false,
+        "orderByField": "OrderByReleaseDateDESC",
+        "facetsBehavior": "static",
+        "maxItemsPerPage": 12,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "hideUnavailableItems": false,
+        "orderByField": "OrderByReleaseDateDESC",
+        "facetsBehavior": "static",
+        "maxItemsPerPage": 12,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "hideUnavailableItems": false,
+        "orderByField": "OrderByReleaseDateDESC",
+        "facetsBehavior": "static",
+        "maxItemsPerPage": 12,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#container-search-result-layout"
     ]
   }
 }

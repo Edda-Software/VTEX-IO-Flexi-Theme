@@ -1,0 +1,86 @@
+.totalProductsMessage {
+    display: none;
+}
+
+.totalProducts--layout {
+    padding: 0px;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #4E4E4E;
+}
+
+.filterPopupButton {
+    flex-direction: row-reverse;
+    gap: 8px;
+}
+
+.filterPopupButton .filterPopupTitle {
+    text-transform: capitalize;
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    margin-left: 0px;
+}
+
+.filterPopupButton .filterPopupArrowIcon {
+    margin-left: 0px;
+}
+
+.orderByDropdown {
+    padding: 0px;
+}
+
+.orderByButton {
+    justify-content: center;
+    height: 48px;
+}
+
+.orderByButton .filterPopupTitle {
+    font-size: 0px;
+}
+
+.orderByButton .orderByText {
+    display: block;
+    text-transform: initial;
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.orderByButton .filterPopupArrowIcon {
+    display: none;
+}
+
+.buttonShowMore :global(.vtex-button) {
+    width: 167px;
+    height: 49px;
+    background-color: #BA1D2E;
+    color: #FFFFFF;
+    border-radius: 0%;
+}
+
+.buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    visibility: hidden;
+    position: relative;
+    text-transform: initial;
+}
+
+.buttonShowMore :global(.vtex-button) :global(.vtex-button__label)::after {
+    visibility: visible;
+    position: absolute;
+    content: "Cargar más";
+}
+
+@media(min-width: 1024px) {
+    .filterPopupArrowIcon {
+        display: block;
+    }
+}

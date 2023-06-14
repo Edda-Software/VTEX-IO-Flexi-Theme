@@ -1,0 +1,32 @@
+.flexCol--container-search-result-layout {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.flexRowContent--search-result-layout_title-total-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.flexRowContent--search-result-layout_options-filtered-orderby  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.flexRowContent--search-result-layout_options-filtered-orderby .stretchChildrenWidth {
+    width: 168px !important;
+    height: 49px;
+    border: 1px solid #0000006E;
+    border-radius: 0%;
+    box-sizing: content-box;
+}
+
+.flexCol--search-result-layout_content-filters-searchResult {
+    gap: 25px;
+    padding-block: 25px;
+    padding-inline: 20px;
+}

@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#container-search-result-layout": {
+        "props": {
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#container-search-result-layout"
+        ]
+    },
+    "flex-layout.col#container-search-result-layout": {
+        "props": {
+            "blockClass": "container-search-result-layout"
+        },
+        "children": [
+            "breadcrumb.search",
+            "list-context.image-list#search-result-layout",
+            "responsive-layout.phone#search-result-layout_content-filters-searchResult",
+            "responsive-layout.desktop#search-result-layout_content-filters-searchResult"
+        ]
+    },
+    "search-content": {
+        "title": "container gallery",
+        "blocks": [
+            "gallery",
+            "not-found"
+        ]
+    },
+    "order-by.v2": {
+        "props": {
+            "hiddenOptions": [
+                "OrderByNameASC",
+                "OrderByNameDESC",
+                "OrderByReleaseDateDESC"
+            ]
+        }
+    }
+}

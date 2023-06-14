@@ -1,0 +1,63 @@
+.container {
+    background-color: #EEE4DE;
+    padding: 0 0 0 29px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.homeLink {
+    padding: 0px;
+    display: flex;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.link:not(:first-child) {
+    display: flex;
+    align-items: center;
+    height: 22.55px;
+    border-left: 1.5px solid #403128;
+    padding-left: 13px;
+
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.arrow:last-child .link {
+    font-weight: 800 !important;
+}
+
+.caretIcon {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding-left: 30px;
+        gap: 14px;
+    }
+
+    .link:not(:first-child) {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1240px) {
+    .container {
+        padding-left: 50px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        padding-left: 106px;
+    }
+}
