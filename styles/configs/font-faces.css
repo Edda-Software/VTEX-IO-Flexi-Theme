@@ -1,0 +1,20 @@
+/* Keep Calm */
+@font-face {
+    font-family: "Keep Calm";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local("KeepCalm"), local("KeepCalm-Medium"),
+      url("assets/fonts/KeepCalm-Medium.ttf") format("ttf");
+  }
+  
+  /* **************************************************************************************************************************************************** */
+  
+  @font-face {
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Avenir"), local("Avenir-Book"),
+      url("assets/fonts/Avenir-Book.ttf") format("ttf");
+  }
