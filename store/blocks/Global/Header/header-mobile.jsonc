@@ -80,8 +80,7 @@
     "children": [
       "search-bar",
       "mega-menu#mobile",
-      "flex-layout.row#mega-menu-mobile-option",
-      "flex-layout.row#mega-menu-mobile-footer"
+     "flex-layout.row#mega-menu-mobile__container-options"
     ],
     "blocks": [
       "drawer-header#my-drawer"
@@ -131,6 +130,23 @@
       "horizontalAlign": "right",
       "paddingLeft": 4
     }
+  },
+  "flex-layout.row#mega-menu-mobile__container-options": {
+    "props": {
+      "blockClass": "mega-menu-mobile__container-options"
+    },
+    "children": [
+      "flex-layout.col#mega-menu-mobile__container-options"
+    ]
+  },
+  "flex-layout.col#mega-menu-mobile__container-options": {
+    "props": {
+      "blockClass": "mega-menu-mobile__container-options"
+    },
+    "children": [
+      "flex-layout.row#mega-menu-mobile-option",
+      "flex-layout.row#mega-menu-mobile-footer"
+    ]
   },
   "flex-layout.row#mega-menu-mobile-option": {
     "props": {
