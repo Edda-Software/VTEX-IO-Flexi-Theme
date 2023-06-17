@@ -28,6 +28,10 @@
     gap: 16px;
 }
 
+.flexRowContent--footer-block-two_container-cards::-webkit-scrollbar {
+    display: none;
+}
+
 .flexCol--footer-block-two-card {
     height: 240px;
     width: 255px !important;
@@ -139,8 +143,8 @@
     /* Block two */
     .flexRowContent--footer-block-two_container-cards {
         gap: 42px;
-        justify-content: center;
-        overflow: initial;
+        justify-content: start;
+        overflow: scroll;
     }
 
     /* Block three */
@@ -209,7 +213,9 @@
     }
 
     .flexRowContent--footer-block-two_container-cards {
-        gap: 42px
+        gap: 42px;
+        justify-content: center;
+        overflow: initial;
     }
 
     /* Block three */

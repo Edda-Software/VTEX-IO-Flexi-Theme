@@ -6,7 +6,8 @@
         },
         "children": [
             "flex-layout.col#footer-block-two-card-one",
-            "flex-layout.col#footer-block-two-card-two"
+            "flex-layout.col#footer-block-two-card-two",
+            "flex-layout.col#footer-block-two-card-three"
         ]
     },
 
@@ -24,13 +25,13 @@
     },
     "rich-text#footer-block-two_card-one-title": {
         "props": {
-            "text": "Déposito bancario",
+            "text": "Pago contra entrega",
             "blockClass": "footer-block-two_card-one-title"
         }
     },
     "rich-text#footer-block-two_card-one-text": {
         "props": {
-            "text": "Adicionalmente tenemos el servicio de Deposito a cuenta o transferencia electrónica",
+            "text": "Pago contra Entrega habilitado para algunas ciudades, podrás pagar en efectivo, tarjeta débito y tarjetas de crédito de las franquicias MasterCard, Visa y American Express.",
             "blockClass": "footer-block-two_card-one-text"
         }
     },
@@ -57,6 +58,31 @@
         "props": {
             "text": "Paga con tarjeta débito a través tarjetas de crédito de las franquicias MasterCard, Visa, American Express y DinersClub",
             "blockClass": "footer-block-two_card-two-text"
+        }
+    },
+
+    /* CARD THREE */
+    "flex-layout.col#footer-block-two-card-three": {
+        "props": {
+            "blockClass": "footer-block-two-card",
+            "horizontalAlign": "left",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#footer-block-two_card-three-title",
+            "rich-text#footer-block-two_card-three-text"
+        ]
+    },
+    "rich-text#footer-block-two_card-three-title": {
+        "props": {
+            "text": "Déposito bancario",
+            "blockClass": "footer-block-two_card-three-title"
+        }
+    },
+    "rich-text#footer-block-two_card-three-text": {
+        "props": {
+            "text": "Adicionalmente tenemos el servicio de Deposito a cuenta o transferencia electrónica",
+            "blockClass": "footer-block-two_card-three-text"
         }
     }
 }
