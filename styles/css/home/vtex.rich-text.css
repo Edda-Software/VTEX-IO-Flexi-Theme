@@ -56,6 +56,14 @@
         line-height: 16px;
     }
 
+    /* BLOCK FOUR */
+    .paragraph--block-four-oportunity-title {
+        font-family: Keep Calm;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
     @media (min-width: 1024px) {
 
         /* BLOCK ONE */
@@ -85,4 +93,6 @@
             font-size: 14px;
             line-height: 19px;
         }
+
+        /* BLOCK FOUR */
     }

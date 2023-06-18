@@ -55,6 +55,51 @@
     justify-content: start;
 }
 
+/* BLOCK FOUR */
+.flexRowContent--block-four-oportunity-container {
+    margin-top: 43.55px;
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+.flexCol--block-four-oportunity {
+    gap: 17px;
+}
+
+.flexColChild--block-four-oportunity:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--block-four-oportunity-images-mobile {
+    display: flex;
+    gap: 13px;
+    overflow-y: hidden;
+}
+
+.flexRowContent--block-four-oportunity-images-mobile::-webkit-scrollbar {
+    display: none;
+}
+
+.flexRowContent--block-four-oportunity-images-desktop {
+    gap: 20px;
+    overflow-y: hidden;
+}
+
+.flexRowContent--block-four-oportunity-images-desktop::-webkit-scrollbar {
+    display: none;
+}
+
+/* BLOCK FIVE */
+.flexRowContent--block-five-found-shoes-container {
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 52px;
+    max-width: 1440px;
+    padding-inline: 18px;
+}
+
 @media (min-width: 1024px) {
 
     /* BLOCK ONE */
@@ -67,6 +112,19 @@
         margin-top: 30px;
     }
 
+    /* BLOCK FOUR */
+    .flexRowContent--block-four-oportunity-container {
+        padding-inline: 90px;
+    }
+
+    .flexColChild--block-four-oportunity:first-child {
+        justify-content: start;
+    }
+
+    /* BLOCK FIVE */
+    .flexRowContent--block-five-found-shoes-container {
+        padding-inline: 90px;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -86,5 +144,9 @@
 
     .flexRowContent--block-three_flexi-benefits-list-card {
         gap: 16.1px;
+    }
+
+    .flexRowContent--block-four-oportunity-container {
+        margin-top: 68px;
     }
 }

@@ -1,0 +1,20 @@
+/* BLOCK FOUR */
+.imageElement--block-four-oportunity-images-mobile {
+    min-width: 260px;
+    min-height: 324px;
+}
+
+.imageElement--block-four-oportunity-images-desktop {
+    min-width: 407px;
+    min-height: 324px;
+}
+
+/* BLOCK FIVE */
+.imageElement--block-five-found-shoes-mobile {
+    min-width: 357px;
+    min-height: 230px;
+}
+
+.imageElementLink--block-five-found-shoes-mobile {
+    display: contents;
+}

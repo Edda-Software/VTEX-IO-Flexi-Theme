@@ -3,7 +3,9 @@
     "blocks": [
       "flex-layout.row#block-one_notificacion-bar",
       "flex-layout.row#block-two_banner-home",
-      "flex-layout.row#block-three_flexi-benefit"
+      "flex-layout.row#block-three_flexi-benefit",
+      "flex-layout.row#block-four-oportunity",
+      "flex-layout.row#block-five-found-shoes"
     ]
   }
 }

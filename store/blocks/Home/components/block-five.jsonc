@@ -1,0 +1,42 @@
+{
+    "flex-layout.row#block-five-found-shoes": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "block-five-found-shoes-container"
+        },
+        "children": [
+            "responsive-layout.mobile#block-five-found-shoes",
+            "responsive-layout.desktop#block-five-found-shoes"
+        ]
+    },
+    "responsive-layout.mobile#block-five-found-shoes": {
+        "children": [
+            "image#block-five-found-shoes-mobile"
+        ]
+    },
+    "image#block-five-found-shoes-mobile": {
+        "props": {
+            "blockClass": "block-five-found-shoes-mobile",
+            "src": "assets/images/home/found-shoes-mobile.jpg",
+            "link": {
+                "url": "/"
+            },
+            "maxHeight": "230",
+            "maxWidth": "357"
+        }
+    },
+    "responsive-layout.desktop#block-five-found-shoes": {
+        "children": ["image#block-five-found-shoes-desktop"]
+    },
+    "image#block-five-found-shoes-desktop": {
+        "props": {
+            "blockClass": "block-five-found-shoes-desktop",
+            "src": "assets/images/home/found-shoes-desktop.jpg",
+            "link": {
+                "url": "/"
+            },
+            "maxHeight": "252",
+            "maxWidth": "1261"
+        }
+    }
+}
