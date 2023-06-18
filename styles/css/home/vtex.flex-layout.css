@@ -3,10 +3,11 @@
 }
 
 .flexRow--block-background-home {
+    display: none;
     background: #FFF4EC;
     height: 784px;
     position: absolute;
-    top: 60%;
+    top: 20%;
     width: 100%;
     z-index: 1;
 }
@@ -126,7 +127,7 @@
 
 .flexCol--block-six_carousel-offer-contain {
     max-width: 1440px;
-    gap: 20.43px;
+    gap: 10.43px;
 }
 
 .flexRowContent--block-six_carousel-offer-title {
@@ -134,9 +135,61 @@
     padding-inline: 21px;
 }
 
+/* BLOCK SEVEN */
+.flexRow--block-seven_advertisement-product-container {
+    margin-top: 71px;
+}
+
+.flexCol--block-seven_advertisement-product {
+    max-width: 1440px;
+}
+
+.flexRowContent--block-seven_advertisement-product-container-mobile {
+    display: flex;
+    gap: 8px;
+    overflow-y: scroll;
+}
+
+.flexRowContent--block-seven_advertisement-product-container-mobile::-webkit-scrollbar {
+    display: none;
+}
+
+.flexRow--block-seven_advertisement-product-container-desktop {
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+.flexRowContent--block-seven_advertisement-product-container-desktop {
+    gap: 20px;
+}
+
+/* BLOCK EIGHT */
+.flexRow--block-eight_carousel-outstanding-container {
+    margin-top: 52.29px;
+}
+
+.flexCol--block-eight_carousel-outstanding-contain {
+    max-width: 1440px;
+    gap: 10.43px;
+}
+
+.flexRowContent--block-eight_carousel-outstanding-title {
+    display: flex;
+    padding-inline: 21px;
+}
+
+@media (min-width: 768px) {
+    .flexRowContent--block-seven_advertisement-product-container-mobile {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        overflow-y: initial;
+    }
+}
+
 @media (min-width: 1024px) {
     .flexRow--block-background-home {
-        top: 64%;
+        top: 24%;
     }
 
     /* BLOCK ONE */
@@ -165,6 +218,11 @@
 
     /* BLOCK SIX */
     .flexRowContent--block-six_carousel-offer-title {
+        padding-inline: 0px;
+    }
+
+    /* BLOCK EIGHT */
+    .flexRowContent--block-eight_carousel-outstanding-title {
         padding-inline: 0px;
     }
 }
@@ -198,6 +256,21 @@
     }
 
     .flexCol--block-six_carousel-offer-contain {
+        gap: 45px;
+        padding-inline: 90px;
+    }
+
+    /* BLOCK SEVEN */
+    .flexRow--block-seven_advertisement-product-container {
+        margin-top: 69px;
+    }
+
+    /* BLOCK EIGHT */
+    .flexRow--block-eight_carousel-outstanding-container {
+        margin-top: 88px;
+    }
+
+    .flexCol--block-eight_carousel-outstanding-contain {
         gap: 45px;
         padding-inline: 90px;
     }

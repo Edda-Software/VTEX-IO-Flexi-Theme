@@ -1,5 +1,5 @@
 .flexCol--container-footer {
-    padding-top: 25px;
+    padding-top: 104px;
     gap: 36px;
 }
 
@@ -192,6 +192,7 @@
 
 @media (min-width: 1024px) {
     .flexCol--container-footer {
+        padding-top: 96px;
         gap: 54px;
     }
 

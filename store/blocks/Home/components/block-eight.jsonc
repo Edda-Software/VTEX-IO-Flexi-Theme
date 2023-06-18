@@ -1,0 +1,52 @@
+{
+    "flex-layout.row#block-eight_carousel-outstanding": {
+        "props": {
+            "blockClass": "block-eight_carousel-outstanding-container",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#block-eight_carousel-outstanding"
+        ]
+    },
+    "flex-layout.col#block-eight_carousel-outstanding": {
+        "props": {
+            "blockClass": "block-eight_carousel-outstanding-contain"
+        },
+        "children": [
+            "flex-layout.row#block-eight_carousel-outstanding-title",
+            "list-context.product-list#block-eight_carousel-outstanding"
+        ]
+    },
+    "flex-layout.row#block-eight_carousel-outstanding-title": {
+        "props": {
+            "blockClass": "block-eight_carousel-outstanding-title",
+            "colJustify": "between",
+            "colSizing": "auto",
+            "fullWidth": true
+        },
+        "children": [
+            "rich-text#block-eight_carousel-outstanding-title",
+            "rich-text#block-eight_carousel-outstanding-view-more"
+        ]
+    },
+    "rich-text#block-eight_carousel-outstanding-title": {
+        "props": {
+            "text": "Productos destacados",
+            "blockClass": "block-eight_carousel-outstanding-title"
+        }
+    },
+    "rich-text#block-eight_carousel-outstanding-view-more": {
+        "props": {
+            "text": "[Ver más](/)",
+            "blockClass": "block-eight_carousel-outstanding-view-more"
+        }
+    },
+    "list-context.product-list#block-eight_carousel-outstanding": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#carousel-banner-product-summary"
+        ]
+    }
+}

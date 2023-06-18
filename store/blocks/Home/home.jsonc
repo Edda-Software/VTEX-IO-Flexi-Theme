@@ -23,7 +23,9 @@
       "flex-layout.row#block-three_flexi-benefit",
       "flex-layout.row#block-four_oportunity",
       "flex-layout.row#block-five_found-shoes",
-      "flex-layout.row#block-six_carousel-offer"
+      "flex-layout.row#block-six_carousel-offer",
+      "flex-layout.row#block-seven_advertisement-product",
+      "flex-layout.row#block-eight_carousel-outstanding"
     ]
   }
 }

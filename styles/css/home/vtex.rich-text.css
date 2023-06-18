@@ -64,15 +64,17 @@
         line-height: 22px;
     }
 
-    /* BLOCK SIX */
-    .paragraph--block-six_carousel-offer-title {
+    /* BLOCK SIX && BLOCK EIGHT */
+    .paragraph--block-six_carousel-offer-title,
+    .paragraph--block-eight_carousel-outstanding-title {
         font-family: Keep Calm;
         font-size: 16px;
         font-weight: 500;
         line-height: 19px;
     }
 
-    .link--block-six_carousel-offer-view-more {
+    .link--block-six_carousel-offer-view-more,
+    .link--block-eight_carousel-outstanding-view-more {
         font-family: Avenir;
         font-size: 16px;
         font-weight: 500;
@@ -111,12 +113,14 @@
         }
 
         /* BLOCK SIX */
-        .paragraph--block-six_carousel-offer-title {
+        .paragraph--block-six_carousel-offer-title,
+        .paragraph--block-eight_carousel-outstanding-title {
             font-size: 24px;
             line-height: 29px;
         }
 
-        .link--block-six_carousel-offer-view-more {
+        .link--block-six_carousel-offer-view-more,
+        .link--block-eight_carousel-outstanding-view-more {
             font-size: 16px;
             font-weight: 400;
             line-height: 22px;

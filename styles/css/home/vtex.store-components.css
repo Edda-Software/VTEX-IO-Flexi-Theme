@@ -18,3 +18,9 @@
 .imageElementLink--block-five-found-shoes-mobile {
     display: contents;
 }
+
+/* BLOCK SEVEN */
+.imageElement--block-seven_advertisement-product-mobile {
+    min-width: 260px;
+    min-height: 333.71px;
+}
