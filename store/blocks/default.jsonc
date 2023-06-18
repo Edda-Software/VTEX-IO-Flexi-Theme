@@ -1,19 +1,36 @@
 {
-  "store.orderplaced": {
-    "blocks": ["order-placed"]
+  /* BREADCRUMB */
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
   },
-
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  /* ORDERPLACED */
+  "store.orderplaced": {
+    "blocks": [
+      "order-placed"
+    ]
+  },
+  /* ACCOUNT */
   "store.account": {
-    "blocks": ["my-account"],
+    "blocks": [
+      "my-account"
+    ],
     "parent": {
       "challenge": "challenge.profile"
     }
   },
-
+  /* LOGIN */
   "store.login": {
-    "blocks": ["login-content#default"]
+    "blocks": [
+      "login-content#default"
+    ]
   },
-
   "login-content#default": {
     "props": {
       "isInitialScreenOptionOnly": false,
@@ -21,7 +38,7 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
-
+  /* PRODUCT SUMMARY */
   "product-summary.shelf": {
     "children": [
       "product-summary-image",
@@ -29,5 +46,35 @@
       "product-summary-price",
       "product-summary-buy-button"
     ]
-  }
+  },
+
+  /* SLIDER LAYOUT SUMMARY PRODUCT */
+  "slider-layout#carousel-banner-product-summary": {
+    "props": {
+      "blockClass": "carousel-banner-product-summary",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "usePagination": false
+    }
+  },
+  
+  /* SLIDER LAYOUT IMAGES */
+    "slider-layout#carousel-banner-image": {
+        "props": {
+            "blockClass": "carousel-banner-image",
+            "showNavigationArrows": "never",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": true
+        }
+    }
 }

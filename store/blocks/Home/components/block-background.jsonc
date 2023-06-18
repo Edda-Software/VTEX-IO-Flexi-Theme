@@ -1,0 +1,8 @@
+{
+    "flex-layout.row#block-background-home": {
+        "props": {
+            "blockClass": "block-background-home",
+            "fullWidth": true
+        }
+    }
+}

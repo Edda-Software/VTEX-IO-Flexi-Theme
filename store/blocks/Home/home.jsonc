@@ -1,11 +1,29 @@
 {
   "store.home": {
     "blocks": [
+      "flex-layout.row#container-home"
+    ]
+  },
+  "flex-layout.row#container-home": {
+  "props": {
+    "fullWidth": true
+  },
+    "children": [
+      "flex-layout.col#container-home"
+    ]
+  },
+  "flex-layout.col#container-home": {
+    "props": {
+      "blockClass": "container-home"
+    },
+    "children": [
+      "flex-layout.row#block-background-home",
       "flex-layout.row#block-one_notificacion-bar",
       "flex-layout.row#block-two_banner-home",
       "flex-layout.row#block-three_flexi-benefit",
-      "flex-layout.row#block-four-oportunity",
-      "flex-layout.row#block-five-found-shoes"
+      "flex-layout.row#block-four_oportunity",
+      "flex-layout.row#block-five_found-shoes",
+      "flex-layout.row#block-six_carousel-offer"
     ]
   }
 }

@@ -1,0 +1,62 @@
+.paginationDotsContainer--carousel-banner-image {
+    bottom: auto;
+    top: 48px;
+    gap: 20.42px;
+}
+
+.paginationDot--carousel-banner-image {
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.paginationDot--carousel-banner-image::after {
+    visibility: visible;
+    content: url('data:image/svg+xml,<svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.36125 0.891975C11.0874 -0.589525 14.1706 2.58597 15.9385 5.63063C22.3441 16.6617 5.1706 16.0004 2.83088 10.6241C0.773068 5.89558 -0.364953 2.37347 5.36125 0.891975Z" stroke="%23BA1D2E" fill="%23FFF4EC"/></svg>');
+}
+
+.paginationDot--carousel-banner-image--isActive::after {
+    visibility: visible;
+    content: url('data:image/svg+xml,<svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.33781 0.745491C10.064 -0.736009 13.1471 2.43948 14.9151 5.48415C21.3206 16.5152 4.14716 15.8539 1.80744 10.4776C-0.250369 5.74909 -1.38839 2.22699 4.33781 0.745491Z" fill="%23BA1D2E"/></svg>');
+}
+
+.sliderTrackContainer--carousel-banner-product-summary {
+    margin-inline: 20px;
+}
+
+.sliderTrackContainer--carousel-banner-product-summary::-webkit-scrollbar {
+    margin-inline: 20px;
+    height: 6px;
+}
+
+.sliderTrackContainer--carousel-banner-product-summary::-webkit-scrollbar-track {
+    background-color: #29665D40;
+    border-radius: 20px;
+}
+
+.sliderTrackContainer--carousel-banner-product-summary::-webkit-scrollbar-thumb {
+    background-color: #29665D;
+    border-radius: 20px;
+    width: 84.05px;
+}
+
+@media (min-width: 1024px) {
+    .paginationDotsContainer--carousel-banner-image {
+        top: auto;
+        right: 73.5px;
+        left: auto;
+        flex-direction: column;
+    }
+
+    .sliderTrackContainer--carousel-banner-product-summary {
+        margin-inline: 0px;
+    }
+
+    .sliderTrackContainer--carousel-banner-product-summary::-webkit-scrollbar {
+        padding-inline: 0px;
+    }
+
+    .sliderTrackContainer--carousel-banner-product-summary::-webkit-scrollbar-thumb {
+        width: 300px;
+    }
+}

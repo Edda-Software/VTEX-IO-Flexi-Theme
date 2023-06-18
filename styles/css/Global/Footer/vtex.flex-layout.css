@@ -214,8 +214,6 @@
 
     .flexRowContent--footer-block-two_container-cards {
         gap: 42px;
-        justify-content: center;
-        overflow: initial;
     }
 
     /* Block three */
@@ -290,6 +288,11 @@
     .flexRow--footer-block-four-container-sections {
         padding-top: 0px;
         border-top: none;
+    }
+
+    .flexRowContent--footer-block-two_container-cards {
+        justify-content: center;
+        overflow: initial;
     }
 
 }

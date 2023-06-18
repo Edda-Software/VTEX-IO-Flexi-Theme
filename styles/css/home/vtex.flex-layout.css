@@ -1,3 +1,16 @@
+.flexCol--container-home {
+    position: relative;
+}
+
+.flexRow--block-background-home {
+    background: #FFF4EC;
+    height: 784px;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    z-index: 1;
+}
+
 /* BLOCK ONE */
 .flexRow--block-one_notificacion-bar {
     align-items: center;
@@ -60,6 +73,8 @@
     margin-top: 43.55px;
     max-width: 1440px;
     margin-inline: auto;
+    position: relative;
+    z-index: 10;
 }
 
 .flexCol--block-four-oportunity {
@@ -98,9 +113,31 @@
     margin-top: 52px;
     max-width: 1440px;
     padding-inline: 18px;
+    position: relative;
+    z-index: 10;
+}
+
+/* BLOCK SIX */
+.flexRow--block-six_carousel-offer-container {
+    margin-top: 86px;
+    position: relative;
+    z-index: 10;
+}
+
+.flexCol--block-six_carousel-offer-contain {
+    max-width: 1440px;
+    gap: 20.43px;
+}
+
+.flexRowContent--block-six_carousel-offer-title {
+    display: flex;
+    padding-inline: 21px;
 }
 
 @media (min-width: 1024px) {
+    .flexRow--block-background-home {
+        top: 64%;
+    }
 
     /* BLOCK ONE */
     .flexRow--block-one_notificacion-bar {
@@ -125,6 +162,11 @@
     .flexRowContent--block-five-found-shoes-container {
         padding-inline: 90px;
     }
+
+    /* BLOCK SIX */
+    .flexRowContent--block-six_carousel-offer-title {
+        padding-inline: 0px;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -148,5 +190,15 @@
 
     .flexRowContent--block-four-oportunity-container {
         margin-top: 68px;
+    }
+
+    /* BLOCK SIX */
+    .flexRow--block-six_carousel-offer-container {
+        margin-top: 88px;
+    }
+
+    .flexCol--block-six_carousel-offer-contain {
+        gap: 45px;
+        padding-inline: 90px;
     }
 }

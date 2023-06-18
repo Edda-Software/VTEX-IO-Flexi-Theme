@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-six_carousel-offer": {
+        "props": {
+            "blockClass": "block-six_carousel-offer-container",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#block-six_carousel-offer"
+        ]
+    },
+    "flex-layout.col#block-six_carousel-offer": {
+        "props": {
+            "blockClass": "block-six_carousel-offer-contain"
+        },
+        "children": [
+            "flex-layout.row#block-six_carousel-offer-title",
+            "list-context.product-list#block-six_carousel-offer"
+        ]
+    },
+    "flex-layout.row#block-six_carousel-offer-title": {
+        "props": {
+            "blockClass": "block-six_carousel-offer-title",
+            "colJustify": "between",
+            "colSizing": "auto",
+            "fullWidth": true
+        },
+        "children": [
+            "rich-text#block-six_carousel-offer-title",
+            "rich-text#block-six_carousel-offer-view-more"
+        ]
+    },
+    "rich-text#block-six_carousel-offer-title": {
+        "props": {
+            "text": "Promociones y descuentos",
+            "blockClass": "block-six_carousel-offer-title"
+        }
+    },
+    "rich-text#block-six_carousel-offer-view-more": {
+        "props": {
+            "text": "[Ver más](/)",
+            "blockClass": "block-six_carousel-offer-view-more"
+        }
+    },
+
+
+    "list-context.product-list#block-six_carousel-offer": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#carousel-banner-product-summary"
+        ]
+    }
+}
