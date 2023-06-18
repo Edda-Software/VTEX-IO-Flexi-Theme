@@ -112,7 +112,8 @@
 
     /* Block two */
     .paragraph--footer-block-two_card-one-title,
-    .paragraph--footer-block-two_card-two-title {
+    .paragraph--footer-block-two_card-two-title,
+    .paragraph--footer-block-two_card-three-title {
         opacity: 100%;
         font-size: 17px;
         line-height: 20px;

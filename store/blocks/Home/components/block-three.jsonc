@@ -1,0 +1,200 @@
+{
+    "flex-layout.row#block-three_flexi-benefit": {
+        "props": {
+            "blockClass": "block-three_flexi-benefit-container",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "flex-layout.col#block-three_flexi-benefit"
+        ]
+    },
+    "flex-layout.col#block-three_flexi-benefit": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "block-three_flexi-benefit"
+        },
+        "children": [
+            "rich-text#block-three_flexi-benefit-title",
+            "flex-layout.row#block-three_flexi-benefits-list"
+        ]
+    },
+    "rich-text#block-three_flexi-benefit-title": {
+        "props": {
+            "text": "Beneficios de comprar en Flexi",
+            "blockClass": "block-three_flexi-benefit-title"
+        }
+    },
+    "flex-layout.row#block-three_flexi-benefits-list": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "block-three_flexi-benefits-list"
+        },
+        "children": [
+            "flex-layout.col#block-three_flexi-benefits-list-1",
+            "flex-layout.col#block-three_flexi-benefits-list-2",
+            "flex-layout.col#block-three_flexi-benefits-list-3",
+            "flex-layout.col#block-three_flexi-benefits-list-4"
+        ]
+    },
+    "flex-layout.col#block-three_flexi-benefits-list-1": {
+        "children": [
+            "flex-layout.row#block-three_flexi-benefits-list-1"
+        ]
+    },
+    "flex-layout.col#block-three_flexi-benefits-list-2": {
+        "children": [
+            "flex-layout.row#block-three_flexi-benefits-list-2"
+        ]
+    },
+    "flex-layout.col#block-three_flexi-benefits-list-3": {
+        "children": [
+            "flex-layout.row#block-three_flexi-benefits-list-3"
+        ]
+    },
+    "flex-layout.col#block-three_flexi-benefits-list-4": {
+        "children": [
+            "flex-layout.row#block-three_flexi-benefits-list-4"
+        ]
+    },
+    /* *************************************** */
+    "flex-layout.row#block-three_flexi-benefits-list-1": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "block-three_flexi-benefits-list-card"
+        },
+        "children": [
+            "image#block-three_flexi-benefits-list-1",
+            "flex-layout.col#block-three_flexi-benefits-list-1a"
+        ]
+    },
+    "image#block-three_flexi-benefits-list-1": {
+        "props": {
+            "src": "assets/images/home/benfit-1.svg",
+            "maxHeight": 23.97,
+            "maxWidth": 27.7
+        }
+    },
+    "flex-layout.col#block-three_flexi-benefits-list-1a": {
+        "children": [
+            "rich-text#block-three_flexi-benefits-list-1a-title",
+            "rich-text#block-three_flexi-benefits-list-1a-subtitle"
+        ]
+    },
+    "rich-text#block-three_flexi-benefits-list-1a-title": {
+        "props": {
+            "text": "Envío gratis a partir de Q500",
+            "blockClass": "block-three_flexi-benefits-list-title"
+        }
+    },
+    "rich-text#block-three_flexi-benefits-list-1a-subtitle": {
+        "props": {
+            "text": "#CÓMODOENCASA",
+            "blockClass": "block-three_flexi-benefits-list-subtitle"
+        }
+    },
+    "flex-layout.row#block-three_flexi-benefits-list-2": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "block-three_flexi-benefits-list-card"
+        },
+        "children": [
+            "image#block-three_flexi-benefits-list-2",
+            "flex-layout.col#block-three_flexi-benefits-list-2a"
+        ]
+    },
+    "image#block-three_flexi-benefits-list-2": {
+        "props": {
+            "src": "assets/images/home/benfit-2.svg",
+            "maxHeight": 23.97,
+            "maxWidth": 27.7
+        }
+    },
+    "flex-layout.col#block-three_flexi-benefits-list-2a": {
+        "children": [
+            "rich-text#block-three_flexi-benefits-list-2a-title",
+            "rich-text#block-three_flexi-benefits-list-2a-subtitle"
+        ]
+    },
+    "rich-text#block-three_flexi-benefits-list-2a-title": {
+        "props": {
+            "text": "Compra segura",
+            "blockClass": "block-three_flexi-benefits-list-title"
+        }
+    },
+    "rich-text#block-three_flexi-benefits-list-2a-subtitle": {
+        "props": {
+            "text": "Tu compra es 100% segura",
+            "blockClass": "block-three_flexi-benefits-list-subtitle"
+        }
+    },
+    "flex-layout.row#block-three_flexi-benefits-list-3": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "block-three_flexi-benefits-list-card"
+        },
+        "children": [
+            "image#block-three_flexi-benefits-list-3",
+            "flex-layout.col#block-three_flexi-benefits-list-3a"
+        ]
+    },
+    "image#block-three_flexi-benefits-list-3": {
+        "props": {
+            "src": "assets/images/home/benfit-3.svg",
+            "maxHeight": 23.97,
+            "maxWidth": 27.7
+        }
+    },
+    "flex-layout.col#block-three_flexi-benefits-list-3a": {
+        "children": [
+            "rich-text#block-three_flexi-benefits-list-3a-title",
+            "rich-text#block-three_flexi-benefits-list-3a-subtitle"
+        ]
+    },
+    "rich-text#block-three_flexi-benefits-list-3a-title": {
+        "props": {
+            "text": "Devoluciones",
+            "blockClass": "block-three_flexi-benefits-list-title"
+        }
+    },
+    "rich-text#block-three_flexi-benefits-list-3a-subtitle": {
+        "props": {
+            "text": "30 días a partir de tu compra",
+            "blockClass": "block-three_flexi-benefits-list-subtitle"
+        }
+    },
+    "flex-layout.row#block-three_flexi-benefits-list-4": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "block-three_flexi-benefits-list-card"
+        },
+        "children": [
+            "image#block-three_flexi-benefits-list-4",
+            "flex-layout.col#block-three_flexi-benefits-list-4a"
+        ]
+    },
+    "image#block-three_flexi-benefits-list-4": {
+        "props": {
+            "src": "assets/images/home/benfit-4.svg",
+            "maxHeight": 23.97,
+            "maxWidth": 27.7
+        }
+    },
+    "flex-layout.col#block-three_flexi-benefits-list-4a": {
+        "children": [
+            "rich-text#block-three_flexi-benefits-list-4a-title",
+            "rich-text#block-three_flexi-benefits-list-4a-subtitle"
+        ]
+    },
+    "rich-text#block-three_flexi-benefits-list-4a-title": {
+        "props": {
+            "text": "Soporte",
+            "blockClass": "block-three_flexi-benefits-list-title"
+        }
+    },
+    "rich-text#block-three_flexi-benefits-list-4a-subtitle": {
+        "props": {
+            "text": "Te ayudamos en todas tus dudas",
+            "blockClass": "block-three_flexi-benefits-list-subtitle"
+        }
+    }
+}

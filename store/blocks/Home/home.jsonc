@@ -1,15 +1,9 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "flex-layout.row#block-one_notificacion-bar",
+      "flex-layout.row#block-two_banner-home",
+      "flex-layout.row#block-three_flexi-benefit"
     ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "Flexi VTEX IO!",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
   }
 }

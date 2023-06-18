@@ -1,0 +1,88 @@
+    /* BLOCK ONE */
+    .paragraph--container-notificacion-bar-1 {
+        align-items: center;
+        display: flex;
+        color: #FFFFFF;
+        font-family: Keep Calm;
+        font-size: 12px;
+        font-weight: 500;
+        gap: 9px;
+        line-height: 14px;
+        text-transform: uppercase;
+    }
+
+    .paragraph--container-notificacion-bar-1::after {
+        content: url('data:image/svg+xml,<svg width="3" height="16" viewBox="0 0 3 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 16C0.0302475 15.7237 0.0544454 15.5435 0.0544454 15.5435L1.96609 0H2.8844L0.960661 15.5556C0.960661 15.5556 0.936463 15.7357 0.912265 16L0 16Z" fill="%238F1220"/></svg>');
+    }
+
+    .paragraph--container-notificacion-bar-2 {
+        color: #FFFFFF;
+        font-family: Avenir;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    .link--container-notificacion-bar-2 {
+        font-family: Keep Calm;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 13px;
+        color: #FFFFFF;
+    }
+
+    /* BLOCK THREE */
+    .paragraph--block-three_flexi-benefit-title {
+        font-family: Keep Calm;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #000000;
+    }
+
+    .paragraph--block-three_flexi-benefits-list-title {
+        color: #38312C;
+        font-family: Avenir;
+        font-size: 13px;
+        font-weight: 800;
+        line-height: 18px;
+    }
+
+    .paragraph--block-three_flexi-benefits-list-subtitle {
+        color: #38312C;
+        font-family: Avenir;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    @media (min-width: 1024px) {
+
+        /* BLOCK ONE */
+        .paragraph--container-notificacion-bar-2 {
+            font-size: 14px;
+            line-height: 19px;
+
+        }
+
+        .link--container-notificacion-bar-2 {
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        /* BLOCK THREE */
+        .paragraph--block-three_flexi-benefit-title {
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        .paragraph--block-three_flexi-benefits-list-title {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        .paragraph--block-three_flexi-benefits-list-subtitle {
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }

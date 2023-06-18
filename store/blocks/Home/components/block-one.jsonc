@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-one_notificacion-bar": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "block-one_notificacion-bar",
+            "horizontalAlign": "center",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#block-one_notificacion-bar"
+        ]
+    },
+    "flex-layout.col#block-one_notificacion-bar": {
+        "children": [
+            "flex-layout.row#block-one_container-notificacion-bar"
+        ]
+    },
+    "flex-layout.row#block-one_container-notificacion-bar": {
+        "props": {
+            "blockClass": "block-one_container-notificacion-bar",
+            "colSizing": "auto",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "flex-layout.col#container-notificacion-bar-1",
+            "flex-layout.col#container-notificacion-bar-2"
+        ]
+    },
+    "flex-layout.col#container-notificacion-bar-1": {
+        "children": [
+            "rich-text#container-notificacion-bar-1"
+        ]
+    },
+    "flex-layout.col#container-notificacion-bar-2": {
+        "props": {
+            "blockClass": "container-notificacion-bar-2"
+        },
+        "children": [
+            "rich-text#container-notificacion-bar-2"
+        ]
+    },
+    "rich-text#container-notificacion-bar-1": {
+        "props": {
+            "text": "#cómodoencasa",
+            "blockClass": "container-notificacion-bar-1"
+        }
+    },
+    "rich-text#container-notificacion-bar-2": {
+        "props": {
+            "text": "Envíos gratis en compras mayores a Q500 para usuarios. [Registrate](/)",
+            "blockClass": "container-notificacion-bar-2"
+        }
+    }
+}

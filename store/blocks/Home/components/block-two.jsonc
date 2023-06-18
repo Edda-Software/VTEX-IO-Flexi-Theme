@@ -1,0 +1,51 @@
+{
+    "flex-layout.row#block-two_banner-home": {
+        "props": {
+            "fullWidth": true
+        },
+        "children": [
+            "list-context.image-list#banner-home"
+        ]
+    },
+    "list-context.image-list#banner-home": {
+        "title": "Banner Home",
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "assets/images/PLP/banner-desktop.jpg",
+                    "mobileImage": "assets/images/PLP/banner-mobile.jpg",
+                    "description": "something something"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "assets/images/PLP/banner-desktop.jpg",
+                    "mobileImage": "assets/images/PLP/banner-mobile.jpg",
+                    "description": "something something"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "assets/images/PLP/banner-desktop.jpg",
+                    "mobileImage": "assets/images/PLP/banner-mobile.jpg",
+                    "description": "something something"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#banner-home"
+        ]
+    },
+    "slider-layout#banner-home": {
+        "props": {
+            "showNavigationArrows": "never",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": true
+        }
+    }
+}
