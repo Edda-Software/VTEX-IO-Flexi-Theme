@@ -19,7 +19,7 @@
 .emailInputContainer--label-newsletter-input-email :global(.vtex-styleguide-9-x-input)::placeholder {
     font-family: Avenir;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 19px;
     color: #9B9B9B;
 }
@@ -34,7 +34,7 @@
 .newsletterForm--container-newsletter-form :global(.vtex-button) :global(.vtex-button__label) {
     font-family: Keep Calm;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 17px;
     text-transform: capitalize;
 }

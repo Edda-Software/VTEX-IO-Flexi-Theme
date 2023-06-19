@@ -43,7 +43,7 @@
     },
     "list-context.product-list#block-eight_carousel-outstanding": {
         "blocks": [
-            "product-summary.shelf"
+            "product-summary.shelf#global"
         ],
         "children": [
             "slider-layout#carousel-banner-product-summary"

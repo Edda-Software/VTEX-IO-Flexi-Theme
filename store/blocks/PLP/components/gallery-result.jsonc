@@ -1,18 +1,18 @@
 {
   "gallery": {
     "props": {
+      "blockClass": "gallery-plp",
       "layouts": [
         {
           "name": "grid",
           "component": "GridSummary",
-          "itemsPerRow": {
-            "(min-width:1920px)": 4,
+          "itemsPerRow": {            
             "desktop": 3,
             "phone": 2
           }
         }
       ],
-      "GridSummary": "product-summary.shelf"
+      "GridSummary": "product-summary.shelf#global"
     }
   }
 }

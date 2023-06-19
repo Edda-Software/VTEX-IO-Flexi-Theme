@@ -1,0 +1,144 @@
+.container--product-summary-shelf-container {
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    padding: 10px 7.77px;
+}
+
+.element--product-summary-shelf-container {
+    padding: 0px;
+    justify-content: space-between;
+}
+
+:global(.vtex-store-components-3-x-discountInsideContainer) {
+    display: flex;
+    align-items: center;
+    font-family: Keep Calm;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    background-color: #29665D;
+    color: #FFFFFF;
+    width: 83px;
+    height: 29px;
+    padding: 8px;
+    gap: 5px;
+}
+
+:global(.vtex-store-components-3-x-discountInsideContainer)::after {
+    content: "DCTO";
+}
+
+.imageContainer,
+.image {
+    min-width: 232.27px !important;
+    min-height: 232.27px !important;
+    max-width: 232.27px !important;
+    max-height: 232.27px !important;
+    margin: 0px;
+}
+
+.image {
+    box-sizing: border-box;
+    border: 1px solid #40312824;
+}
+
+.nameContainer {
+    padding: 0px;
+    justify-content: start;
+}
+
+.nameWrapper {
+    text-overflow: ellipsis;
+}
+
+.brandName {
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.description {
+    align-items: center;
+    display: flex;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) {
+    display: flex;
+    gap: 8px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-sellingPrice) :global(.vtex-product-price-1-x-currencyContainer) {
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-listPriceValue) {
+   text-decoration: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-listPriceValue) :global(.vtex-product-price-1-x-currencyContainer) {
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #00000066;
+    text-decoration: line-through;
+}
+
+.buyButtonContainer {
+    padding: 0px;
+}
+
+@media (min-width: 1024px) {
+    .container--product-summary-shelf-container {
+        padding: 16px;
+    }
+
+    .imageContainer,
+    .image {
+        min-width: 268px !important;
+        min-height: 268px !important;
+        max-width: 268px !important;
+        max-height: 268px !important;
+    }
+
+    .brandName {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) {
+        gap: 7px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-currencyContainer) {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-listPriceValue) :global(.vtex-product-price-1-x-currencyContainer) {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .description {
+        font-size: 15px;
+        line-height: 20.49px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}

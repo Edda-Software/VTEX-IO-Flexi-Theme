@@ -45,7 +45,7 @@
 
     "list-context.product-list#block-six_carousel-offer": {
         "blocks": [
-            "product-summary.shelf"
+            "product-summary.shelf#global"
         ],
         "children": [
             "slider-layout#carousel-banner-product-summary"

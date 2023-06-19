@@ -12,8 +12,16 @@
             "blockClass": "container-search-result-layout"
         },
         "children": [
-            "breadcrumb.search",
-            "list-context.image-list#search-result-layout",
+            
+            "flex-layout.row#search-result-layout_content-filters-searchResult"
+        ]
+    },
+    "flex-layout.row#search-result-layout_content-filters-searchResult": {
+        "props": {
+            "blockClass": "search-result-layout_content-filters-searchResult",
+            "colSizing": "auto"
+        },
+        "children": [
             "responsive-layout.mobile#search-result-layout_content-filters-searchResult",
             "responsive-layout.desktop#search-result-layout_content-filters-searchResult"
         ]
@@ -25,12 +33,14 @@
             "not-found"
         ]
     },
-    "filter-navigator.v3":{
-        "blocks": ["sidebar-close-button"],
+    "filter-navigator.v3": {
+        "blocks": [
+            "sidebar-close-button"
+        ],
         "props": {
             "initiallyCollapsed": true,
             "fullWidthOnMobile": true,
-            "showClearByFilter":true
+            "showClearByFilter": true
         }
     }
 }

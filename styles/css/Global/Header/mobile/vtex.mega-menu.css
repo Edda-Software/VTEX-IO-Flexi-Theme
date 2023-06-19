@@ -21,7 +21,7 @@
 .styledLinkText {
     font-family: Keep Calm;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 22px;
     margin-left: 8px;
 }
@@ -50,7 +50,7 @@
 .submenuContainerTitle {
     font-family: Keep Calm;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 22px;
     color: #BA1D2E;
 }
@@ -62,7 +62,7 @@
 .collapsibleHeaderText {
     font-family: Avenir;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 45px;
     color: #000000;
     margin: 0px;

@@ -75,12 +75,17 @@
     }
   },
   "search-result-layout": {
+    "props": {
+      "fullWidth": true
+    },
     "blocks": [
       "search-result-layout.desktop"
     ]
   },
   "search-result-layout.desktop": {
     "children": [
+      "breadcrumb.search",
+      "list-context.image-list#search-result-layout",
       "flex-layout.row#container-search-result-layout"
     ]
   }

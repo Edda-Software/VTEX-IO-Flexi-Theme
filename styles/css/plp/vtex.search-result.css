@@ -1,3 +1,7 @@
+/* .searchResultContainer {
+    margin-inline: 0px;
+}
+ */
 .totalProductsMessage {
     display: none;
 }
@@ -20,7 +24,7 @@
     text-transform: capitalize;
     font-family: Keep Calm;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 17px;
     margin-left: 0px;
 }
@@ -43,7 +47,7 @@
     text-transform: initial;
     font-family: Keep Calm;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 17px;
 }
 
@@ -62,7 +66,7 @@
 .buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
     font-family: Keep Calm;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 17px;
     visibility: hidden;
     position: relative;
@@ -75,10 +79,6 @@
     content: "Cargar más";
 }
 
-.flexRowContent--search-result-layout_content-filters-searchResult-desktop-container {
-    padding-block: 50px;
-}
-
 .filterContent {
     display: flex;
     flex-direction: column;
@@ -88,7 +88,7 @@
 .filterTitleSpan {
     font-family: Keep Calm;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 17px;
     color: #000000;
 }
@@ -202,9 +202,93 @@
     margin: 0px;
     font-family: Keep Calm;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 22px;
     color: #000000;
+}
+
+.gallery--gallery-plp--grid {
+    gap: 9px;
+    justify-content: center;
+}
+
+.galleryItem--gallery-plp {
+    padding: 0px;
+    max-width: 186px !important;
+}
+
+/* PRODUCT SUMMARY PLP */
+.gallery--gallery-plp :global(.vtex-product-summary-2-x-container--product-summary-shelf-container) {
+    max-width: 186px !important;
+    max-height: 285.43px;
+}
+
+.gallery--gallery-plp :global(.vtex-product-summary-2-x-imageContainer),
+.gallery--gallery-plp :global(.vtex-product-summary-2-x-image) {
+    max-width: 167px !important;
+    max-height: 167px !important;
+    min-width: 167px !important;
+    min-height: 167px !important;
+    margin: 0px;
+}
+
+.gallery--gallery-plp :global(.vtex-store-components-3-x-discountInsideContainer) {
+    display: flex;
+    align-items: center;
+    font-family: Keep Calm;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10.76px;
+    background-color: #29665D;
+    color: #FFFFFF;
+    width: 70px;
+    height: 27px;
+    padding: 8px;
+    gap: 5px;
+}
+
+.gallery--gallery-plp :global(.vtex-product-summary-2-x-productBrand) {
+    font-family: Keep Calm;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+}
+
+.gallery--gallery-plp :global(.vtex-product-summary-2-x-description) {
+    font-family: Avenir;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+}
+
+.gallery--gallery-plp :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-sellingPrice) :global(.vtex-product-price-1-x-currencyContainer) {
+    font-family: Keep Calm;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+}
+
+.gallery--gallery-plp :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-listPriceValue) {
+    text-decoration: none;
+}
+
+.gallery--gallery-plp :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-listPriceValue) :global(.vtex-product-price-1-x-currencyContainer) {
+    font-family: Keep Calm;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+    color: #00000066;
+    text-decoration: line-through;
+}
+
+@media (min-width: 768px) {
+    .gallery--gallery-plp--grid {
+        padding-inline: 20px;
+    }
 }
 
 @media(min-width: 1024px) {
@@ -230,7 +314,74 @@
         margin: 0 auto 0 0;
     }
 
-    .gallery--grid {
-        padding: 0px;
+    .gallery--gallery-plp--grid {
+        padding: 20px 12px;
+        gap: 20px;
+        justify-content: start;
+    }
+
+    .galleryItem--gallery-pl {
+        max-width: 300px !important;
+    }
+
+    .gallery--gallery-plp :global(.vtex-product-summary-2-x-container--product-summary-shelf-container) {
+        max-width: 300px !important;
+        min-width: 300px !important;
+        max-height: 452px;
+    }
+
+    .gallery--gallery-plp :global(.vtex-product-summary-2-x-imageContainer),
+    .gallery--gallery-plp :global(.vtex-product-summary-2-x-image) {
+        max-width: 268px !important;
+        max-height: 268px !important;
+        min-width: 268px !important;
+        min-height: 268px !important;
+    }
+
+    .galleryItem--gallery-plp {
+        max-width: 300px !important;
+    }
+
+    .gallery--gallery-plp :global(.vtex-store-components-3-x-discountInsideContainer) {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13px;
+        width: 83px;
+        height: 29px;
+        padding: 8px;
+        font-size: 10px;
+        line-height: 13.45px;
+    }
+
+    .gallery--gallery-plp :global(.vtex-product-summary-2-x-productBrand) {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+    }
+
+    .gallery--gallery-plp :global(.vtex-product-summary-2-x-description) {
+        font-size: 15px;
+        line-height: 20.49px;
+        text-align: left;
+    }
+
+    .gallery--gallery-plp :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-sellingPrice) :global(.vtex-product-price-1-x-currencyContainer) {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+
+    .gallery--gallery-plp :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-listPriceValue) {
+        text-decoration-color: #00000066;
+    }
+
+    .gallery--gallery-plp :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-listPriceValue) :global(.vtex-product-price-1-x-currencyContainer) {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .gallery--gallery-plp--grid {
+        padding-inline: 13px;
     }
 }

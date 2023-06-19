@@ -40,6 +40,20 @@
     width: 84.05px;
 }
 
+.sliderTrack--carousel-banner-product-summary {
+    width: 2573px !important;
+    gap: 9.3px;
+    padding-bottom: 14.07px;
+}
+
+/* PRODUCT SUMMARY */
+.slide--carousel-banner-product-summary {
+    max-height: 383px;
+    max-width: 248px;
+    min-height: 383px;
+    min-width: 248px;
+}
+
 @media (min-width: 1024px) {
     .paginationDotsContainer--carousel-banner-image {
         top: auto;
@@ -58,5 +72,18 @@
 
     .sliderTrackContainer--carousel-banner-product-summary::-webkit-scrollbar-thumb {
         width: 300px;
+    }
+
+    .sliderTrack--carousel-banner-product-summary {
+        width: 3200px !important;
+        gap: 20px;
+        padding-bottom: 51px;
+    }
+
+    .slide--carousel-banner-product-summary {
+        max-height: 452px;
+        max-width: 300px;
+        min-height: 452px;
+        min-width: 300px;
     }
 }

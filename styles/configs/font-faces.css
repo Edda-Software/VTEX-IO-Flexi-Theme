@@ -2,7 +2,7 @@
 @font-face {
     font-family: "Keep Calm";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-display: swap;
     src: local("KeepCalm"), local("KeepCalm-Medium"),
       url("assets/fonts/KeepCalm-Medium.ttf") format("ttf");
