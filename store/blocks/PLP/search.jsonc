@@ -86,7 +86,8 @@
     "children": [
       "breadcrumb.search",
       "list-context.image-list#search-result-layout",
-      "flex-layout.row#container-search-result-layout"
+      "flex-layout.row#container-search-result-layout",
+      "flex-layout.row#newsletter-global-container"
     ]
   }
 }

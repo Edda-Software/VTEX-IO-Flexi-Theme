@@ -20,7 +20,7 @@
     color: #FFFFFF;
     width: 83px;
     height: 29px;
-    padding: 8px;
+    padding: 12px 8px 8px;
     gap: 5px;
 }
 
@@ -86,7 +86,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-listPriceValue) {
-   text-decoration: none;
+    text-decoration: none;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-listPriceValue) :global(.vtex-product-price-1-x-currencyContainer) {
@@ -98,9 +98,42 @@
     text-decoration: line-through;
 }
 
+/* BUY BUTTON */
+.container--product-summary-shelf-container .buyButton {
+    display: flex;
+    justify-content: start;
+}
+
+.buyButton {
+    display: flex;
+    justify-content: center;
+}
+
 .buyButtonContainer {
     padding: 0px;
 }
+
+.buyButtonContainer :global(.vtex-button) {
+    height: 32px;
+    width: 166px;
+    border-radius: 0px;
+}
+
+.buyButtonContainer :global(.vtex-button__label) {
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Keep Calm;
+    font-size: 11px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 13px;
+    letter-spacing: 0em;
+    padding: 0px;
+    text-transform: initial;
+}
+
+/* ******************* */
 
 @media (min-width: 1024px) {
     .container--product-summary-shelf-container {
@@ -141,4 +174,22 @@
         text-overflow: ellipsis;
         white-space: nowrap;
     }
+
+    /* BUY BUTTON */
+    .buyButton {
+        display: flex;
+        justify-content: start;
+    }
+
+    .buyButtonContainer :global(.vtex-button) {
+        height: 49px;
+        width: 158px;
+    }
+
+    .buyButtonContainer :global(.vtex-button__label) {
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+
+    /* ******************* */
 }

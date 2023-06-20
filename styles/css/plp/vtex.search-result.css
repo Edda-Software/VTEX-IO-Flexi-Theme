@@ -55,6 +55,10 @@
     display: none;
 }
 
+.buttonShowMore--layout {
+    margin-top: 102.57px;
+}
+
 .buttonShowMore :global(.vtex-button) {
     width: 167px;
     height: 49px;
@@ -243,7 +247,7 @@
     color: #FFFFFF;
     width: 70px;
     height: 27px;
-    padding: 8px;
+    padding: 12px 8px 8px;
     gap: 5px;
 }
 
@@ -327,6 +331,7 @@
     .gallery--gallery-plp :global(.vtex-product-summary-2-x-container--product-summary-shelf-container) {
         max-width: 300px !important;
         min-width: 300px !important;
+        min-height: 452px;
         max-height: 452px;
     }
 
@@ -348,7 +353,6 @@
         line-height: 13px;
         width: 83px;
         height: 29px;
-        padding: 8px;
         font-size: 10px;
         line-height: 13.45px;
     }
@@ -377,6 +381,19 @@
     .gallery--gallery-plp :global(.vtex-flex-layout-0-x-flexRowContent--product-price_shelf-global) :global(.vtex-product-price-1-x-listPriceValue) :global(.vtex-product-price-1-x-currencyContainer) {
         font-size: 16px;
         line-height: 19.2px;
+    }
+
+    .buttonShowMore--layout {
+        margin-top: 80px;
+    }
+
+    .buttonShowMore :global(.vtex-button) {
+        width: 299px;
+        border-radius: 0%;
+    }
+
+    .buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
+        line-height: 16.8px;
     }
 }
 

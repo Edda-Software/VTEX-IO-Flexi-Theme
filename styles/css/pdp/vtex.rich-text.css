@@ -1,0 +1,29 @@
+.paragraph--product-page_carousel-other-products-title {
+    font-family: Keep Calm;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.link--product-page_carousel-other-products-view-more {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    color: #000000;
+    white-space: nowrap;
+}
+
+@media (min-width: 1024px) {
+    .paragraph--product-page_carousel-other-products-title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .link--product-page_carousel-other-products-view-more {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}

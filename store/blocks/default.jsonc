@@ -55,7 +55,7 @@
     "props": {
       "blockClass": "product-price_shelf-global",
       "colSizing": "auto",
-      "colJustify":"left"
+      "colJustify": "left"
     },
     "children": [
       "product-selling-price",
@@ -88,6 +88,110 @@
       },
       "infinite": true,
       "fullWidth": true
+    }
+  },
+  /* NEWSLETTER */
+  "flex-layout.row#newsletter-global-container": {
+    "props": {
+      "blockClass": "newsletter-global-container",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#newsletter-global-contain",
+      "responsive-layout.mobile#newsletter-global-image",
+      "responsive-layout.desktop#newsletter-global-image"
+    ]
+  },
+  "flex-layout.col#newsletter-global-contain": {
+    "props": {
+      "blockClass": "newsletter-global-contain",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.row#newsletter-global-contain-titles-text",
+      "newsletter-form#global"
+    ]
+  },
+  "flex-layout.row#newsletter-global-contain-titles-text": {
+    "props": {
+      "blockClass": "newsletter-global-contain-titles-text"
+    },
+    "children": [
+      "flex-layout.col#newsletter-global-contain-titles-text"
+    ]
+  },
+  "flex-layout.col#newsletter-global-contain-titles-text": {
+    "children": [
+      "rich-text#newsletter-global-title",
+      "rich-text#newsletter-global-subtitle"
+    ]
+  },
+  "rich-text#newsletter-global-title": {
+    "props": {
+      "blockClass": "newsletter-global-title",
+      "text": "Suscríbete a nuestra newsletter"
+    }
+  },
+  "rich-text#newsletter-global-subtitle": {
+    "props": {
+      "blockClass": "newsletter-global-subtitle",
+      "text": "Entérate de primera mano lo que tenemos para ti"
+    }
+  },
+  "newsletter-form#global": {
+    "children": [
+      "flex-layout.row#newsletter-global-content-inputs",
+      "newsletter-checkbox-confirmation#global"
+    ]
+  },
+  "flex-layout.row#newsletter-global-content-inputs": {
+    "props": {
+      "blockClass": "newsletter-global-content-inputs",
+      "colSizing": "auto"
+    },
+    "children": [
+      "newsletter-input-email#global",
+      "newsletter-submit#global"
+    ]
+  },
+  "newsletter-input-email#global": {
+    "props": {
+      "placeholderText": "Correo"
+    }
+  },
+  "newsletter-submit#global": {
+    "props": {
+      "submitButtonLabel": "Suscribirme"
+    }
+  },
+  "newsletter-checkbox-confirmation#global": {
+    "props": {
+      "checkboxLabel": "He leído y acepto las Políticas de Privacidad y Tratamiento de Datos Personales. ",
+      "firstLabelLink": {
+        "url": "/terminos-condiciones",
+        "text": "Ver políticas aquí"
+      }
+    }
+  },
+  "responsive-layout.mobile#newsletter-global-image": {
+    "children": [
+      "image#newsletter-global-image-mobile"
+    ]
+  },
+  "responsive-layout.desktop#newsletter-global-image": {
+    "children": [
+      "image#newsletter-global-image-desktop"
+    ]
+  },
+  "image#newsletter-global-image-mobile": {
+    "props": {
+      "blockClass": "newsletter-global-image-mobile",
+      "src": "assets/images/generalComponents/newsletter-mobile.jpg"
+    }
+  },
+  "image#newsletter-global-image-desktop": {
+    "props": {
+      "src": "assets/images/generalComponents/newsletter-desktop.png"
     }
   }
 }

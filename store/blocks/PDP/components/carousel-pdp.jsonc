@@ -1,0 +1,52 @@
+{
+    "flex-layout.row#product-page_carousel-other-products": {
+        "props": {
+            "blockClass": "product-page_carousel-other-products",
+            "fullWidth": true
+        },
+        "children": [
+             "flex-layout.col#product-page_carousel-other-products"
+        ]
+    },
+    "flex-layout.col#product-page_carousel-other-products": {
+        "props": {
+            "blockClass": "product-page_carousel-other-products-contain"
+        },
+        "children": [
+            "flex-layout.row#product-page_carousel-other-products-title",
+           "list-context.product-list#product-page_carousel-other-products"
+        ]
+     },
+    "flex-layout.row#product-page_carousel-other-products-title": {
+        "props": {
+            "blockClass": "product-page_carousel-other-products-title",
+            "colJustify": "between",
+            "colSizing": "auto",
+            "fullWidth": true
+        },
+        "children": [
+            "rich-text#product-page_carousel-other-products-title",
+            "rich-text#product-page_carousel-other-products-view-more"
+        ]
+    },
+    "rich-text#product-page_carousel-other-products-title": {
+        "props": {
+            "text": "Otros artículos que te puede gustar",
+            "blockClass": "product-page_carousel-other-products-title"
+        }
+    },
+    "rich-text#product-page_carousel-other-products-view-more": {
+        "props": {
+            "text": "[Ver más](/)",
+            "blockClass": "product-page_carousel-other-products-view-more"
+        }
+    },
+    "list-context.product-list#product-page_carousel-other-products": {
+        "blocks": [
+            "product-summary.shelf#global"
+        ],
+        "children": [
+            "slider-layout#carousel-banner-product-summary"
+        ]
+    }
+}

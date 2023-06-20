@@ -10,7 +10,7 @@
         },
         "children": [
             "flex-layout.row#footer-block-three_section-one_container-texts",
-            "newsletter-form"
+            "newsletter-form#footer"
         ]
     },
     "flex-layout.row#footer-block-three_section-one_container-texts": {
@@ -36,13 +36,13 @@
             "blockClass": "footer-block-three_section-one-text"
         }
     },
-    "newsletter-form": {
+    "newsletter-form#footer": {
         "props": {
             "blockClass": "container-newsletter-form"
         },
         "children": [
             "flex-layout.row#newsletter-content-inputs",
-            "newsletter-checkbox-confirmation"
+            "newsletter-checkbox-confirmation#footer"
         ]
     },
     "responsive-layout.mobile#newsletter": {
@@ -84,7 +84,7 @@
             "newsletter-submit"
         ]
     },
-    "newsletter-checkbox-confirmation": {
+    "newsletter-checkbox-confirmation#footer": {
         "props": {
             "checkboxLabel": "He leído y acepto las Políticas de Privacidad y Tratamiento de Datos Personales. ",
             "firstLabelLink": {
