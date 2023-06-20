@@ -12,12 +12,20 @@
     line-height: 28px;
 }
 
+.skuSelectorSubcontainer--talla {
+    margin: 0px;
+}
+
 .skuSelectorName {
     font-family: Avenir;
     font-size: 16px;
     font-weight: 500;
     line-height: 25px;
     color: #000000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-page_container-summary-product) .productImageTag {
+    max-height: initial !important;
 }
 
 .swiperCaret {
@@ -30,13 +38,91 @@
     padding: 0%;
 }
 
-/* .swiperCaretPrev .caretIcon {}
+.skuSelectorNameContainer {
+    margin: 0px;
+}
 
-.swiperCaretNext .caretIcon {} */
+.skuSelectorOptionsList {
+    gap: 4px;
+    margin: 0;
+    justify-content: start;
+}
+
+.skuSelectorItem {
+    height: 51px;
+    margin: 0px;
+    width: 87px;
+}
+
+.frameAround {
+    border: none;
+    border-radius: 0px;
+    height: 51px;
+    width: 87px;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.diagonalCross {
+    background-image: none;
+    background-color: #BA1D2E80;
+    border: 2px solid #AB2F34;
+}
+
+.skuSelectorItem--selected {
+    border: 2px solid #29665D;
+}
+
+.skuSelectorInternalBox {
+    border-radius: 0px;
+    border: 0.75px solid #F1F1F1 ;
+}
+
+.skuSelectorItemTextValue {
+    color: #6D6D6D;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.valueWrapper--unavailable {
+    color: #AB2F34;
+}
+
+.skuSelectorItem--selected .skuSelectorItemTextValue {
+    color: #000000;
+}
 
 @media (min-width: 1024px) {
     .swiperCaret {
         width: 43.75px;
         height: 56.08px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-page_container-summary-product) .carouselContainer {
+        max-width: 710px;
+    }
+
+    .skuSelectorItem {
+        height: 55.92px;
+        width: 86.78px;
+    }
+    
+    .frameAround {
+        height: 55.92px;
+        width: 86.78px;
+    }
+
+    .valueWrapper--unavailable {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .skuSelectorItemTextValue {
+        font-size: 18px;
+        line-height: 24px;
     }
 }

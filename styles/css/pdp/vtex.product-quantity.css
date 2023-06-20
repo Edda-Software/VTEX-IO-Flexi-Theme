@@ -1,0 +1,53 @@
+.quantitySelectorContainer {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 25px;
+    margin: 0px;
+}
+
+.quantitySelectorTitle {
+    color: #000000;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+}
+
+:global(.vtex-numeric-stepper__plus-button),
+:global(.vtex-numeric-stepper__minus-button) {
+    background-color: #F6EEE8;
+    border-radius: 0px;
+    border: none;
+    height: 28px;
+    width: 28px  !important;
+}
+
+:global(.vtex-numeric-stepper__minus-button__text),
+:global(.vtex-numeric-stepper__plus-button__text) {
+    color: #29665D
+}
+
+:global(.vtex-numeric-stepper__input) {
+    font-family: Avenir;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;    
+
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    width: 28px;
+    height: 28px;
+}
+
+@media (min-width: 1024px) {
+    .quantitySelectorContainer {
+        gap: 23.75px;
+    }
+
+    .quantitySelectorTitle {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

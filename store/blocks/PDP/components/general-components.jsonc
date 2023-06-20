@@ -1,12 +1,14 @@
 {
     "sku-selector": {
         "props": {
-          "hideImpossibleCombinations": false
+          "hideImpossibleCombinations": false,
+          "maxItems": 100
         }
       },
       "product-images":{
         "props": {
-            "thumbnailsOrientation": "horizontal"
+            "thumbnailsOrientation": "horizontal",
+            "showPaginationDots": false
         }
       }
 }

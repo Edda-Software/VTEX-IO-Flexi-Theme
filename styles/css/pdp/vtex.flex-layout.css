@@ -5,7 +5,8 @@
 }
 
 .flexCol--product-page_container-summary-description {
-    padding: 9px 22.1px;
+    gap: 10px;
+    padding: 9px 14px;
 }
 
 .flexColChild--product-page_container-summary-description {
@@ -26,9 +27,62 @@
     padding-inline: 21px;
 }
 
+.flexRowContent--product-page_product-price {
+    display: flex;
+    gap: 24.67px;
+}
+
+.flexRow--product-page_sku-selector-guide-size {
+    position: relative;
+}
+
+.flexRowContent--product-page_add-to-cart-button-wish-list {
+    display: flex;
+    gap: 34px;
+    justify-content: start;
+    align-items: center;
+}
+
+.flexRowContent--product-page_add-to-cart-button-wish-list .stretchChildrenWidth:first-child :global(.vtex-button) {
+    border: none;
+    border-radius: 0px;
+    height: 49px;
+    width: 260px;
+}
+
+.flexRowContent--product-page_add-to-cart-button-wish-list .stretchChildrenWidth:first-child :global(.vtex-button__label) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+
+    color: #ffffff;
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: initial;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) {
+    border-radius: 50%;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button__label) {
+    padding: 0px;
+    border: 1px solid #BA1D2E;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
 @media (min-width: 1024px) {
     .flexRowContent--product-page_container-summary-product {
         flex-direction: row;
+    }
+
+    .flexRowContent--product-page_add-to-cart-button-wish-list {
+        gap: 19.95px;
     }
 }
 
@@ -36,11 +90,26 @@
     .flexCol--product-page_container-summary-image {
         max-width: 710px;
     }
+
+    .flexRowContent--product-page_product-price {
+        gap: 9px;
+    }
+
+    .flexRowContent--product-page_add-to-cart-button-wish-list .stretchChildrenWidth:first-child :global(.vtex-button) {
+        height: 53.92px;
+        width: 404.98px;
+    }
+
+    .flexRowContent--product-page_add-to-cart-button-wish-list .stretchChildrenWidth:first-child :global(.vtex-button__label) {
+        font-size: 18.16px;
+        line-height: 21.8px;
+    }
 }
 
 @media (min-width: 1440px) {
     .flexCol--product-page_container-summary-description {
-        padding: 57px 81px;
+        gap: 14px;
+        padding: 57px 94px;
     }
 
     .flexRow--product-page_carousel-other-products {

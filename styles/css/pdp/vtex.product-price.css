@@ -1,0 +1,33 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--product-page_product-price) .sellingPrice .currencyContainer {
+    font-family: Keep Calm;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-page_product-price) .listPriceValue {
+    text-decoration: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-page_product-price) .listPrice .currencyContainer {
+    text-decoration: line-through;
+    font-family: Keep Calm;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #00000066;
+}
+
+@media (min-width: 1024px) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-page_product-price) .sellingPrice .currencyContainer {
+        font-size: 24.65px;
+        line-height: 29.58px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-page_product-price) .listPrice .currencyContainer {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}

@@ -15,6 +15,21 @@
     white-space: nowrap;
 }
 
+.paragraph--product-page_guide-size {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.link--product-page_guide-size {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #0062DF;
+    text-decoration-color: #0062DF;
+}
+
 @media (min-width: 1024px) {
     .paragraph--product-page_carousel-other-products-title {
         font-size: 24px;
@@ -25,5 +40,10 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 22px;
+    }
+
+    .link--product-page_guide-size {
+        font-size: 18px;
+        line-height: 24px;
     }
 }

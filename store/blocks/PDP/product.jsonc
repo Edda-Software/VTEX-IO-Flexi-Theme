@@ -39,11 +39,57 @@
     },
     "children": [
       "product-name",
-      "product-price",
+      "flex-layout.row#product-page_product-price",
       "product-identifier.product",
-      "sku-selector",
+      "flex-layout.row#product-page_sku-selector-guide-size",
       "product-quantity",
-      "add-to-cart-button"
+      "flex-layout.row#product-page_add-to-cart-button-wish-list"
     ]
+  },
+  "flex-layout.row#product-page_product-price": {
+    "props": {
+      "blockClass": "product-page_product-price",
+      "colSizing": "auto",
+      "colJustify": "left"
+    },
+    "children": [
+      "product-selling-price",
+      "product-list-price"
+    ]
+  },
+  "flex-layout.row#product-page_sku-selector-guide-size": {
+    "props": {
+      "blockClass": "product-page_sku-selector-guide-size"
+    },
+    "children": [
+      "flex-layout.col#product-page_sku-selector-guide-size"
+    ]
+  },
+  "flex-layout.col#product-page_sku-selector-guide-size": {
+    "children": [
+      "sku-selector",
+      "rich-text#product-page_guide-size"
+    ]
+  },
+  "rich-text#product-page_guide-size": {
+    "props": {
+      "blockClass": "product-page_guide-size",
+      "text": "[Ver guía de tallas](/guide-size)"
+    }
+  },
+  "flex-layout.row#product-page_add-to-cart-button-wish-list": {
+    "props": {
+      "blockClass": "product-page_add-to-cart-button-wish-list",
+      "colSizing": "auto"
+    },
+    "children": [
+      "add-to-cart-button",
+      "add-to-list-btn"
+    ]
+  },
+  "add-to-cart-button": {
+    "props": {
+      "text": "Agregar a carrito"
+    }
   }
 }
