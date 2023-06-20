@@ -69,7 +69,7 @@
     "image#block-four-oportunity-images-mobile-2": {
         "props": {
             "blockClass": "block-four-oportunity-images-mobile",
-            "src": "assets/images/home/oportunity-mobile-1.jpg",
+            "src": "assets/images/home/oportunity-mobile-2.jpg",
             "maxHeight": "324",
             "maxWidth": "260",
             "link": {
@@ -80,7 +80,7 @@
     "image#block-four-oportunity-images-mobile-3": {
         "props": {
             "blockClass": "block-four-oportunity-images-mobile",
-            "src": "assets/images/home/oportunity-mobile-1.jpg",
+            "src": "assets/images/home/oportunity-mobile-3.jpg",
             "maxHeight": "324",
             "maxWidth": "260",
             "link": {
@@ -134,7 +134,7 @@
     "image#block-four-oportunity-images-desktop-2": {
         "props": {
             "blockClass": "block-four-oportunity-images-desktop",
-            "src": "assets/images/home/oportunity-desktop-1.jpg",
+            "src": "assets/images/home/oportunity-desktop-2.jpg",
             "maxHeight": "324",
             "maxWidth": "407",
             "link": {
@@ -145,7 +145,7 @@
     "image#block-four-oportunity-images-desktop-3": {
         "props": {
             "blockClass": "block-four-oportunity-images-desktop",
-            "src": "assets/images/home/oportunity-desktop-1.jpg",
+            "src": "assets/images/home/oportunity-desktop-3.jpg",
             "maxHeight": "324",
             "maxWidth": "407",
             "link": {

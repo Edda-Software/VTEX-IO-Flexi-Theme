@@ -14,21 +14,30 @@
             "images": [
                 {
                     "loading": "eager",
-                    "image": "assets/images/PLP/banner-desktop.jpg",
-                    "mobileImage": "assets/images/PLP/banner-mobile.jpg",
-                    "description": "something something"
+                    "image": "assets/images/home/principal-banner-desktop.jpg",
+                    "mobileImage": "assets/images/home/principal-banner-mobile.jpg",
+                    "description": "something something",
+                    "link": {
+                        "url": "/"
+                    }
                 },
                 {
                     "loading": "lazy",
-                    "image": "assets/images/PLP/banner-desktop.jpg",
-                    "mobileImage": "assets/images/PLP/banner-mobile.jpg",
-                    "description": "something something"
+                    "image": "assets/images/home/principal-banner-desktop.jpg",
+                    "mobileImage": "assets/images/home/principal-banner-mobile.jpg",
+                    "description": "something something",
+                    "link": {
+                        "url": "/"
+                    }
                 },
                 {
                     "loading": "lazy",
-                    "image": "assets/images/PLP/banner-desktop.jpg",
-                    "mobileImage": "assets/images/PLP/banner-mobile.jpg",
-                    "description": "something something"
+                    "image": "assets/images/home/principal-banner-desktop.jpg",
+                    "mobileImage": "assets/images/home/principal-banner-mobile.jpg",
+                    "description": "something something",
+                    "link": {
+                        "url": "/"
+                    }
                 }
             ]
         },

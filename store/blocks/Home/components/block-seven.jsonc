@@ -97,7 +97,7 @@
     "image#block-seven_advertisement-product-desktop-2": {
         "props": {
             "blockClass": "block-seven_advertisement-product-desktop",
-            "src": "assets/images/home/advertisement-product-desktop-1.jpg",
+            "src": "assets/images/home/advertisement-product-desktop-2.jpg",
             "maxHeight": "470",
             "maxWidth": "620"
         }

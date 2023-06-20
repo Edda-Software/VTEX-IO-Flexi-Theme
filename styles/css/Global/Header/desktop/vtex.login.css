@@ -16,3 +16,13 @@
     text-transform: capitalize;
     padding: 5px 0px 0px;
 }
+
+.profile {
+    color: #000000;
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    text-transform: initial;
+}

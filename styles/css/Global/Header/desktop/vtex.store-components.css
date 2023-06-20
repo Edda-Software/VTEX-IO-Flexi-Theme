@@ -32,5 +32,8 @@
     max-height: 60vh;
     max-width: 321px;
     left: initial;
-    overflow-y: hidden;
+}
+
+.resultsList::-webkit-scrollbar {
+    display: none;
 }
