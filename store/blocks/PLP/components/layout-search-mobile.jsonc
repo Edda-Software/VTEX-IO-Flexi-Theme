@@ -47,10 +47,18 @@
     },
     "order-by.v2#mobile": {
         "props": {
-            "hiddenOptions": [
+            "specificationOptions": [
+                "",
+                "OrderByTopSaleDESC",
+                "OrderByReleaseDateDESC",
+                "OrderByBestDiscountDESC",
+                "OrderByPriceASC",
+                "OrderByPriceDESC",
                 "OrderByNameASC",
-                "OrderByNameDESC",
-                "OrderByReleaseDateDESC"
+                "OrderByNameDESC"
+            ],
+            "hiddenOptions": [
+                "OrderByCollection"
             ],
             "showOrderTitle": false
         }

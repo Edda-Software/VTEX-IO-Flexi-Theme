@@ -1,0 +1,37 @@
+.trigger--product-page_disclosure {
+    background: #FFFFFF;
+    border-radius: 0%;
+    border: none;
+    height: 53px;
+    padding: 22px;
+}
+
+.content {
+    background: #FFFFFF;
+    min-height: 53px;
+    padding-inline: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.content :global(.vtex-store-components-3-x-productDescriptionTitle) {
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.content :global(.store-components-3-x-content) {
+    color: #000000;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+@media (min-width: 1024px) {
+    .trigger--product-page_disclosure {
+        padding-inline: 42px;
+        height: 73px;
+    }
+}

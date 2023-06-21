@@ -1,7 +1,7 @@
-/* .searchResultContainer {
-    margin-inline: 0px;
+.filters--layout {
+    position: relative;
 }
- */
+
 .totalProductsMessage {
     display: none;
 }
@@ -86,7 +86,6 @@
 .filterContent {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .filterTitleSpan {
@@ -98,6 +97,9 @@
 }
 
 .filterItem :global(.vtex-checkbox__line-container) {
+    background-color: #F6EEE8;
+    height: 41px;
+    padding: 16px;
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
@@ -117,7 +119,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: start;
-    gap: 10px;
+    background-color: #F6EEE8;
 }
 
 .filter__container--talla .filterContent .filterItem {
@@ -127,6 +129,9 @@
 .filter__container--talla .filterContent :global(.vtex-checkbox__line-container) {
     justify-content: start;
     flex-direction: row;
+    width: 100px;
+    height: 43.85px;
+    padding: 16px 12px;
 }
 
 .filter .filterIcon {
@@ -139,6 +144,14 @@
 
 .filter__container--talla .filterItem :global(.vtex-checkbox__container) {
     margin-right: 8px;
+}
+
+.filter__container--selectedFilters {
+    padding: 10px 17px 17px 17px;
+}
+
+.filter__container:not(.filter__container--selectedFilters) .filterTitle {
+    padding-inline: 16px;
 }
 
 .filter__container--selectedFilters .filterTitleSpan {
@@ -172,6 +185,13 @@
     flex-wrap: wrap;
     gap: 10px;
 }
+
+.filterTemplateOverflow {
+    overflow-y: unset;
+    max-height: none !important;
+    padding-bottom: 0px;
+}
+
 
 .filter__container--selectedFilters :global(.vtex-checkbox__label) {
     font-family: Avenir;
@@ -219,6 +239,72 @@
 .galleryItem--gallery-plp {
     padding: 0px;
     max-width: 186px !important;
+    min-height: 285.43px !important;
+}
+
+.filter__container--priceRange {
+    border-bottom: none;
+}
+
+.filter__container--priceRange :global(.vtex-slider-container) {
+    padding-inline: 16px;
+    padding-bottom: 18px;
+}
+
+.filter__container--priceRange :global(.vtex-slider__values-container) {
+    justify-content: space-between;
+}
+
+.filter__container--priceRange :global(.vtex-slider__values-container) :global(.vtex-slider__dash) {
+    display: none;
+}
+
+.filter__container--priceRange :global(.vtex-slider__left-value),
+.filter__container--priceRange :global(.vtex-slider__right-value) {
+    color: #000000;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.filter__container--clearAllFilters {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    border: none;
+}
+
+.filter__container--clearAllFilters :global(.vtex-button) {
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    border: none;
+    justify-content: center;
+
+    color: #4E4E4E;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    height: 42px;
+    line-height: 26px;
+    text-transform: initial;
+    position: relative;
+    width: 143.94px;
+}
+
+.filter__container--clearAllFilters :global(.vtex-button)::after {
+    position: absolute;
+    content: url('data:image/svg+xml,<svg width="144" height="42" viewBox="0 0 144 42" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.456 14.672H18.992V24.56H24.192V26H17.456V14.672ZM25.4969 18.416H26.9369V26H25.4969V18.416ZM25.1609 15.696C25.1609 15.408 25.2622 15.1627 25.4649 14.96C25.6782 14.7467 25.9289 14.64 26.2169 14.64C26.5049 14.64 26.7502 14.7467 26.9529 14.96C27.1662 15.1627 27.2729 15.408 27.2729 15.696C27.2729 15.984 27.1662 16.2347 26.9529 16.448C26.7502 16.6507 26.5049 16.752 26.2169 16.752C25.9289 16.752 25.6782 16.6507 25.4649 16.448C25.2622 16.2347 25.1609 15.984 25.1609 15.696ZM29.2286 18.416H30.5726V19.6H30.6046C30.6366 19.4933 30.7166 19.36 30.8446 19.2C30.9833 19.04 31.154 18.8907 31.3566 18.752C31.57 18.6027 31.8153 18.48 32.0926 18.384C32.3806 18.2773 32.6953 18.224 33.0366 18.224C33.602 18.224 34.0766 18.3413 34.4606 18.576C34.8446 18.8107 35.1593 19.1627 35.4046 19.632C35.65 19.1627 35.9966 18.8107 36.4446 18.576C36.8926 18.3413 37.346 18.224 37.8046 18.224C38.3913 18.224 38.8713 18.32 39.2446 18.512C39.618 18.704 39.9113 18.96 40.1246 19.28C40.338 19.5893 40.482 19.9467 40.5566 20.352C40.642 20.7467 40.6846 21.1573 40.6846 21.584V26H39.2446V21.776C39.2446 21.488 39.2233 21.2107 39.1806 20.944C39.1486 20.6773 39.074 20.4427 38.9566 20.24C38.8393 20.0373 38.674 19.8773 38.4606 19.76C38.2473 19.632 37.9646 19.568 37.6126 19.568C36.9193 19.568 36.4233 19.7813 36.1246 20.208C35.826 20.6347 35.6766 21.184 35.6766 21.856V26H34.2366V22.032C34.2366 21.6693 34.2153 21.3387 34.1726 21.04C34.1406 20.7413 34.066 20.4853 33.9486 20.272C33.842 20.048 33.682 19.8773 33.4686 19.76C33.266 19.632 32.9886 19.568 32.6366 19.568C32.3806 19.568 32.13 19.6213 31.8846 19.728C31.65 19.824 31.442 19.9733 31.2606 20.176C31.0793 20.3787 30.9353 20.64 30.8286 20.96C30.722 21.2693 30.6686 21.6373 30.6686 22.064V26H29.2286V18.416ZM42.8536 18.416H44.2936V19.504H44.3256C44.603 19.0987 44.9816 18.784 45.4616 18.56C45.9523 18.336 46.4536 18.224 46.9656 18.224C47.5523 18.224 48.0803 18.3253 48.5496 18.528C49.0296 18.7307 49.435 19.0133 49.7656 19.376C50.107 19.7387 50.3683 20.1653 50.5496 20.656C50.731 21.136 50.8216 21.6533 50.8216 22.208C50.8216 22.7733 50.731 23.3013 50.5496 23.792C50.3683 24.272 50.107 24.6933 49.7656 25.056C49.435 25.408 49.0296 25.6853 48.5496 25.888C48.0803 26.0907 47.5523 26.192 46.9656 26.192C46.4216 26.192 45.9096 26.08 45.4296 25.856C44.9496 25.6213 44.5816 25.3067 44.3256 24.912H44.2936V30.512H42.8536V18.416ZM46.7896 19.568C46.4056 19.568 46.059 19.6373 45.7496 19.776C45.4403 19.904 45.179 20.0853 44.9656 20.32C44.7523 20.544 44.587 20.8213 44.4696 21.152C44.3523 21.472 44.2936 21.824 44.2936 22.208C44.2936 22.592 44.3523 22.9493 44.4696 23.28C44.587 23.6 44.7523 23.8773 44.9656 24.112C45.179 24.336 45.4403 24.5173 45.7496 24.656C46.059 24.784 46.4056 24.848 46.7896 24.848C47.1736 24.848 47.5203 24.784 47.8296 24.656C48.139 24.5173 48.4003 24.336 48.6136 24.112C48.827 23.8773 48.9923 23.6 49.1096 23.28C49.227 22.9493 49.2856 22.592 49.2856 22.208C49.2856 21.824 49.227 21.472 49.1096 21.152C48.9923 20.8213 48.827 20.544 48.6136 20.32C48.4003 20.0853 48.139 19.904 47.8296 19.776C47.5203 19.6373 47.1736 19.568 46.7896 19.568ZM52.7469 18.416H54.1869V26H52.7469V18.416ZM52.4109 15.696C52.4109 15.408 52.5122 15.1627 52.7149 14.96C52.9282 14.7467 53.1789 14.64 53.4669 14.64C53.7549 14.64 54.0002 14.7467 54.2029 14.96C54.4162 15.1627 54.5229 15.408 54.5229 15.696C54.5229 15.984 54.4162 16.2347 54.2029 16.448C54.0002 16.6507 53.7549 16.752 53.4669 16.752C53.1789 16.752 52.9282 16.6507 52.7149 16.448C52.5122 16.2347 52.4109 15.984 52.4109 15.696ZM56.5106 19.344C56.916 18.9707 57.3853 18.6933 57.9186 18.512C58.452 18.32 58.9853 18.224 59.5186 18.224C60.0733 18.224 60.548 18.2933 60.9426 18.432C61.348 18.5707 61.6786 18.7573 61.9346 18.992C62.1906 19.2267 62.3773 19.4987 62.4946 19.808C62.6226 20.1067 62.6866 20.4213 62.6866 20.752V24.624C62.6866 24.8907 62.692 25.136 62.7026 25.36C62.7133 25.584 62.7293 25.7973 62.7506 26H61.4706C61.4386 25.616 61.4226 25.232 61.4226 24.848H61.3906C61.0706 25.3387 60.692 25.6853 60.2546 25.888C59.8173 26.0907 59.3106 26.192 58.7346 26.192C58.3826 26.192 58.0466 26.144 57.7266 26.048C57.4066 25.952 57.124 25.808 56.8786 25.616C56.644 25.424 56.4573 25.1893 56.3186 24.912C56.18 24.624 56.1106 24.2933 56.1106 23.92C56.1106 23.4293 56.2173 23.0187 56.4306 22.688C56.6546 22.3573 56.9533 22.0907 57.3266 21.888C57.7106 21.6747 58.1533 21.5253 58.6546 21.44C59.1666 21.344 59.7106 21.296 60.2866 21.296H61.3426V20.976C61.3426 20.784 61.3053 20.592 61.2306 20.4C61.156 20.208 61.044 20.0373 60.8946 19.888C60.7453 19.728 60.5586 19.6053 60.3346 19.52C60.1106 19.424 59.844 19.376 59.5346 19.376C59.2573 19.376 59.012 19.4027 58.7986 19.456C58.596 19.5093 58.4093 19.5787 58.2386 19.664C58.068 19.7387 57.9133 19.8293 57.7746 19.936C57.636 20.0427 57.5026 20.144 57.3746 20.24L56.5106 19.344ZM60.5746 22.352C60.2333 22.352 59.8813 22.3733 59.5186 22.416C59.1666 22.448 58.8413 22.5173 58.5426 22.624C58.2546 22.7307 58.0146 22.88 57.8226 23.072C57.6413 23.264 57.5506 23.5093 57.5506 23.808C57.5506 24.2453 57.6946 24.56 57.9826 24.752C58.2813 24.944 58.6813 25.04 59.1826 25.04C59.5773 25.04 59.9133 24.976 60.1906 24.848C60.468 24.7093 60.692 24.5333 60.8626 24.32C61.0333 24.1067 61.156 23.872 61.2306 23.616C61.3053 23.3493 61.3426 23.088 61.3426 22.832V22.352H60.5746ZM64.7755 18.416H66.2155V19.584H66.2475C66.3435 19.3813 66.4715 19.2 66.6315 19.04C66.7915 18.8693 66.9675 18.7253 67.1595 18.608C67.3622 18.4907 67.5808 18.4 67.8155 18.336C68.0502 18.2613 68.2848 18.224 68.5195 18.224C68.7542 18.224 68.9675 18.256 69.1595 18.32L69.0955 19.872C68.9782 19.84 68.8608 19.8133 68.7435 19.792C68.6262 19.7707 68.5088 19.76 68.3915 19.76C67.6875 19.76 67.1488 19.9573 66.7755 20.352C66.4022 20.7467 66.2155 21.36 66.2155 22.192V26H64.7755V18.416ZM75.7105 19.664H74.0785V18.416H75.7105V16.72C75.7105 15.7067 75.9025 14.9547 76.2865 14.464C76.6812 13.9627 77.3532 13.712 78.3025 13.712C78.4625 13.712 78.6278 13.7173 78.7985 13.728C78.9798 13.7387 79.1718 13.7707 79.3745 13.824L79.2145 15.104C79.0758 15.0507 78.9425 15.0133 78.8145 14.992C78.6865 14.9707 78.5478 14.96 78.3985 14.96C78.1318 14.96 77.9185 15.0027 77.7585 15.088C77.5985 15.1627 77.4705 15.2747 77.3745 15.424C77.2892 15.5733 77.2305 15.7547 77.1985 15.968C77.1772 16.1707 77.1665 16.4053 77.1665 16.672V18.416H78.8785V19.664H77.1505V26H75.7105V19.664ZM80.5906 18.416H82.0306V26H80.5906V18.416ZM80.2546 15.696C80.2546 15.408 80.356 15.1627 80.5586 14.96C80.772 14.7467 81.0226 14.64 81.3106 14.64C81.5986 14.64 81.844 14.7467 82.0466 14.96C82.26 15.1627 82.3666 15.408 82.3666 15.696C82.3666 15.984 82.26 16.2347 82.0466 16.448C81.844 16.6507 81.5986 16.752 81.3106 16.752C81.0226 16.752 80.772 16.6507 80.5586 16.448C80.356 16.2347 80.2546 15.984 80.2546 15.696ZM84.4344 13.904H85.8744V26H84.4344V13.904ZM92.2301 19.664H90.1661V23.104C90.1661 23.3173 90.1715 23.5307 90.1821 23.744C90.1928 23.9467 90.2301 24.1333 90.2941 24.304C90.3688 24.464 90.4755 24.5973 90.6141 24.704C90.7635 24.8 90.9768 24.848 91.2541 24.848C91.4248 24.848 91.6008 24.832 91.7821 24.8C91.9635 24.768 92.1288 24.7093 92.2781 24.624V25.936C92.1075 26.032 91.8835 26.096 91.6061 26.128C91.3395 26.1707 91.1315 26.192 90.9821 26.192C90.4275 26.192 89.9955 26.1173 89.6861 25.968C89.3875 25.808 89.1635 25.6053 89.0141 25.36C88.8755 25.1147 88.7901 24.8427 88.7581 24.544C88.7368 24.2347 88.7261 23.9253 88.7261 23.616V19.664H87.0621V18.416H88.7261V16.288H90.1661V18.416H92.2301V19.664ZM94.088 18.416H95.528V19.584H95.56C95.656 19.3813 95.784 19.2 95.944 19.04C96.104 18.8693 96.28 18.7253 96.472 18.608C96.6747 18.4907 96.8933 18.4 97.128 18.336C97.3627 18.2613 97.5973 18.224 97.832 18.224C98.0667 18.224 98.28 18.256 98.472 18.32L98.408 19.872C98.2907 19.84 98.1733 19.8133 98.056 19.792C97.9387 19.7707 97.8213 19.76 97.704 19.76C97 19.76 96.4613 19.9573 96.088 20.352C95.7147 20.7467 95.528 21.36 95.528 22.192V26H94.088V18.416ZM100.897 22.208C100.897 22.592 100.955 22.9493 101.073 23.28C101.19 23.6 101.355 23.8773 101.569 24.112C101.782 24.336 102.043 24.5173 102.353 24.656C102.662 24.784 103.009 24.848 103.393 24.848C103.777 24.848 104.123 24.784 104.433 24.656C104.742 24.5173 105.003 24.336 105.217 24.112C105.43 23.8773 105.595 23.6 105.713 23.28C105.83 22.9493 105.889 22.592 105.889 22.208C105.889 21.824 105.83 21.472 105.713 21.152C105.595 20.8213 105.43 20.544 105.217 20.32C105.003 20.0853 104.742 19.904 104.433 19.776C104.123 19.6373 103.777 19.568 103.393 19.568C103.009 19.568 102.662 19.6373 102.353 19.776C102.043 19.904 101.782 20.0853 101.569 20.32C101.355 20.544 101.19 20.8213 101.073 21.152C100.955 21.472 100.897 21.824 100.897 22.208ZM99.3606 22.208C99.3606 21.6533 99.462 21.136 99.6646 20.656C99.878 20.176 100.166 19.7547 100.529 19.392C100.891 19.0293 101.318 18.7467 101.809 18.544C102.299 18.3307 102.827 18.224 103.393 18.224C103.958 18.224 104.486 18.3307 104.977 18.544C105.467 18.7467 105.894 19.0293 106.257 19.392C106.619 19.7547 106.902 20.176 107.105 20.656C107.318 21.136 107.425 21.6533 107.425 22.208C107.425 22.7627 107.318 23.2853 107.105 23.776C106.902 24.256 106.619 24.6773 106.257 25.04C105.894 25.392 105.467 25.6747 104.977 25.888C104.486 26.0907 103.958 26.192 103.393 26.192C102.827 26.192 102.299 26.0907 101.809 25.888C101.318 25.6747 100.891 25.392 100.529 25.04C100.166 24.6773 99.878 24.256 99.6646 23.776C99.462 23.2853 99.3606 22.7627 99.3606 22.208Z" fill="%234E4E4E"/><path d="M119.734 18.2656L125.202 23.7335" stroke="%234E4E4E" stroke-width="1.76874" stroke-linecap="round"/><path d="M125.202 18.2656L119.734 23.7335" stroke="%234E4E4E" stroke-width="1.76874" stroke-linecap="round"/></svg>');
+}
+
+.filter__container--clearAllFilters :global(.vtex-button) :global(.vtex-button__label) {
+    visibility: hidden;
+    padding: 0px;
+}
+
+.filter__container--clearAllFilters :global(.vtex-button) :global(.vtex-button__label)::after {
+    padding: 0px;
 }
 
 /* PRODUCT SUMMARY PLP */
@@ -237,18 +323,18 @@
 }
 
 .gallery--gallery-plp :global(.vtex-store-components-3-x-discountInsideContainer) {
-    display: flex;
     align-items: center;
+    background-color: #29665D;
+    color: #FFFFFF;
+    display: flex;
     font-family: Keep Calm;
     font-size: 8px;
     font-weight: 400;
-    line-height: 10.76px;
-    background-color: #29665D;
-    color: #FFFFFF;
-    width: 70px;
-    height: 27px;
-    padding: 12px 8px 8px;
     gap: 5px;
+    height: 27px;
+    line-height: 10.76px;
+    padding: 12px 8px 8px;
+    width: 70px;
 }
 
 .gallery--gallery-plp :global(.vtex-product-summary-2-x-productBrand) {
@@ -287,6 +373,125 @@
     text-align: left;
     color: #00000066;
     text-decoration: line-through;
+}
+
+.orderByOptionsContainer {
+    min-width: 301px;
+    right: 0;
+    top: 51px;
+}
+
+.orderByOptionItem {
+    background-color: #F6EEE8;
+    color: #6D6D6D;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.filterAccordionBreadcrumbs {
+    padding: 24.98px 15.99px;
+    gap: 15px
+}
+
+.accordionFilterContainer {
+    padding-left: 15.99px;
+}
+
+.filterBreadcrumbsText {
+    font-family: Keep Calm;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.accordionFilterItemTitle,
+.filterBreadcrumbsItemName {
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.accordionFilterContent {
+    padding-right: 15.99px;
+}
+
+.accordionFilterContent .caretIcon {
+    width: 15.15px;
+    height: 15.15px;
+}
+
+.accordionFilterOpen {
+    padding-top: 0px;
+}
+
+.filterAccordionItemBox :global(.vtex-checkbox__line-container) {
+    width: 100%;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.filterAccordionItemBox :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label) {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.filterButtonsBox {
+    bottom: 5px;
+}
+
+.filterButtonsBox .filterApplyButtonWrapper:last-child :global(.vtex-button) {
+    align-items: center;
+    background-color: #BA1D2E;
+    border-radius: 0px;
+    display: flex;
+}
+
+.filterButtonsBox .filterApplyButtonWrapper:last-child :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 0%;
+    position: relative;
+
+    color: #FFFFFF;
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: initial;
+    visibility: hidden;
+}
+
+.filterButtonsBox .filterApplyButtonWrapper:last-child :global(.vtex-button) :global(.vtex-button__label)::after {
+    content: "Aplicar filtro";
+    position: absolute;
+    visibility: visible;
+}
+
+.filterButtonsBox .filterClearButtonWrapper:first-child :global(.vtex-button) {
+    border: 1px solid #0000006E;
+    border-radius: 0%;
+}
+
+.filterButtonsBox .filterClearButtonWrapper:first-child :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 0%;
+    position: relative;
+
+    color:  #4E4E4E;
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: initial;
+    visibility: hidden;
+}
+
+.filterButtonsBox .filterClearButtonWrapper:first-child :global(.vtex-button) :global(.vtex-button__label)::after {
+    content: "Limpiar filtro";
+    position: absolute;
+    visibility: visible;
 }
 
 @media (min-width: 768px) {
@@ -394,6 +599,16 @@
 
     .buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
         line-height: 16.8px;
+    }
+
+    .orderByOptionsContainer {
+        right: unset;
+        left: 0px;
+        top: 41px;
+    }
+
+    .orderByOptionItem {
+        line-height: 21.28px;
     }
 }
 

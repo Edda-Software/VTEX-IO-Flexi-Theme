@@ -1,0 +1,121 @@
+{
+    "flex-layout.row#disclosure-layout-group": {
+        "props": {
+            "blockClass": "disclosure-layout-group-container",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#disclosure-layout-group"
+        ]
+    },
+    "flex-layout.col#disclosure-layout-group": {
+        "props": {
+            "blockClass": "disclosure-layout-group-contain"
+        },
+        "children": [
+            "rich-text#disclosure-layout-title",
+            "disclosure-layout-group#group"
+        ]
+    },
+    "rich-text#disclosure-layout-title": {
+        "props": {
+            "blockClass": "disclosure-layout-title",
+            "text": "Descripción del producto"
+        }
+    },
+    "disclosure-layout-group#group": {
+        "children": [
+            "disclosure-layout#style-product",
+            "disclosure-layout#clear-product",
+            "disclosure-layout#expecification-product"
+        ]
+    },
+    /* DISCLOSURE LAYOUT */
+    "disclosure-layout#style-product": {
+        "children": [
+            "disclosure-trigger#style-product",
+            "disclosure-content#style-product"
+        ]
+    },
+    "disclosure-layout#clear-product": {
+        "children": [
+            "disclosure-trigger#clear-product",
+            "disclosure-content#clear-product"
+        ]
+    },
+    "disclosure-layout#expecification-product": {
+        "children": [
+            "disclosure-trigger#expecification-product",
+            "disclosure-content#expecification-product"
+        ]
+    },
+    /* DISCLOSURE TRIGGER */
+    "disclosure-trigger#style-product": {
+        "props": {
+            "blockClass": "product-page_disclosure"
+        },
+        "children": [
+            "rich-text#disclosure-style-product-title"
+        ]
+    },
+    "rich-text#disclosure-style-product-title": {
+        "props": {
+            "blockClass": "disclosure-style-product-title",
+            "text": "Estilo 45226"
+        }
+    },
+    "disclosure-trigger#clear-product": {
+        "props": {
+            "blockClass": "product-page_disclosure"
+        },
+        "children": [
+            "rich-text#disclosure-clear-product-title"
+        ]
+    },
+    "rich-text#disclosure-clear-product-title": {
+        "props": {
+            "blockClass": "disclosure-style-product-title",
+            "text": "Cómo limpiar"
+        }
+    },
+    "disclosure-trigger#expecification-product": {
+        "props": {
+            "blockClass": "product-page_disclosure"
+        },
+        "children": [
+            "rich-text#disclosure-expecification-product-title"
+        ]
+    },
+    "rich-text#disclosure-expecification-product-title": {
+        "props": {
+            "blockClass": "disclosure-style-product-title",
+            "text": "Especificaciones"
+        }
+    },
+    /* DISCLOSURE CONTENT */
+    "disclosure-content#style-product": {
+        "children": [
+            "rich-text#disclosure-style-product-container"
+        ]
+    },
+    "rich-text#disclosure-style-product-container": {
+        "props": {
+            "text": "How can I change my shipping address?"
+        }
+    },
+    "disclosure-content#clear-product": {
+        "children": [
+            "rich-text#disclosure-clear-product-container"
+        ]
+    },
+    "rich-text#disclosure-clear-product-container": {
+        "props": {
+            "text": "How can I change my shipping address?"
+        }
+    },
+    "disclosure-content#expecification-product": {
+        "children": [
+            "product-description"
+        ]
+    }
+}

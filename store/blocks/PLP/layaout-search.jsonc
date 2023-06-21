@@ -40,7 +40,8 @@
         "props": {
             "initiallyCollapsed": true,
             "fullWidthOnMobile": true,
-            "showClearByFilter": true
+            "showClearByFilter": true,
+            "showClearAllFiltersOnDesktop" :true
         }
     }
 }

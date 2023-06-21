@@ -47,5 +47,9 @@
     <g id="nav-caret--down">
       <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 1.574219 0.710938 L 9.152344 8.289062 L 16.726562 0.710938 "/>
     </g>
+
+    <g id="nav-caret--up">
+      <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 16.152344 9.289062 L 8.574219 1.710938 L 1 9.289062 "/>
+    </g>
   </defs>
 </svg>

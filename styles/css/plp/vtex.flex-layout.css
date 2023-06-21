@@ -1,8 +1,3 @@
-/* .flexCol--container-search-result-layout {
-    max-width: 1440px;
-    margin: auto;
-} */
-
 .flexRow--search-result-layout_content-filters-searchResult {
     max-width: 1440px;
     margin: auto;
@@ -41,7 +36,6 @@
 .flexColChild--search-result-layout_content-filters-searchResult-desktop-1 {
     width: 300px;
     background-color: #FFFFFF;
-    padding: 17px;
     height: auto !important;
 }
 
@@ -50,8 +44,8 @@
     border-bottom: 1px solid #C8C8C8;
 }
 
-.flexColChild--search-result-layout_content-filters-searchResult-desktop-1:last-child {
-    padding: 10px 17px 17px 17px;
+.flexRowContent--search-result-layout_content-filters-searchResult {
+    justify-content: start;
 }
 
 .flexRowContent--search-result-layout_content-filters-searchResult-desktop-container {
