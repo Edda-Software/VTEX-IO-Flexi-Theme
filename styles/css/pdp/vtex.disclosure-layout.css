@@ -3,13 +3,13 @@
     border-radius: 0%;
     border: none;
     height: 53px;
-    padding: 22px;
+    padding-inline: 22px;
 }
 
 .content {
     background: #FFFFFF;
     min-height: 53px;
-    padding-inline: 22px;
+    padding: 22px;
     display: flex;
     align-items: center;
 }
@@ -21,13 +21,13 @@
     line-height: 14px;
 }
 
-.content :global(.store-components-3-x-content) {
+/* .content :global(.store-components-3-x-content) {
     color: #000000;
     font-family: Avenir;
     font-size: 14px;
     font-weight: 500;
     line-height: 14px;
-}
+} */
 
 @media (min-width: 1024px) {
     .trigger--product-page_disclosure {

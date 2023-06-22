@@ -110,6 +110,14 @@
     content: url('data:image/svg+xml,<svg width="34" height="44" viewBox="0 0 34 44" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="34" height="44" fill="%2329665D"/><path d="M13 30L21 22L13 14" stroke="white" stroke-width="0.988764"/></svg>');
 }
 
+:global(.vtex-disclosure-layout-1-x-content) .content {
+    color: #000000;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
 @media (min-width: 1024px) {
     .swiperCaret {
         width: 43.75px;
@@ -126,7 +134,7 @@
 
 
     :global(.vtex-flex-layout-0-x-flexRowContent--product-page_container-summary-product) .carouselContainer {
-        max-width: 710px;
+        max-width: 527px;
     }
 
     .skuSelectorItem {
