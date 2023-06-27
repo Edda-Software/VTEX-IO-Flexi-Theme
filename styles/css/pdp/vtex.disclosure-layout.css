@@ -7,11 +7,14 @@
 }
 
 .content {
+    align-items: start;
     background: #FFFFFF;
-    min-height: 53px;
-    padding: 22px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -10px;
+    min-height: 53px;
+    padding: 0px 22px 22px;
 }
 
 .content :global(.vtex-store-components-3-x-productDescriptionTitle) {
@@ -20,14 +23,6 @@
     font-weight: 400;
     line-height: 14px;
 }
-
-/* .content :global(.store-components-3-x-content) {
-    color: #000000;
-    font-family: Avenir;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 14px;
-} */
 
 @media (min-width: 1024px) {
     .trigger--product-page_disclosure {

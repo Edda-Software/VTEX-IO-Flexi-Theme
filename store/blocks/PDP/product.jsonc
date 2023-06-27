@@ -44,6 +44,7 @@
       "product-name",
       "flex-layout.row#product-page_product-price",
       "product-identifier.product",
+      "similar-products-variants",
       "flex-layout.row#product-page_sku-selector-guide-size",
       "product-quantity",
       "flex-layout.row#product-page_add-to-cart-button-wish-list"

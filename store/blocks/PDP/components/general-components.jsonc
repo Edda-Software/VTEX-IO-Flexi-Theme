@@ -1,7 +1,6 @@
 {
     "sku-selector": {
         "props": {
-          "hideImpossibleCombinations": false,
           "maxItems": 100
         }
       },

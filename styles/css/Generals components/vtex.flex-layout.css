@@ -21,6 +21,37 @@
     gap: 19px;
 }
 
+.flexRowContent--disclosure-layout-group-container {
+    justify-content: center;
+    margin-inline: auto;
+    max-width: 1440px;
+}
+
+.flexCol--disclosure-layout-group-desktop-style {
+    gap: 13px;
+}
+
+.flexCol--disclosure-layout-group-desktop {
+    gap: 21px;
+    padding-inline: 89px;
+}
+
+.flexRowContent--disclosure-layout-group-desktop-contain {
+    background-color: #FFFFFF;
+    padding: 36px 42px;
+    width: 50%;
+}
+
+.flexRowContent--disclosure-layout-group-desktop-contain-2 {
+    width: 100%;
+}
+
+.flexRowContent--disclosure-layout-group-desktop-contain-2 :global(.vtex-store-components-3-x-content) {
+    color: #000;
+    font-size: 14px;
+    font-family: Avenir;
+}
+
 @media (min-width: 768px) {
     .flexRowContent--newsletter-global-container {
         flex-direction: row;

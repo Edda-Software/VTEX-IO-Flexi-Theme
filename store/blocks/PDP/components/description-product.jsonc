@@ -2,10 +2,22 @@
     "flex-layout.row#disclosure-layout-group": {
         "props": {
             "blockClass": "disclosure-layout-group-container",
+            "colSizing": "auto",
             "fullWidth": true
         },
         "children": [
+            "responsive-layout.mobile#disclosure-layout-group",
+            "responsive-layout.desktop#disclosure-layout-group"
+        ]
+    },
+    "responsive-layout.mobile#disclosure-layout-group": {
+        "children": [
             "flex-layout.col#disclosure-layout-group"
+        ]
+    },
+    "responsive-layout.desktop#disclosure-layout-group": {
+        "children": [
+            "flex-layout.col#disclosure-layout-group-desktop"
         ]
     },
     "flex-layout.col#disclosure-layout-group": {
@@ -26,7 +38,6 @@
     "disclosure-layout-group#group": {
         "children": [
             "disclosure-layout#style-product",
-            "disclosure-layout#clear-product",
             "disclosure-layout#expecification-product"
         ]
     },
@@ -35,12 +46,6 @@
         "children": [
             "disclosure-trigger#style-product",
             "disclosure-content#style-product"
-        ]
-    },
-    "disclosure-layout#clear-product": {
-        "children": [
-            "disclosure-trigger#clear-product",
-            "disclosure-content#clear-product"
         ]
     },
     "disclosure-layout#expecification-product": {
@@ -64,20 +69,6 @@
             "text": "Estilo 45226"
         }
     },
-    "disclosure-trigger#clear-product": {
-        "props": {
-            "blockClass": "product-page_disclosure"
-        },
-        "children": [
-            "rich-text#disclosure-clear-product-title"
-        ]
-    },
-    "rich-text#disclosure-clear-product-title": {
-        "props": {
-            "blockClass": "disclosure-style-product-title",
-            "text": "Cómo limpiar"
-        }
-    },
     "disclosure-trigger#expecification-product": {
         "props": {
             "blockClass": "product-page_disclosure"
@@ -94,26 +85,71 @@
     },
     /* DISCLOSURE CONTENT */
     "disclosure-content#style-product": {
+        "props": {
+            "blockClass": "style-product-contain"
+        },
         "children": [
-            "rich-text#disclosure-style-product-container"
+            "rich-text#disclosure-style-product-container-text"
         ]
     },
-    "rich-text#disclosure-style-product-container": {
+    "rich-text#disclosure-style-product-container-text": {
         "props": {
-            "text": "How can I change my shipping address?"
-        }
-    },
-    "disclosure-content#clear-product": {
-        "children": [
-            "rich-text#disclosure-clear-product-container"
-        ]
-    },
-    "rich-text#disclosure-clear-product-container": {
-        "props": {
-            "text": "How can I change my shipping address?"
+            "blockClass": "disclosure-style-product-container-text",
+            "text": "Te presentamos nuestro Estilo 45226, elaborado en piel color negro que cuenta con el sello de comodidad y estilo de zapatos Flexi. Este producto forma parte de nuestra línea Vantage, una nueva propuesta diseñada en un estilo híbrido que combina un sneaker urbano y un outdoor, para cubrir la necesidad del adulto joven que busca conectarse con la naturaleza sin perder la tendencia. Te acompañarán en tu mejor aventura. Este calzado cuenta con una suela de phylon / hule, una plantilla de cerdo y forro textil."
         }
     },
     "disclosure-content#expecification-product": {
+        "children": [
+            "product-description"
+        ]
+    },
+    /* DESCIPTION DESKTOP */
+    "flex-layout.col#disclosure-layout-group-desktop": {
+        "props": {
+            "blockClass": "disclosure-layout-group-desktop"
+        },
+        "children": [
+            "rich-text#disclosure-layout-title",
+            "flex-layout.row#disclosure-layout-group-desktop-style",
+            "flex-layout.row#disclosure-layout-group-desktop-especification"
+        ]
+    },
+    "flex-layout.row#disclosure-layout-group-desktop-style": {
+        "props": {
+            "blockClass": "disclosure-layout-group-desktop-contain"
+        },
+        "children": [
+            "flex-layout.col#disclosure-layout-group-desktop-style"
+        ]
+    },
+    "flex-layout.col#disclosure-layout-group-desktop-style": {
+        "props": {
+            "blockClass": "disclosure-layout-group-desktop-style"
+        },
+        "children": [
+            "rich-text#disclosure-layout-group-desktop-style-title",
+            "rich-text#disclosure-layout-group-desktop-style-contain"
+        ]
+    },
+    "rich-text#disclosure-layout-group-desktop-style-title": {
+        "props": {
+            "blockClass": "disclosure-layout-group-desktop-style-title",
+            "text": "Estilo 45226"
+        }
+    },
+    "rich-text#disclosure-layout-group-desktop-style-contain": {
+        "props": {
+            "blockClass": "disclosure-layout-group-desktop-style-contain",
+            "text": "Te presentamos nuestro Estilo 45226, elaborado en piel color negro que cuenta con el sello de comodidad y estilo de zapatos Flexi. Este producto forma parte de nuestra línea Vantage, una nueva propuesta diseñada en un estilo híbrido que combina un sneaker urbano y un outdoor, para cubrir la necesidad del adulto joven que busca conectarse con la naturaleza sin perder la tendencia. Te acompañarán en tu mejor aventura. Este calzado cuenta con una suela de phylon / hule, una plantilla de cerdo y forro textil."
+        }
+    },
+    "flex-layout.row#disclosure-layout-group-desktop-especification": {
+        "props": {
+            "blockClass": [
+                "disclosure-layout-group-desktop-contain",
+                "disclosure-layout-group-desktop-contain-2"
+            ]
+        },
         "children": [
             "product-description"
         ]
