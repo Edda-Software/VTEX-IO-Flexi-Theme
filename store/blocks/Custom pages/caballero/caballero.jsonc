@@ -1,0 +1,21 @@
+{
+    "store.custom#caballero": {
+        "blocks": [
+            "flex-layout.row#category-dama-container"
+        ]
+    },
+    "flex-layout.row#category-dama-container": {
+        "children": [
+            "flex-layout.col#category-dama-container"
+        ]
+    },
+    "flex-layout.col#category-dama-container": {
+        "children": [
+            "breadcrumb",
+            "flex-layout.row#dama-block-three_carousel-offer",
+            "flex-layout.row#newsletter-global-container",
+            "flex-layout.row#dama-block-three_carousel-offer-2",
+            "flex-layout.row#block-seven_advertisement-product"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "flex-layout.row#dama-block-one_banner": {
+        "props": {
+            "blockClass": "dama-block-one_banner",
+            "fullWidth": true
+        },
+        "children": [
+            "list-context.image-list#dama-banner"
+        ]
+    },
+    "list-context.image-list#dama-banner": {
+        "title": "Banner Categoria Dama",
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "assets/images/home/principal-banner-desktop.jpg",
+                    "mobileImage": "assets/images/home/principal-banner-mobile.jpg",
+                    "description": "something something",
+                    "link": {
+                        "url": "/"
+                    }
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#carousel-banner-image"
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+/* BLOCK TWO */
+.paragraph--dama-block-two_search-category-title {
+    color: #000;
+    font-size: 18px;
+    font-family: Keep Calm;
+    font-weight: 400;
+}
+
+.wrapper--dama-block-two_search-category-contain-text {
+    width: 100%;
+}
+
+.paragraph--dama-block-two_search-category-contain-text {
+    color: #403128;
+    font-size: 12px;
+    font-family: Keep Calm;
+    font-weight: 400;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.paragraph--dama-block-two_search-category-contain-text-view-more {
+    color: #BA1D2E !important;
+    font-size: 12px !important;
+    font-family: Avenir !important;
+    font-weight: 500 !important;
+}
+
+/* BLOCK THREE */
+.paragraph--dama-block-three_carousel-offer-title,
+.paragraph--dama-block-three_carousel-offer-2-title {
+    font-family: Keep Calm;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.link--dama-block-three_carousel-offer-view-more,
+.link--dama-block-three_carousel-offer-2-view-more {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    color: #000000;
+}
+
+@media (min-width: 1024px) {
+
+    /* BLOCK TWO */
+    .paragraph--dama-block-two_search-category-title {
+        color: #403128;
+        font-size: 24px;
+        font-family: Keep Calm;
+        font-weight: 400;
+    }
+
+    .paragraph--dama-block-two_search-category-contain-text-view-more {
+        font-size: 17px !important;
+    }
+
+    .paragraph--dama-block-two_search-category-contain-text {
+        color: #403128;
+        font-size: 15px;
+        font-family: Keep Calm;
+        font-weight: 400;
+        opacity: 1;
+    }
+
+    .paragraph--dama-block-three_carousel-offer-title,
+    .paragraph--dama-block-three_carousel-offer-2-title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .link--dama-block-three_carousel-offer-view-more,
+    .link--dama-block-three_carousel-offer-2-view-more {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,278 @@
+{
+    "flex-layout.row#dama-block-two_search-category": {
+        "props": {
+            "blockClass": "dama-block-two_search-category",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#dama-block-two_search-category"
+        ]
+    },
+    "flex-layout.col#dama-block-two_search-category": {
+        "props": {
+            "blockClass": "dama-block-two_search-category",
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "rich-text#dama-block-two_search-category-title",
+            "flex-layout.row#dama-block-two_search-category-contain"
+        ]
+    },
+    "rich-text#dama-block-two_search-category-title": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-title",
+            "text": "Busca tu calzado por categoría"
+        }
+    },
+    "flex-layout.row#dama-block-two_search-category-contain": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain",
+            "colSizing": "auto",
+            "horizontalAlign": "left"
+        },
+        "children": [
+            "flex-layout.col#dama-block-two_search-category-contain-1",
+            "flex-layout.col#dama-block-two_search-category-contain-2",
+            "flex-layout.col#dama-block-two_search-category-contain-3",
+            "flex-layout.col#dama-block-two_search-category-contain-4",
+            "flex-layout.col#dama-block-two_search-category-contain-5",
+            "flex-layout.col#dama-block-two_search-category-contain-6",
+            "flex-layout.col#dama-block-two_search-category-contain-7",
+            "flex-layout.col#dama-block-two_search-category-contain-8",
+            "flex-layout.col#dama-block-two_search-category-contain-9",
+            "flex-layout.col#dama-block-two_search-category-contain-10"
+        ]
+    },
+    "flex-layout.col#dama-block-two_search-category-contain-1": {
+        "children": [
+            "image#dama-block-two_search-category-contain-1",
+            "rich-text#dama-block-two_search-category-contain-1"
+        ]
+    },
+    "image#dama-block-two_search-category-contain-1": {
+        "props": {
+            "maxWidth": "87",
+            "maxHeight": "87",
+            "link": {
+                "url": "/"
+            },
+            "src": "assets/images/customPages/botines.png"
+        }
+    },
+    "rich-text#dama-block-two_search-category-contain-1": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain-text",
+            "textAlignment": "CENTER",
+            "text": "Botines"
+        }
+    },
+    "flex-layout.col#dama-block-two_search-category-contain-2": {
+        "children": [
+            "image#dama-block-two_search-category-contain-2",
+            "rich-text#dama-block-two_search-category-contain-2"
+        ]
+    },
+    "image#dama-block-two_search-category-contain-2": {
+        "props": {
+            "maxWidth": "87",
+            "maxHeight": "87",
+            "link": {
+                "url": "/"
+            },
+            "src": "assets/images/customPages/botines.png"
+        }
+    },
+    "rich-text#dama-block-two_search-category-contain-2": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain-text",
+            "textAlignment": "CENTER",
+            "text": "Casual"
+        }
+    },
+    "flex-layout.col#dama-block-two_search-category-contain-3": {
+        "children": [
+            "image#dama-block-two_search-category-contain-3",
+            "rich-text#dama-block-two_search-category-contain-3"
+        ]
+    },
+    "image#dama-block-two_search-category-contain-3": {
+        "props": {
+            "maxWidth": "87",
+            "maxHeight": "87",
+            "link": {
+                "url": "/"
+            },
+            "src": "assets/images/customPages/botines.png"
+        }
+    },
+    "rich-text#dama-block-two_search-category-contain-3": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain-text",
+            "textAlignment": "CENTER",
+            "text": "Escolar"
+        }
+    },
+    "flex-layout.col#dama-block-two_search-category-contain-4": {
+        "children": [
+            "image#dama-block-two_search-category-contain-4",
+            "rich-text#dama-block-two_search-category-contain-4"
+        ]
+    },
+    "image#dama-block-two_search-category-contain-4": {
+        "props": {
+            "maxWidth": "87",
+            "maxHeight": "87",
+            "link": {
+                "url": "/"
+            },
+            "src": "assets/images/customPages/botines.png"
+        }
+    },
+    "rich-text#dama-block-two_search-category-contain-4": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain-text",
+            "textAlignment": "CENTER",
+            "text": "Servicio"
+        }
+    },
+    "flex-layout.col#dama-block-two_search-category-contain-5": {
+        "children": [
+            "image#dama-block-two_search-category-contain-5",
+            "rich-text#dama-block-two_search-category-contain-5"
+        ]
+    },
+    "image#dama-block-two_search-category-contain-5": {
+        "props": {
+            "maxWidth": "87",
+            "maxHeight": "87",
+            "link": {
+                "url": "/"
+            },
+            "src": "assets/images/customPages/botines.png"
+        }
+    },
+    "rich-text#dama-block-two_search-category-contain-5": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain-text",
+            "textAlignment": "CENTER",
+            "text": "Sneakers"
+        }
+    },
+    "flex-layout.col#dama-block-two_search-category-contain-6": {
+        "children": [
+            "image#dama-block-two_search-category-contain-6",
+            "rich-text#dama-block-two_search-category-contain-6"
+        ]
+    },
+    "image#dama-block-two_search-category-contain-6": {
+        "props": {
+            "maxWidth": "87",
+            "maxHeight": "87",
+            "link": {
+                "url": "/"
+            },
+            "src": "assets/images/customPages/botines.png"
+        }
+    },
+    "rich-text#dama-block-two_search-category-contain-6": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain-text",
+            "textAlignment": "CENTER",
+            "text": "Tacones"
+        }
+    },
+    "flex-layout.col#dama-block-two_search-category-contain-7": {
+        "children": [
+            "image#dama-block-two_search-category-contain-7",
+            "rich-text#dama-block-two_search-category-contain-7"
+        ]
+    },
+    "image#dama-block-two_search-category-contain-7": {
+        "props": {
+            "maxWidth": "87",
+            "maxHeight": "87",
+            "link": {
+                "url": "/"
+            },
+            "src": "assets/images/customPages/botines.png"
+        }
+    },
+    "rich-text#dama-block-two_search-category-contain-7": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain-text",
+            "textAlignment": "CENTER",
+            "text": "Vestir"
+        }
+    },
+    "flex-layout.col#dama-block-two_search-category-contain-8": {
+        "children": [
+            "image#dama-block-two_search-category-contain-8",
+            "rich-text#dama-block-two_search-category-contain-8"
+        ]
+    },
+    "image#dama-block-two_search-category-contain-8": {
+        "props": {
+            "maxWidth": "87",
+            "maxHeight": "87",
+            "link": {
+                "url": "/"
+            },
+            "src": "assets/images/customPages/botines.png"
+        }
+    },
+    "rich-text#dama-block-two_search-category-contain-8": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain-text",
+            "textAlignment": "CENTER",
+            "text": "Sandalias"
+        }
+    },
+    "flex-layout.col#dama-block-two_search-category-contain-9": {
+        "children": [
+            "image#dama-block-two_search-category-contain-9",
+            "rich-text#dama-block-two_search-category-contain-9"
+        ]
+    },
+    "image#dama-block-two_search-category-contain-9": {
+        "props": {
+            "maxWidth": "87",
+            "maxHeight": "87",
+            "link": {
+                "url": "/"
+            },
+            "src": "assets/images/customPages/botines.png"
+        }
+    },
+    "rich-text#dama-block-two_search-category-contain-9": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain-text",
+            "textAlignment": "CENTER",
+            "text": "Accesorios"
+        }
+    },
+    "flex-layout.col#dama-block-two_search-category-contain-10": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain-10"
+        },
+        "children": [
+            "image#dama-block-two_search-category-contain-10",
+            "rich-text#dama-block-two_search-category-contain-10"
+        ]
+    },
+    "image#dama-block-two_search-category-contain-10": {
+        "props": {
+            "blockClass": "dama-block-two_search-category-contain-10",
+            "src": "assets/images/customPages/cruz.svg"
+        }
+    },
+    "rich-text#dama-block-two_search-category-contain-10": {
+        "props": {
+            "blockClass": [
+                "dama-block-two_search-category-contain-text",
+                "dama-block-two_search-category-contain-text-view-more"
+            ],
+            "textAlignment": "CENTER",
+            "text": "Ver más"
+        }
+    }
+}

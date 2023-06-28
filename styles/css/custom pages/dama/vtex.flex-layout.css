@@ -1,0 +1,120 @@
+.flexRow--category-dama-container :global(.vtex-store-components-3-x-container) {
+    max-width: none;
+}
+
+/* BLOCK TWO */
+.flexRow--dama-block-two_search-category {
+    background: #F6EEE8;
+    height: 240px;
+}
+
+.flexRowContent--dama-block-two_search-category {
+    display: flex;
+    height: 100%;
+    padding-inline: 19.3px;
+}
+
+.flexCol--dama-block-two_search-category {
+    gap: 26px;
+}
+
+.flexColChild--dama-block-two_search-category:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--dama-block-two_search-category-contain {
+    display: flex;
+    overflow-y: scroll;
+    gap: 15.31px;
+}
+
+.flexRowContent--dama-block-two_search-category-contain::-webkit-scrollbar {
+    display: none;
+}
+
+.flexRowContent--dama-block-two_search-category-contain :global(.vtex-store-components-3-x-imageElement) {
+    min-width: 73px;
+    min-height: 73px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--dama-block-two_search-category-contain-10) {
+    min-width: unset !important;
+    min-height: unset !important;
+}
+
+.flexColChild--dama-block-two_search-category-contain-10:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 73px;
+    min-height: 73px;
+    border-radius: 87px;
+    background: #BA1D2E;
+}
+
+/* BLOCK THREE */
+.flexRow--dama-block-three_carousel-offer,
+.flexRow--dama-block-three_carousel-offer-2 {
+    margin-top: 52.29px;
+}
+
+.flexCol--dama-block-three_carousel-offer-contain,
+.flexCol--dama-block-three_carousel-offer-2-contain {
+    max-width: 1440px;
+    gap: 10.43px;
+}
+
+.flexRowContent--dama-block-three_carousel-offer-title,
+.flexRowContent--dama-block-three_carousel-offer-2-title {
+    display: flex;
+    padding-inline: 21px;
+}
+
+@media (min-width: 1024px) {
+
+    /* BLOCK THREE */
+    .flexRowContent--dama-block-three_carousel-offer-title,
+    .flexRowContent--dama-block-three_carousel-offer-2-title {
+        padding-inline: 0px;
+    }
+
+    /* BLOCK TWO */
+    .flexRow--dama-block-two_search-category {
+        height: 338px;
+    }
+
+    .flexRowContent--dama-block-two_search-category-contain {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .flexCol--dama-block-two_search-category {
+        gap: 60px;
+    }
+
+    .flexRowContent--dama-block-two_search-category-contain :global(.vtex-store-components-3-x-imageElement) {
+        min-width: 87px;
+        min-height: 87px;
+    }
+
+    .flexColChild--dama-block-two_search-category-contain-10:first-child {
+        min-width: 87px;
+        min-height: 87px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    /* BLOCK THREE */
+    .flexRow--dama-block-three_carousel-offer,
+    .flexRow--dama-block-three_carousel-offer-2 {
+        margin-top: 100px;
+    }
+
+    .flexCol--dama-block-three_carousel-offer-contain,
+    .flexCol--dama-block-three_carousel-offer-2-contain {
+        gap: 45px;
+        padding-inline: 90px;
+    }
+}

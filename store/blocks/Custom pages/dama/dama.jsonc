@@ -1,0 +1,26 @@
+{
+    "store.custom#dama": {
+        "blocks": [
+            "flex-layout.row#category-dama-container"
+        ]
+    },
+    "flex-layout.row#category-dama-container": {
+        "props": {
+            "blockClass": "category-dama-container"
+        },
+        "children": [
+            "flex-layout.col#category-dama-container"
+        ]
+    },
+    "flex-layout.col#category-dama-container": {
+        "children": [
+            "breadcrumb",
+            "flex-layout.row#dama-block-one_banner",
+            "flex-layout.row#dama-block-two_search-category",
+            "flex-layout.row#dama-block-three_carousel-offer",
+            "flex-layout.row#newsletter-global-container",
+            "flex-layout.row#dama-block-three_carousel-offer-2",
+            "flex-layout.row#block-seven_advertisement-product"
+        ]
+    }
+}
