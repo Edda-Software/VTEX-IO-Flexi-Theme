@@ -41,7 +41,7 @@
       "blockClass": "product-page_container-summary-description"
     },
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "flex-layout.row#product-page_product-price",
       "product-identifier.product",
       "similar-products-variants",

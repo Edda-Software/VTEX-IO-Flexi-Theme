@@ -1,0 +1,101 @@
+.flexRowContent--minicart-container-elements {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    padding: 22.89px 16px 10.31px;
+    position: relative;
+    margin-block: 19.6px;
+}
+
+.flexRowContent--minicart-container-elements .flexCol--minicart-remove-button {
+    height: auto;
+    right: -8px;
+    position: absolute;
+    top: -10px;
+    visibility: hidden;
+    width: auto;
+}
+
+.flexRowContent--minicart-container-elements :global(.vtex-product-list-0-x-productImage) {
+    width: 94.056px;
+    height: 94.056px;
+}
+
+.flexRowContent--minicart-container-elements :global(.vtex-product-list-0-x-productPriceCurrency) {
+    display: none;
+}
+
+.flexCol--minicart-container-elements-2-contain {
+    gap: 8.91px;
+}
+
+.flexRowContent--minicart-container-elements-2 {
+    display: flex;
+    gap: 9.96px;
+}
+
+.flexRowContent--minicart-container-elements-2b {
+    align-items: center;
+    border-top: 1px solid #ABABAB;
+    display: flex;
+    padding-top: 10.72px;
+}
+
+.flexRowContent--minicart-container-elements :global(.vtex-product-list-0-x-productName),
+.flexRowContent--minicart-container-elements :global(.vtex-product-list-0-x-price) {
+    color: #000;
+    font-size: 12.855px;
+    font-family: Keep Calm;
+    font-weight: 400;
+    line-height: 135.1%;
+}
+
+.vtex-product-list-0-x-productVariationsItem {
+    color: #000;
+    font-size: 12.855px;
+    font-family: Avenir;
+    line-height: 168.7%;
+}
+
+.flexRowContent--minicart-container-elements {
+    align-items: center;
+    display: flex;
+    position: relative;
+    gap: 10px;
+}
+
+.flexRowContent--minicart-container-elements :global(.vtex-product-list-0-x-removeButton)::after {
+    content: url('data:image/svg+xml,<svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.900879" width="25.3396" height="25.3396" rx="12.6698" fill="black"/><path d="M16.0953 8.86892V8.36213C16.0953 7.65255 16.0953 7.29777 15.9585 7.02674C15.8382 6.78835 15.6463 6.59452 15.4102 6.47305C15.1418 6.33496 14.7904 6.33496 14.0877 6.33496H13.0839C12.3812 6.33496 12.0298 6.33496 11.7614 6.47305C11.5253 6.59452 11.3334 6.78835 11.2131 7.02674C11.0763 7.29777 11.0763 7.65255 11.0763 8.36213V8.86892M12.331 12.3531V15.5206M14.8405 12.3531V15.5206M7.93945 8.86892H19.2321M17.9774 8.86892V15.964C17.9774 17.0284 17.9774 17.5606 17.7722 17.9671C17.5918 18.3247 17.3039 18.6154 16.9497 18.7976C16.5471 19.0048 16.0201 19.0048 14.966 19.0048H12.2056C11.1515 19.0048 10.6244 19.0048 10.2218 18.7976C9.8677 18.6154 9.57977 18.3247 9.39933 17.9671C9.19419 17.5606 9.19419 17.0284 9.19419 15.964V8.86892" stroke="white" stroke-width="1.40776" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    left: 0;
+    position: absolute;
+    visibility: visible;
+}
+
+.flexRowContent--minicart-footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--minicart-container-elements :global(.vtex-dropdown__button){
+    background-color: #FFFFFF;
+}
+
+@media (min-width: 1024px) {
+    .flexRowContent--minicart-container-elements-2 {
+        gap: 19.96px;
+    }
+
+    .flexRowContent--minicart-container-elements :global(.vtex-product-list-0-x-productName),
+    .flexRowContent--minicart-container-elements :global(.vtex-product-list-0-x-price) {
+        font-size: 16.855px;
+    }
+
+    .vtex-product-list-0-x-productVariationsItem {
+        font-size: 16.855px;
+    }
+
+    .flexRowContent--minicart-container-elements {
+        gap: 21.28px;
+    }
+}

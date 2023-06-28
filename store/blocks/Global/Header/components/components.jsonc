@@ -4,10 +4,10 @@
             "showIconProfile": true,
             "hideIconLabel": false,
             "iconLabel": "Mi cuenta",
-            "mirrorTooltipToRight":true
+            "mirrorTooltipToRight": true
         }
     },
-    "search-bar":{
+    "search-bar": {
         "props": {
             "placeholder": "Busca calzado y accesorios",
             "displayMode": "search-and-clear-buttons",
