@@ -93,7 +93,7 @@
     },
     "price#minicart": {
         "props": {
-            "textAlign": "left"
+            "textAlign": "right"
         }
     },
     "flex-layout.row#minicart-container-elements-2b": {

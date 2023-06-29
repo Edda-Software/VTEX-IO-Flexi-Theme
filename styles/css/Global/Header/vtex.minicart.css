@@ -1,3 +1,9 @@
+.minicartWrapperContainer :global(.vtex-button):hover,
+.minicartWrapperContainer :global(.vtex-button):active,
+.minicartWrapperContainer :global(.vtex-button):focus {
+    background-color: transparent;
+}
+
 .minicartQuantityBadge {
     background-color: #BA1D2E;
 }
@@ -16,7 +22,9 @@
 
 .closeIconButton {
     align-items: start;
+    bottom: -20px;
     display: flex;
+    left: 2px;
     position: relative;
     visibility: hidden;
 }
@@ -86,5 +94,9 @@
     .minicartCheckoutButton :global(.vtex-button) {
         width: 380.164px;
         height: 45.96px;
+    }
+
+    .closeIconButton {
+        left: 15px;
     }
 }
