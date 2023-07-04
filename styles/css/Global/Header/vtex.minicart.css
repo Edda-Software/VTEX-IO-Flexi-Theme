@@ -48,7 +48,6 @@
     color: #000;
     font-size: 14.982px;
     font-family: Keep Calm;
-    font-weight: 400;
 }
 
 .minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child,
@@ -56,7 +55,6 @@
     color: #000;
     font-size: 19.664px;
     font-family: Keep Calm;
-    font-weight: 400;
     margin-top: 25.27px;
     padding: 0%;
 }
@@ -87,7 +85,6 @@
     color: #FFF;
     font-size: 13.109px;
     font-family: Keep Calm;
-    font-weight: 400;
 }
 
 @media (min-width: 1024px) {

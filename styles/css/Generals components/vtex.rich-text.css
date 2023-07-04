@@ -9,7 +9,6 @@
     color: #7E818B;
     font-family: Avenir;
     font-size: 15px;
-    font-weight: 400;
     line-height: 22px;
     text-align: left;
 }
@@ -18,13 +17,27 @@
     color: #000;
     font-size: 18px;
     font-family: Keep Calm;
-    font-weight: 400;
 }
 
 .paragraph--disclosure-layout-group-desktop-style-contain {
     color: #000;
     font-size: 14px;
     font-family: Avenir;
+}
+
+/* QUICK PUSRCHASE BUTTON */
+.paragraph--quick-purshase-button {
+    height: 32px;
+    width: 166px;
+
+    align-items: center;
+    background: #BA1D2E;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Keep Calm;
+    font-size: 11px;
+    justify-content: center;
+    line-height: 13px;
 }
 
 @media (min-width: 1024px) {
@@ -36,5 +49,13 @@
     .paragraph--newsletter-global-subtitle {
         font-size: 18px;
         line-height: 26px;
+    }
+
+    .paragraph--quick-purshase-button {
+        height: 49px;
+        width: 158px;
+
+        font-size: 14px;
+        line-height: 16.8px;
     }
 }

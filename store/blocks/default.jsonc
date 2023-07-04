@@ -48,7 +48,7 @@
       "product-summary-name",
       "product-summary-description",
       "flex-layout.row#product-price_shelf-global",
-      "product-summary-buy-button"
+      "modal-trigger#quick-purshase"
     ]
   },
   "flex-layout.row#product-price_shelf-global": {
@@ -60,6 +60,27 @@
     "children": [
       "product-selling-price",
       "product-list-price"
+    ]
+  },
+  "modal-trigger#quick-purshase": {
+    "children": [
+      "rich-text#quick-purshase",
+      "modal-layout#quick-purshase"
+    ]
+  },
+  "rich-text#quick-purshase": {
+    "props": {
+      "blockClass": "quick-purshase-button",
+      "text": "Agregar a carrito"
+    }
+  },
+  "modal-layout#quick-purshase": {
+    "props": {
+      "blockClass": "quick-purshase"
+    },
+    "children": [
+      "modal-header",
+      "flex-layout.row#product-page_container-summary-product"
     ]
   },
   /* SLIDER LAYOUT SUMMARY PRODUCT */

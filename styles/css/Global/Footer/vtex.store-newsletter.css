@@ -34,7 +34,6 @@
 .newsletterForm--container-newsletter-form :global(.vtex-button) :global(.vtex-button__label) {
     font-family: Keep Calm;
     font-size: 14px;
-    font-weight: 400;
     line-height: 17px;
     text-transform: capitalize;
 }

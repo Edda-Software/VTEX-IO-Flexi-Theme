@@ -4,7 +4,7 @@
       "flex-layout.row#breadcrumb-container-pdp",
       "flex-layout.row#product-page_container-summary-product",
       "flex-layout.row#disclosure-layout-group",
-      "flex-layout.row#product-page_carousel-other-products",
+      "flex-layout.row#product-page_carousel-other-products"
       /* "product-reviews",
       "product-questions-and-answers" */
     ]

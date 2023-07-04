@@ -36,6 +36,8 @@
 .flexRowContent--dama-block-two_search-category-contain :global(.vtex-store-components-3-x-imageElement) {
     min-width: 73px;
     min-height: 73px;
+    max-width: 73px;
+    max-height: 73px;
 }
 
 :global(.vtex-store-components-3-x-imageElement--dama-block-two_search-category-contain-10) {
@@ -96,6 +98,8 @@
     .flexRowContent--dama-block-two_search-category-contain :global(.vtex-store-components-3-x-imageElement) {
         min-width: 87px;
         min-height: 87px;
+        max-width: 87px;
+        max-height: 87px;
     }
 
     .flexColChild--dama-block-two_search-category-contain-10:first-child {
