@@ -6,6 +6,7 @@
   },
   "sticky-layout#mobile": {
     "children": [
+      "custom-styles",
       "flex-layout.row#container-header-mobile"
     ]
   },
@@ -53,7 +54,7 @@
       "colSizing": "auto"
     },
     "children": [
-      "login#header",
+      "login",
       "minicart.v2",
       "flex-layout.col#trigger-mega-menu"
     ]
@@ -79,6 +80,7 @@
     },
     "children": [
       "search-bar",
+      "close-search-modal",
       "mega-menu#mobile",
      "flex-layout.row#mega-menu-mobile__container-options"
     ],

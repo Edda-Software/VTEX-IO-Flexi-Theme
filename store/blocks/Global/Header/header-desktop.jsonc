@@ -9,6 +9,7 @@
             "blockClass": "sticky-header-desktop"
         },
         "children": [
+            "custom-styles",
             "flex-layout.row#desktop"
         ]
     },
@@ -24,8 +25,8 @@
             "flex-layout.col#logo-desktop",
             "menu#header-main-menu",
             "search-bar",
-            "login#header",
-            "minicart.v2"
+            "login",
+            "minicart.v2"            
         ]
     },
     "flex-layout.col#logo-desktop": {

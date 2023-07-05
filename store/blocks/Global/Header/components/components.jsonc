@@ -1,10 +1,14 @@
 {
-    "login#header": {
+    "login": {
         "props": {
+            "accountOptionsButtonBehavior": "link",
+            "emailPlaceholder": "Mail",
+            "passwordPlaceholder": "Ingrese su contraseña",
             "showIconProfile": true,
             "hideIconLabel": false,
             "iconLabel": "Mi cuenta",
-            "mirrorTooltipToRight": true
+            "optionsTitle": "Escoja una opción para entrar",
+            "showPasswordVerificationIntoTooltip": false
         }
     },
     "search-bar": {
