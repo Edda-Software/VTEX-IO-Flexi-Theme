@@ -1,7 +1,7 @@
 body {
-  font-family: 'Rubik';
+  font-family: 'Avenir';
   padding: 0 !important;
-  background: #ededed;
+  background: #FFFAF7;
 
   .container {
     @media (max-width: 980px) {
@@ -109,9 +109,10 @@ div#vtex-callcenter {
   }
 
   @media (min-width: 1200px) {
+
     .payment-methods,
     .copyright {
-      & > * {
+      &>* {
         margin-right: 20px;
       }
     }
@@ -140,7 +141,7 @@ div#vtex-callcenter {
       display: block;
     }
 
-    .payment-methods > p,
+    .payment-methods>p,
     .copyright p {
       text-align: center;
       width: 100%;
@@ -172,7 +173,7 @@ div#vtex-callcenter {
 .btn-success.disabled,
 .btn-success[disabled] {
   background: none;
-  background-color: #004793;
+  background: #BA1D2E;
   border-radius: 0;
   text-shadow: none;
   border: none;
@@ -193,6 +194,7 @@ div#vtex-callcenter {
 }
 
 .orderform-template-holder {
+
   .step,
   .cart,
   .totalizers,
