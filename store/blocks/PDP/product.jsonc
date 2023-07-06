@@ -33,7 +33,7 @@
       "blockClass": "product-page_container-summary-image"
     },
     "children": [
-      "product-images"
+      "product-images#product"
     ]
   },
   "flex-layout.col#product-page_container-summary-description": {

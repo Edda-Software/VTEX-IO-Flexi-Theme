@@ -4,7 +4,7 @@
           "maxItems": 100
         }
       },
-      "product-images":{
+      "product-images#product":{
         "props": {
             "thumbnailsOrientation": "horizontal",
             "showPaginationDots": false
