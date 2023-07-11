@@ -201,10 +201,10 @@ div#vtex-callcenter {
   .step.active,
   .cart.active,
   .totalizers.active {
-    border: none !important;
-    border-radius: 4px;
+    border-radius: 1px;
+    border: 0.752px solid rgba(0, 0, 0, 0.20);
     padding: 20px 16px;
-    background: white;
+    background: #FFF;
   }
 
   .accordion-inner {

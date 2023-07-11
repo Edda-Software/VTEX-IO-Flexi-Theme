@@ -3,6 +3,9 @@ h1#orderform-title {
 }
 
 #client-profile-data form.form-page.client-pre-email {
+  border: none;
+  background-color: #FFFAF7;
+
   .link.link-cart {
     display: none;
   }
@@ -19,9 +22,12 @@ h1#orderform-title {
 
       &::before {
         content: 'Ingresa tu correo electrónico para continuar con tu compra';
-        font-size: 2rem;
-        font-weight: 700;
-        color: #000000;
+        color: #000;
+        font-family: Keep Calm;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
       }
     }
 
@@ -35,17 +41,43 @@ h1#orderform-title {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 406px;
     margin: 0 auto;
     max-width: 500px;
     position: inherit;
     float: none;
+    gap: 20px;
+
+    input.input-block-level {
+      height: 50px;
+      padding: 0px 10.524px 0px 15.034px;
+      border-radius: 0%;
+
+      &::placeholder {
+        color: rgba(72, 84, 103, 0.49);
+        font-family: Avenir;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 165.5%;
+      }
+    }
   }
 
   .btn-success {
     position: inherit;
+    background: #BA1D2E;
+    padding: 16px;
     width: 100%;
-    margin-block: 15px;
+
+    span {
+      color: #FFF;
+      font-family: Keep Calm;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
   }
 
   .emailInfo {
@@ -55,29 +87,9 @@ h1#orderform-title {
     max-width: 700px;
     margin-top: 30px;
 
-    &::before {
-      content: 'Identifica tu cuenta con el correo electrónico para continuar la compra.';
-      color: black;
-      font-family: 'Rubik';
-      font-weight: 500;
-      font-size: 1.25rem;
-      display: block;
-      text-align: center;
-      margin-bottom: 5px;
-    }
-
-    &::after {
-      content: 'Tu información en 100% segura y de uso exclusivo para fácilitar tus compras, notificarte acerca el envío, guardar tu historial de compras y brindarte beneficios en cada compra.';
-      color: #808080;
-      font-family: 'Rubik';
-      font-size: 1.15rem;
-      display: block;
-      text-align: center;
-    }
-
-    & > h3,
-    & > ul,
-    & > i {
+    &>h3,
+    &>ul,
+    &>i {
       display: none;
     }
   }

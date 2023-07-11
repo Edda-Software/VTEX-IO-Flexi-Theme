@@ -5,8 +5,8 @@
   font-weight: 500;
   font-display: swap;
   src: local("KeepCalm"), local("KeepCalm-Medium"),
-    url("assets/fonts/KeepCalm-Medium.woff2") format("woff2"),
-    url("assets/fonts/KeepCalm-Medium.woff") format("woff");
+    url("/arquivos/KeepCalm-Medium.woff2.css") format("woff2"),
+    url("/arquivos/KeepCalm-Medium.woff") format("woff");
 }
 
 /* **************************************************************************************************************************************************** */
@@ -16,8 +16,8 @@
   font-weight: 300;
   font-display: swap;
   src: local("Avenir"), local("Avenir-Book"),
-    url("assets/fonts/Avenir-Book.woff") format("woff"),
-    url("assets/fonts/Avenir-Book.woff2") format("woff2");
+    url("/arquivos/Avenir-Book.woff") format("woff"),
+    url("/arquivos/Avenir-Book.woff2.css") format("woff2");
 }
 
 @font-face {
@@ -26,8 +26,8 @@
   font-weight: 400;
   font-display: swap;
   src: local("Avenir"), local("Avenir-Roman"),
-    url("assets/fonts/Avenir-Roman.woff") format("woff"),
-    url("assets/fonts/Avenir-Roman.woff2") format("woff2");
+    url("/arquivos/Avenir-Roman.woff") format("woff"),
+    url("/arquivos/Avenir-Roman.woff2.css") format("woff2");
 }
 
 @font-face {
@@ -36,8 +36,8 @@
   font-weight: 500;
   font-display: swap;
   src: local("Avenir"), local("Avenir-Medium"),
-    url("assets/fonts/Avenir-Medium.woff") format("woff"),
-    url("assets/fonts/Avenir-Medium.woff2") format("woff2");
+    url("/arquivos/Avenir-Medium.woff") format("woff"),
+    url("/arquivos/Avenir-Medium.woff2.css") format("woff2");
 }
 
 
@@ -47,6 +47,6 @@
   font-weight: 700;
   font-display: swap;
   src: local("Avenir"), local("Avenir-Black"),
-    url("assets/fonts/Avenir-Black.woff") format("woff"),
-    url("assets/fonts/Avenir-Black.woff2") format("woff2");
+    url("/arquivos/Avenir-Black.woff") format("woff"),
+    url("/arquivos/Avenir-Black.woff2.css") format("woff2");
 }
