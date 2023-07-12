@@ -1,36 +1,39 @@
 .mini-cart {
   h2 {
-    background: none;
-    font-size: 1rem;
+    color: #000;
+    font-family: Keep Calm;
+    font-size: 18.041px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #FFF;
     text-align: left;
-    font-weight: 700;
-    color: #000000;
-    border: none;
   }
 
   .cart-fixed.cart-fixed-transition {
     width: 100%;
-    border: none !important;
-    border-radius: 4px;
-    padding: 20px 12px;
-    background: white;
-    height: auto !important;
+    border-radius: 1px;
+    border: 0.752px solid rgba(0, 0, 0, 0.2);
+    padding: 30px 30px;
+    background: #FFF;
     position: relative !important;
-    top: initial !important;
+    height: auto !important;
   }
 
   .product-name {
-    font-size: 1rem;
-    color: black;
-    font-weight: 700;
-    font-family: 'Rubik';
+    color: #000;
+    font-family: Keep Calm;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135.1%;
   }
 
   .summary-template-holder {
     margin-top: 20px;
     background: none;
-    border: 1px solid rgba(72, 84, 103, 0.6);
-    border-radius: 4px;
+    border-radius: 1px;
+    border: 0.752px solid rgba(0, 0, 0, 0.20);
   }
 
   table.table {
@@ -53,11 +56,24 @@
           display: none;
         }
 
-        td.info,
+        td.info {
+          color: #7A7A7A;
+          font-family: Keep Calm;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          white-space: nowrap;
+          width: auto;
+        }
+
         td.monetary {
-          font-family: 'Rubik';
-          color: #000000;
-          font-size: 1rem;
+          color: #7A7A7A;
+          font-family: Avenir;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
           white-space: nowrap;
           width: auto;
         }
@@ -75,14 +91,26 @@
         justify-content: space-between;
         align-items: center;
 
-        td.info,
-        td.monetary {
-          font-family: 'Rubik';
-          color: #000000;
-          font-size: 1.15rem;
+        td.info {
+          color: #000;
+          font-family: Keep Calm;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
           white-space: nowrap;
           width: auto;
-          font-weight: 700;
+        }
+
+        td.monetary {
+          color: #000;
+          font-family: Avenir;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          white-space: nowrap;
+          width: auto;
         }
       }
     }

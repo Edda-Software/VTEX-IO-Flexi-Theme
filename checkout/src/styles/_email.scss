@@ -15,7 +15,10 @@ h1#orderform-title {
   }
 
   h3.client-pre-email-h label {
-    margin: 50px 0;
+    margin: 25px 0;
+    @media (min-width: 1024px) {
+      margin: 50px 0;
+    }
 
     span {
       font-size: 0;
@@ -24,10 +27,14 @@ h1#orderform-title {
         content: 'Ingresa tu correo electrónico para continuar con tu compra';
         color: #000;
         font-family: Keep Calm;
-        font-size: 24px;
+        font-size: 20.77px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+        @media (min-width: 1024px) {
+        font-size: 24px;
+        }
+
       }
     }
 
@@ -47,6 +54,9 @@ h1#orderform-title {
     position: inherit;
     float: none;
     gap: 20px;
+    @media (max-width: 600px) {
+      width: 342px;
+    }
 
     input.input-block-level {
       height: 50px;
@@ -61,6 +71,8 @@ h1#orderform-title {
         font-weight: 500;
         line-height: 165.5%;
       }
+
+
     }
   }
 

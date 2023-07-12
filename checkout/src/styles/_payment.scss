@@ -1,4 +1,5 @@
 div#payment-data {
+
   i.icon-credit-card {
     display: none;
   }
@@ -52,4 +53,13 @@ div#payment-data {
     border: 1px solid rgba(72, 84, 103, 0.6);
     border-radius: 4px;
   }
+}
+
+.FormFieldLabel {
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 79.102%;
+  margin-bottom: 5px;
 }

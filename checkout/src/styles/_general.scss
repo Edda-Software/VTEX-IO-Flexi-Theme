@@ -203,8 +203,14 @@ div#vtex-callcenter {
   .totalizers.active {
     border-radius: 1px;
     border: 0.752px solid rgba(0, 0, 0, 0.20);
-    padding: 20px 16px;
+    padding: 24.55px 23.33px;
     background: #FFF;
+    margin-inline: 10px;
+
+    @media (min-width: 1024px) {
+      padding: 30px 50px;
+      margin-inline: 0px;
+    }
   }
 
   .accordion-inner {
@@ -236,4 +242,9 @@ div#vtex-callcenter {
 
 .vtexIdUI .modal-header .close {
   position: initial !important;
+}
+
+input.input-block-level :active,
+input.input-block-level :focus {
+  background-color: #FFF !important;
 }
