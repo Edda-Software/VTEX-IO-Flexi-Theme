@@ -4,15 +4,32 @@
   }
 
   .cart-template {
+
     @media (min-width: 1300px) {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto;
+      gap: 10px;
+
+      .cart-template-holder {
+        width: auto;
+        grid-column: 1;
+        grid-row: 1 / span 3;
+      }
+
+      .cart-links-bottom {
+        grid-column: 2;
+        width: auto !important;
+      }
+
       #cartLoadedDiv {
-        width: 70%;
         float: left;
         min-height: 350px;
       }
 
       .summary-template-holder {
-        width: 28%;
+        grid-column: 2;
+        width: auto;
         float: right;
       }
     }
@@ -34,6 +51,14 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+      }
+
+      .cart {
+        padding: 0px;
+
+        .table {
+          margin-top: 24.75px;
+        }
       }
 
       .cart::before {
@@ -64,8 +89,11 @@
         line-height: normal;
         margin-bottom: 20.46px;
         padding: 20px;
-        border-top: 1px solid rgba(0, 0, 0, 0.5);
         width: 88%;
+
+        @media (max-width: 700px) {
+          border-top: 1px solid rgba(0, 0, 0, 0.5);
+        }
       }
     }
 
@@ -99,15 +127,16 @@
 
         tbody.totalizers-list {
           display: block;
-
+          
+          @media (min-width: 1024px) {
+            border-bottom: 1px solid #000;
+          }
+          
           tr {
             display: flex;
             justify-content: space-between;
             align-items: center;
 
-            @media (min-width: 1024px) {
-              border-bottom: 1px solid #000;
-            }
 
             &.Shipping {
               display: none;
@@ -490,7 +519,11 @@
             }
 
             .old-product-price {
-              color: #e1342d;
+              color: rgba(0, 0, 0, 0.40);
+              font-family: Avenir;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
             }
 
             .price-details {
@@ -546,6 +579,7 @@
               width: 30px;
               display: inline-block;
               background-color: #FFFAF7;
+              color: #000;
             }
 
             .icon-minus-sign {
