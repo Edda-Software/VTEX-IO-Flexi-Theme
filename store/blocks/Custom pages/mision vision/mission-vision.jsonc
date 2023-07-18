@@ -1,0 +1,42 @@
+{
+    "store.custom#mission-vision": {
+        "blocks": [
+            "flex-layout.row#mission-vision-contianer"
+        ]
+    },
+    "flex-layout.row#mission-vision-contianer": {
+        "children": [
+            "flex-layout.col#mission-vision-contianer"
+        ]
+    },
+    "flex-layout.col#mission-vision-contianer": {
+        "children": [
+            "flex-layout.row#mission-vision-banner"
+        ]
+    },
+    "flex-layout.row#mission-vision-banner": {
+        "props": {
+            "blockClass": "mission-vision-banner"
+        },
+        "children": [
+            "list-context.image-list#mission-vision-banner"
+        ]
+    },
+    "list-context.image-list#mission-vision-banner": {
+        "title": "Banner Misión Visión",
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "assets/images/customPages/missionVision/banner-mission-vision-desktop.jpg",
+                    "mobileImage": "assets/images/customPages/missionVision/banner-mission-vision-mobile.jpg",
+                    "description": "something something"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#carousel-banner-image"
+        ]
+    }
+}

@@ -4,5 +4,8 @@
   },
   "store.custom#caballero": {
     "path": "/caballero"
+  },
+  "store.custom#mission-vision":{
+    "path": "/mision-vision-valores"
   }
 }
