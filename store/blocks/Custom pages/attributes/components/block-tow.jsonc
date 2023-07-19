@@ -5,29 +5,36 @@
             "colSizing": "auto"
         },
         "children": [
-            "flex-layout.col#products-block-two-card-one",
-            "flex-layout.col#products-block-two-card-two",
-            "flex-layout.col#products-block-two-card-three",
-            "flex-layout.col#products-block-two-card-four",
-            "flex-layout.col#products-block-two-card-five",
-            "flex-layout.col#products-block-two-card-six",
-            "flex-layout.col#products-block-two-card-seven",
-            "flex-layout.col#products-block-two-card-eight" 
+            "flex-layout.col#cards-products-block-two_container-one",
+            "flex-layout.col#cards-products-block-two_container-two"
+        ]
+    },
+    /* CONTAINER ONE */
+    "flex-layout.col#cards-products-block-two_container-one": {
+        "props": {
+            "blockClass": "cards-products-block-two_container-one",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.row#products-block-two-card-one",
+            "flex-layout.row#products-block-two-card-two",
+            "flex-layout.row#products-block-two-card-three",
+            "flex-layout.row#products-block-two-card-four"
         ]
     },
     /* CARD ONE */
-    "flex-layout.col#products-block-two-card-one": {
+    "flex-layout.row#products-block-two-card-one": {
         "props": {
             "blockClass": "products-block-two-card",
             "horizontalAlign": "left",
             "verticalAlign": "top"
         },
         "children": [
-            "flex-layout.row#cards-products-block-two-image",
+            "flex-layout.col#cards-products-block-two-image",
             "rich-text#products-block-two_card-one-text"
         ]
     },
-    "flex-layout.row#cards-products-block-two-image": {
+    "flex-layout.col#cards-products-block-two-image": {
         "props": {
             "blockClass": "cards-products-block-two-image"
         },
@@ -55,18 +62,18 @@
         }
     },
     /* CARD TWO */
-    "flex-layout.col#products-block-two-card-two": {
+    "flex-layout.row#products-block-two-card-two": {
         "props": {
             "blockClass": "products-block-two-card",
             "horizontalAlign": "left",
             "verticalAlign": "top"
         },
         "children": [
-            "flex-layout.row#cards-products-block-two-image-two",
+            "flex-layout.col#cards-products-block-two-image-two",
             "rich-text#products-block-two_card-two-text"
         ]
     },
-    "flex-layout.row#cards-products-block-two-image-two": {
+    "flex-layout.col#cards-products-block-two-image-two": {
         "props": {
             "blockClass": "cards-products-block-two-image"
         },
@@ -86,12 +93,6 @@
             "src": "assets/images/customPages/attributes/ancho-title.jpg",
             "blockClass": "cards-products-image-title-block-two"
         }
-    }, 
-    "rich-text#products-block-two_card-two-title": {
-        "props": {
-            "text": "ANCHO AJUSTABLE",
-            "blockClass": "products-block-two_card-two-title"
-        }
     },
     "rich-text#products-block-two_card-two-text": {
         "props": {
@@ -100,18 +101,18 @@
         }
     },
     /* CARD THREE */
-    "flex-layout.col#products-block-two-card-three": {
+    "flex-layout.row#products-block-two-card-three": {
         "props": {
             "blockClass": "products-block-two-card",
             "horizontalAlign": "left",
             "verticalAlign": "top"
         },
         "children": [
-            "flex-layout.row#cards-products-block-two-image-three",
+            "flex-layout.col#cards-products-block-two-image-three",
             "rich-text#products-block-three-card-two-text"
         ]
     },
-    "flex-layout.row#cards-products-block-two-image-three": {
+    "flex-layout.col#cards-products-block-two-image-three": {
         "props": {
             "blockClass": "cards-products-block-two-image"
         },
@@ -120,7 +121,7 @@
             "image#products-block-two_card-one-image-title-three"
         ]
     },
-      "image#products-block-two_card-one-image-three": {
+    "image#products-block-two_card-one-image-three": {
         "props": {
             "src": "assets/images/customPages/attributes/piel.jpg",
             "blockClass": "cards-products-image-block-two"
@@ -131,7 +132,7 @@
             "src": "assets/images/customPages/attributes/piel-title.jpg",
             "blockClass": "cards-products-image-title-block-two"
         }
-    }, 
+    },
     "rich-text#products-block-three-card-two-text": {
         "props": {
             "text": "Exterior del zapato confeccionado en piel 100%",
@@ -139,18 +140,18 @@
         }
     },
     /* CARD FOUR */
-    "flex-layout.col#products-block-two-card-four": {
+    "flex-layout.row#products-block-two-card-four": {
         "props": {
             "blockClass": "products-block-two-card",
             "horizontalAlign": "left",
             "verticalAlign": "top"
         },
         "children": [
-            "flex-layout.row#cards-products-block-two-image-four",
+            "flex-layout.col#cards-products-block-two-image-four",
             "rich-text#products-block-four-card-two-text"
         ]
     },
-    "flex-layout.row#cards-products-block-two-image-four": {
+    "flex-layout.col#cards-products-block-two-image-four": {
         "props": {
             "blockClass": "cards-products-block-two-image"
         },
@@ -170,26 +171,39 @@
             "src": "assets/images/customPages/attributes/cierre-title.jpg",
             "blockClass": "cards-products-image-title-block-two"
         }
-    }, 
+    },
     "rich-text#products-block-four-card-two-text": {
         "props": {
             "text": "Calzado ajustable a distintos anchos de pie, ya sea con hebilla funcional o con velcros.",
             "blockClass": "products-block-two_card-two-text"
         }
     },
+    /* CONTAINER TWO */
+    "flex-layout.col#cards-products-block-two_container-two": {
+        "props": {
+            "blockClass": "cards-products-block-two_container-two",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.row#products-block-two-card-five",
+            "flex-layout.row#products-block-two-card-six",
+            "flex-layout.row#products-block-two-card-seven",
+            "flex-layout.row#products-block-two-card-eight"
+        ]
+    },
     /* CARD FIVE */
-    "flex-layout.col#products-block-two-card-five": {
+    "flex-layout.row#products-block-two-card-five": {
         "props": {
             "blockClass": "products-block-two-card",
             "horizontalAlign": "left",
             "verticalAlign": "top"
         },
         "children": [
-            "flex-layout.row#cards-products-block-two-image-five",
+            "flex-layout.col#cards-products-block-two-image-five",
             "rich-text#products-block-five-card-two-text"
         ]
     },
-    "flex-layout.row#cards-products-block-two-image-five": {
+    "flex-layout.col#cards-products-block-two-image-five": {
         "props": {
             "blockClass": "cards-products-block-two-image"
         },
@@ -209,7 +223,7 @@
             "src": "assets/images/customPages/attributes/mas-espacio-title.jpg",
             "blockClass": "cards-products-image-title-block-two"
         }
-    }, 
+    },
     "rich-text#products-block-five-card-two-text": {
         "props": {
             "text": "Calzado especialmente concebido para proporcionar comodidad a los pies anchos, de recio EEE.",
@@ -217,18 +231,18 @@
         }
     },
     /* CARD SIX */
-    "flex-layout.col#products-block-two-card-six": {
+    "flex-layout.row#products-block-two-card-six": {
         "props": {
             "blockClass": "products-block-two-card",
             "horizontalAlign": "left",
             "verticalAlign": "top"
         },
         "children": [
-            "flex-layout.row#cards-products-block-two-image-six",
+            "flex-layout.col#cards-products-block-two-image-six",
             "rich-text#products-block-two-card-six-text"
         ]
     },
-    "flex-layout.row#cards-products-block-two-image-six": {
+    "flex-layout.col#cards-products-block-two-image-six": {
         "props": {
             "blockClass": "cards-products-block-two-image"
         },
@@ -248,7 +262,7 @@
             "src": "assets/images/customPages/attributes/guante-title.jpg",
             "blockClass": "cards-products-image-title-block-two"
         }
-    }, 
+    },
     "rich-text#products-block-two-card-six-text": {
         "props": {
             "text": "Sistema tradicional de construcción del zapato en el que la piel cubre completamente el pie, brindando comodidad y frescura en el producto.",
@@ -256,18 +270,18 @@
         }
     },
     /* CARD SEVEN */
-    "flex-layout.col#products-block-two-card-seven": {
+    "flex-layout.row#products-block-two-card-seven": {
         "props": {
             "blockClass": "products-block-two-card",
             "horizontalAlign": "left",
             "verticalAlign": "top"
         },
         "children": [
-            "flex-layout.row#cards-products-block-two-image-seven",
+            "flex-layout.col#cards-products-block-two-image-seven",
             "rich-text#products-block-two-card-seven-text"
         ]
     },
-    "flex-layout.row#cards-products-block-two-image-seven": {
+    "flex-layout.col#cards-products-block-two-image-seven": {
         "props": {
             "blockClass": "cards-products-block-two-image"
         },
@@ -287,7 +301,7 @@
             "src": "assets/images/customPages/attributes/piel-extra-title.jpg",
             "blockClass": "cards-products-image-title-block-two"
         }
-    }, 
+    },
     "rich-text#products-block-two-card-seven-text": {
         "props": {
             "text": "Al prescindir de elementos de armado y forro, se consigue un calzado especialmente suave, flexible, fresco y adaptable al pie.",
@@ -295,18 +309,18 @@
         }
     },
     /* CARD EIGHT */
-    "flex-layout.col#products-block-two-card-eight": {
+    "flex-layout.row#products-block-two-card-eight": {
         "props": {
             "blockClass": "products-block-two-card",
             "horizontalAlign": "left",
             "verticalAlign": "top"
         },
         "children": [
-            "flex-layout.row#cards-products-block-two-image-eight",
+            "flex-layout.col#cards-products-block-two-image-eight",
             "rich-text#products-block-two-card-eight-text"
         ]
     },
-    "flex-layout.row#cards-products-block-two-image-eight": {
+    "flex-layout.col#cards-products-block-two-image-eight": {
         "props": {
             "blockClass": "cards-products-block-two-image"
         },
@@ -326,7 +340,7 @@
             "src": "assets/images/customPages/attributes/autoajuste-title.png",
             "blockClass": "cards-products-image-title-block-two"
         }
-    }, 
+    },
     "rich-text#products-block-two-card-eight-text": {
         "props": {
             "text": "Se refiere a la chinela realizada completamente en lycra que se ajusta al empeine y al ajuste con tiras centrales de elástico.",

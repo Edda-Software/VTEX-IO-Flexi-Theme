@@ -3,15 +3,37 @@
     overflow-y: scroll;
 }
 
-.flexCol--products-block-two-card{
-    border: 1px solid red;
-    width: 300px !important;
-    height: 173px;
-}
-.flexRowContent--cards-products-block-two-image{
-    display: flex;
-}
-.flexRowContent--cards-products-block-two-image .stretchChildrenWidth{
-    width: auto !important;
+/*CARDS */
 
+/*IMAGE CARDS */
+.flexCol--cards-products-block-two-image{
+    display: flex;
+    flex-direction: inherit;
+}
+.flexRow--products-block-two-card {
+    border: 1px solid red;
+    height: 173px;
+    width: 300px;
+
+}
+
+
+/*@media  */
+@media (max-width: 800px) {
+
+    .flexCol--cards-products-block-two_container-one,
+    .flexCol--cards-products-block-two_container-two {
+        flex-direction: inherit !important;
+    }
+}
+
+@media (min-width: 800px) {
+    .flexRowContent--cards-products-block-two_container {
+        flex-direction: column;
+    }
+
+    .flexCol--cards-products-block-two_container-one,
+    .flexCol--cards-products-block-two_container-two {
+        flex-direction: inherit !important;
+    }
 }
