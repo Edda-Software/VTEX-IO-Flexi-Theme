@@ -1,0 +1,38 @@
+{
+  
+ "flex-layout.row#Attributes-contianer": {
+        "children": [
+            "flex-layout.col#Attributes-contianer"
+        ]
+    },
+    "flex-layout.col#Attributes-contianer": {
+        "children": [
+            "flex-layout.row#Attributes-banner"
+        ]
+    },
+    "flex-layout.row#Attributes-banner": {
+        "props": {
+            "blockClass": "Attributes-banner"
+        },
+        "children": [
+            "list-context.image-list#Attributes-banner"
+        ]
+    },
+    "list-context.image-list#Attributes-banner": {
+        "title": "Banner Attributes",
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "assets/images/customPages/attributes/banner-attributes-descktop.png",
+                    "mobileImage": "assets/images/customPages/attributes/banner-attributes-mobile.jpg",
+                    "description": "something something"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#carousel-banner-image"
+        ]
+    }
+}

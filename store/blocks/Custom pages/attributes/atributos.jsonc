@@ -1,0 +1,8 @@
+{
+    "store.custom#test-text": {
+        "blocks": [
+            "flex-layout.row#Attributes-contianer",
+            "flex-layout.row#cards-products-block-two"
+        ]
+    }
+}
