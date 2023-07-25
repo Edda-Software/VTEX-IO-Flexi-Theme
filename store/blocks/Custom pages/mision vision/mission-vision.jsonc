@@ -11,7 +11,10 @@
     },
     "flex-layout.col#mission-vision-contianer": {
         "children": [
-            "flex-layout.row#mission-vision-banner"
+            "flex-layout.row#mission-vision-banner",
+            "flex-layout.row#mission-vision-title-our-history",
+            "flex-layout.row#mission-vision-contain-our-history",
+            "flex-layout.row#mission-vision-contain-mission"
         ]
     },
     "flex-layout.row#mission-vision-banner": {
@@ -38,5 +41,131 @@
         "children": [
             "slider-layout#carousel-banner-image"
         ]
+    },
+    "flex-layout.row#mission-vision-title-our-history": {
+        "props": {
+            "blockClass": "mission-vision-title-our-history",
+            "horizontalAlign": "center",
+            "fullWidth": true
+        },
+        "children": [
+            "rich-text#mission-vision-title-our-history"
+        ]
+    },
+    "rich-text#mission-vision-title-our-history": {
+        "props": {
+            "blockClass": "mission-vision-title-our-history",
+            "text": "Nuestra Historia",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#mission-vision-contain-our-history": {
+        "props": {
+            "blockClass": "mission-vision-container-our-history"
+        },
+        "children": [
+            "flex-layout.col#mission-vision-contain-our-history-time-1",
+            "flex-layout.col#mission-vision-contain-our-history-time-2",
+            "flex-layout.col#mission-vision-contain-our-history-time-3",
+            "flex-layout.col#mission-vision-contain-our-history-time-4"
+        ]
+    },
+    "flex-layout.col#mission-vision-contain-our-history-time-1": {
+        "props": {
+            "blockClass": "mission-vision-contain-our-history-time"
+        },
+        "children": [
+            "image#mission-vision-contain-our-history-time-1",
+            "rich-text#mission-vision-contain-our-history-time-1"
+        ]
+    },
+    "image#mission-vision-contain-our-history-time-1": {
+        "props": {
+            "src": "assets/images/customPages/missionVision/time-1.jpg"
+        }
+    },
+    "rich-text#mission-vision-contain-our-history-time-1": {
+        "props": {
+            "text": "Grupo Flexi es fundado por Don Roberto Plasencia Gutiérrez bajo la marca CESAR."
+        }
+    },
+    "flex-layout.col#mission-vision-contain-our-history-time-2": {
+        "props": {
+            "blockClass": "mission-vision-contain-our-history-time"
+        },
+        "children": [
+            "image#mission-vision-contain-our-history-time-2",
+            "rich-text#mission-vision-contain-our-history-time-2"
+        ]
+    },
+    "image#mission-vision-contain-our-history-time-2": {
+        "props": {
+            "src": "assets/images/customPages/missionVision/time-2.jpg"
+        }
+    },
+    "rich-text#mission-vision-contain-our-history-time-2": {
+        "props": {
+            "text": "Se alcanza la producción de 300 pares diarios."
+        }
+    },
+    "flex-layout.col#mission-vision-contain-our-history-time-3": {
+        "props": {
+            "blockClass": "mission-vision-contain-our-history-time"
+        },
+        "children": [
+            "image#mission-vision-contain-our-history-time-3",
+            "rich-text#mission-vision-contain-our-history-time-3"
+        ]
+    },
+    "image#mission-vision-contain-our-history-time-3": {
+        "props": {
+            "src": "assets/images/customPages/missionVision/time-3.jpg"
+        }
+    },
+    "rich-text#mission-vision-contain-our-history-time-3": {
+        "props": {
+            "text": "Se introduce el proceso de sistematización de la producción en serie."
+        }
+    },
+    "flex-layout.col#mission-vision-contain-our-history-time-4": {
+        "props": {
+            "blockClass": "mission-vision-contain-our-history-time"
+        },
+        "children": [
+            "image#mission-vision-contain-our-history-time-4",
+            "rich-text#mission-vision-contain-our-history-time-4"
+        ]
+    },
+    "image#mission-vision-contain-our-history-time-4": {
+        "props": {
+            "src": "assets/images/customPages/missionVision/time-4.jpg"
+        }
+    },
+    "rich-text#mission-vision-contain-our-history-time-4": {
+        "props": {
+            "text": "Se introduce el proceso de sistematización de la producción en serie."
+        }
+    },
+    "flex-layout.row#mission-vision-contain-mission": {
+        "props": {
+            "blockClass": "mission-vision-contain-mission"
+        },
+        "children": [
+            "info-card#mission-vision-contain-mission"
+        ]
+    },
+    "info-card#mission-vision-contain-mission": {
+        "props": {
+            "id": "mission-vision-contain-mission",
+            "isFullModeStyle": false,
+            "callToActionMode": "none",
+            "textPosition": "left",
+            "imageUrl": "assets/images/customPages/missionVision/mission-banner.jpg",
+            "headline": "Misión",
+            "subhead": "Brindar a través de nuestros productos y servicios en el sector cuero-calzado, la óptima satisfacción al consumidor y cliente sustentados por una empresa económicamente próspera, comprometida por el desarrollo de su personal y de la sociedad en que se ubica.",
+            "blockClass": "mission-vision-contain-mission",
+            "textAlignment": "left"
+        }
     }
 }

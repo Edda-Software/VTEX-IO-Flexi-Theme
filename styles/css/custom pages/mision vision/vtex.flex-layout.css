@@ -1,0 +1,64 @@
+.flexRowContent--mission-vision-banner {
+    padding: 20px;
+}
+
+.flexRowContent--mission-vision-title-our-history {
+    padding-block: 23px;
+}
+
+.flexCol--mission-vision-contain-our-history-time {
+    min-width: 200px;
+}
+
+.flexRow--mission-vision-container-our-history {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.flexRowContent--mission-vision-container-our-history {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    padding-inline: 16px;
+    padding-bottom: 16px;
+}
+
+.flexRowContent--mission-vision-container-our-history::-webkit-scrollbar {
+    margin-inline: 20px;
+    height: 6px;
+}
+
+.flexRowContent--mission-vision-container-our-history::-webkit-scrollbar-track {
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+
+.flexRowContent--mission-vision-container-our-history::-webkit-scrollbar-thumb {
+    background-color: #BEBEBE;
+    border-radius: 20px;
+}
+
+.flexRowContent--mission-vision-contain-mission {
+    margin-top: 53px;
+    max-width: 1260px;
+    margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+    .flexRowContent--mission-vision-banner {
+        padding: 0px;
+    }
+
+    .flexRowContent--mission-vision-title-our-history {
+        padding-block: 73px 23px;
+    }
+
+    .flexRowContent--mission-vision-container-our-history {
+        padding-inline: 30px;
+        padding-bottom: 55px;
+    }
+
+    .flexRowContent--mission-vision-contain-mission {
+        margin-top: 114px;
+    }
+}

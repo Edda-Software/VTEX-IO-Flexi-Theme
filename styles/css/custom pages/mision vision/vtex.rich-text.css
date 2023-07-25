@@ -1,0 +1,25 @@
+.container--mission-vision-title-our-history {
+    border-bottom: 3px solid #C23A48;
+    justify-content: center;
+    max-width: 1260px;
+    padding-bottom: 21px;
+}
+
+.paragraph--mission-vision-title-our-history {
+    color: #000;
+    font-family: Keep Calm;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (min-width: 1024px) {
+    .paragraph--mission-vision-title-our-history {
+        font-size: 24px;
+    }
+
+    .container--mission-vision-title-our-history {
+        padding-bottom: 38px;
+    }
+}

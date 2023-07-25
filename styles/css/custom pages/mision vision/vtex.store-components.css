@@ -1,0 +1,49 @@
+.infoCardHeadline--mission-vision-contain-mission {
+    margin: 0;
+    color: #000;
+    font-family: Keep Calm;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.5%;
+}
+
+.infoCardSubhead--mission-vision-contain-mission {
+    color: #7E818B;
+    font-family: Avenir;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146.5%;
+    margin-top: 9px;
+}
+
+.infoCardContainer--mission-vision-contain-mission {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 28px;
+    background: #FFF;
+    margin-inline: 20px;
+}
+
+.infoCardTextContainer--mission-vision-contain-mission {
+    max-width: 405px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .infoCardContainer--mission-vision-contain-mission {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px) {
+    .infoCardHeadline--mission-vision-contain-mission {
+        font-size: 24px;
+    }
+
+    .infoCardSubhead--mission-vision-contain-mission {
+        font-size: 18px;
+        margin-top: 28px;
+    }
+}
