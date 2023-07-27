@@ -1,0 +1,40 @@
+.flexRowContent--guide-size-container {
+    margin-top: 43px;
+}
+
+.flexRowContent--guide-size-container-title {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding-inline: 20px;
+}
+
+.flexCol--guide-size-contain-title {
+    gap: 10px;
+}
+
+.flexRowContent--guide-size-container-table-guide {
+    max-width: 1347px;
+    margin: 34px auto 0;
+    padding-inline: 20px;
+    overflow-x: scroll;
+}
+
+.flexColChild--guide-size-container-table-guide {
+    min-width: 1347px;
+}
+
+@media (min-width: 1024px) {
+    .flexCol--guide-size-contain-title {
+        align-items: center;
+        gap: 7px;
+    }
+
+    .flexRowContent--guide-size-container {
+        margin-top: 106px;
+    }
+
+    .flexRowContent--guide-size-container-table-guide {
+        margin: 67px auto 0;
+        overflow-x: initial;
+    }
+}

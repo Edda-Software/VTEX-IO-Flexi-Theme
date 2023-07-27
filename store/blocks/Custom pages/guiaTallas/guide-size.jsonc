@@ -1,0 +1,73 @@
+{
+    "store.custom#guide-size": {
+        "blocks": [
+            "flex-layout.row#guide-size-container"
+        ]
+    },
+    "flex-layout.row#guide-size-container": {
+        "props": {
+            "blockClass": "guide-size-container"
+        },
+        "children": [
+            "flex-layout.col#guide-size-container"
+        ]
+    },
+    "flex-layout.col#guide-size-container": {
+        "children": [
+            "flex-layout.row#guide-size-container-title",
+            "flex-layout.row#guide-size-container-table-guide",
+            "flex-layout.row#block-four_oportunity"
+        ]
+    },
+    "flex-layout.row#guide-size-container-title": {
+        "props": {
+            "blockClass": "guide-size-container-title"
+        },
+        "children": [
+            "flex-layout.col#guide-size-container-title"
+        ]
+    },
+    "flex-layout.col#guide-size-container-title": {
+        "props": {
+            "blockClass": "guide-size-contain-title"
+        },
+        "children": [
+            "rich-text#guide-size-container-title",
+            "rich-text#guide-size-container-subtitle"
+        ]
+    },
+    "rich-text#guide-size-container-title": {
+        "props": {
+            "blockClass": "guide-size-container-title",
+            "text": "Guía de tallas"
+        }
+    },
+    "rich-text#guide-size-container-subtitle": {
+        "props": {
+            "blockClass": "guide-size-container-subtitle",
+            "text": "Consulta nuestra guía de equivalencias de tallas de México a USA/EU"
+        }
+    },
+    "flex-layout.row#guide-size-container-table-guide": {
+        "props": {
+            "blockClass": "guide-size-container-table-guide",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#guide-size-container-table-guide"
+        ]
+    },
+    "flex-layout.col#guide-size-container-table-guide": {
+        "props": {
+            "blockClass": "guide-size-container-table-guide"
+        },
+        "children": [
+            "image#guide-size-table-guide"
+        ]
+    },
+    "image#guide-size-table-guide": {
+        "props": {
+            "src": "assets/images/customPages/guideSize/table-guide-size.jpg"
+        }
+    }
+}

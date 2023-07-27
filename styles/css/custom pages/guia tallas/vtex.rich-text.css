@@ -1,0 +1,27 @@
+.paragraph--guide-size-container-title {
+    color: #000;
+    font-family: Keep Calm;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.paragraph--guide-size-container-subtitle {
+    color: #000;
+    font-family: Avenir;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (min-width: 1024px) {
+    .paragraph--guide-size-container-title {
+        font-size: 24px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--guide-size-container) .container--block-four-oportunity-title {
+        display: none;
+    }
+}

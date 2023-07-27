@@ -10,5 +10,8 @@
   },
   "store.custom#attributes-flexi":{
     "path": "/atributos-flexi"
+  },
+  "store.custom#guide-size":{
+    "path": "/guia-tallas"
   }
 }
