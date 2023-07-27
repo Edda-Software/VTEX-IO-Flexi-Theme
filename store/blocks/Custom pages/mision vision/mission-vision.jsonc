@@ -14,7 +14,11 @@
             "flex-layout.row#mission-vision-banner",
             "flex-layout.row#mission-vision-title-our-history",
             "flex-layout.row#mission-vision-contain-our-history",
-            "flex-layout.row#mission-vision-contain-mission"
+            "flex-layout.row#mission-vision-contain-mission",
+            "flex-layout.row#mission-vision-title-ours-values",
+            "flex-layout.row#mission-vision-contain-cards-values",
+            "flex-layout.row#mission-vision-container-people-and-benefice",
+            "flex-layout.row#block-five_found-shoes"
         ]
     },
     "flex-layout.row#mission-vision-banner": {
@@ -166,6 +170,295 @@
             "subhead": "Brindar a través de nuestros productos y servicios en el sector cuero-calzado, la óptima satisfacción al consumidor y cliente sustentados por una empresa económicamente próspera, comprometida por el desarrollo de su personal y de la sociedad en que se ubica.",
             "blockClass": "mission-vision-contain-mission",
             "textAlignment": "left"
+        }
+    },
+    "flex-layout.row#mission-vision-title-ours-values": {
+        "props": {
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#mission-vision-subtitle-ours-values"
+        ]
+    },
+    "flex-layout.col#mission-vision-subtitle-ours-values": {
+        "props": {
+            "blockClass": "mission-vision-title-ours-values"
+        },
+        "children": [
+            "rich-text#mission-vision-title-ours-values",
+            "rich-text#mission-vision-subtitle-ours-values"
+        ]
+    },
+    "rich-text#mission-vision-title-ours-values": {
+        "props": {
+            "blockClass": "mission-vision-title-ours-values",
+            "text": "Nuestros Valores",
+            "textAlignment": "CENTER"
+        }
+    },
+    "rich-text#mission-vision-subtitle-ours-values": {
+        "props": {
+            "blockClass": "mission-vision-subtitle-ours-values",
+            "text": "Una empresa con valores arraigados forma gente con carácter para crear un producto inigualable."
+        }
+    },
+    "flex-layout.row#mission-vision-contain-cards-values": {
+        "props": {
+            "blockClass": "mission-vision-contain-cards-values",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#mission-vision-contain-cards-values-1",
+            "flex-layout.col#mission-vision-contain-cards-values-2"
+        ]
+    },
+    "flex-layout.col#mission-vision-contain-cards-values-1": {
+        "children": [
+            "flex-layout.row#mission-vision-contain-cards-values-1"
+        ]
+    },
+    "flex-layout.row#mission-vision-contain-cards-values-1": {
+        "props": {
+            "blockClass": "mission-vision-contain-cards",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#mission-vision-container-1-card-values-1",
+            "flex-layout.col#mission-vision-container-1-card-values-2",
+            "flex-layout.col#mission-vision-container-1-card-values-3"
+        ]
+    },
+    "flex-layout.col#mission-vision-container-1-card-values-1": {
+        "props": {
+            "blockClass": "mission-vision-container-card"
+        },
+        "children": [
+            "flex-layout.row#mission-vision-container-1-card-values-1",
+            "rich-text#mission-vision-container-1-card-values-1-title",
+            "rich-text#mission-vision-container-1-card-values-1-text"
+        ]
+    },
+    "flex-layout.row#mission-vision-container-1-card-values-1": {
+        "props": {
+            "blockClass": "mission-vision-container-1-card-values-1"
+        }
+    },
+    "rich-text#mission-vision-container-1-card-values-1-title": {
+        "props": {
+            "blockClass": "mission-vision-card-value-title",
+            "text": "Dignidad de la Persona"
+        }
+    },
+    "rich-text#mission-vision-container-1-card-values-1-text": {
+        "props": {
+            "blockClass": "mission-vision-card-value-text",
+            "text": "Reconocemos a la persona como un fin en si mismo: libre, única y transcendente por lo que se le debe respetar cabalmente, considerándola como lo fundamental. 'La empresa es para el hombre y no el hombre para la empresa'."
+        }
+    },
+    "flex-layout.col#mission-vision-container-1-card-values-2": {
+        "props": {
+            "blockClass": "mission-vision-container-card"
+        },
+        "children": [
+            "flex-layout.row#mission-vision-container-1-card-values-2",
+            "rich-text#mission-vision-container-1-card-values-2-title",
+            "rich-text#mission-vision-container-1-card-values-2-text"
+        ]
+    },
+    "flex-layout.row#mission-vision-container-1-card-values-2": {
+        "props": {
+            "blockClass": "mission-vision-container-1-card-values-2"
+        }
+    },
+    "rich-text#mission-vision-container-1-card-values-2-title": {
+        "props": {
+            "blockClass": "mission-vision-card-value-title",
+            "text": "Responsabilidad"
+        }
+    },
+    "rich-text#mission-vision-container-1-card-values-2-text": {
+        "props": {
+            "blockClass": "mission-vision-card-value-text",
+            "text": "Nos comprometemos con las responsabilidades y obligaciones contraídas, cumplimos la palabra dada, asumimos las consecuencias de nuestras acciones y manejamos con integridad y eficiencia los recursos que se nos confían"
+        }
+    },
+    "flex-layout.col#mission-vision-container-1-card-values-3": {
+        "props": {
+            "blockClass": "mission-vision-container-card"
+        },
+        "children": [
+            "flex-layout.row#mission-vision-container-1-card-values-3",
+            "rich-text#mission-vision-container-1-card-values-3-title",
+            "rich-text#mission-vision-container-1-card-values-3-text"
+        ]
+    },
+    "flex-layout.row#mission-vision-container-1-card-values-3": {
+        "props": {
+            "blockClass": "mission-vision-container-1-card-values-3"
+        }
+    },
+    "rich-text#mission-vision-container-1-card-values-3-title": {
+        "props": {
+            "blockClass": "mission-vision-card-value-title",
+            "text": "Ética"
+        }
+    },
+    "rich-text#mission-vision-container-1-card-values-3-text": {
+        "props": {
+            "blockClass": "mission-vision-card-value-text",
+            "text": "Actuamos conforme a los valores universales del ser humano, tales como: la verdad, la integridad, la equidad y la justicia."
+        }
+    },
+    "flex-layout.col#mission-vision-contain-cards-values-2": {
+        "children": [
+            "flex-layout.row#mission-vision-contain-cards-values-2"
+        ]
+    },
+    "flex-layout.row#mission-vision-contain-cards-values-2": {
+        "props": {
+            "blockClass": "mission-vision-contain-cards",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#mission-vision-container-2-card-values-1",
+            "flex-layout.col#mission-vision-container-2-card-values-2",
+            "flex-layout.col#mission-vision-container-2-card-values-3"
+        ]
+    },
+    "flex-layout.col#mission-vision-container-2-card-values-1": {
+        "props": {
+            "blockClass": "mission-vision-container-card"
+        },
+        "children": [
+            "flex-layout.row#mission-vision-container-2-card-values-1",
+            "rich-text#mission-vision-container-2-card-values-1-title",
+            "rich-text#mission-vision-container-2-card-values-1-text"
+        ]
+    },
+    "flex-layout.row#mission-vision-container-2-card-values-1": {
+        "props": {
+            "blockClass": "mission-vision-container-2-card-values-1"
+        }
+    },
+    "rich-text#mission-vision-container-2-card-values-1-title": {
+        "props": {
+            "blockClass": "mission-vision-card-value-title",
+            "text": "Desarrollo Humano"
+        }
+    },
+    "rich-text#mission-vision-container-2-card-values-1-text": {
+        "props": {
+            "blockClass": "mission-vision-card-value-text",
+            "text": "Promovemos un modelo de desarrollo integral de nuestros colaboradores. Propio a nuestra filosofía, donde se incluyen y armonizan cuatro aspectos: Profesional-Laboral, Social-Familiar, Físico y Emocional-Espiritual."
+        }
+    },
+    "flex-layout.col#mission-vision-container-2-card-values-2": {
+        "props": {
+            "blockClass": "mission-vision-container-card"
+        },
+        "children": [
+            "flex-layout.row#mission-vision-container-2-card-values-2",
+            "rich-text#mission-vision-container-2-card-values-2-title",
+            "rich-text#mission-vision-container-2-card-values-2-text"
+        ]
+    },
+    "flex-layout.row#mission-vision-container-2-card-values-2": {
+        "props": {
+            "blockClass": "mission-vision-container-2-card-values-2"
+        }
+    },
+    "rich-text#mission-vision-container-2-card-values-2-title": {
+        "props": {
+            "blockClass": "mission-vision-card-value-title",
+            "text": "Participación y Trabajo Colaborativo"
+        }
+    },
+    "rich-text#mission-vision-container-2-card-values-2-text": {
+        "props": {
+            "blockClass": "mission-vision-card-value-text",
+            "text": "Amamos lo que hacemos y nos entregamos con pasión al trabajo, colaboramos con los demás, participando con ideas creativas e integrando equipos de trabajo para alcanzar eficazmente las metas y objetivos propuestos."
+        }
+    },
+    "flex-layout.col#mission-vision-container-2-card-values-3": {
+        "props": {
+            "blockClass": "mission-vision-container-card"
+        },
+        "children": [
+            "flex-layout.row#mission-vision-container-2-card-values-3",
+            "rich-text#mission-vision-container-2-card-values-3-title",
+            "rich-text#mission-vision-container-2-card-values-3-text"
+        ]
+    },
+    "flex-layout.row#mission-vision-container-2-card-values-3": {
+        "props": {
+            "blockClass": "mission-vision-container-2-card-values-3"
+        }
+    },
+    "rich-text#mission-vision-container-2-card-values-3-title": {
+        "props": {
+            "blockClass": "mission-vision-card-value-title",
+            "text": "Calidad"
+        }
+    },
+    "rich-text#mission-vision-container-2-card-values-3-text": {
+        "props": {
+            "blockClass": "mission-vision-card-value-text",
+            "text": "Hacemos las cosas bien desde la primera vez. Nos comprometemos con la mejora continua."
+        }
+    },
+    "flex-layout.row#mission-vision-container-people-and-benefice": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "mission-vision-container-people-and-benefice",
+            "fullWidth": true
+        },
+        "children": [
+            "responsive-layout.mobile#mission-vision-container-people-and-benefice",
+            "responsive-layout.desktop#mission-vision-container-people-and-benefice"
+        ]
+    },
+    "responsive-layout.mobile#mission-vision-container-people-and-benefice": {
+        "children": [
+            "image#mission-vision-container-people-and-benefice-mobile-1",
+            "image#mission-vision-container-people-and-benefice-mobile-2"
+        ]
+    },
+    "image#mission-vision-container-people-and-benefice-mobile-1": {
+        "props": {
+            "blockClass": "mission-vision-container-people-and-benefice-mobile",
+            "src": "assets/images/customPages/missionVision/people-and-benefice-mobile-1.jpg",
+            "maxHeight": "230",
+            "maxWidth": "357"
+        }
+    },
+    "image#mission-vision-container-people-and-benefice-mobile-2": {
+        "props": {
+            "blockClass": "mission-vision-container-people-and-benefice-mobile",
+            "src": "assets/images/customPages/missionVision/people-and-benefice-mobile-2.jpg",
+            "maxHeight": "230",
+            "maxWidth": "357"
+        }
+    },
+    "responsive-layout.desktop#mission-vision-container-people-and-benefice": {
+        "children": [
+            "image#mission-vision-container-people-and-benefice-desktop-1",
+            "image#mission-vision-container-people-and-benefice-desktop-2"
+        ]
+    },
+    "image#mission-vision-container-people-and-benefice-desktop-1": {
+        "props": {
+            "blockClass": "mission-vision-container-people-and-benefice-desktop",
+            "src": "assets/images/customPages/missionVision/people-and-benefice-desktop-1.jpg",
+            "maxHeight": "410",
+            "maxWidth": "261"
+        }
+    },
+    "image#mission-vision-container-people-and-benefice-desktop-2": {
+        "props": {
+            "blockClass": "mission-vision-container-people-and-benefice-desktop",
+            "src": "assets/images/customPages/missionVision/people-and-benefice-desktop-2.jpg",
+            "maxHeight": "410",
+            "maxWidth": "261"
         }
     }
 }

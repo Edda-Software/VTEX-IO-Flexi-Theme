@@ -47,7 +47,7 @@
     "link#footer-block-three_section-two_about-us-one": {
         "props": {
             "label": "Historia, Misión y valores",
-            "href": "/",
+            "href": "/mision-vision-valores",
             "blockClass": "footer-block-three_section-two_subtitle"
         }
     },

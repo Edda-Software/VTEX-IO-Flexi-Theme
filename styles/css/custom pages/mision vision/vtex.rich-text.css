@@ -14,6 +14,41 @@
     line-height: normal;
 }
 
+.paragraph--mission-vision-title-ours-values {
+    color: #000;
+    font-family: Keep Calm;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.paragraph--mission-vision-subtitle-ours-values {
+    color: #7E818B;
+    font-family: Avenir;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180.5%;
+}
+
+.paragraph--mission-vision-card-value-title {
+    color: #000;
+    font-family: Keep Calm;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.699999988079071;
+}
+
+.paragraph--mission-vision-card-value-text {
+    color: #7E818B;
+    font-family: Avenir;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180.5%;
+}
+
 @media (min-width: 1024px) {
     .paragraph--mission-vision-title-our-history {
         font-size: 24px;
@@ -21,5 +56,21 @@
 
     .container--mission-vision-title-our-history {
         padding-bottom: 38px;
+    }
+
+    .paragraph--mission-vision-title-ours-values {
+        font-size: 24px;
+    }
+
+    .paragraph--mission-vision-subtitle-ours-values {
+        font-size: 18px;
+    }
+
+    .paragraph--mission-vision-card-value-title {
+        font-size: 17px;
+    }
+
+    .paragraph--mission-vision-card-value-text {
+        font-size: 16px;
     }
 }
