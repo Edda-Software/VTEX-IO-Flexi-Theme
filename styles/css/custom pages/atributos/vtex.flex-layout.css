@@ -1,0 +1,27 @@
+.flexRowContent--attributes-container-cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    padding-inline: 20px;
+    padding-bottom: 12px;
+    max-width: 1260px;
+    margin: 18px auto 54px;
+}
+
+.flexRowContent--attributes-container-images {
+    display: flex;
+    gap: 20px;
+}
+
+.flexRowContent--attributes-container-images .stretchChildrenWidth {
+    min-width: 300px;
+}
+
+@media (min-width: 1024px) {
+    .flexRowContent--attributes-container-cards {
+        flex-wrap: wrap;
+        overflow-x: initial;
+        gap: 28px;
+        margin: 68px auto 56px;
+    }
+}

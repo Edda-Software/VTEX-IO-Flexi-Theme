@@ -144,6 +144,7 @@
 
 @media (min-width: 1024px) {
     .flexCol--mission-vision-title-ours-values {
+        align-items: center;
         gap: 25px;
         margin-top: 115px;
     }

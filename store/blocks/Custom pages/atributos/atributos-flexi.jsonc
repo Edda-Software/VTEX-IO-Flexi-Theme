@@ -1,0 +1,311 @@
+{
+    "store.custom#attributes-flexi": {
+        "blocks": [
+            "flex-layout.row#attributes-container"
+        ]
+    },
+    "flex-layout.row#attributes-container": {
+        "children": [
+            "flex-layout.col#attributes-container"
+        ]
+    },
+    "flex-layout.col#attributes-container": {
+        "children": [
+            "list-context.image-list#attributes-banner-1",
+            "flex-layout.row#attributes-container-cards-1",
+            "list-context.image-list#attributes-banner-2",
+            "flex-layout.row#attributes-container-cards-2",
+            "list-context.image-list#attributes-banner-3",
+            "flex-layout.row#attributes-container-cards-3"
+        ]
+    },
+    "list-context.image-list#attributes-banner-1": {
+        "title": "Banner 1 atributos",
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "assets/images/customPages/atributos/atributos-desktop-1.jpg",
+                    "mobileImage": "assets/images/customPages/atributos/atributos-mobile-1.jpg",
+                    "description": "something something"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#carousel-banner-image"
+        ]
+    },
+    "flex-layout.row#attributes-container-cards-1": {
+        "props": {
+            "blockClass": "attributes-container-cards",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#attributes-container-cards-1a",
+            "flex-layout.col#attributes-container-cards-1b"
+        ]
+    },
+    "flex-layout.col#attributes-container-cards-1a": {
+        "children": [
+            "flex-layout.row#attributes-container-cards-1a"
+        ]
+    },
+    "flex-layout.row#attributes-container-cards-1a": {
+        "props": {
+            "blockClass": "attributes-container-images",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#attributes-container-cards-1a",
+            "image#attributes-container-cards-1b",
+            "image#attributes-container-cards-1c",
+            "image#attributes-container-cards-1d"
+        ]
+    },
+    "image#attributes-container-cards-1a": {
+        "props": {
+            "maxWidth": "300",
+            "src": "assets/images/customPages/atributos/atributos-card-1.jpg"
+        }
+    },
+    "image#attributes-container-cards-1b": {
+        "props": {
+            "maxWidth": "300",
+            "src": "assets/images/customPages/atributos/atributos-card-2.jpg"
+        }
+    },
+    "image#attributes-container-cards-1c": {
+        "props": {
+            "maxWidth": "300",
+            "src": "assets/images/customPages/atributos/atributos-card-3.jpg"
+        }
+    },
+    "image#attributes-container-cards-1d": {
+        "props": {
+            "maxWidth": "300",
+            "src": "assets/images/customPages/atributos/atributos-card-4.jpg"
+        }
+    },
+    "flex-layout.col#attributes-container-cards-1b": {
+        "children": [
+            "flex-layout.row#attributes-container-cards-1b"
+        ]
+    },
+    "flex-layout.row#attributes-container-cards-1b": {
+        "props": {
+            "blockClass": "attributes-container-images",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#attributes-container-cards-1e",
+            "image#attributes-container-cards-1f",
+            "image#attributes-container-cards-1g",
+            "image#attributes-container-cards-1h"
+        ]
+    },
+    "image#attributes-container-cards-1e": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-5.jpg"
+        }
+    },
+    "image#attributes-container-cards-1f": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-6.jpg"
+        }
+    },
+    "image#attributes-container-cards-1g": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-7.jpg"
+        }
+    },
+    "image#attributes-container-cards-1h": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-8.jpg"
+        }
+    },
+    "list-context.image-list#attributes-banner-2": {
+        "title": "Banner 1 atributos",
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "assets/images/customPages/atributos/atributos-desktop-2.jpg",
+                    "mobileImage": "assets/images/customPages/atributos/atributos-mobile-2.jpg",
+                    "description": "something something"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#carousel-banner-image"
+        ]
+    },
+    "flex-layout.row#attributes-container-cards-2": {
+        "props": {
+            "blockClass": "attributes-container-cards",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#attributes-container-cards-2a",
+            "flex-layout.col#attributes-container-cards-2b"
+        ]
+    },
+    "flex-layout.col#attributes-container-cards-2a": {
+        "children": [
+            "flex-layout.row#attributes-container-cards-2a"
+        ]
+    },
+    "flex-layout.row#attributes-container-cards-2a": {
+        "props": {
+            "blockClass": "attributes-container-images",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#attributes-container-cards-2a",
+            "image#attributes-container-cards-2b",
+            "image#attributes-container-cards-2c",
+            "image#attributes-container-cards-2d"
+        ]
+    },
+    "image#attributes-container-cards-2a": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-9.jpg"
+        }
+    },
+    "image#attributes-container-cards-2b": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-10.jpg"
+        }
+    },
+    "image#attributes-container-cards-2c": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-11.jpg"
+        }
+    },
+    "image#attributes-container-cards-2d": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-12.jpg"
+        }
+    },
+    "flex-layout.col#attributes-container-cards-2b": {
+        "children": [
+            "flex-layout.row#attributes-container-cards-2b"
+        ]
+    },
+    "flex-layout.row#attributes-container-cards-2b": {
+        "props": {
+            "blockClass": "attributes-container-images",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#attributes-container-cards-2e",
+            "image#attributes-container-cards-2f",
+            "image#attributes-container-cards-2g",
+            "image#attributes-container-cards-2h"
+        ]
+    },
+    "image#attributes-container-cards-2e": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-13.jpg"
+        }
+    },
+    "image#attributes-container-cards-2f": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-14.jpg"
+        }
+    },
+    "image#attributes-container-cards-2g": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-15.jpg"
+        }
+    },
+    "image#attributes-container-cards-2h": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-16.jpg"
+        }
+    },
+    "list-context.image-list#attributes-banner-3": {
+        "title": "Banner 1 atributos",
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "assets/images/customPages/atributos/atributos-desktop-3.jpg",
+                    "mobileImage": "assets/images/customPages/atributos/atributos-mobile-3.jpg",
+                    "description": "something something"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#carousel-banner-image"
+        ]
+    },
+    "flex-layout.row#attributes-container-cards-3": {
+        "props": {
+            "blockClass": "attributes-container-cards",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#attributes-container-cards-3a",
+            "flex-layout.col#attributes-container-cards-3b"
+        ]
+    },
+    "flex-layout.col#attributes-container-cards-3a": {
+        "children": [
+            "flex-layout.row#attributes-container-cards-3a"
+        ]
+    },
+    "flex-layout.row#attributes-container-cards-3a": {
+        "props": {
+            "blockClass": "attributes-container-images",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#attributes-container-cards-3a",
+            "image#attributes-container-cards-3b",
+            "image#attributes-container-cards-3c",
+            "image#attributes-container-cards-3d"
+        ]
+    },
+    "image#attributes-container-cards-3a": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-17.jpg"
+        }
+    },
+    "image#attributes-container-cards-3b": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-18.jpg"
+        }
+    },
+    "image#attributes-container-cards-3c": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-19.jpg"
+        }
+    },
+    "image#attributes-container-cards-3d": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-20.jpg"
+        }
+    },
+    "flex-layout.col#attributes-container-cards-3b": {
+        "children": [
+            "flex-layout.row#attributes-container-cards-3b"
+        ]
+    },
+    "flex-layout.row#attributes-container-cards-3b": {
+        "props": {
+            "blockClass": "attributes-container-images",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#attributes-container-cards-3e"
+        ]
+    },
+    "image#attributes-container-cards-3e": {
+        "props": {
+            "src": "assets/images/customPages/atributos/atributos-card-21.jpg"
+        }
+    }
+}
