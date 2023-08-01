@@ -1,0 +1,52 @@
+.paragraph--page-not-found-text-title {
+    color: #BA1D2E;
+    font-family: Keep Calm;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.paragraph--page-not-found-text {
+    color: #000;
+    font-family: Avenir;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.link--page-not-found-text-link {
+    align-items: center;
+    display: flex;
+    color: #BA1D2E;
+    font-family: Keep Calm;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    gap: 5.26px;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.link--page-not-found-text-link::before {
+    content: url('data:image/svg+xml,<svg width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.1953 10.331L19.1094 5.41693L14.1953 0.50284" stroke="%23BA1D2E" stroke-width="1.0524"/><path d="M19.0145 5.15515L0.860596 5.15515" stroke="%23BA1D2E" stroke-width="1.0524"/></svg>');
+}
+
+@media (min-width: 1024px) {
+    .paragraph--page-not-found-text-title {
+        font-size: 56px;
+    }
+
+    .paragraph--page-not-found-text {
+        font-size: 27px
+    }
+
+    .link--page-not-found-text-link {
+        font-size: 22px;
+    }
+
+    .link--page-not-found-text-link::before {
+        content: url('data:image/svg+xml,<svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.4225 15.3297L26.4426 8.30957L19.4225 1.28944" stroke="%23BA1D2E" stroke-width="1.50343"/><path d="M26.3072 7.93555L0.373047 7.93555" stroke="%23BA1D2E" stroke-width="1.50343"/></svg>');
+    }
+}

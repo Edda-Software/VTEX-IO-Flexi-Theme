@@ -1,0 +1,51 @@
+.flexRow--page-not-found-container-background {
+    content: url('data:image/svg+xml,<svg width="1440" height="488" viewBox="0 0 1440 488" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 333.152C228.692 501.023 460.274 509.34 719.881 456.668C966.245 406.769 1208.61 349.785 1444.5 477.614C1220 309.742 988.726 301.425 729.119 354.097C482.755 403.997 240.086 460.98 4.5 333.152Z" fill="%23F6EEE8"/><path d="M8 335.5L0 329V-113H1464V487.5L1325.5 415.5L1089 354.5L574 434L173.5 415.5L8 335.5Z" fill="%23F6EEE8"/></svg>');
+    width: 100%;
+    position: absolute;
+}
+
+.flexRowContent--page-not-found-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 1260px;
+    padding-inline: 52px;
+    padding-block: 13px;
+    position: relative;
+}
+
+.flexCol--page-not-found-container-text {
+    gap: 8px;
+}
+
+@media (min-width: 768px) {
+    .flexRowContent--page-not-found-container {
+        flex-direction: row;
+        gap: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .flexRowContent--page-not-found-container {
+        padding-block: 52px;
+    }
+
+    .flexRow--page-not-found-container-background {
+        content: url('data:image/svg+xml,<svg width="1440" height="488" viewBox="0 0 1440 488" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 333.152C228.692 501.023 460.274 509.34 719.881 456.668C966.245 406.769 1208.61 349.785 1444.5 477.614C1220 309.742 988.726 301.425 729.119 354.097C482.755 403.997 240.086 460.98 4.5 333.152Z" fill="%23F6EEE8"/><path d="M8 335.5L0 329V-113H1464V487.5L1325.5 415.5L1089 354.5L574 434L173.5 415.5L8 335.5Z" fill="%23F6EEE8"/></svg>');
+        width: 100%;
+        top: -142px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .flexRow--page-not-found-container-background {
+        top: -0%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .flexRow--page-not-found-container-background {
+        top: -142px;
+    }
+}

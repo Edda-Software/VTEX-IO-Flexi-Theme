@@ -1,0 +1,65 @@
+{
+    "store.not-found#product": {
+        "blocks": [
+            "flex-layout.row#page-not-found-container-background",
+            "flex-layout.row#page-not-found-container"
+        ]
+    },
+    "flex-layout.row#page-not-found-container-background":{
+        "props": {
+            "blockClass": "page-not-found-container-background"
+        }
+    },
+    "flex-layout.row#page-not-found-container": {
+        "props": {
+            "blockClass": "page-not-found-container",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#page-not-found-container-image",
+            "flex-layout.col#page-not-found-container-text"
+        ]
+    },
+    "flex-layout.col#page-not-found-container-image": {
+        "children": [
+            "image#page-not-found-container-image"
+        ]
+    },
+    "image#page-not-found-container-image": {
+        "props": {
+            "src": "assets/images/PageNotFound/page-not-found-image.png",
+            "blockClass": "page-not-found-container-image",
+            "maxWidth": "472",
+            "maxHeight": "396"
+        }
+    },
+    "flex-layout.col#page-not-found-container-text": {
+        "props": {
+            "blockClass": "page-not-found-container-text",
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "rich-text#page-not-found-text-title",
+            "rich-text#page-not-found-text",
+            "rich-text#page-not-found-text-link"
+        ]
+    },
+    "rich-text#page-not-found-text-title": {
+        "props": {
+            "blockClass": "page-not-found-text-title",
+            "text": "ERROR 404"
+        }
+    },
+    "rich-text#page-not-found-text": {
+        "props": {
+            "blockClass": "page-not-found-text",
+            "text": "Lo sentimos está página no esta disponible"
+        }
+    },
+    "rich-text#page-not-found-text-link": {
+        "props": {
+            "blockClass": "page-not-found-text-link",
+            "text": "[Ir al home](/)"
+        }
+    }
+}
