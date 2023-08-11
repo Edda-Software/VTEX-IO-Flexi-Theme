@@ -47,7 +47,7 @@
     },
     "rich-text#container-notificacion-bar-2": {
         "props": {
-            "text": "Envíos gratis en compras mayores a Q500 para usuarios. [Registrate](/)",
+            "text": "Envíos gratis en compras mayores a Q500 para usuarios. [Regístrate](/)",
             "blockClass": "container-notificacion-bar-2"
         }
     }

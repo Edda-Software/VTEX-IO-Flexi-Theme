@@ -30,12 +30,12 @@
 }
 
 .sliderTrackContainer--carousel-banner-product-summary::-webkit-scrollbar-track {
-    background-color: #29665D40;
+    background-color: #BA1D2E40;
     border-radius: 20px;
 }
 
 .sliderTrackContainer--carousel-banner-product-summary::-webkit-scrollbar-thumb {
-    background-color: #29665D;
+    background-color: #BA1D2E;
     border-radius: 20px;
     width: 84.05px;
 }

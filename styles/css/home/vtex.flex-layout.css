@@ -133,6 +133,7 @@
 .flexRowContent--block-six_carousel-offer-title {
     display: flex;
     padding-inline: 21px;
+    align-items: center;
 }
 
 /* BLOCK SEVEN */

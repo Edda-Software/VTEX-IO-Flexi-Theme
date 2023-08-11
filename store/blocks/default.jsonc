@@ -80,11 +80,21 @@
   "slider-layout#carousel-banner-image": {
     "props": {
       "blockClass": "carousel-banner-image",
-      "showNavigationArrows": "never",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
         "phone": 1
+      },
+      "slideTransition": {
+        "speed": 2000,
+        "delay": 0,
+        "timing": ""
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
       },
       "infinite": true,
       "fullWidth": true

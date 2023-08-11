@@ -31,7 +31,7 @@
     },
     "rich-text#footer-block-two_card-one-text": {
         "props": {
-            "text": "Pago contra Entrega habilitado para algunas ciudades, podrás pagar en efectivo, tarjeta débito y tarjetas de crédito de las franquicias MasterCard, Visa y American Express.",
+            "text": "Pago contra entrega habilitado para algunas ciudades, podrás pagar en efectivo",
             "blockClass": "footer-block-two_card-one-text"
         }
     },
@@ -56,7 +56,7 @@
     },
     "rich-text#footer-block-two_card-two-text": {
         "props": {
-            "text": "Paga con tarjeta débito a través tarjetas de crédito de las franquicias MasterCard, Visa, American Express y DinersClub",
+            "text": "Paga con tarjeta débito a través tarjetas de crédito de las franquicias MasterCard, Visa, American Express",
             "blockClass": "footer-block-two_card-two-text"
         }
     },
@@ -75,13 +75,13 @@
     },
     "rich-text#footer-block-two_card-three-title": {
         "props": {
-            "text": "Déposito bancario",
+            "text": "Depósito bancario",
             "blockClass": "footer-block-two_card-three-title"
         }
     },
     "rich-text#footer-block-two_card-three-text": {
         "props": {
-            "text": "Adicionalmente tenemos el servicio de Deposito a cuenta o transferencia electrónica",
+            "text": "Adicionalmente tenemos el servicio de Depósito a cuenta o transferencia electrónica",
             "blockClass": "footer-block-two_card-three-text"
         }
     }

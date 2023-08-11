@@ -87,8 +87,8 @@
     },
     "link#footer-block-three_section-three_follow-us-title": {
         "props": {
-            "label": "Siguenos",
-            "href": "/",
+            "label": "Síguenos",
+            "href": "/",/*  */
             "blockClass": "footer-block-three_section-three_title"
         }
     },
