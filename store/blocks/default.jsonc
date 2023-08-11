@@ -234,12 +234,12 @@
       "product-images#quick-purshase"
     ]
   },
-  "product-images#quick-purshase":{
+  "product-images#quick-purshase": {
     "props": {
       "displayThumbnailsArrows": true,
       "thumbnailVisibility": "hidden",
       "showPaginationDots": false
-  }
+    }
   },
   "flex-layout.col#quick-purshase_container-summary-description": {
     "props": {
@@ -252,7 +252,7 @@
       "similar-products-variants",
       "flex-layout.row#quick-purshase_sku-selector-guide-size",
       "product-quantity",
-      "flex-layout.row#product-page_add-to-cart-button-wish-list"
+      "flex-layout.row#product-page_add-to-cart-button-wish-list_quickview"
     ]
   },
   "flex-layout.row#quick-purshase_sku-selector-guide-size": {
@@ -269,10 +269,26 @@
       "rich-text#product-page_guide-size"
     ]
   },
-  "product-summary-sku-selector#quickview":{
+  "product-summary-sku-selector#quickview": {
     "props": {
       "hideImpossibleCombinations": true,
       "blockClass": "product--sku-selector"
-  }
+    }
+  },
+  "flex-layout.row#product-page_add-to-cart-button-wish-list_quickview": {
+    "props": {
+      "blockClass": "product-page_add-to-cart-button-wish-list",
+      "colSizing": "auto"
+    },
+    "children": [
+      "add-to-cart-button#quick-view",
+      "add-to-list-btn"
+    ]
+  },
+  "add-to-cart-button#quick-view": {
+    "props": {
+      "text": "Agregar e iniciar pago",
+      "isOneClickBuy": true
+    }
   }
 }

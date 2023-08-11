@@ -19,7 +19,7 @@
             "blockClass": "block-five-found-shoes-mobile",
             "src": "assets/images/home/found-shoes-mobile.jpg",
             "link": {
-                "url": "/"
+                "url": "/zapaterias"
             },
             "maxHeight": "230",
             "maxWidth": "357"
@@ -33,7 +33,7 @@
             "blockClass": "block-five-found-shoes-desktop",
             "src": "assets/images/home/found-shoes-desktop.jpg",
             "link": {
-                "url": "/"
+                "url": "/zapaterias"
             },
             "maxHeight": "252",
             "maxWidth": "1261"

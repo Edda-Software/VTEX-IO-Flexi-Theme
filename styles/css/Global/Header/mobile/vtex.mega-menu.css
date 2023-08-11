@@ -30,8 +30,6 @@
     align-items: center;
     width: 89px;
     height: 45px;
-    background-repeat: no-repeat;
-    background-image: url('data:image/svg+xml,<svg width="89" height="46" viewBox="0 0 89 46" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M89 0.973404H0V42.1397C13.957 46.9764 28.2543 44.3813 42.7448 41.7512L44.8171 41.3755C60.7457 38.497 75.1219 38.5989 89 45.9734V0.973404Z" fill="%23F6EEE8"/></svg>');
 }
 
 .menuItemVertical:last-child .styledLinkContent .styledLinkText {

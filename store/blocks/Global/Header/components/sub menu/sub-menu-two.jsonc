@@ -24,12 +24,12 @@
             "blockClass": "sub-menu-category-caballero"
         },
         "children": [
-            "flex-layout.col#category-caballero-one",
+            /* "flex-layout.col#category-caballero-one", */
             "flex-layout.col#category-caballero-two",
             "flex-layout.col#category-caballero-three"
         ]
     },
-    "flex-layout.col#category-caballero-one": {
+    /* "flex-layout.col#category-caballero-one": {
         "props": {
             "blockClass": "container-column-category-caballero"
         },
@@ -44,7 +44,7 @@
         "children": [
             "menu#category-caballero"
         ]
-    },
+    }, */
     "flex-layout.col#category-caballero-two": {
         "props": {
             "blockClass": "container-column-category-caballero"
@@ -81,7 +81,7 @@
             "image#category-caballero-two"
         ]
     },
-    "menu#category-caballero": {
+    /* "menu#category-caballero": {
         "props": {
             "orientation": "vertical"
         },
@@ -92,7 +92,7 @@
             "menu-item#category-caballero-opcion-three",
             "menu-item#category-caballero-opcion-four"
         ]
-    },
+    }, */
     "menu#category-caballero-section-two": {
         "props": {
             "orientation": "vertical"
@@ -102,7 +102,10 @@
             "menu-item#category-caballero-section-two-opcion-one",
             "menu-item#category-caballero-section-two-opcion-two",
             "menu-item#category-caballero-section-two-opcion-three",
-            "menu-item#category-caballero-section-two-opcion-four"
+            "menu-item#category-caballero-section-two-opcion-four",
+            "menu-item#category-caballero-section-two-opcion-five",
+            "menu-item#category-caballero-section-two-opcion-six",
+            "menu-item#category-caballero-section-two-opcion-seven"
         ]
     },
     "menu#category-caballero-section-three": {
@@ -114,7 +117,8 @@
             "menu-item#category-caballero-section-three-opcion-one",
             "menu-item#category-caballero-section-three-opcion-two",
             "menu-item#category-caballero-section-three-opcion-three",
-            "menu-item#category-caballero-section-three-opcion-four"
+            "menu-item#category-caballero-section-three-opcion-four",
+            "menu-item#category-caballero-section-three-opcion-five"
         ]
     },
     "image#category-caballero-one": {
@@ -131,7 +135,7 @@
             "maxHeight": "194"
         }
     },
-    "rich-text#title-category-caballero": {
+    /* "rich-text#title-category-caballero": {
         "props": {
             "text": "Opción de título",
             "blockClass": "title-subcategory-subcategory"
@@ -196,7 +200,7 @@
                 "text": "Opción 1"
             }
         }
-    },
+    }, */
     /* OPTION 2 */
     "rich-text#title-category-caballero-section-two": {
         "props": {
@@ -214,8 +218,8 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Botines",
-                "text": "Botines"
+                "tagTitle": "Botas",
+                "text": "Botas"
             }
         }
     },
@@ -229,8 +233,8 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Casual",
-                "text": "Casual"
+                "tagTitle": "Botines",
+                "text": "Botines"
             }
         }
     },
@@ -244,8 +248,8 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Escolar",
-                "text": "Escolar"
+                "tagTitle": "Sneakers",
+                "text": "Sneakers"
             }
         }
     },
@@ -259,8 +263,53 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Servicio",
-                "text": "Servicio"
+                "tagTitle": "Mocasines",
+                "text": "Mocasines"
+            }
+        }
+    },
+    "menu-item#category-caballero-section-two-opcion-five": {
+        "props": {
+            "id": "menu-category-caballero-section-two-opcion-five",
+            "iconId": null,
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Mocasines",
+                "text": "Mocasines"
+            }
+        }
+    },
+    "menu-item#category-caballero-section-two-opcion-six": {
+        "props": {
+            "id": "menu-category-caballero-section-two-opcion-six",
+            "iconId": null,
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sandalias",
+                "text": "Sandalias"
+            }
+        }
+    },
+    "menu-item#category-caballero-section-two-opcion-seven": {
+        "props": {
+            "id": "menu-category-caballero-section-two-opcion-seven",
+            "iconId": null,
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Casual",
+                "text": "Casual"
             }
         }
     },
@@ -296,8 +345,8 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Tacones",
-                "text": "Tacones"
+                "tagTitle": "Flexi Country",
+                "text": "Flexi Country"
             }
         }
     },
@@ -311,8 +360,8 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Vestir",
-                "text": "Vestir"
+                "tagTitle": "De vestir",
+                "text": "De vestir"
             }
         }
     },
@@ -326,8 +375,23 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Sandalias",
-                "text": "Sandalias"
+                "tagTitle": "Servicios clinicos",
+                "text": "Servicios clinicos"
+            }
+        }
+    },
+    "menu-item#category-caballero-section-three-opcion-five": {
+        "props": {
+            "id": "menu-category-caballero-section-three-opcion-five",
+            "iconId": null,
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Quirelli",
+                "text": "Quirelli"
             }
         }
     }

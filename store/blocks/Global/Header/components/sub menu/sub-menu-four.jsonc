@@ -13,10 +13,10 @@
                 "tagTitle": "Accesorios",
                 "text": "Accesorios"
             }
-        },
+        }/* ,
         "blocks": [
             "submenu#category-accesorios"
-        ]
+        ] */
     },
     "submenu#category-accesorios": {
         "props": {

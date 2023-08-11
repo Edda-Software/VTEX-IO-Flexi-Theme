@@ -1,0 +1,35 @@
+.flexRowContent--nearest-store__container-form {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 12px auto 0;
+}
+
+.flexCol--nearest-store__container-form {
+    padding-inline: 22px;
+    padding-block: 34px;
+}
+
+.flexRowContent--nearest-store__container-info-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    padding-inline: 22px;
+    padding-block: 34px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+    .flexRowContent--nearest-store__container-info-contact {
+        flex-direction: row;
+        margin: 44px auto 0;
+    }
+
+    .flexRowContent--nearest-store__container-form {
+        flex-direction: row;
+    }
+}

@@ -22,7 +22,7 @@
             "blockClass": "header-desktop-category-rebajas",
             "itemProps": {
                 "type": "internal",
-                "href": "/rebajas",
+                "href": "/zapatos?_q=zapatos&map=ft&order=OrderByBestDiscountDESC",
                 "noFollow": false,
                 "tagTitle": "Rebajas",
                 "text": "Rebajas"

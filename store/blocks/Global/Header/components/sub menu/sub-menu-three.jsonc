@@ -8,7 +8,7 @@
             "blockClass": "root",
             "itemProps": {
                 "type": "internal",
-                "href": "/categoria-flexi-ountry",
+                "href": "/flexi-ountry",
                 "noFollow": false,
                 "tagTitle": "flexi-ountry",
                 "text": "Flexi Country"
@@ -24,9 +24,9 @@
             "blockClass": "sub-menu-category-flex-country"
         },
         "children": [
-            "flex-layout.col#flex-country-one",
-            "flex-layout.col#flex-country-two",
-            "flex-layout.col#flex-country-three"
+            /* "flex-layout.col#flex-country-one", */
+            "flex-layout.col#flex-country-two"
+           /*  "flex-layout.col#flex-country-three" */
         ]
     },
     "flex-layout.col#flex-country-one": {
@@ -100,9 +100,9 @@
         "children": [
             "rich-text#title-category-flex-country-section-two",
             "menu-item#flex-country-section-two-opcion-one",
-            "menu-item#flex-country-section-two-opcion-two",
+            "menu-item#flex-country-section-two-opcion-two"/* ,
             "menu-item#flex-country-section-two-opcion-three",
-            "menu-item#flex-country-section-two-opcion-four"
+            "menu-item#flex-country-section-two-opcion-four" */
         ]
     },
     "menu#flex-country-section-three": {
@@ -212,10 +212,10 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/caballero",
                 "noFollow": false,
-                "tagTitle": "Botines",
-                "text": "Botines"
+                "tagTitle": "Caballero",
+                "text": "Caballero"
             }
         }
     },
@@ -227,10 +227,10 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/dama",
                 "noFollow": false,
-                "tagTitle": "Casual",
-                "text": "Casual"
+                "tagTitle": "Dama",
+                "text": "Dama"
             }
         }
     },

@@ -1,0 +1,212 @@
+{
+  "store.custom#nearest-store": {
+    "children": [
+      "nearest-store",
+      "flex-layout.row#nearest-store__container-form",
+      "flex-layout.row#nearest-store__container-info-contact"
+    ]
+  },
+  "flex-layout.row#nearest-store__container-form": {
+    "children": [
+      "flex-layout.col#nearest-store__container-form",
+      "flex-layout.col#nearest-store__container-form-image"
+    ],
+    "props": {
+      "blockClass": "nearest-store__container-form"
+    }
+  },
+  "flex-layout.col#nearest-store__container-form-image": {
+    "children": [
+      "image#nearest-store__container-form-image"
+    ]
+  },
+  "image#nearest-store__container-form-image": {
+    "props": {
+      "src": "assets/images/customPages/contactUs/image-contact-us.jpg"
+    }
+  },
+  "flex-layout.col#nearest-store__container-form": {
+    "props": {
+      "blockClass": "nearest-store__container-form",
+      "verticalAlign": "top"
+    },
+    "children": [
+      "rich-text#nearest-store__container-form-title",
+      "rich-text#nearest-store__container-form-subtitle",
+      "custom-form" /* "form#contactos" */
+    ]
+  },
+  "rich-text#nearest-store__container-form-title": {
+    "props": {
+      "blockClass": "nearest-store__container-form-title",
+      "text": "¡Estamos para ayudarte!"
+    }
+  },
+  "rich-text#nearest-store__container-form-subtitle": {
+    "props": {
+      "blockClass": "nearest-store__container-form-subtitle",
+      "text": "Envíanos todas tus preguntas e inquietudes"
+    }
+  },
+  "form#contactos": {
+    "props": {
+      "entity": "CU",
+      "schema": "contactanosForm",
+      "blockClass": "contactanos"
+    },
+    "children": [
+      "flex-layout.row#form-1",
+      "flex-layout.row#form-2"
+    ],
+    "blocks": [
+      "form-success#contactanos"
+    ]
+  },
+  "form-success#contactanos": {
+    "children": [
+      "rich-text#successSubmit-contactanos"
+    ]
+  },
+  "rich-text#successSubmit-contactanos": {
+    "props": {
+      "text": "Enviado con exito",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "enviado-contactanos"
+    }
+  },
+  "flex-layout.row#form-1": {
+    "children": [
+      "form-input.text#fullName",
+      "form-input.text#identificationCard",
+      "form-input.text#email",
+      "form-input.text#affair"
+    ],
+    "props": {
+      "blockClass": "form-1-contactos"
+    }
+  },
+  "flex-layout.row#form-2": {
+    "children": [
+      "form-input.textarea#message",
+      "form-submit#contactanos"
+    ],
+    "props": {
+      "blockClass": "form-2-contactos"
+    }
+  },
+  "form-input.text#fullName": {
+    "props": {
+      "pointer": "#/properties/fullName",
+      "placeholder": "Nombre Completo",
+      "blockClass": "contactanos-text"
+    }
+  },
+  "form-input.text#identificationCard": {
+    "props": {
+      "pointer": "#/properties/identificationCard",
+      "placeholder": "Cedula",
+      "blockClass": "contactanos-text"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email",
+      "placeholder": "Email",
+      "blockClass": "contactanos-text"
+    }
+  },
+  "form-input.text#affair": {
+    "props": {
+      "pointer": "#/properties/affair",
+      "placeholder": "Asunto",
+      "blockClass": "contactanos-text"
+    }
+  },
+  "form-input.textarea#message": {
+    "props": {
+      "pointer": "#/properties/message",
+      "placeholder": "Mensaje",
+      "blockClass": "contactanos-text"
+    }
+  },
+  "form-submit#contactanos": {
+    "props": {
+      "label": "Enviar",
+      "blockClass": "contactanos-submit"
+    }
+  },
+  "flex-layout.row#nearest-store__container-info-contact": {
+    "props": {
+      "blockClass": "nearest-store__container-info-contact"
+    },
+    "children": [
+      "flex-layout.col#nearest-store__container-info-adress",
+      "flex-layout.col#nearest-store__container-info-phone",
+      "flex-layout.col#nearest-store__container-info-email"
+    ]
+  },
+  "flex-layout.col#nearest-store__container-info-adress": {
+    "props": {
+      "blockClass": "nearest-store__container-info-adress"
+    },
+    "children": [
+      "rich-text#nearest-store__container-info-adress-title",
+      "rich-text#nearest-store__container-info-adress"
+    ]
+  },
+  "rich-text#nearest-store__container-info-adress-title": {
+    "props": {
+      "blockClass": "nearest-store__container-info-adress-title",
+      "text": "FLEXI ECOMMERCE SAPI DE CV"
+    }
+  },
+  "rich-text#nearest-store__container-info-adress": {
+    "props": {
+      "blockClass": "nearest-store__container-info-adress",
+      "text": "C.C. Miraflores, 2do Nivel, Local 255, Cdad. de Guatemala 01011, Guatemala"
+    }
+  },
+  "flex-layout.col#nearest-store__container-info-phone": {
+    "props": {
+      "blockClass": "nearest-store__container-info-phone"
+    },
+    "children": [
+      "rich-text#nearest-store__container-info-phone-title",
+      "rich-text#nearest-store__container-info-phone"
+    ]
+  },
+  "rich-text#nearest-store__container-info-phone-title": {
+    "props": {
+      "blockClass": "nearest-store__container-info-phone-title",
+      "text": "Teléfono"
+    }
+  },
+  "rich-text#nearest-store__container-info-phone": {
+    "props": {
+      "blockClass": "nearest-store__container-info-phone",
+      "text": "Tel. (502) 2303-1900"
+    }
+  },
+  "flex-layout.col#nearest-store__container-info-email": {
+    "props": {
+      "blockClass": "nearest-store__container-info-email"
+    },
+    "children": [
+      "rich-text#nearest-store__container-info-email-title",
+      "rich-text#nearest-store__container-info-email"
+    ]
+  },
+  "rich-text#nearest-store__container-info-email-title": {
+    "props": {
+      "blockClass": "nearest-store__container-info-email-title",
+      "text": "E-mail"
+    }
+  },
+  "rich-text#nearest-store__container-info-email": {
+    "props": {
+      "blockClass": "nearest-store__container-info-email",
+      "text": "ecommerce@rimet.com.gt"
+    }
+  }
+}

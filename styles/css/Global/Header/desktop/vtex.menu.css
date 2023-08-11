@@ -66,9 +66,11 @@
     max-width: 1440px;
 }
 
+.submenu--sub-menu-category-caballero {
+    justify-content: space-around;
+}
+
 .submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-dama):first-child,
-.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-caballero):first-child,
-.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-flex-country):first-child,
 .submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios):first-child {
     width: 259px;
     box-sizing: border-box;
@@ -93,7 +95,7 @@
 :global(.vtex-flex-layout-0-x-flexCol--container-column-category-caballero) :global(.vtex-store-components-3-x-imageElement),
 :global(.vtex-flex-layout-0-x-flexCol--container-column-category-flex-country) :global(.vtex-store-components-3-x-imageElement),
 :global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios) :global(.vtex-store-components-3-x-imageElement) {
-    min-height: 194px;
+    height: 194px;
     min-width: 337px;
 }
 

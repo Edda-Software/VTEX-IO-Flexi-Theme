@@ -78,7 +78,7 @@
   "rich-text#product-page_guide-size": {
     "props": {
       "blockClass": "product-page_guide-size",
-      "text": "[Ver guía de tallas](/guide-size)"
+      "text": "[Ver guía de tallas](/guia-tallas)"
     }
   },
   "flex-layout.row#product-page_add-to-cart-button-wish-list": {

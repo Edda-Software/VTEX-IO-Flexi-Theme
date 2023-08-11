@@ -19,8 +19,17 @@
     display: flex;
     gap: 20px;
     overflow-x: scroll;
-    margin-inline: 16px;
+    padding-inline: 16px;
     padding-bottom: 16px;
+    margin-left: 16px;
+}
+
+.flexRowContent--mission-vision-container-our-history :global(.vtex-rich-text-0-x-paragraph) {
+    color: #000;
+    font-family: Avenir;
+    font-size: 9.649px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .flexRowContent--mission-vision-container-our-history::-webkit-scrollbar {
@@ -64,7 +73,7 @@
     gap: 7.56px;
     padding: 9px 15.42px;
     width: 232px !important;
-    height: 271px;
+    height: 285px;
 }
 
 .flexColChild--mission-vision-container-card {
@@ -125,6 +134,7 @@
     .flexRowContent--mission-vision-container-our-history {
         padding-inline: 30px;
         padding-bottom: 55px;
+        margin-left: 0px;
     }
 
     .flexRowContent--mission-vision-contain-mission {
@@ -165,5 +175,9 @@
 
     .flexRowContent--mission-vision-contain-cards {
         gap: 20px;
+    }
+
+    .flexRowContent--mission-vision-container-our-history :global(.vtex-rich-text-0-x-paragraph) {
+        font-size: 16px;
     }
 }

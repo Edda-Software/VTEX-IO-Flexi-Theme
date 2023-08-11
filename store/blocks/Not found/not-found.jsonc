@@ -5,7 +5,7 @@
             "flex-layout.row#page-not-found-container"
         ]
     },
-    "flex-layout.row#page-not-found-container-background":{
+    "flex-layout.row#page-not-found-container-background": {
         "props": {
             "blockClass": "page-not-found-container-background"
         }
@@ -53,7 +53,7 @@
     "rich-text#page-not-found-text": {
         "props": {
             "blockClass": "page-not-found-text",
-            "text": "Lo sentimos está página no esta disponible"
+            "text": "Lo sentimos esta página no está disponible"
         }
     },
     "rich-text#page-not-found-text-link": {
@@ -61,5 +61,12 @@
             "blockClass": "page-not-found-text-link",
             "text": "[Ir al home](/)"
         }
+    },
+    /* NOT FOUND PLP */
+    "search-not-found-layout": {
+        "children": [
+            "flex-layout.row#page-not-found-container-background",
+            "flex-layout.row#page-not-found-container"
+        ]
     }
 }

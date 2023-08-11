@@ -13,5 +13,8 @@
   },
   "store.custom#guide-size":{
     "path": "/guia-tallas"
+  },
+  "store.custom#nearest-store": {
+    "path": "/zapaterias"
   }
 }

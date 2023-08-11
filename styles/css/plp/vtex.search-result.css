@@ -133,6 +133,10 @@
     padding: 16px 12px;
 }
 
+.filter__container--talla .filterContent :global(.vtex-checkbox__container) .b--muted-4 {
+    background: #EBD8CA !important;
+}
+
 .filter .filterIcon {
     padding: 0;
 }

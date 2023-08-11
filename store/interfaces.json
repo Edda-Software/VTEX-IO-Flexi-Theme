@@ -4,5 +4,11 @@
     },
     "close-search-modal": {
         "component": "CloseSearchModal"
+    },
+    "nearest-store": {
+        "component": "NearestStore"
+    },
+    "custom-form":{
+        "component": "ProvisionalForm"
     }
 }

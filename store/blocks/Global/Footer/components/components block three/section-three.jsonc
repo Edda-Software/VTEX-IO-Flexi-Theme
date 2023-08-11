@@ -44,7 +44,7 @@
     "link#footer-block-three_section-three_help-one": {
         "props": {
             "label": "Contacto",
-            "href": "/",
+            "href": "/zapaterias",
             "blockClass": "footer-block-three_section-three_subtitle"
         }
     },
@@ -58,7 +58,7 @@
     "link#footer-block-three_section-three_help-three": {
         "props": {
             "label": "Guía de Tallas",
-            "href": "/",
+            "href": "/guia-tallas",
             "blockClass": "footer-block-three_section-three_subtitle"
         }
     },
