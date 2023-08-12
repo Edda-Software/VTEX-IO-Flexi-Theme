@@ -37,7 +37,7 @@
     },
     "rich-text#dama-block-three_carousel-offer-2-view-more": {
         "props": {
-            "text": "[Ver más](/)",
+            "text": "[Ver más](/sale)",
             "blockClass": "dama-block-three_carousel-offer-2-view-more"
         }
     },

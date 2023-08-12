@@ -37,7 +37,7 @@
     },
     "rich-text#block-six_carousel-offer-view-more": {
         "props": {
-            "text": "[Ver más](/)",
+            "text": "[Ver más](/sale)",
             "blockClass": "block-six_carousel-offer-view-more"
         }
     },

@@ -87,6 +87,18 @@
     font-family: Keep Calm;
 }
 
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label) {
+    font-size: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label)::after {
+    content: "Iniciar pago";
+    text-transform: initial;
+    color: #FFF;
+    font-size: 13.109px;
+    font-family: Keep Calm;
+}
+
 @media (min-width: 1024px) {
     .minicartCheckoutButton :global(.vtex-button) {
         width: 380.164px;

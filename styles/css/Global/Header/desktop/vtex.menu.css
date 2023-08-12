@@ -66,11 +66,10 @@
     max-width: 1440px;
 }
 
-.submenu--sub-menu-category-caballero {
+.submenu--sub-menu-category-caballero, .submenu--sub-menu-category-dama {
     justify-content: space-around;
 }
 
-.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-dama):first-child,
 .submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios):first-child {
     width: 259px;
     box-sizing: border-box;

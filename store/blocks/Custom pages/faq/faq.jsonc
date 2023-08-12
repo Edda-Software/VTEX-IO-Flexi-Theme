@@ -1,0 +1,77 @@
+{
+    "store.custom#faq": {
+        "blocks": [
+            "flex-layout.row#faq-container-background",
+            "flex-layout.row#faq-container"
+        ]
+    },
+    "flex-layout.row#faq-container": {
+        "children": [
+            "flex-layout.col#faq-container"
+        ]
+    },
+    "flex-layout.row#faq-container-background": {
+      "props": {
+        "blockClass": "faq-container-background",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#faq-container": {
+        "props": {
+            "blockClass": "faq-container"
+        },
+        "children": [
+            "flex-layout.row#faq-container-title",
+            "flex-layout.row#faq-container-questions"
+        ]
+    },
+    "flex-layout.row#faq-container-title": {
+        "children": [
+            "flex-layout.col#faq-container-title"
+        ]
+    },
+    "flex-layout.col#faq-container-title": {
+        "children": [
+            "rich-text#faq-title",
+            "rich-text#faq-subtitle"
+        ]
+    },
+    "rich-text#faq-title": {
+        "props": {
+            "blockClass": "faq-title",
+            "text": "Preguntas frecuentes"
+        }
+    },
+    "rich-text#faq-subtitle": {
+        "props": {
+            "blockClass": "faq-subtitle",
+            "text": "Te ayudamos en todas tus dudas"
+        }
+    },
+    "flex-layout.row#faq-container-questions": {
+        "props": {
+            "blockClass": "faq-container-questions",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#faq-container-questions-1",
+            "flex-layout.col#faq-container-questions-2"
+        ]
+    },
+    "flex-layout.col#faq-container-questions-1": {
+        "props": {
+            "blockClass": "disclosure-faq-group"
+        },
+        "children": [
+            "disclosure-layout-group#faq-group-1"
+        ]
+    },
+    "flex-layout.col#faq-container-questions-2": {
+        "props": {
+            "blockClass": "disclosure-faq-group"
+        },
+        "children": [
+            "disclosure-layout-group#faq-group-2"
+        ]
+    }
+}

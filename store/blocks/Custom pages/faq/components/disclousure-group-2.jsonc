@@ -1,0 +1,238 @@
+{
+    "disclosure-layout-group#faq-group-2": {
+        "children": [
+            "disclosure-layout#faq-question-10",
+            "disclosure-layout#faq-question-11",
+            "disclosure-layout#faq-question-12",
+            "disclosure-layout#faq-question-13",
+            "disclosure-layout#faq-question-14",
+            "disclosure-layout#faq-question-15",
+            "disclosure-layout#faq-question-16",
+            "disclosure-layout#faq-question-17"
+        ]
+    },
+    "disclosure-layout#faq-question-10": {
+        "children": [
+            "disclosure-trigger#faq-question-10",
+            "disclosure-content#faq-question-10"
+        ]
+    },
+    "disclosure-trigger#faq-question-10": {
+        "children": [
+            "rich-text#faq-question-10-title"
+        ]
+    },
+    "disclosure-content#faq-question-10": {
+        "children": [
+            "rich-text#faq-question-10-answer"
+        ]
+    },
+    "rich-text#faq-question-10-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Hacen envíos internacionales?"
+        }
+    },
+    "rich-text#faq-question-10-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Hacemos envíos dentro del territorio de Guatemala, si estás en otro país y te interesa adquirir nuestros productos te invitamos a que registres la dirección de alguien de confianza que se encuentre en Guatemala y de esta manera te hacemos el envío allí."
+        }
+    },
+    "disclosure-layout#faq-question-11": {
+        "children": [
+            "disclosure-trigger#faq-question-11",
+            "disclosure-content#faq-question-11"
+        ]
+    },
+    "disclosure-trigger#faq-question-11": {
+        "children": [
+            "rich-text#faq-question-11-title"
+        ]
+    },
+    "disclosure-content#faq-question-11": {
+        "children": [
+            "rich-text#faq-question-11-answer"
+        ]
+    },
+    "rich-text#faq-question-11-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Qué necesito para recoger mi pedido?"
+        }
+    },
+    "rich-text#faq-question-11-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Debes presentar el número de pedido y tu DPI físico si el pedido está a tu nombre."
+        }
+    },
+    "disclosure-layout#faq-question-12": {
+        "children": [
+            "disclosure-trigger#faq-question-12",
+            "disclosure-content#faq-question-12"
+        ]
+    },
+    "disclosure-trigger#faq-question-12": {
+        "children": [
+            "rich-text#faq-question-12-title"
+        ]
+    },
+    "disclosure-content#faq-question-12": {
+        "children": [
+            "rich-text#faq-question-12-answer"
+        ]
+    },
+    "rich-text#faq-question-12-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "Si no puedo recoger mi pedido, ¿lo puede recoger alguien más?"
+        }
+    },
+    "rich-text#faq-question-12-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Por seguridad, recomendamos que lo reclames personalmente. Si va a reclamarlo alguien más, debe llevar la fotocopia de tu cédula, el número de pedido y presentar su cédula en físico."
+        }
+    },
+    "disclosure-layout#faq-question-13": {
+        "children": [
+            "disclosure-trigger#faq-question-13",
+            "disclosure-content#faq-question-13"
+        ]
+    },
+    "disclosure-trigger#faq-question-13": {
+        "children": [
+            "rich-text#faq-question-13-title"
+        ]
+    },
+    "disclosure-content#faq-question-13": {
+        "children": [
+            "rich-text#faq-question-13-answer"
+        ]
+    },
+    "rich-text#faq-question-13-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Cómo se calcula el costo del envío?"
+        }
+    },
+    "rich-text#faq-question-13-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Por compras superiores a Q300 tendrás envío gratis. Para el resto de pedidos, el costo de envío se calcula por el peso de tu compra y el lugar al que desees enviar tu compra. Los costos relacionados con el envío serán discriminados en la factura y la orden al momento de hacer tu pedido."
+        }
+    },
+    "disclosure-layout#faq-question-14": {
+        "children": [
+            "disclosure-trigger#faq-question-14",
+            "disclosure-content#faq-question-14"
+        ]
+    },
+    "disclosure-trigger#faq-question-14": {
+        "children": [
+            "rich-text#faq-question-14-title"
+        ]
+    },
+    "disclosure-content#faq-question-14": {
+        "children": [
+            "rich-text#faq-question-14-answer"
+        ]
+    },
+    "rich-text#faq-question-14-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Cuánto tiempo tengo para recoger mi pedido?"
+        }
+    },
+    "rich-text#faq-question-14-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Tienes 7 días a partir de que te llega la notificación para recoger tu pedido. En el mensaje te indicamos la dirección y los horarios de atención en la tienda. Si después de ese tiempo, no has pasado por tu pedido, será cancelado y comienza el proceso de devolución del dinero."
+        }
+    },
+    "disclosure-layout#faq-question-15": {
+        "children": [
+            "disclosure-trigger#faq-question-15",
+            "disclosure-content#faq-question-15"
+        ]
+    },
+    "disclosure-trigger#faq-question-15": {
+        "children": [
+            "rich-text#faq-question-15-title"
+        ]
+    },
+    "disclosure-content#faq-question-15": {
+        "children": [
+            "rich-text#faq-question-15-answer"
+        ]
+    },
+    "rich-text#faq-question-15-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Cómo es el proceso de cambios?"
+        }
+    },
+    "rich-text#faq-question-15-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Puedes hacer tus cambios en la tienda donde recogiste tu pedido o en cualquier otra, siguiendo nuestro proceso normal."
+        }
+    },
+    "disclosure-layout#faq-question-16": {
+        "children": [
+            "disclosure-trigger#faq-question-16",
+            "disclosure-content#faq-question-16"
+        ]
+    },
+    "disclosure-trigger#faq-question-16": {
+        "children": [
+            "rich-text#faq-question-16-title"
+        ]
+    },
+    "disclosure-content#faq-question-16": {
+        "children": [
+            "rich-text#faq-question-16-answer"
+        ]
+    },
+    "rich-text#faq-question-16-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Cómo realizar una devolución de garantía?"
+        }
+    },
+    "rich-text#faq-question-16-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Realizar la solicitud de cambio/devolución y enviarla a nuestro correo ecommerce@rimet.com.gt (debes informar el número de la orden). Coordinaremos con servicio al cliente para que pasen a recoger el producto. Si el defecto no cumple con las condiciones de las devoluciones por garantía te informaremos a través de un correo electrónico la razón por la cual no realizamos la devolución y se enviará el producto nuevamente a la dirección de entrega inicial. El producto debe estar debidamente empacado. Usa el mismo empaque en que recibiste el pedido o uno diferente que proteja el producto durante el proceso de transporte. **En este caso el gasto de envío corre por cuenta de Organización Rimet S.A. Si tienes alguna duda comunícate con el área de Servicio al cliente al (502) 2303-1900 (en horario de lunes a viernes de 8:00 am – 5:00 pm o través del correo ecommerce@rimet.com.gt)"
+        }
+    },
+    "disclosure-layout#faq-question-17": {
+        "children": [
+            "disclosure-trigger#faq-question-17",
+            "disclosure-content#faq-question-17"
+        ]
+    },
+    "disclosure-trigger#faq-question-17": {
+        "children": [
+            "rich-text#faq-question-17-title"
+        ]
+    },
+    "disclosure-content#faq-question-17": {
+        "children": [
+            "rich-text#faq-question-17-answer"
+        ]
+    },
+    "rich-text#faq-question-17-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Cómo puedo hacer un cambio?"
+        }
+    },
+    "rich-text#faq-question-17-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Si quieres hacer un cambio de alguno de los productos que compraste en anaisonline.com, puedes realizarlo en cualquiera de nuestras tiendas físicas del país o a través de la línea de atención al cliente (502) 2303-1900 en horario de lunes a viernes de 8:00 am – 5:00 pm. Sólo se podrán realizar cambios por productos con igual valor al inicialmente adquirido. Para realizar un cambio el producto debe estar en perfecto estado, limpio, sin uso, con marquillas y etiquetas. No se permiten cambios de productos de uso personal (panties, tangas, boxers, pantaloncillos, medias, tapabocas, cuellos, mangas, gorras o otros productos de protección y cuidado personal), joyas, bisutería, productos de cuidado personal y cosméticos. El cambio de un producto puede realizarse hasta treinta (30) días después de realizada tu compra (Fecha de facturación). El producto debe estar debidamente embalado. Usa el mismo empaque en el que recibiste el pedido o uno diferente que proteja el producto durante el proceso de transporte. **En este caso el gasto de envío corre por tu cuenta."
+        }
+    }
+}

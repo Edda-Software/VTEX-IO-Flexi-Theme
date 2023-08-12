@@ -199,7 +199,7 @@
   },
   "rich-text#mega-menu-mobile-footer": {
     "props": {
-      "text": "@ flexi 2021. Todos los derechos reservados",
+      "text": "@ flexi 2023. Todos los derechos reservados",
       "blockClass": "mega-menu-mobile-footer-text"
     }
   }

@@ -1,0 +1,37 @@
+:global(.vtex-flex-layout-0-x-flexCol--disclosure-faq-group) .trigger {
+    border: none;
+    border-radius: 0px;
+    min-height: 49px;
+    padding: 16px;
+    width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--disclosure-faq-group) .trigger--hidden {
+    background: #FFFFFF;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--disclosure-faq-group) .trigger--visible {
+    background: #F6EEE8;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--disclosure-faq-group) .content {
+    align-items: start;
+    background: #FFFFFF;
+    border-bottom: 2px solid #BA1D2E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -5px;
+    min-height: 53px;
+    padding: 20px 19px 22px;
+}
+
+@media (min-width:1024px) {
+    :global(.vtex-flex-layout-0-x-flexCol--disclosure-faq-group) .trigger, :global(.vtex-flex-layout-0-x-flexCol--disclosure-faq-group) .content {
+        width: 617px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--disclosure-faq-group) .content {
+        background: #F6EEE8;
+    }
+}

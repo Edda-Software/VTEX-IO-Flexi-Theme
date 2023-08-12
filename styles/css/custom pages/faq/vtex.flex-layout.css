@@ -1,0 +1,70 @@
+.flexCol--faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+    justify-content: center;
+    padding-block: 46px;
+    padding-inline: 20px;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1260px;
+    z-index: 10;
+}
+
+.flexRow--faq-container-background {
+    background-image: url("assets/images/customPages/faq/background-faq.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 470px;
+    z-index: 1;
+}
+
+.flexRowContent--faq-container-questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+
+.flexColChild--disclosure-faq-group {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .flexRow--faq-container-background {
+        top: 25px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .flexCol--faq-container {
+        gap: 133px;
+        padding-inline: 0px;
+    }
+
+    .flexRowContent--faq-container-questions {
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 26px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .flexRow--faq-container-background {
+        top: -90px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .flexRow--faq-container-background {
+        top: -180px;
+    }
+}
+

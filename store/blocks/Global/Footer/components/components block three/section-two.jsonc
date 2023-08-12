@@ -31,10 +31,10 @@
         "children": [
             "link#footer-block-three_section-two_about-us-one",
             /* "link#footer-block-three_section-two_about-us-two", */
-            "link#footer-block-three_section-two_about-us-three",
-            "link#footer-block-three_section-two_about-us-four",
+            /* "link#footer-block-three_section-two_about-us-three", */
+            "link#footer-block-three_section-two_about-us-four"/* ,
             "link#footer-block-three_section-two_about-us-five",
-            "link#footer-block-three_section-two_about-us-six"
+            "link#footer-block-three_section-two_about-us-six" */
         ]
     },
     "link#footer-block-three_section-two_about-us-title": {

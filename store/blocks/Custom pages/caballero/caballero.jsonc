@@ -1,13 +1,16 @@
 {
     "store.custom#caballero": {
         "blocks": [
-            "flex-layout.row#category-dama-container"
+            "flex-layout.row#category-caballero-container"
         ]
     },
-    "flex-layout.row#category-dama-container": {
+    "flex-layout.row#category-caballero-container": {
         "children": [
             "flex-layout.col#category-dama-container"
-        ]
+        ],
+        "props": {
+            "blockClass": "category-caballero-container"
+        }
     },
     "flex-layout.col#category-dama-container": {
         "children": [

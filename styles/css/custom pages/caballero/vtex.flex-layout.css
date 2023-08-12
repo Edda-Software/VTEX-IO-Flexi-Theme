@@ -1,0 +1,4 @@
+.flexRowContent--category-caballero-container .flexRowContent--dama-block-two_search-category-contain .stretchChildrenWidth:nth-child(6n),
+.flexRowContent--category-caballero-container .flexRowContent--dama-block-two_search-category-contain .stretchChildrenWidth:nth-child(8n) {
+    display: none;
+}

@@ -1,0 +1,267 @@
+{
+    "disclosure-layout-group#faq-group-1": {
+        "children": [
+            "disclosure-layout#faq-question-1",
+            "disclosure-layout#faq-question-2",
+            "disclosure-layout#faq-question-3",
+            "disclosure-layout#faq-question-4",
+            "disclosure-layout#faq-question-5",
+            "disclosure-layout#faq-question-6",
+            "disclosure-layout#faq-question-7",
+            "disclosure-layout#faq-question-8",
+            "disclosure-layout#faq-question-9"
+        ]
+    },
+    "disclosure-layout#faq-question-1": {
+        "children": [
+            "disclosure-trigger#faq-question-1",
+            "disclosure-content#faq-question-1"
+        ]
+    },
+    "disclosure-trigger#faq-question-1": {
+        "children": [
+            "rich-text#faq-question-1-title"
+        ]
+    },
+    "disclosure-content#faq-question-1": {
+        "children": [
+            "rich-text#faq-question-1-answer"
+        ]
+    },
+    "rich-text#faq-question-1-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Cómo puedo pagar?"
+        }
+    },
+    "rich-text#faq-question-1-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "En este sitio web pagar con tarjeta débito a través tarjetas de crédito de las franquicias MasterCard, Visa, American Express y DinersClub. Controlamos todos los pedidos realizados con el objetivo de evitar prácticas abusivas y compras fraudulentas. Nos reservamos el derecho a no efectuar una entrega o de procesar el pedido de un cliente que no hubiera abonado total o parcialmente un pedido anterior o en el que exista algún litigio con el titular de la Tarjeta de Crédito o Tarjeta Débito. Adicionalmente tenemos el servicio de Deposito a cuenta o transferencia electrónica y Pago contra Entrega habilitado para algunas ciudades, podrás pagar en efectivo, tarjeta débito y tarjetas de crédito de las franquicias MasterCard, Visa y American Express."
+        }
+    },
+    "disclosure-layout#faq-question-2": {
+        "children": [
+            "disclosure-trigger#faq-question-2",
+            "disclosure-content#faq-question-2"
+        ]
+    },
+    "disclosure-trigger#faq-question-2": {
+        "children": [
+            "rich-text#faq-question-2-title"
+        ]
+    },
+    "disclosure-content#faq-question-2": {
+        "children": [
+            "rich-text#faq-question-2-answer"
+        ]
+    },
+    "rich-text#faq-question-2-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Qué debo hacer para comprar con Pago Contra Entrega?"
+        }
+    },
+    "rich-text#faq-question-2-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Al momento de confirmar tu dirección, el sistema validará si el lugar al que deseas enviar tu pedido tiene habilitado este servicio, de ser así, te mostrará un campo donde podrás poner 'Pagar de Inmediato' o 'Pagar Al Recibir El Pedido', deberás seleccionar la opción 'Pagar Al Recibir El Pedido'. Es muy importante que valides que tu correo electrónico esté bien diligenciado, ya que te contactaremos por este medio para confirmar tus datos y poder realizar el envío. Se enviará un correo electrónico a la dirección de correo que proporcionaste, este llegará aproximadamente 45 minutos despúes de haber dado clic al botón de Pago Contra Entrega. El correo tiene como fin confirmar tu dirección y validar que todos los datos que ingresaste esté correctos. Si no das clic a los botones del correo, a las 12 horas aproximadamente se te repetirá nuevamente un correo. Si no respondes el segundo correo en menos de 10 horas, el sistema cancelará el pedido automáticamente. El tiempo de entrega comenzará a correr después de la validación de tus datos vía correo electrónico."
+        }
+    },
+    "disclosure-layout#faq-question-3": {
+        "children": [
+            "disclosure-trigger#faq-question-3",
+            "disclosure-content#faq-question-3"
+        ]
+    },
+    "disclosure-trigger#faq-question-3": {
+        "children": [
+            "rich-text#faq-question-3-title"
+        ]
+    },
+    "disclosure-content#faq-question-3": {
+        "children": [
+            "rich-text#faq-question-3-answer"
+        ]
+    },
+    "rich-text#faq-question-3-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Qué debo hacer para comprar con Tarjeta de Crédito?"
+        }
+    },
+    "rich-text#faq-question-3-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Debes tener la tarjeta de crédito autorizada por tu banco para compras por Internet, para esto debes comunicarte con ellos. Debes verificar y digitar correctamente los datos de la tarjeta: franquicia, fecha de expiración y campo de código de seguridad. Debes validar el valor que deseas comprar con el cupo o fondo de tu tarjeta de crédito. Todos los bancos realizan un proceso de validación de veracidad de compra y tarjeta, los tiempos varían dependiendo de cada entidad bancaria, en este caso, el tiempo de aprobación del pedido corre por cuenta de tu Banco, estas validaciones y aprobaciones, se salen completamente de nuestra responsabilidad. El tiempo de entrega comenzará a correr una vez tu banco apruebe el pago. * En nuestra tienda online NO capturamos, almacenamos ni transmitimos datos transaccionales."
+        }
+    },
+    "disclosure-layout#faq-question-4": {
+        "children": [
+            "disclosure-trigger#faq-question-4",
+            "disclosure-content#faq-question-4"
+        ]
+    },
+    "disclosure-trigger#faq-question-4": {
+        "children": [
+            "rich-text#faq-question-4-title"
+        ]
+    },
+    "disclosure-content#faq-question-4": {
+        "children": [
+            "rich-text#faq-question-4-answer"
+        ]
+    },
+    "rich-text#faq-question-4-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Qué debo hacer si se interrumpe la transacción cuando estoy pagando?"
+        }
+    },
+    "rich-text#faq-question-4-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Si no sabes si realizaste exitosamente tu transacción, puedes comunicarte con la línea de atención al cliente (502) 2303-1900 o al correo ecommerce@rimet.com.gt. O puedes hacerlo también comunicándote con tu entidad bancaria."
+        }
+    },
+    "disclosure-layout#faq-question-5": {
+        "children": [
+            "disclosure-trigger#faq-question-5",
+            "disclosure-content#faq-question-5"
+        ]
+    },
+    "disclosure-trigger#faq-question-5": {
+        "children": [
+            "rich-text#faq-question-5-title"
+        ]
+    },
+    "disclosure-content#faq-question-5": {
+        "children": [
+            "rich-text#faq-question-5-answer"
+        ]
+    },
+    "rich-text#faq-question-5-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Por cuánto tiempo están disponibles las prendas que añado al carrito de compras antes de hacer el pago de mi pedido?"
+        }
+    },
+    "rich-text#faq-question-5-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "El inventario de las prendas que seleccionaste estará disponibles durante 5 minutos a la espera de la finalización de tu transacción. Si deseas terminar tu compra después de pasado este tiempo, se revisará nuevamente si el inventario está disponible para tu compra. Recuerda que hay otras personas intentando comprar tus mismos productos, por lo que debes darte prisa para evitar quedarte sin los productos que te gustan."
+        }
+    },
+    "disclosure-layout#faq-question-6": {
+        "children": [
+            "disclosure-trigger#faq-question-6",
+            "disclosure-content#faq-question-6"
+        ]
+    },
+    "disclosure-trigger#faq-question-6": {
+        "children": [
+            "rich-text#faq-question-6-title"
+        ]
+    },
+    "disclosure-content#faq-question-6": {
+        "children": [
+            "rich-text#faq-question-6-answer"
+        ]
+    },
+    "rich-text#faq-question-6-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Cómo puedo pagar con los tarjetas de regalo?"
+        }
+    },
+    "rich-text#faq-question-6-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Lamentablemente las tarjetas de regalo son redimibles únicamente en nuestras tiendas físicas, por el momento no los puedes usar para hacer pagos por nuestra tienda online."
+        }
+    },
+    "disclosure-layout#faq-question-7": {
+        "children": [
+            "disclosure-trigger#faq-question-7",
+            "disclosure-content#faq-question-7"
+        ]
+    },
+    "disclosure-trigger#faq-question-7": {
+        "children": [
+            "rich-text#faq-question-7-title"
+        ]
+    },
+    "disclosure-content#faq-question-7": {
+        "children": [
+            "rich-text#faq-question-7-answer"
+        ]
+    },
+    "rich-text#faq-question-7-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿A qué lugares llegan los pedidos?"
+        }
+    },
+    "rich-text#faq-question-7-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Nos comprometemos a llevar el pedido hasta donde estés, siempre y cuando el lugar de destino se encuentre dentro de la zona de influencia o perímetro ofrecido por nuestro operador logístico (Coordinadora); es necesario que el lugar de entrega elegido cuente con nomenclatura. La entrega del producto se realizará de acuerdo a la promesa de entrega informada en el sitio al momento de la compra. Para garantizarte la entrega en el tiempo y lugar establecidos, es necesario escribir la calle/carrera/avenida, con sus números, de manera completa. Revísalo otra vez, para que estés seguro que la hayas escrito correctamente."
+        }
+    },
+    "disclosure-layout#faq-question-8": {
+        "children": [
+            "disclosure-trigger#faq-question-8",
+            "disclosure-content#faq-question-8"
+        ]
+    },
+    "disclosure-trigger#faq-question-8": {
+        "children": [
+            "rich-text#faq-question-8-title"
+        ]
+    },
+    "disclosure-content#faq-question-8": {
+        "children": [
+            "rich-text#faq-question-8-answer"
+        ]
+    },
+    "rich-text#faq-question-8-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿Puedo enviar a una dirección diferente a la mía?"
+        }
+    },
+    "rich-text#faq-question-8-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "Sí. Puedes guardar en tu libreta de direcciones diferentes lugares de envío para que puedas ir armando tu propia libreta de direcciones."
+        }
+    },
+    "disclosure-layout#faq-question-9": {
+        "children": [
+            "disclosure-trigger#faq-question-9",
+            "disclosure-content#faq-question-9"
+        ]
+    },
+    "disclosure-trigger#faq-question-9": {
+        "children": [
+            "rich-text#faq-question-9-title"
+        ]
+    },
+    "disclosure-content#faq-question-9": {
+        "children": [
+            "rich-text#faq-question-9-answer"
+        ]
+    },
+    "rich-text#faq-question-9-title": {
+        "props": {
+            "blockClass": "faq-question-title",
+            "text": "¿En cuántos días llega mi pedido?"
+        }
+    },
+    "rich-text#faq-question-9-answer": {
+        "props": {
+            "blockClass": "faq-question-answer",
+            "text": "El tiempo estimado es de 3 a 9 días hábiles a todas las ciudades (estos días empiezan a contar el día hábil después de haber hecho el pago de tu pedido) . Recuerda que tu pedido estará llegando en el transcurso del día, es importante que una persona mayor de edad esté disponible para recibir el pedido. Coordinadora como operador logístico, realizará máximo dos (2) intentos de entrega de los pedidos que hayas realizado. En caso que los intentos de entrega resulten infructuosos, retornarán los pedidos al centro de distribución o nuestras oficinas y se procederemos a la devolución de tu dinero, salvo el valor del envío, sin ningún tipo de interés, retribución o suma adicional y sin importar la causa u origen que pueda tener la devolución, de acuerdo a los tiempos establecidos. Para los pedidos con pago contra entrega, el tiempo comenzará a contar a partir de la confirmación del correo electrónico. *Los pedidos que realices durante eventos nacionales como CYBERDAYS, Cybermonday, lackdays, Blackfriday y SALE o alguna otra actividad promocional nacional, podrán tener tiempos de entrega ligeramente más amplios, podrás verificar los días de entrega al momento de hacer tu compra en la tienda Online. Los días de entrega son contados en días hábiles, que corresponden a lunes a viernes. Los sábados y domingo NO cuentan cómo días hábiles, como tampoco los días festivos. Los pedidos que entren en sábados, domingos o festivos, el tiempo de entrega comenzará a contar desde el siguiente día hábil. Los pedidos que ocurran antes de las 4:00 pm cuentan como pedidos realizados ese mismo día; pasadas las 4:00 pm, los pedidos que ocurran, se contará su tiempo de entrega oficial desde el día siguiente. Existen circunstancias ajenas a Organización Rimet S,A que pueden llegar a retrasar el tiempo de entrega, como derrumbes, paros, cierre de vías, etc."
+        }
+    }
+}

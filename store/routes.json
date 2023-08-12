@@ -16,5 +16,8 @@
   },
   "store.custom#nearest-store": {
     "path": "/zapaterias"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
   }
 }

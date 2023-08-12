@@ -41,7 +41,7 @@
             "initiallyCollapsed": true,
             "fullWidthOnMobile": true,
             "showClearByFilter": true,
-            "showClearAllFiltersOnDesktop" :true
+            "showClearAllFiltersOnDesktop" :false
         }
     }
 }

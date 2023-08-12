@@ -51,7 +51,7 @@
     "link#footer-block-three_section-three_help-two": {
         "props": {
             "label": "Preguntas Frecuentes",
-            "href": "/",
+            "href": "/faq",
             "blockClass": "footer-block-three_section-three_subtitle"
         }
     },

@@ -75,6 +75,10 @@
     gap: 3.7px;
 }
 
+.flexCol--footer-block-three_section-two_about-us .flexColChild--footer-block-three_section-two_about-us {
+    height: auto !important;
+}
+
 .flexCol--footer-block-three_section-two_sub-about-us,
 .flexCol--footer-block-three_section-two_sub-menu,
 .flexCol--footer-block-three_section-three_sub-help,

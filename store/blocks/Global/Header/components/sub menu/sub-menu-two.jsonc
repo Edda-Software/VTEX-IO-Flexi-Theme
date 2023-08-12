@@ -103,7 +103,6 @@
             "menu-item#category-caballero-section-two-opcion-two",
             "menu-item#category-caballero-section-two-opcion-three",
             "menu-item#category-caballero-section-two-opcion-four",
-            "menu-item#category-caballero-section-two-opcion-five",
             "menu-item#category-caballero-section-two-opcion-six",
             "menu-item#category-caballero-section-two-opcion-seven"
         ]
@@ -114,7 +113,6 @@
         },
         "children": [
             "rich-text#title-category-caballero-section-three",
-            "menu-item#category-caballero-section-three-opcion-one",
             "menu-item#category-caballero-section-three-opcion-two",
             "menu-item#category-caballero-section-three-opcion-three",
             "menu-item#category-caballero-section-three-opcion-four",
