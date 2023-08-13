@@ -31,7 +31,8 @@
         "children": [
             "link#footer-block-three_section-three_help-one",
             "link#footer-block-three_section-three_help-two",
-            "link#footer-block-three_section-three_help-three"
+            "link#footer-block-three_section-three_help-three",
+            "link#footer-block-three_section-three_help-four"
         ]
     },
     "link#footer-block-three_section-three_help-title": {
@@ -59,6 +60,13 @@
         "props": {
             "label": "Guía de Tallas",
             "href": "/guia-tallas",
+            "blockClass": "footer-block-three_section-three_subtitle"
+        }
+    },
+    "link#footer-block-three_section-three_help-four": {
+        "props": {
+            "label": "Términos y Condidiciones",
+            "href": "/terminos-condiciones",
             "blockClass": "footer-block-three_section-three_subtitle"
         }
     },

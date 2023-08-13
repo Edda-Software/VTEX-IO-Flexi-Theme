@@ -1,0 +1,97 @@
+.listContainer--term-conditions-container-options {
+    align-items: center;
+    background: #F6EEE8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listContainer--term-conditions-container-options .listItem {
+    padding: 0;
+    margin: 0;
+}
+
+.listContainer--term-conditions-container-options .listItem:last-child {
+    margin-bottom: 16px;
+}
+
+.listContainer--term-conditions-container-options .listItemActive {
+    border-left: 2px solid #BA1D2E;
+}
+
+.listContainer--term-conditions-container-options .listItem :global(.vtex-button) {
+    height: 56px;
+    width: 326px;
+    border-radius: 0%;
+    border: none;
+}
+
+.listContainer--term-conditions-container-options .listItem :global(.vtex-button):hover {
+    background-color: transparent;
+}
+
+.listContainer--term-conditions-container-options .listItemActive :global(.vtex-button),
+.listContainer--term-conditions-container-options .listItemActive :global(.vtex-button):hover {
+    background: #FFF;
+}
+
+.listContainer--term-conditions-container-options .listItem :global(.vtex-button) :global(.vtex-button__label) {
+    color: #000;
+    font-family: Avenir;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: initial;
+    padding: 0 0 0 16px;
+    align-items: center;
+    justify-content: start;
+}
+
+.listContainer--term-conditions-container-options .listItemActive :global(.vtex-button) :global(.vtex-button__label) {
+    font-weight: 800;
+}
+
+/* CONTENT */
+.contentContainer--term-conditions-container-content {
+    padding: 29px 25px;
+}
+
+.contentContainer--term-conditions-container-content .contentItem {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.link--term-conditions-content-text {
+    color: #BA1D2E;
+}
+
+@media (min-width: 1024px) {
+    .listContainer--term-conditions-container-options {
+        width: 432px;
+        align-items: start;
+    }
+
+    .listContainer--term-conditions-container-options .listItem {
+        margin-left: 16px;
+        width: 416px;
+    }
+
+    .listContainer--term-conditions-container-options .listItem:last-child {
+        margin-bottom: 21px;
+    }
+
+    .listContainer--term-conditions-container-options .listItem :global(.vtex-button) :global(.vtex-button__label) {
+        font-size: 18px;
+    }
+
+    .listContainer--term-conditions-container-options .listItem :global(.vtex-button) {
+        width: 100%;
+    }
+
+    .container--term-conditions-container-options {
+        display: flex;
+    }
+}

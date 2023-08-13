@@ -19,5 +19,8 @@
   },
   "store.custom#faq": {
     "path": "/faq"
+  },
+  "store.custom#term-conditions": {
+    "path": "/terminos-condiciones"
   }
 }

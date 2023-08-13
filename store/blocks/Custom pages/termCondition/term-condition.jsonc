@@ -1,0 +1,30 @@
+{
+    "store.custom#term-conditions": {
+        "blocks": [
+            "flex-layout.row#term-conditions-container"
+        ]
+    },
+    "flex-layout.row#term-conditions-container": {
+        "children": [
+            "flex-layout.col#term-conditions-container"
+        ]
+    },
+    "flex-layout.col#term-conditions-container": {
+        "props": {
+            "blockClass": "term-conditions-container"
+        },
+        "children": [
+            "tab-layout#term-conditions-container-options"
+        ]
+    },
+    "tab-layout#term-conditions-container-options": {
+        "props": {
+            "blockClass": "term-conditions-container-options",
+            "defaultActiveTabId": "option1"
+        },
+        "children": [
+            "tab-list#term-conditions-container-options",
+            "tab-content#term-conditions-container-content"
+        ]
+    }
+}

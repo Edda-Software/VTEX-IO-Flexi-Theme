@@ -1,0 +1,164 @@
+{
+    "tab-content#term-conditions-container-content": {
+        "props": {
+            "blockClass": "term-conditions-container-content"
+        },
+        "children": [
+            "tab-content.item#term-conditions-content-1",
+            "tab-content.item#term-conditions-content-2",
+            "tab-content.item#term-conditions-content-3",
+            "tab-content.item#term-conditions-content-4",
+            "tab-content.item#term-conditions-content-5",
+            "tab-content.item#term-conditions-content-6",
+            "tab-content.item#term-conditions-content-7"
+
+        ]
+    },
+    "tab-content.item#term-conditions-content-1": {
+        "props": {
+            "tabId": "option1"
+        },
+        "children": [
+            "rich-text#term-conditions-content-1-title",
+            "rich-text#term-conditions-content-1-text"
+        ]
+    },
+    "rich-text#term-conditions-content-1-title": {
+        "props": {
+            "blockClass": "term-conditions-content-title",
+            "text": "Términos y condiciones flexi"
+        }
+    },
+    "rich-text#term-conditions-content-1-text": {
+        "props": {
+            "blockClass": "term-conditions-content-text",
+            "text": "Sólo puedes realizar un pedido en nuestros medios si eres un consumidor final, no un distribuidor. Al efectuar una compra en nuestro medio, dejas expresa constancia que eres mayor de edad. En caso contrario podremos abstenernos de concretar la misma o solicitar autorización a un mayor. \n\n Con tu pedido nos garantizas que la información que proporciones en la solicitud o pedido es exacta y completa. Nuestra compañía no está obligada a aceptar un pedido y, en todo caso, tendremos derecho en todo momento a verificar un pedido por anticipado o a rechazarlo sin necesidad de presentarte razones para ello.\n\n El producto será entregado a cualquier persona mayor de edad que se ubique en la dirección suministrada en el formulario o en la garita de la unidad residencial o edificio suministrado.\n\n Es importante aclarar que los costos de envío del producto adquirido pueden variar sin previo aviso, según las condiciones comerciales de nuestros operadores logísticos y/o empresas de mensajería, incrementos o variaciones ajenas a nuestra empresa."
+        }
+    },
+    "tab-content.item#term-conditions-content-2": {
+        "props": {
+            "tabId": "option2"
+        },
+        "children": [
+            "rich-text#term-conditions-content-2-title",
+            "rich-text#term-conditions-content-2-text"
+        ]
+    },
+    "rich-text#term-conditions-content-2-title": {
+        "props": {
+            "blockClass": "term-conditions-content-title",
+            "text": "Política de precios y existencia de inventario"
+        }
+    },
+    "rich-text#term-conditions-content-2-text": {
+        "props": {
+            "blockClass": "term-conditions-content-text",
+            "text": "Normalmente los productos que encuentras en este medio tienen el mismo precio que nuestras tiendas. Aun así, en algunos casos, podrían existir diferencias por promociones puntuales. \n\n Con relación al inventario de productos queremos aclararte que las existencias de los productos son LIMITADAS, y es posible que en el lapso de tiempo que tarde la selección del producto y se realice el pago, dichas existencias se agoten. Esta circunstancia aplica de igual manera en nuestros descuentos y ofertas, y en modo alguno configura eventos de falsa publicidad o publicidad engañosa."
+        }
+    },
+    "tab-content.item#term-conditions-content-3": {
+        "props": {
+            "tabId": "option3"
+        },
+        "children": [
+            "rich-text#term-conditions-content-3-title",
+            "rich-text#term-conditions-content-3-text"
+        ]
+    },
+    "rich-text#term-conditions-content-3-title": {
+        "props": {
+            "blockClass": "term-conditions-content-title",
+            "text": "Colores"
+        }
+    },
+    "rich-text#term-conditions-content-3-text": {
+        "props": {
+            "blockClass": "term-conditions-content-text",
+            "text": "Hacemos un esfuerzo por que los colores de las prendas en el sitio sean lo más cercano posible a su color real, sin embargo, el color de las prendas en pantalla puede estar sujeto a variaciones dependiendo de la calidad del monitor de tu computador, la tarjeta de video, o de la iluminación del sitio en el que lo estés viendo. Rimet no puede garantizar que los colores en tu monitor se ajusten exactamente a los reales."
+        }
+    },
+    "tab-content.item#term-conditions-content-4": {
+        "props": {
+            "tabId": "option4"
+        },
+        "children": [
+            "rich-text#term-conditions-content-4-title",
+            "rich-text#term-conditions-content-4-text"
+        ]
+    },
+    "rich-text#term-conditions-content-4-title": {
+        "props": {
+            "blockClass": "term-conditions-content-title",
+            "text": "Mantenimiento de los productos"
+        }
+    },
+    "rich-text#term-conditions-content-4-text": {
+        "props": {
+            "blockClass": "term-conditions-content-text",
+            "text": "Queremos llamar tu atención sobre las instrucciones de lavado y mantenimiento impresas en las etiquetas de los productos pues no seremos responsables de ningún daño que sea consecuencia del manejo o utilización incorrecta de los productos, incluida la utilización contraria a las instrucciones."
+        }
+    },
+    "tab-content.item#term-conditions-content-5": {
+        "props": {
+            "tabId": "option5"
+        },
+        "children": [
+            "rich-text#term-conditions-content-5-title",
+            "rich-text#term-conditions-content-5-text"
+        ]
+    },
+    "rich-text#term-conditions-content-5-title": {
+        "props": {
+            "blockClass": "term-conditions-content-title",
+            "text": "Empaque de productos"
+        }
+    },
+    "rich-text#term-conditions-content-5-text": {
+        "props": {
+            "blockClass": "term-conditions-content-text",
+            "text": "Al realizar compras por este medio, estas aceptando que los productos que te vamos a despachar sean empacados y enviados en bolsa plástica de seguridad, o en caja de cartón, siempre y cuando estas cumplan con las condiciones necesarias para la conservación y transporte adecuado del producto."
+        }
+    },
+    "tab-content.item#term-conditions-content-6": {
+        "props": {
+            "tabId": "option6"
+        },
+        "children": [
+            "rich-text#term-conditions-content-6-title",
+            "rich-text#term-conditions-content-6-text"
+        ]
+    },
+    "rich-text#term-conditions-content-6-title": {
+        "props": {
+            "blockClass": "term-conditions-content-title",
+            "text": "Acepta recibir correo físico"
+        }
+    },
+    "rich-text#term-conditions-content-6-text": {
+        "props": {
+            "blockClass": "term-conditions-content-text",
+            "text": "El usuario y/o cliente acepta recibir material diferente al producto y/o mercancía seleccionada para su compra, como publicidad, revistas y/o folletos con los lanzamientos de las últimas colecciones, y en general material publicitaria.\n\n Si tienes alguna duda comunícate con el área de Servicio al cliente al (502) 2303-1900 (en horario de lunes a viernes de 8:00 am – 5:00 pm o través del correo ecommerce@rimet.com.gt)"
+        }
+    },
+    "tab-content.item#term-conditions-content-7": {
+        "props": {
+            "tabId": "option7"
+        },
+        "children": [
+            "rich-text#term-conditions-content-7-title",
+            "rich-text#term-conditions-content-7-text"
+        ]
+    },
+    "rich-text#term-conditions-content-7-title": {
+        "props": {
+            "blockClass": "term-conditions-content-title",
+            "text": "Políticas de cambio:"
+        }
+    },
+    "rich-text#term-conditions-content-7-text": {
+        "props": {
+            "blockClass": "term-conditions-content-text",
+            "text": "• Presentar factura original \n\n • Plazo de 30 días para realizar el cambio\n\n • Valor de envío por cambio Q30 a toda Guatemala\n\n • Garantía por defecto de fábrica\n\n • Accesorios no tiene cambio\n\n • No se realizan devoluciones en efectivo\n\n • Mercadería ofertada no tiene cambio\n\n • Únicamente un cambio por factura"
+        }
+    }
+}

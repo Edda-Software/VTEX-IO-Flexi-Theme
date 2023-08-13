@@ -1,0 +1,53 @@
+.container--term-conditions-options-title {
+    align-items: center;
+    border-bottom: 1px solid #CACACA;
+    display: flex;
+    height: 71.51px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.paragraph--term-conditions-options-title {
+    color: #000;
+    font-family: Keep Calm;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.paragraph--term-conditions-content-title {
+    color: #C4262E;
+    font-family: Avenir;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: initial;
+}
+
+.wrapper--term-conditions-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.paragraph--term-conditions-content-text {
+    color: #000;
+    font-family: Avenir;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (min-width: 1024px) {
+    .container--term-conditions-options-title {
+        height: 90px;
+        margin-bottom: 21px;
+    }
+
+    .paragraph--term-conditions-options-title {
+        font-size: 24px;
+    }
+}

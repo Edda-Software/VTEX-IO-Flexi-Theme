@@ -1,0 +1,66 @@
+{
+    "tab-list#term-conditions-container-options": {
+        "props": {
+            "blockClass": "term-conditions-container-options"
+        },
+        "children": [
+            "rich-text#term-conditions-options-title",
+            "tab-list.item#term-conditions-option-1",
+            "tab-list.item#term-conditions-option-2",
+            "tab-list.item#term-conditions-option-3",
+            "tab-list.item#term-conditions-option-4",
+            "tab-list.item#term-conditions-option-5",
+            "tab-list.item#term-conditions-option-6",
+            "tab-list.item#term-conditions-option-7"
+        ]
+    },
+    "rich-text#term-conditions-options-title": {
+        "props": {
+            "blockClass": "term-conditions-options-title",
+            "text": "Términos y condiciones"
+        }
+    },
+    "tab-list.item#term-conditions-option-1": {
+        "props": {
+            "tabId": "option1",
+            "label": "Términos y condiciones flexi",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#term-conditions-option-2": {
+        "props": {
+            "tabId": "option2",
+            "label": "Política de precios y existencia de inventario"
+        }
+    },
+    "tab-list.item#term-conditions-option-3": {
+        "props": {
+            "tabId": "option3",
+            "label": "Colores"
+        }
+    },
+    "tab-list.item#term-conditions-option-4": {
+        "props": {
+            "tabId": "option4",
+            "label": "Mantenimiento de los productos"
+        }
+    },
+    "tab-list.item#term-conditions-option-5": {
+        "props": {
+            "tabId": "option5",
+            "label": "Empaque de productos"
+        }
+    },
+    "tab-list.item#term-conditions-option-6": {
+        "props": {
+            "tabId": "option6",
+            "label": "Acepta recibir correo físico"
+        }
+    },
+    "tab-list.item#term-conditions-option-7": {
+        "props": {
+            "tabId": "option7",
+            "label": "Políticas de cambio:"
+        }
+    }
+}

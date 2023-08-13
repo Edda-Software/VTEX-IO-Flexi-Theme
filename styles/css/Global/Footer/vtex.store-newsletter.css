@@ -62,6 +62,11 @@
     width: 23.8px;
 }
 
+.labelLink--first {
+    color: #BA1D2E;
+    text-decoration: none;
+}
+
 @media (min-width: 768px) {
     .emailInputContainer--label-newsletter-input-email :global(.vtex-input) :global(.vtex-styleguide-9-x-input) {
         height: 47.01px;
