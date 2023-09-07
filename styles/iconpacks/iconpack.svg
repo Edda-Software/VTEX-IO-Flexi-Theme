@@ -51,5 +51,13 @@
     <g id="nav-caret--up">
       <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 16.152344 9.289062 L 8.574219 1.710938 L 1 9.289062 "/>
     </g>
+
+    <g id="nav-caret--right">
+      <path d="M5 15L12 8L5 1" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g id="nav-caret--left">
+      <path d="M11 1L4 8L11 15" stroke="rgba(0,0,0,0.50)" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
   </defs>
 </svg>

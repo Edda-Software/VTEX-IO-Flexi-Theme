@@ -29,6 +29,7 @@
 
 .flexRowContent--product-page_product-price {
     display: flex;
+    flex-direction: column;
     gap: 24.67px;
 }
 
