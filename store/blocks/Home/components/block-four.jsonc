@@ -13,8 +13,7 @@
         },
         "children": [
             "rich-text#block-four-oportunity-title",
-            "responsive-layout.mobile#block-four-oportunity",
-            "responsive-layout.desktop#block-four-oportunity"
+            "flex-layout.row#block-four-oportunity-images"
         ]
     },
     "rich-text#block-four-oportunity-title": {
@@ -23,134 +22,40 @@
             "text": "Grandes oportunidades"
         }
     },
-    /* MOBILE */
-    "responsive-layout.mobile#block-four-oportunity": {
-        "children": [
-            "flex-layout.row#block-four-oportunity-images-mobile"
-        ]
-    },
-    "flex-layout.row#block-four-oportunity-images-mobile": {
+
+    "flex-layout.row#block-four-oportunity-images": {
         "props": {
-            "blockClass": "block-four-oportunity-images-mobile",
-            "colSizing": "auto"
+            "blockClass": "block-four-oportunity-images",
+            "colSizing": "equal"
         },
         "children": [
-            "flex-layout.col#block-four-oportunity-images-mobile-1",
-            "flex-layout.col#block-four-oportunity-images-mobile-2",
-            "flex-layout.col#block-four-oportunity-images-mobile-3"
+            "flex-layout.col#block-four-oportunity-images-1",
+            "flex-layout.col#block-four-oportunity-images-2",
+            "flex-layout.col#block-four-oportunity-images-3"
         ]
     },
-    "flex-layout.col#block-four-oportunity-images-mobile-1": {
+    "flex-layout.col#block-four-oportunity-images-1": {
         "children": [
-            "image#block-four-oportunity-images-mobile-1"
+            "info-card#block-four-oportunity-images"
         ]
     },
-    "flex-layout.col#block-four-oportunity-images-mobile-2": {
+    "flex-layout.col#block-four-oportunity-images-2": {
         "children": [
-            "image#block-four-oportunity-images-mobile-2"
+            "info-card#block-four-oportunity-images"
         ]
     },
-    "flex-layout.col#block-four-oportunity-images-mobile-3": {
+    "flex-layout.col#block-four-oportunity-images-3": {
         "children": [
-            "image#block-four-oportunity-images-mobile-3"
+            "info-card#block-four-oportunity-images"
         ]
     },
-    "image#block-four-oportunity-images-mobile-1": {
+    "info-card#block-four-oportunity-images": {
         "props": {
-            "blockClass": "block-four-oportunity-images-mobile",
-            "src": "assets/images/home/oportunity-mobile-1.jpg",
-            "maxHeight": "324",
-            "maxWidth": "260",
-            "link": {
-                "url": "/"
-            }
-        }
-    },
-    "image#block-four-oportunity-images-mobile-2": {
-        "props": {
-            "blockClass": "block-four-oportunity-images-mobile",
-            "src": "assets/images/home/oportunity-mobile-2.jpg",
-            "maxHeight": "324",
-            "maxWidth": "260",
-            "link": {
-                "url": "/"
-            }
-        }
-    },
-    "image#block-four-oportunity-images-mobile-3": {
-        "props": {
-            "blockClass": "block-four-oportunity-images-mobile",
-            "src": "assets/images/home/oportunity-mobile-3.jpg",
-            "maxHeight": "324",
-            "maxWidth": "260",
-            "link": {
-                "url": "/"
-            }
-        }
-    },
-    /* DESKTOP */
-    "responsive-layout.desktop#block-four-oportunity": {
-        "children": [
-            "flex-layout.row#block-four-oportunity-images-desktop"
-        ]
-    },
-    "flex-layout.row#block-four-oportunity-images-desktop": {
-        "props": {
-            "blockClass": "block-four-oportunity-images-desktop",
-            "colSizing": "auto"
-        },
-        "children": [
-            "flex-layout.col#block-four-oportunity-images-desktop-1",
-            "flex-layout.col#block-four-oportunity-images-desktop-2",
-            "flex-layout.col#block-four-oportunity-images-desktop-3"
-        ]
-    },
-    "flex-layout.col#block-four-oportunity-images-desktop-1": {
-        "children": [
-            "image#block-four-oportunity-images-desktop-1"
-        ]
-    },
-    "flex-layout.col#block-four-oportunity-images-desktop-2": {
-        "children": [
-            "image#block-four-oportunity-images-desktop-2"
-        ]
-    },
-    "flex-layout.col#block-four-oportunity-images-desktop-3": {
-        "children": [
-            "image#block-four-oportunity-images-desktop-3"
-        ]
-    },
-    "image#block-four-oportunity-images-desktop-1": {
-        "props": {
-            "blockClass": "block-four-oportunity-images-desktop",
-            "src": "assets/images/home/oportunity-desktop-1.jpg",
-            "maxHeight": "324",
-            "maxWidth": "407",
-            "link": {
-                "url": "/"
-            }
-        }
-    },
-    "image#block-four-oportunity-images-desktop-2": {
-        "props": {
-            "blockClass": "block-four-oportunity-images-desktop",
-            "src": "assets/images/home/oportunity-desktop-2.jpg",
-            "maxHeight": "324",
-            "maxWidth": "407",
-            "link": {
-                "url": "/"
-            }
-        }
-    },
-    "image#block-four-oportunity-images-desktop-3": {
-        "props": {
-            "blockClass": "block-four-oportunity-images-desktop",
-            "src": "assets/images/home/oportunity-desktop-3.jpg",
-            "maxHeight": "324",
-            "maxWidth": "407",
-            "link": {
-                "url": "/"
-            }
+            "blockClass": ["opportunity-card", "opportunity-card-three"],
+            "callToActionText": "VER MÁS",
+            "headline": "DAMA",
+            "subhead": "-",
+            "imageUrl": "assets/images/home/oportunity-desktop-1.jpg"
         }
     }
 }

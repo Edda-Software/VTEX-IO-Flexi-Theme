@@ -9,6 +9,26 @@
     url("assets/fonts/KeepCalm-Medium.woff") format("woff");
 }
 
+/* Hey November */
+@font-face {
+  font-family: "Hey November";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Hey November"), local("HeyNovember"),
+    url("assets/fonts/hey-november.woff2") format("woff2");
+}
+
+/* VAG Rundschrift */
+@font-face {
+  font-family: "VAG";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("VAG"), local("VAG Rundschrift"), local("VAGRundschrift"),
+    url("assets/fonts/vag.woff2") format("woff2");
+}
+
 /* **************************************************************************************************************************************************** */
 @font-face {
   font-family: "Avenir";

@@ -24,3 +24,99 @@
     min-width: 260px;
     min-height: 333.71px;
 }
+
+.infoCardContainer--opportunity-card {
+    flex-direction: column-reverse;
+    background-color: #f6f6f6;
+}
+
+.infoCardTextContainer--opportunity-card,
+.infoCardImageContainer--opportunity-card {
+    width: 100%;
+}
+
+.infoCardTextContainer--opportunity-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoCardTextContainer--opportunity-card .paragraph--opportunity-card {
+    margin: 0;
+    font-family: cursive;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.infoCardHeadline--opportunity-card,
+.infoCardTextContainer--opportunity-card .strong--opportunity-card {
+    margin: 0;
+    font-family: "Hey November";
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #cf1e27;
+    vertical-align: middle;
+}
+
+.infoCardSubhead--opportunity-card {
+    font-size: 0;
+    flex: 1;
+    margin: 0 15px;
+    height: 4px;
+    background-color: #cf1e27;
+}
+
+.infoCardCallActionContainer--opportunity-card :global(.vtex-button) :global(.vtex-button__label) {
+    padding-block: 0 !important;
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+.infoCardCallActionContainer--opportunity-card :global(.vtex-button) {
+    min-height: 2.2rem;
+}
+
+@media (max-width: 1024px) {
+    .infoCardTextContainer--opportunity-card .paragraph--opportunity-card {
+        font-size: 1rem;
+    }
+
+    .infoCardHeadline--opportunity-card,
+    .infoCardTextContainer--opportunity-card .strong--opportunity-card {
+        font-size: 1.75rem;
+    }
+
+    .infoCardCallActionContainer--opportunity-card :global(.vtex-button) :global(.vtex-button__label) {
+        font-size: 12px;
+        padding: 0 1rem;
+    }
+
+    .infoCardCallActionContainer--opportunity-card :global(.vtex-button) {
+        min-height: 1.7rem;
+    }
+}
+
+@media (max-width: 639px) {
+    .infoCardContainer--opportunity-card,
+    .infoCardImageContainer--opportunity-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infoCardTextContainer--opportunity-card .paragraph--opportunity-card {
+        font-size: 0.75rem;
+    }
+
+    .infoCardTextContainer--opportunity-card .strong--opportunity-card {
+        font-size: 1.25rem;
+    }
+
+    .infoCardCallActionContainer--opportunity-card :global(.vtex-button) :global(.vtex-button__label) {
+        font-size: 11px;
+        padding: 0 0.875rem;
+        white-space: nowrap;
+    }
+}
