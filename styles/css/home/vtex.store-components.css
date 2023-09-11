@@ -27,7 +27,6 @@
 
 .infoCardContainer--opportunity-card {
     flex-direction: column-reverse;
-    background-color: #f6f6f6;
 }
 
 .infoCardTextContainer--opportunity-card,
@@ -44,9 +43,8 @@
 
 .infoCardTextContainer--opportunity-card .paragraph--opportunity-card {
     margin: 0;
-    font-family: cursive;
+    font-family: "VAG";
     font-size: 1.25rem;
-    font-weight: bold;
 }
 
 .infoCardHeadline--opportunity-card,
@@ -63,14 +61,13 @@
     font-size: 0;
     flex: 1;
     margin: 0 15px;
-    height: 4px;
+    height: 2px;
     background-color: #cf1e27;
 }
 
 .infoCardCallActionContainer--opportunity-card :global(.vtex-button) :global(.vtex-button__label) {
     padding-block: 0 !important;
-    font-weight: 600;
-    font-family: cursive;
+    font-family: "VAG";
     font-size: 14px;
 }
 

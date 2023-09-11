@@ -24,4 +24,12 @@
     :global(.vtex-flex-layout-0-x-flexRowContent--guide-size-container) .container--block-four-oportunity-title {
         display: none;
     }
+
+    .container--nearest-store__container-info-adress-title,
+    .container--nearest-store__container-info-adress,
+    .container--nearest-store__container-info-phone,
+    .container--nearest-store__container-info-email-title,
+    .container--nearest-store__container-info-email {
+        justify-content: center;
+    }
 }

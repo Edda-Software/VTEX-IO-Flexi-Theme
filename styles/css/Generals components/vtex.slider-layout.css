@@ -64,6 +64,10 @@
     color: rgba(0, 0, 0, 0.50);
 }
 
+.imageElementLink--carousel-banner-image {
+    width: 100%;
+}
+
 @media (min-width: 1024px) {
     .paginationDotsContainer--carousel-banner-image {
         top: auto;
@@ -95,9 +99,5 @@
         max-width: 300px;
         min-height: 452px;
         min-width: 300px;
-    }
-
-    .imageElementLink--carousel-banner-image {
-        width: 100%;
     }
 }

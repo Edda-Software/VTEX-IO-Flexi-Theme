@@ -1,8 +1,8 @@
 .flexRowContent--nearest-store__container-form {
+    align-items: center;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    max-width: 1440px;
     margin: 12px auto 0;
 }
 
@@ -31,5 +31,11 @@
 
     .flexRowContent--nearest-store__container-form {
         flex-direction: row;
+
+    }
+
+    .flexCol--nearest-store__container-form {
+        padding-inline: 66px;
+        padding-block: 44px;
     }
 }
