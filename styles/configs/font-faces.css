@@ -19,14 +19,14 @@
     url("assets/fonts/hey-november.woff2") format("woff2");
 }
 
-/* VAG Rundschrift */
+/* CHE Guevara */
 @font-face {
-  font-family: "VAG";
+  font-family: "CHE";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("VAG"), local("VAG Rundschrift"), local("VAGRundschrift"),
-    url("assets/fonts/vag.woff2") format("woff2");
+  src: local("CHE"), local("Che Guevara Barry"), local("CheGuevaraBarry"),
+    url("assets/fonts/CheGuevaraBarry-Brown.woff") format("woff");
 }
 
 /* **************************************************************************************************************************************************** */

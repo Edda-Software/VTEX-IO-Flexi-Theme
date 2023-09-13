@@ -43,7 +43,7 @@
 
 .infoCardTextContainer--opportunity-card .paragraph--opportunity-card {
     margin: 0;
-    font-family: "VAG";
+    font-family: "CHE";
     font-size: 1.25rem;
 }
 
@@ -67,7 +67,7 @@
 
 .infoCardCallActionContainer--opportunity-card :global(.vtex-button) :global(.vtex-button__label) {
     padding-block: 0 !important;
-    font-family: "VAG";
+    font-family: "CHE";
     font-size: 14px;
 }
 
