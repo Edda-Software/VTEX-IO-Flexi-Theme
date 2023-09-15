@@ -28,7 +28,6 @@
 .menuItemVertical:last-child .styledLinkContent {
     display: flex;
     align-items: center;
-    width: 89px;
     height: 45px;
 }
 
