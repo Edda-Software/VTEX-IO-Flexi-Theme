@@ -34,7 +34,7 @@
     font-style: normal;
     font-weight: 500;
     text-decoration: none;
-    text-align: center;
+    text-align: start;
 }
 
 @media (min-width: 1240px) {
@@ -44,6 +44,17 @@
 
     .paragraph--nearest-store__container-form-subtitle {
         font-size: 20px;
+    }
+
+    .paragraph--nearest-store__container-info-adress,
+    .paragraph--nearest-store__container-info-phone,
+    .link--nearest-store__container-info-email {
+        text-align: center;
+
+    }
+
+    .container--nearest-store__container-info-phone-title {
+        justify-content: center;
     }
 
 }
