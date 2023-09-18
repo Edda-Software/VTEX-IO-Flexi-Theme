@@ -519,7 +519,7 @@
 
     .gallery--gallery-plp--grid {
         padding: 20px 12px;
-        gap: 20px;
+        gap: 10px;
         justify-content: start;
     }
 

@@ -45,7 +45,7 @@
 }
 
 .flexRowContent--search-result-layout_content-filters-searchResult {
-    justify-content: center;
+    justify-content: start;
 }
 
 .flexRowContent--search-result-layout_content-filters-searchResult-desktop-container {
@@ -58,13 +58,9 @@
 }
 
 @media (min-width: 1024px) {
-    .flexRowContent--search-result-layout_title-total-products {
-        justify-content: start;
-    }
-
-    .flexRowContent--search-result-layout_content-filters-searchResult-desktop-container {
+    /* .flexRowContent--search-result-layout_content-filters-searchResult-desktop-container {
         padding-inline: 20px;
-    }
+    } */
 }
 
 @media (min-width: 1920px) {
