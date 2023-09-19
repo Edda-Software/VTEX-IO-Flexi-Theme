@@ -46,7 +46,7 @@
   },
   "store.search#department": {
     "blocks": [
-      "search-result-layout"
+      "search-result-layout#department"
     ],
     "props": {
       "context": {
@@ -84,6 +84,22 @@
     ]
   },
   "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#container-search-result-layout",
+      "flex-layout.row#newsletter-global-container"
+    ]
+  },
+  "search-result-layout#department": {
+    "props": {
+      "fullWidth": true
+    },
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#department": {
     "children": [
       "breadcrumb.search",
       "list-context.image-list#search-result-layout",
