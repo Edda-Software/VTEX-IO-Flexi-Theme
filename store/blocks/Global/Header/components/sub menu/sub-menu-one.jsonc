@@ -29,22 +29,6 @@
             "flex-layout.col#category-dama-three"
         ]
     },
-    /* "flex-layout.col#category-dama-one": {
-        "props": {
-            "blockClass": "container-column-category-dama"
-        },
-        "children": [
-            "flex-layout.row#category-dama-one"
-        ]
-    },
-    "flex-layout.row#category-dama-one": {
-        "props": {
-            "colSizing": "auto"
-        },
-        "children": [
-            "menu#category-dama"
-        ]
-    }, */
     "flex-layout.col#category-dama-two": {
         "props": {
             "blockClass": "container-column-category-dama"
@@ -81,18 +65,6 @@
             "image#category-dama-two"
         ]
     },
-    /* "menu#category-dama": {
-        "props": {
-            "orientation": "vertical"
-        },
-        "children": [
-            "rich-text#title-category-dama",
-            "menu-item#category-dama-opcion-one",
-            "menu-item#category-dama-opcion-two",
-            "menu-item#category-dama-opcion-three",
-            "menu-item#category-dama-opcion-four"
-        ]
-    }, */
     "menu#category-dama-section-two": {
         "props": {
             "orientation": "vertical"
@@ -102,7 +74,8 @@
             "menu-item#category-dama-section-two-opcion-one",
             "menu-item#category-dama-section-two-opcion-two",
             "menu-item#category-dama-section-two-opcion-three",
-            "menu-item#category-dama-section-two-opcion-four"
+            "menu-item#category-dama-section-two-opcion-four",
+            "menu-item#category-dama-section-two-opcion-five"
         ]
     },
     "menu#category-dama-section-three": {
@@ -114,7 +87,8 @@
             "menu-item#category-dama-section-three-opcion-one",
             "menu-item#category-dama-section-three-opcion-two",
             "menu-item#category-dama-section-three-opcion-three",
-            "menu-item#category-dama-section-three-opcion-four"
+            "menu-item#category-dama-section-three-opcion-four",
+            "menu-item#category-dama-section-three-opcion-five"
         ]
     },
     "image#category-dama-one": {
@@ -131,72 +105,6 @@
             "maxHeight": "194"
         }
     },
-    /* "rich-text#title-category-dama": {
-        "props": {
-            "text": "Opción de título",
-            "blockClass": "title-subcategory-subcategory"
-        }
-    },
-    "menu-item#category-dama-opcion-one": {
-        "props": {
-            "id": "menu-category-dama-opcion-one",
-            "iconId": null,
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "Opción 1",
-                "text": "Opción 1"
-            }
-        }
-    },
-    "menu-item#category-dama-opcion-two": {
-        "props": {
-            "id": "menu-category-dama-opcion-two",
-            "iconId": null,
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "Opción 2",
-                "text": "Opción 2"
-            }
-        }
-    },
-    "menu-item#category-dama-opcion-three": {
-        "props": {
-            "id": "menu-category-dama-opcion-three",
-            "iconId": null,
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "Opción 3",
-                "text": "Opción 3"
-            }
-        }
-    },
-    "menu-item#category-dama-opcion-four": {
-        "props": {
-            "id": "menu-category-dama-opcion-four",
-            "iconId": null,
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "Opción 1",
-                "text": "Opción 1"
-            }
-        }
-    }, */
     /* OPTION 2 */
     "rich-text#title-category-dama-section-two": {
         "props": {
@@ -261,6 +169,21 @@
                 "noFollow": false,
                 "tagTitle": "Servicio",
                 "text": "Servicio"
+            }
+        }
+    },
+    "menu-item#category-dama-section-two-opcion-five":{
+        "props": {
+            "id": "menu-category-dama-section-two-opcion-five",
+            "iconId": null,
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ver todo",
+                "text": "Ver todo"
             }
         }
     },
@@ -329,6 +252,21 @@
                 "noFollow": false,
                 "tagTitle": "Sandalias",
                 "text": "Sandalias"
+            }
+        }
+    },
+    "menu-item#category-dama-section-three-opcion-five":{
+        "props": {
+            "id": "menu-category-dama-section-three-opcion-five",
+            "iconId": null,
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ver todo",
+                "text": "Ver todo"
             }
         }
     }

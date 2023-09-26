@@ -104,7 +104,8 @@
             "menu-item#category-caballero-section-two-opcion-three",
             "menu-item#category-caballero-section-two-opcion-four",
             "menu-item#category-caballero-section-two-opcion-six",
-            "menu-item#category-caballero-section-two-opcion-seven"
+            "menu-item#category-caballero-section-two-opcion-seven",
+            "menu-item#category-caballero-section-two-opcion-eigth"
         ]
     },
     "menu#category-caballero-section-three": {
@@ -116,7 +117,8 @@
             "menu-item#category-caballero-section-three-opcion-two",
             "menu-item#category-caballero-section-three-opcion-three",
             "menu-item#category-caballero-section-three-opcion-four",
-            "menu-item#category-caballero-section-three-opcion-five"
+            "menu-item#category-caballero-section-three-opcion-five",
+            "menu-item#category-caballero-section-three-opcion-six"
         ]
     },
     "image#category-caballero-one": {
@@ -311,6 +313,21 @@
             }
         }
     },
+    "menu-item#category-caballero-section-two-opcion-eigth":{
+        "props": {
+            "id": "menu-category-caballero-section-two-opcion-eigth",
+            "iconId": null,
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ver todo",
+                "text": "Ver todo"
+            }
+        }
+    },
     /* OPTION 3 */
     "rich-text#title-category-caballero-section-three": {
         "props": {
@@ -390,6 +407,21 @@
                 "noFollow": false,
                 "tagTitle": "Quirelli",
                 "text": "Quirelli"
+            }
+        }
+    },
+    "menu-item#category-caballero-section-three-opcion-six":{
+        "props": {
+            "id": "menu-category-caballero-section-three-opcion-six",
+            "iconId": null,
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ver todo",
+                "text": "Ver todo"
             }
         }
     }
