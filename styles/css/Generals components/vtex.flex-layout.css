@@ -27,6 +27,10 @@
     max-width: 1440px;
 }
 
+.flexRowContent--disclosure-layout-group-container .stretchChildrenWidth {
+    width: 100% !important;
+}
+
 .flexCol--disclosure-layout-group-desktop-style {
     gap: 13px;
 }
@@ -34,6 +38,7 @@
 .flexCol--disclosure-layout-group-desktop {
     gap: 21px;
     padding-inline: 89px;
+    max-width: 1440px;
 }
 
 .flexRowContent--disclosure-layout-group-desktop-contain {
