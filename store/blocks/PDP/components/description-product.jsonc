@@ -37,7 +37,7 @@
     },
     "disclosure-layout-group#group": {
         "children": [
-            "disclosure-layout#style-product",
+            /* "disclosure-layout#style-product", */
             "disclosure-layout#expecification-product"
         ]
     },
