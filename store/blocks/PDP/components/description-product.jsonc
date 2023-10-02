@@ -110,7 +110,7 @@
         },
         "children": [
             "rich-text#disclosure-layout-title",
-            "flex-layout.row#disclosure-layout-group-desktop-style",
+           /*  "flex-layout.row#disclosure-layout-group-desktop-style", */
             "flex-layout.row#disclosure-layout-group-desktop-especification"
         ]
     },
