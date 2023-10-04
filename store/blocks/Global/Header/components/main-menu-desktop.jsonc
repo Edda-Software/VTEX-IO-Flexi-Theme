@@ -11,22 +11,5 @@
             "menu-item#category-accesorios",
             "menu-item#category-rebajas"
         ]
-    },
-    
-    "menu-item#category-rebajas": {
-        "props": {
-            "id": "menu-item-category-rebajas",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass": "header-desktop-category-rebajas",
-            "itemProps": {
-                "type": "internal",
-                "href": "/zapatos?_q=zapatos&map=ft&order=OrderByBestDiscountDESC",
-                "noFollow": false,
-                "tagTitle": "Rebajas",
-                "text": "Rebajas"
-            }
-        }
     }
 }

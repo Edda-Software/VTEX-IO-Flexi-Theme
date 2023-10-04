@@ -38,6 +38,10 @@
     color: #BA1D2E;
 }
 
+.styledLinkContent--category-rebajas-opcion-one {
+    color: #000 !important;
+}
+
 .menuItem--root--isOpen {
     box-sizing: border-box;
     border-bottom: 4px solid #BA1E2E;
@@ -54,7 +58,8 @@
 .submenuContainer--sub-menu-category-dama .styledLinkContainer,
 .submenuContainer--sub-menu-category-caballero .styledLinkContainer,
 .submenuContainer--sub-menu-category-flex-country .styledLinkContainer,
-.submenuContainer--sub-menu-category-accesorios .styledLinkContainer {
+.submenuContainer--sub-menu-category-accesorios .styledLinkContainer,
+.submenuContainer--sub-menu-category-rebajas .styledLinkContainer {
     margin-right: auto !important;
     padding-block: 0.5rem !important;
 }
@@ -79,21 +84,24 @@
 .submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-dama):nth-child(2n),
 .submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-caballero):nth-child(2n),
 .submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-flex-country):nth-child(2n),
-.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios):nth-child(2n) {
+.submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios):nth-child(2n),
+    .submenu :global(.vtex-flex-layout-0-x-flexCol--container-column-category-rebajas):nth-child(2n) {
     padding-left: 21px;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--container-column-category-dama),
 :global(.vtex-flex-layout-0-x-flexCol--container-column-category-caballero),
 :global(.vtex-flex-layout-0-x-flexCol--container-column-category-flex-country),
-:global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios) {
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios),
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-rebajas) {
     width: auto;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--container-column-category-dama) :global(.vtex-store-components-3-x-imageElement),
 :global(.vtex-flex-layout-0-x-flexCol--container-column-category-caballero) :global(.vtex-store-components-3-x-imageElement),
 :global(.vtex-flex-layout-0-x-flexCol--container-column-category-flex-country) :global(.vtex-store-components-3-x-imageElement),
-:global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios) :global(.vtex-store-components-3-x-imageElement) {
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-accesorios) :global(.vtex-store-components-3-x-imageElement),
+:global(.vtex-flex-layout-0-x-flexCol--container-column-category-rebajas) :global(.vtex-store-components-3-x-imageElement) {
     height: 194px;
     min-width: 337px;
 }

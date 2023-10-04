@@ -1,0 +1,79 @@
+{
+    "menu-item#category-rebajas": {
+        "props": {
+            "id": "menu-item-category-rebajas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-desktop-category-rebajas",
+            "itemProps": {
+                "type": "internal",
+                "href": "/sale",
+                "noFollow": false,
+                "tagTitle": "Rebajas",
+                "text": "Rebajas"
+            }
+        }/* ,
+        "blocks": [
+            "submenu#category-rebajas"
+        ] */
+    },
+    "submenu#category-rebajas": {
+        "props": {
+            "width": "100%",
+            "blockClass": "sub-menu-category-rebajas"
+        },
+        "children": [
+            "flex-layout.col#category-rebajas-one"
+        ]
+    },
+    "flex-layout.col#category-rebajas-one": {
+        "props": {
+            "blockClass": "container-column-category-rebajas"
+        },
+        "children": [
+            "flex-layout.row#category-rebajas-one"
+        ]
+    },
+    "flex-layout.row#category-rebajas-one": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "container-row-submenu"
+        },
+        "children": [
+            "menu#category-rebajas",
+            "image#category-dama-two"
+        ]
+    },
+    "menu#category-rebajas": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-category-rebajas",
+            "menu-item#category-rebajas-opcion-one"
+        ]
+    },
+    "rich-text#title-category-rebajas": {
+        "props": {
+            "text": "Title",
+            "blockClass": "title-subcategory-subcategory"
+        }
+    },
+    "menu-item#category-rebajas-opcion-one": {
+        "props": {
+            "blockClass": "category-rebajas-opcion-one",
+            "id": "menu-category-rebajas-opcion-one",
+            "iconId": null,
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/30-off-2-par",
+                "noFollow": false,
+                "tagTitle": "3x2",
+                "text": "3x2"
+            }
+        }
+    }
+}
