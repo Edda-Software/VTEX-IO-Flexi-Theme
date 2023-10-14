@@ -33,7 +33,7 @@
     "children": [
       "rich-text#nearest-store__container-form-title",
       "rich-text#nearest-store__container-form-subtitle",
-      "custom-form" /* "form#contactos" */
+      /* "custom-form" */ "form#contactos"
     ]
   },
   "rich-text#nearest-store__container-form-title": {
@@ -51,8 +51,8 @@
   "form#contactos": {
     "props": {
       "entity": "CU",
-      "schema": "contactanosForm",
-      "blockClass": "contactanos"
+      "schema": "contactanos",
+      "blockClass": "form-contactanos"
     },
     "children": [
       "flex-layout.row#form-1",
@@ -78,12 +78,13 @@
   "flex-layout.row#form-1": {
     "children": [
       "form-input.text#fullName",
-      "form-input.text#identificationCard",
+      "form-input.text#contactNumber",
       "form-input.text#email",
       "form-input.text#affair"
     ],
     "props": {
-      "blockClass": "form-1-contactos"
+      "blockClass": "form-1-contactos",
+      "colSizing": "auto"
     }
   },
   "flex-layout.row#form-2": {
@@ -92,7 +93,8 @@
       "form-submit#contactanos"
     ],
     "props": {
-      "blockClass": "form-2-contactos"
+      "blockClass": "form-2-contactos",
+      "colSizing": "auto"
     }
   },
   "form-input.text#fullName": {
@@ -102,9 +104,9 @@
       "blockClass": "contactanos-text"
     }
   },
-  "form-input.text#identificationCard": {
+  "form-input.text#contactNumber": {
     "props": {
-      "pointer": "#/properties/identificationCard",
+      "pointer": "#/properties/contactNumber",
       "placeholder": "Cedula",
       "blockClass": "contactanos-text"
     }
@@ -127,12 +129,15 @@
     "props": {
       "pointer": "#/properties/message",
       "placeholder": "Mensaje",
-      "blockClass": "contactanos-text"
+      "blockClass": [
+        "contactanos-text",
+        "contactanos-textarea"
+      ]
     }
   },
   "form-submit#contactanos": {
     "props": {
-      "label": "Enviar",
+      "label": "Contactar",
       "blockClass": "contactanos-submit"
     }
   },

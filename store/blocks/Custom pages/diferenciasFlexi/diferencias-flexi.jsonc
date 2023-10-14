@@ -1,0 +1,34 @@
+{
+    "store.custom#diferencias-flexi": {
+        "blocks": [
+            "flex-layout.row#diferencias-flexi"
+        ]
+    },
+    "flex-layout.row#diferencias-flexi": {
+        "children": [
+            "flex-layout.col#diferencias-flexi"
+        ]
+    },
+    "flex-layout.col#diferencias-flexi": {
+        "children": [
+            "list-context.image-list#diferencias-flexi"
+        ]
+    },
+    "list-context.image-list#diferencias-flexi": {
+        "title": "Banner 1 atributos",
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "assets/images/customPages/diferenciasFlexi/diferencias-desktop-1.jpg",
+                    "mobileImage": "assets/images/customPages/atributos/atributos-mobile-1.jpg",
+                    "description": "something something"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#carousel-banner-image"
+        ]
+    }
+}

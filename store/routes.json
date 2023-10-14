@@ -22,5 +22,8 @@
   },
   "store.custom#term-conditions": {
     "path": "/terminos-condiciones"
+  },
+  "store.custom#diferencias-flexi":{
+    "path": "/diferencias-flexi"
   }
 }
