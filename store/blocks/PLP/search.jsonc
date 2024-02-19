@@ -10,7 +10,7 @@
         "facetsBehavior": "static",
         "maxItemsPerPage": 12,
         "skusFilter": "ALL_AVAILABLE",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "default"
       }
     }
   },
@@ -25,7 +25,7 @@
         "facetsBehavior": "static",
         "maxItemsPerPage": 12,
         "skusFilter": "ALL_AVAILABLE",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "default"
       }
     }
   },
@@ -40,7 +40,7 @@
         "facetsBehavior": "static",
         "maxItemsPerPage": 12,
         "skusFilter": "ALL_AVAILABLE",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "default"
       }
     }
   },
@@ -55,7 +55,7 @@
         "facetsBehavior": "static",
         "maxItemsPerPage": 12,
         "skusFilter": "ALL_AVAILABLE",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "default"
       }
     }
   },
@@ -70,7 +70,7 @@
         "facetsBehavior": "static",
         "maxItemsPerPage": 12,
         "skusFilter": "ALL_AVAILABLE",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "default"
       }
     }
   },
