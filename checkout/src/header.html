@@ -26,74 +26,49 @@
       </a>
     </div>
   </div>
-  <div class="header-breadcrumb">
-    <div class="header-desktop">
-      <div class="breadcrumb-item">
-        <div class="breadcrumb-item_image">
-          <img
+  <div id="breadcrumb-line-cart">
+    <div class="container">
+      <div class="header-breadcrumb">
+        <div class="breadcrumb-item">
+          <span class="bread-icon-box">
+            <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAfCAYAAACPvW/2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOPSURBVHgB7VdLKG5RFP5+b/J+lGfeyQwDhBQDRaZmRsyYGJkaUBIDE1FShpQMlIlMGEgxkLcBA+U18UiR57prrXvPiXv//9/73FIGvjr95997n7PWXuv71l7HRwx8I4Tgm+HHIRO+nUNh/gZfXl6wtbWFt7c3hIaGoqioCLGxsQgL+71cdBAS8kV7ob/w/v5O7AwlJiZSXFwcJSUlUWtrKx0dHemcgB3Ve6+XDXz+ZP/4+Ijt7W08PT3h/v4efX19GpWNjQ2d/7LoIEDKoqKiUFVVpSkTR87Pz9HV1YWhoSHExMTA5/PpnPzaQtY3NjairKxM/wd61mcqjBxqHB4eora2FhEREeBUqpNiwAThnxh+fn7G2dmZbmpkZMQd94cw00vFeGFhIbKzs1FZWYnBwUF9mW2Bl7UnJydobm5GfX29+87/dkgXsbqY2FhcXER4eDgSEhKs0iWG5ZqdndWINjQ0GJ+BifWvr6+qkLW1NWJu0d7enifViCKrq6uJI6T3cgWDUS6Sb9mlkDE6OhrsmI7bRuj6+lprmkTYeS5Yuq30Ky8RZ2pqarCysgKOms1jmqaZmRm95yi54yKUQLDikBMNUdro6Cg6OztdfgSDqGt1dRXt7e0oLS1165dEPaAtk+w/QtLV1NSEuro6JbYJYriiogLd3d16L2XDCPKAu7s7ysvLo/7+fmtiC4n5bDSS2YFVyhw4FXx8fBxpaWnIysr6p6Y4pP1I3sjISI2q8NAETymTLuDq6gq9vb2avoeHh09OfIQQ2uGMzEstsqlDnhwSdYlCLi8vsbOzg+TkZOTm5n46bB3nTk9PdV16ejoyMzORmpqqETaCPEB4wNVaecQVW1sTPnCJuwK3JZHfubk5YgeIKzxxamliYoJYcVY2PDl0c3ND5eXl1NLSQktLS9TT00PcuNH6+rpLcO4MqLi4mNra2mh5eZk6OjooJSWFDg4OrGx4cohPfW3cxBnZ8cXFBXG6aHp62lXT5uamruHeSSO3v79PLHdaWFiwsuFJZaKqjIwMDA8Pq3KEqFJbSkpKlDtSawoKChAfH6+9E0cQk5OTupbTbGeEPEB2PD8/T2yQ2IgetgMDAxoZJ2VyGE9NTWn7K/MsdRobG9M1NvAse1HU7e0tdnd3VT35+fkaHRkXBcq9qFEO1ePjY+Tk5Og6gfOREAyeHPoTUb/FL9iYa8yiQ/Ds0Ffj58vVhF+z66sUMWvEvwAAAABJRU5ErkJggg==">
+          </span>
+          <div class="bread-text-box">
+            <span>Paso 1/4</span>
+            <p>Carrito de compras</p>
+          </div>
         </div>
-        <div>
-          <p>Paso 1/4</p>
-          <p>Carrito de compras</p>
-        </div>
-      </div>
-      <div class="breadcrumb-item">
-        <div class="breadcrumb-item_image">
-          <img
+        <div class="breadcrumb-item">
+          <span class="bread-icon-box">
+            <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAXCAYAAAAV1F8QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASFSURBVHgBfVZXKP5vFD9+P79lj7LKHplJWYUL5Ea2FBkXQiEp44IL16QULhQJuZCdcEHZI4orMpPMrOy9zv85p55v72v8Tz097/uMs57z+ZyvBgqBL+Tt7Q1o68ePH/D+/g4aGho85G+af/78qXaHzn4nmt9tkBFSSPPFxQUMDg7C2NgYHB4ewtPTE+jo6ICXlxdERkaCr68vfOOvIhqqEakqp3F0dATl5eXQ3t4Ot7e34OzsDJaWlqCpqQmXl5ewvb3Nht3d3aGkpASioqJ4j6L9FB2qyMvLizKGh4fRzc0NXV1dsaKiAre2tlAYw5OTEzw9PeXf5+fnfC4xMRH19PQwNTUV9/b2+P5HUTP0/PyMr6+vKCJAY2NjjI6OVi4K7zErKwsdHBzQ3Nwc/fz8sLGxEe/u7vDx8RF7enrQyMiI10W0/29I5B7X1tbQzs4OY2JiUKQORVHwHBQUhKamppibm4uVlZUYGxuL2traWFNTo2RhfHwcLSwsMDMzE0X6eHxpiA4nJCSgeGTFCI2ysjKOcHNzkyOmNTpbVFTExlZXV3mN9lpbWzmNvb29vCYNqhkaGRnB379/49DQEF+iA3RYPDbm5eXxmlwnQzs7O2hoaIh1dXWKA/f395xyb29vfHh44DUStdJoaWkBDw8PCAgIUCtzKudfv36pYYWqk3BE/2lfYuvPnz+QkpICy8vLsLKywvuMR9qkITyB6elpEI8JWlpaSpnTXnh4OPT398PZ2RkDmQatiwzAzc0NBAYG8lkJ4NDQUJ4nJib4HDtICklEycLV1RVHJKFFe+RRdnY2X4iPj4euri6Ym5uDqqoqKC0tBfHw4OnpCVIPzeKNwMnJiXEmsQnywdbX19HAwADb2tqUIpB7NM/OzqJgABQpRAFKLuX8/HwUzinvpjpCQkIwPT1deSNNieJ///5x6MQA0jtVWiGaEUUCi4uLHLm9vT04OjqCKB6OltJJrCCFzhBNKXqkN1Qttra2WFhYqBYRDQJlQ0MD+vj4oImJCQoFaGVlhcnJySgMq1UjDWIN8c5YW1urZIXLW/4hKhFvxIrlJaKcpKQkxoaoJuzs7MTJyUk2TCyhq6vLTEKsIvV0dHQwTGZmZhQHQDWvAwMD+PfvXxTVwpfIs5ycHNTX18fm5mamGplzkoODAwa4mZkZLiwsMLYIO3FxcSjSitfX1+zAJ8CS9YiICPT392fCnJqa4jTV19fzBUk1qkKKg4ODMSwsjCmMoqG0UVFJEH9JQUtLS8xX5GlGRgYjnCJRfQcpsiL7+vq4Cilqa2trrjYyKt/4kyFSRAeampo4ElGJWFBQoChULXdpiO7s7+9zkVAkBIGNjQ214vjSECmhNHV3d6MAHdrY2DCXUZuQbyTbCbWD+fl5TEtLY6eI8alv0d5HUeuwki6k7O7uQnV1NYi+wxzm4uICoheBYGzusMJzEIq58xYXF3OHpXOEQ1VMfdnKP7Z0mo+Pj0FECKOjo9zeRQEwzRBdieIBwQIMeoVAv/hIUTP0ncgjhH7VryFSKFlE8tx38h/9NlCdip+bYwAAAABJRU5ErkJggg==">
+          </span>
+          <div class="bread-text-box">
+            <span>Paso 2/4</span>
+            <p>Identifícate</p>
+          </div>
         </div>
-        <div>
-          <p>Paso 2/4</p>
-          <p>Identifícate</p>
-        </div>
-      </div>
-      <div class="breadcrumb-item">
-        <div class="breadcrumb-item_image">
-          <img
+        <div class="breadcrumb-item">
+          <span class="bread-icon-box">
+            <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKaSURBVHgB7Va7aipRFF0a84AkkBBIAmlC3k1IFRJCCMTKQhHs7CzFL7CyEvE3tLVTrLQTLBRUEBsFBUFQER/g+zV39uEe76hjFL3cFDcLDoxnnLP2Xvt1FIIIfAOU+Cb8EP8zqPjDaDSCUqnEeDxGuVxGPB7HYDBgv9eFQqHA8fExnp6ecHBwAJVK9eel8BvD4ZCtaDQq3N/fC6IRwvb2NmX82kskZmd8fHwIpVJJkEI1a6XL5WKe5nI5nJycMKs3QTgchk6nQywWg0ajmexPiElmkrvdbqNWq8Fms3FFsEmpt1otdi45I8WUx0ROi8jT6fSEeBOQYltbW+j1eouJOW5vb+H3+xkpfbQJyAExxhBjvZw4n8/j8/OTSURZTVZzz3nMV1GC1Ot0Okzm2VyRJabUN5lM7EMpKRnBS472V0m8RqMBu90+ty9LTNlssVgYSb1ex87ODltiSeD09JTJxo1ahkwmA4fDMbcv27nowH6/D71ej/Pzc1xcXODm5gZXV1d4eHhAIBCYePzV+qoiFrZMj8fDas/tdrPSenl5YYRvb2+wWq1YBbxKuDNSqBZ5TLJSrNVqNSqVCi4vL/H6+spaaSgUwqaQJabkoS7jdDqh1WrRbDZRKBTw/PyMZDIJg8GAVbEoD+aISRqq3cfHR3i9Xvh8Puzu7uLu7g6RSITFnTJ+lXIiB6iUaDhQacoS8xLZ29tDt9tFKpXC2dkZzGbz5B3FlwiLxSKq1epKkyuRSLDzDg8Pp/YV/M5Fh9AjNXWj0cjkZZaJ1tK+tJFw+ZYR8/9fX18jGAyyETlHLEU2m4U4HiGOyUlWrov9/X28v7/j6Oho6ixZYtoiUor1pmORe03qSPu+rDt8OPyNmy8P4awDiv/uXv0LzhV0f7+5xawAAAAASUVORK5CYII=">
+          </span>
+          <div class="bread-text-box">
+            <span>Paso 3/4</span>
+            <p>Envío y pago</p>
+          </div>
         </div>
-        <div>
-          <p>Paso 3/4</p>
-          <p>Envío y pago</p>
-        </div>
-      </div>
-      <div class="breadcrumb-item">
-        <div class="breadcrumb-item_image">
-          <img
+        <div class="breadcrumb-item">
+          <span class="bread-icon-box">
+            <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMmSURBVHgBzVXLK+1RFP7OcZBHyFsywogwwEDJVJIpSjHGwF8gJCkyEhOJqalEmXhHJl6ZeJWIhAFFnuvub932r98553bOudzuvV/t9q+9117fXmt/a/08YoC/DC/+Af4P0q9km2d+55wvcOH9/R1e78+72DlSQo/HE9GZINKHhwf09PTg4+NDRziQKCsrC11dXUhJSUEk8ASqd2trCzU1NaiqqkJcXFxYBzc3Nzg7O8Pi4iJKS0u/FqnF9PQ08vLyEA7Ly8toaGhAX18fkpOTNXIiKioKra2tenlexK6HJI0UfIKXlxecnp4iNjYWn5+fun59fY3d3V2srq7quh8kAJubm2KM5Pz8XCLB0tKSpKeny/b2tpgLOMMQinlrGRoakre3N78z365Tq16bPs4cxcXF6O3tRX9/PzY2NrQqmAXafju9BFM8NTWF2dlZh5zOn5+fYaJEZ2cn1tbWkJiY+GdIKZKnpyfMzc0hJibGqVmu8zspKQmHh4c4OjpCWVmZrocktaKw6eNsS8JGRBvW58zMDEpKSvxsiJWVFdTW1vqd8YYjpTKpxMfHR+egW/4koB2j9Pl8an9/f69pZdnYLuU3hyK9u7tDW1sbysvLUV1djYmJCXXm7ickpLPX11cYBaOurk6bRH19vaaVe4GdLYiUBjS8urpCR0cHDg4OMDIygsrKSnR3d2NhYQGXl5e4uLjQcXt7q8rkd0tLC7KzszE6Oqp+mpubdd9ejmv6ZIF1t7OzIyZNkpGRIQkJCTI8PCwmCjFRS2FhoZiuI2lpaZKamqqDNRodHa3fpm2KKQ+t0/n5eV3PzMwUk3rZ29sTczndCxKScYzJyUlV5NjYGNbX19HY2Kjtjrdub29HQUGBIzILvvnAwID24NzcXJ3j4+O1Tjnn5+c7mgiK1DhzhlGedpWcnByNrqmpSQyxnw1vzplRDA4OauSGVO3Hx8c1S+xI1o5z0F/GDW6dnJxgf38fxgkqKiqcPvqrvwlFRg0cHx+jqKhIM0JFByo+JKlVHU3o0LyRI3u3EzeoYhLZVNoaj5iU7+Zua6HIrI3j2Ni5z7vP/QCb+WfuHISPpwAAAABJRU5ErkJggg==">
+          </span>
+          <div class="bread-text-box">
+            <span>Paso 4/4</span>
+            <p>Compra finalizada</p>
+          </div>
         </div>
-        <div>
-          <p>Paso 4/4</p>
-          <p>Compra finalizada</p>
-        </div>
-      </div>
-    </div>
-    <div class="header-mobile">
-      <div class="breadcrumb-item">
-        <div class="breadcrumb-item_image">
-          <img
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAfCAYAAACPvW/2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOPSURBVHgB7VdLKG5RFP5+b/J+lGfeyQwDhBQDRaZmRsyYGJkaUBIDE1FShpQMlIlMGEgxkLcBA+U18UiR57prrXvPiXv//9/73FIGvjr95997n7PWXuv71l7HRwx8I4Tgm+HHIRO+nUNh/gZfXl6wtbWFt7c3hIaGoqioCLGxsQgL+71cdBAS8kV7ob/w/v5O7AwlJiZSXFwcJSUlUWtrKx0dHemcgB3Ve6+XDXz+ZP/4+Ijt7W08PT3h/v4efX19GpWNjQ2d/7LoIEDKoqKiUFVVpSkTR87Pz9HV1YWhoSHExMTA5/PpnPzaQtY3NjairKxM/wd61mcqjBxqHB4eora2FhEREeBUqpNiwAThnxh+fn7G2dmZbmpkZMQd94cw00vFeGFhIbKzs1FZWYnBwUF9mW2Bl7UnJydobm5GfX29+87/dkgXsbqY2FhcXER4eDgSEhKs0iWG5ZqdndWINjQ0GJ+BifWvr6+qkLW1NWJu0d7enifViCKrq6uJI6T3cgWDUS6Sb9mlkDE6OhrsmI7bRuj6+lprmkTYeS5Yuq30Ky8RZ2pqarCysgKOms1jmqaZmRm95yi54yKUQLDikBMNUdro6Cg6OztdfgSDqGt1dRXt7e0oLS1165dEPaAtk+w/QtLV1NSEuro6JbYJYriiogLd3d16L2XDCPKAu7s7ysvLo/7+fmtiC4n5bDSS2YFVyhw4FXx8fBxpaWnIysr6p6Y4pP1I3sjISI2q8NAETymTLuDq6gq9vb2avoeHh09OfIQQ2uGMzEstsqlDnhwSdYlCLi8vsbOzg+TkZOTm5n46bB3nTk9PdV16ejoyMzORmpqqETaCPEB4wNVaecQVW1sTPnCJuwK3JZHfubk5YgeIKzxxamliYoJYcVY2PDl0c3ND5eXl1NLSQktLS9TT00PcuNH6+rpLcO4MqLi4mNra2mh5eZk6OjooJSWFDg4OrGx4cohPfW3cxBnZ8cXFBXG6aHp62lXT5uamruHeSSO3v79PLHdaWFiwsuFJZaKqjIwMDA8Pq3KEqFJbSkpKlDtSawoKChAfH6+9E0cQk5OTupbTbGeEPEB2PD8/T2yQ2IgetgMDAxoZJ2VyGE9NTWn7K/MsdRobG9M1NvAse1HU7e0tdnd3VT35+fkaHRkXBcq9qFEO1ePjY+Tk5Og6gfOREAyeHPoTUb/FL9iYa8yiQ/Ds0Ffj58vVhF+z66sUMWvEvwAAAABJRU5ErkJggg==">
-        </div>
-      </div>
-      <div class="breadcrumb-item">
-        <div class="breadcrumb-item_image">
-          <img
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAXCAYAAAAV1F8QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASFSURBVHgBfVZXKP5vFD9+P79lj7LKHplJWYUL5Ea2FBkXQiEp44IL16QULhQJuZCdcEHZI4orMpPMrOy9zv85p55v72v8Tz097/uMs57z+ZyvBgqBL+Tt7Q1o68ePH/D+/g4aGho85G+af/78qXaHzn4nmt9tkBFSSPPFxQUMDg7C2NgYHB4ewtPTE+jo6ICXlxdERkaCr68vfOOvIhqqEakqp3F0dATl5eXQ3t4Ot7e34OzsDJaWlqCpqQmXl5ewvb3Nht3d3aGkpASioqJ4j6L9FB2qyMvLizKGh4fRzc0NXV1dsaKiAre2tlAYw5OTEzw9PeXf5+fnfC4xMRH19PQwNTUV9/b2+P5HUTP0/PyMr6+vKCJAY2NjjI6OVi4K7zErKwsdHBzQ3Nwc/fz8sLGxEe/u7vDx8RF7enrQyMiI10W0/29I5B7X1tbQzs4OY2JiUKQORVHwHBQUhKamppibm4uVlZUYGxuL2traWFNTo2RhfHwcLSwsMDMzE0X6eHxpiA4nJCSgeGTFCI2ysjKOcHNzkyOmNTpbVFTExlZXV3mN9lpbWzmNvb29vCYNqhkaGRnB379/49DQEF+iA3RYPDbm5eXxmlwnQzs7O2hoaIh1dXWKA/f395xyb29vfHh44DUStdJoaWkBDw8PCAgIUCtzKudfv36pYYWqk3BE/2lfYuvPnz+QkpICy8vLsLKywvuMR9qkITyB6elpEI8JWlpaSpnTXnh4OPT398PZ2RkDmQatiwzAzc0NBAYG8lkJ4NDQUJ4nJib4HDtICklEycLV1RVHJKFFe+RRdnY2X4iPj4euri6Ym5uDqqoqKC0tBfHw4OnpCVIPzeKNwMnJiXEmsQnywdbX19HAwADb2tqUIpB7NM/OzqJgABQpRAFKLuX8/HwUzinvpjpCQkIwPT1deSNNieJ///5x6MQA0jtVWiGaEUUCi4uLHLm9vT04OjqCKB6OltJJrCCFzhBNKXqkN1Qttra2WFhYqBYRDQJlQ0MD+vj4oImJCQoFaGVlhcnJySgMq1UjDWIN8c5YW1urZIXLW/4hKhFvxIrlJaKcpKQkxoaoJuzs7MTJyUk2TCyhq6vLTEKsIvV0dHQwTGZmZhQHQDWvAwMD+PfvXxTVwpfIs5ycHNTX18fm5mamGplzkoODAwa4mZkZLiwsMLYIO3FxcSjSitfX1+zAJ8CS9YiICPT392fCnJqa4jTV19fzBUk1qkKKg4ODMSwsjCmMoqG0UVFJEH9JQUtLS8xX5GlGRgYjnCJRfQcpsiL7+vq4Cilqa2trrjYyKt/4kyFSRAeampo4ElGJWFBQoChULXdpiO7s7+9zkVAkBIGNjQ214vjSECmhNHV3d6MAHdrY2DCXUZuQbyTbCbWD+fl5TEtLY6eI8alv0d5HUeuwki6k7O7uQnV1NYi+wxzm4uICoheBYGzusMJzEIq58xYXF3OHpXOEQ1VMfdnKP7Z0mo+Pj0FECKOjo9zeRQEwzRBdieIBwQIMeoVAv/hIUTP0ncgjhH7VryFSKFlE8tx38h/9NlCdip+bYwAAAABJRU5ErkJggg==">
-        </div>
-      </div>
-      <div class="breadcrumb-item">
-        <div class="breadcrumb-item_image">
-          <img
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKaSURBVHgB7Va7aipRFF0a84AkkBBIAmlC3k1IFRJCCMTKQhHs7CzFL7CyEvE3tLVTrLQTLBRUEBsFBUFQER/g+zV39uEe76hjFL3cFDcLDoxnnLP2Xvt1FIIIfAOU+Cb8EP8zqPjDaDSCUqnEeDxGuVxGPB7HYDBgv9eFQqHA8fExnp6ecHBwAJVK9eel8BvD4ZCtaDQq3N/fC6IRwvb2NmX82kskZmd8fHwIpVJJkEI1a6XL5WKe5nI5nJycMKs3QTgchk6nQywWg0ajmexPiElmkrvdbqNWq8Fms3FFsEmpt1otdi45I8WUx0ROi8jT6fSEeBOQYltbW+j1eouJOW5vb+H3+xkpfbQJyAExxhBjvZw4n8/j8/OTSURZTVZzz3nMV1GC1Ot0Okzm2VyRJabUN5lM7EMpKRnBS472V0m8RqMBu90+ty9LTNlssVgYSb1ex87ODltiSeD09JTJxo1ahkwmA4fDMbcv27nowH6/D71ej/Pzc1xcXODm5gZXV1d4eHhAIBCYePzV+qoiFrZMj8fDas/tdrPSenl5YYRvb2+wWq1YBbxKuDNSqBZ5TLJSrNVqNSqVCi4vL/H6+spaaSgUwqaQJabkoS7jdDqh1WrRbDZRKBTw/PyMZDIJg8GAVbEoD+aISRqq3cfHR3i9Xvh8Puzu7uLu7g6RSITFnTJ+lXIiB6iUaDhQacoS8xLZ29tDt9tFKpXC2dkZzGbz5B3FlwiLxSKq1epKkyuRSLDzDg8Pp/YV/M5Fh9AjNXWj0cjkZZaJ1tK+tJFw+ZYR8/9fX18jGAyyETlHLEU2m4U4HiGOyUlWrov9/X28v7/j6Oho6ixZYtoiUor1pmORe03qSPu+rDt8OPyNmy8P4awDiv/uXv0LzhV0f7+5xawAAAAASUVORK5CYII=">
-        </div>
-      </div>
-      <div class="breadcrumb-item">
-        <div class="breadcrumb-item_image">
-          <img
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMmSURBVHgBzVXLK+1RFP7OcZBHyFsywogwwEDJVJIpSjHGwF8gJCkyEhOJqalEmXhHJl6ZeJWIhAFFnuvub932r98553bOudzuvV/t9q+9117fXmt/a/08YoC/DC/+Af4P0q9km2d+55wvcOH9/R1e78+72DlSQo/HE9GZINKHhwf09PTg4+NDRziQKCsrC11dXUhJSUEk8ASqd2trCzU1NaiqqkJcXFxYBzc3Nzg7O8Pi4iJKS0u/FqnF9PQ08vLyEA7Ly8toaGhAX18fkpOTNXIiKioKra2tenlexK6HJI0UfIKXlxecnp4iNjYWn5+fun59fY3d3V2srq7quh8kAJubm2KM5Pz8XCLB0tKSpKeny/b2tpgLOMMQinlrGRoakre3N78z365Tq16bPs4cxcXF6O3tRX9/PzY2NrQqmAXafju9BFM8NTWF2dlZh5zOn5+fYaJEZ2cn1tbWkJiY+GdIKZKnpyfMzc0hJibGqVmu8zspKQmHh4c4OjpCWVmZrocktaKw6eNsS8JGRBvW58zMDEpKSvxsiJWVFdTW1vqd8YYjpTKpxMfHR+egW/4koB2j9Pl8an9/f69pZdnYLuU3hyK9u7tDW1sbysvLUV1djYmJCXXm7ickpLPX11cYBaOurk6bRH19vaaVe4GdLYiUBjS8urpCR0cHDg4OMDIygsrKSnR3d2NhYQGXl5e4uLjQcXt7q8rkd0tLC7KzszE6Oqp+mpubdd9ejmv6ZIF1t7OzIyZNkpGRIQkJCTI8PCwmCjFRS2FhoZiuI2lpaZKamqqDNRodHa3fpm2KKQ+t0/n5eV3PzMwUk3rZ29sTczndCxKScYzJyUlV5NjYGNbX19HY2Kjtjrdub29HQUGBIzILvvnAwID24NzcXJ3j4+O1Tjnn5+c7mgiK1DhzhlGedpWcnByNrqmpSQyxnw1vzplRDA4OauSGVO3Hx8c1S+xI1o5z0F/GDW6dnJxgf38fxgkqKiqcPvqrvwlFRg0cHx+jqKhIM0JFByo+JKlVHU3o0LyRI3u3EzeoYhLZVNoaj5iU7+Zua6HIrI3j2Ni5z7vP/QCb+WfuHISPpwAAAABJRU5ErkJggg==">
-        </div>
-        <span>Compra finalizada</span>
       </div>
     </div>
   </div>

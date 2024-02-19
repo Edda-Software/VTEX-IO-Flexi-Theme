@@ -1,7 +1,7 @@
 body {
   font-family: 'Avenir';
   padding: 0 !important;
-  background: #FFFAF7;
+  background: #fffaf7;
 
   .container {
     @media (max-width: 980px) {
@@ -61,110 +61,151 @@ div#vtex-callcenter {
     }
   }
 
-}
+  #breadcrumb-line-cart {
+    margin: 60px auto;
 
-.header-breadcrumb {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    @media (max-width: 980px) {
+      margin: 25px auto;
+    }
 
-  .header-desktop {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
+    @media (max-width: 550px) {
+      margin: 12px auto;
+    }
 
-    .breadcrumb-item {
-      border: 1px solid #29665D;
-      width: 300px;
-      height: 103px;
+    .container {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 21px;
 
-      .breadcrumb-item_image {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 54px;
-        height: 54px;
-        background-color: #FFF;
-        border-radius: 50%;
+      @media (max-width: 980px) {
+        width: 100%;
+        padding-inline: 15px !important;
       }
-    }
 
-    .breadcrumb-item p:nth-child(1) {
-      color: #29665D;
-      font-family: Avenir;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-    }
+      @media (max-width: 650px) {
+        padding-inline: 10px !important;
+      }
 
-    .breadcrumb-item p:nth-child(2) {
-      color: #29665D;
-      font-family: Avenir;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-    }
-  }
-
-  .header-mobile {
-    display: none;
-
-    .breadcrumb-item {
-      display: flex;
-      align-items: center;
-      gap: 4.9px;
-
-      .breadcrumb-item_image {
+      .header-breadcrumb {
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 37px;
-        width: 37px;
-        background-color: #FFF;
-        border-radius: 50%;
-        border: 1px solid #BA1D2E;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 20px;
 
-        img {
-          border-radius: 50%;
+        @media (max-width: 550px) {
+          padding: 10px 5px;
+          padding-right: 0;
+        }
+
+        .breadcrumb-item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 15px;
+          width: 25%;
+          padding: 15px;
+          border: 1px solid #29665d;
+
+          @media (max-width: 980px) {
+            width: 15%;
+            min-width: 50px;
+            min-height: 50px;
+          }
+
+          @media (max-width: 550px) {
+            gap: 10px;
+            padding: 0px;
+            border-radius: 100%;
+            min-width: 35px;
+            min-height: 35px;
+            aspect-ratio: 1;
+            border: none;
+          }
+
+          .bread-icon-box {
+            width: 55px;
+            min-width: 55px;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border-radius: 100%;
+            color: #6c6c6c;
+
+            @media (max-width: 550px) {
+              width: 35px;
+              min-width: 35px;
+              height: 35px;
+              border: 1px solid #ba1d2e;
+            }
+
+            img {
+              border-radius: 100%;
+              overflow: hidden;
+            }
+          }
+
+          .bread-text-box {
+            @media (max-width: 980px) {
+              display: none;
+            }
+
+            span {
+              font-family: Avenir;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+            }
+
+            p {
+              font-weight: 500;
+              font-size: 1rem;
+              margin: 0;
+              color: #000;
+
+              @media (max-width: 1200px) {
+                font-size: 0.875rem;
+                line-height: 1;
+              }
+
+              @media (max-width: 550px) {
+                font-size: 0.75rem;
+              }
+            }
+          }
+
+          &.completed {
+            .bread-icon-box {
+              border-color: #29665d;
+            }
+          }
+
+          &.active {
+            @media (max-width: 980px) {
+              flex-grow: 1;
+            }
+
+            .bread-text-box {
+              @media (max-width: 980px) {
+                display: block;
+              }
+
+              p {
+                color: #000000;
+              }
+            }
+          }
         }
       }
-
-      span {
-        color: #C4262E;
-        font-family: Avenir;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-      }
-    }
-  }
-
-  @media (max-width: 1024px) {
-    justify-content: start;
-
-    .header-desktop {
-      display: none;
-    }
-
-    .header-mobile {
-      display: flex;
-      align-items: center;
-      padding: 20px;
-      gap: 15px;
     }
   }
 }
 
 .main-footer {
-  border-top: 1px solid #E1D7CE;
+  border-top: 1px solid #e1d7ce;
   padding: 33px 90px;
 
   @media (max-width: 1024px) {
@@ -231,7 +272,6 @@ div#vtex-callcenter {
       display: none;
     }
   }
-
 }
 
 .btn-success,
@@ -242,7 +282,7 @@ div#vtex-callcenter {
 .btn-success.disabled,
 .btn-success[disabled] {
   background: none;
-  background: #BA1D2E;
+  background: #ba1d2e;
   border-radius: 0;
   text-shadow: none;
   border: none;
@@ -263,7 +303,6 @@ div#vtex-callcenter {
 }
 
 .orderform-template-holder {
-
   .step,
   .cart,
   .totalizers,
@@ -271,9 +310,9 @@ div#vtex-callcenter {
   .cart.active,
   .totalizers.active {
     border-radius: 1px;
-    border: 0.752px solid rgba(0, 0, 0, 0.20);
+    border: 0.752px solid rgba(0, 0, 0, 0.2);
     padding: 24.55px 23.33px;
-    background: #FFF;
+    background: #fff;
     margin-inline: 10px;
 
     @media (min-width: 1024px) {
@@ -315,5 +354,5 @@ div#vtex-callcenter {
 
 input.input-block-level :active,
 input.input-block-level :focus {
-  background-color: #FFF !important;
+  background-color: #fff !important;
 }

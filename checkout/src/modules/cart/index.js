@@ -7,5 +7,6 @@ export const orderFormUpdate = (orderForm) => {
 }
 
 export const stepStart = (e) => {
+  $('.header-breadcrumb > .breadcrumb-item').removeClass('active').removeClass('completed')
   $('.header-breadcrumb > .breadcrumb-item:first-child').addClass('active')
 }
